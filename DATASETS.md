@@ -6,9 +6,11 @@ Git主分支提供代码和实验记录；实验训练检查点、保存预测�
 
 ## 数据获取
 
-- MI：BNCI2014-001，官方入口 https://bnci-horizon-2020.eu/database/data-sets 。仅T会话的本地协议见README及plans；原始数据获取后放在 `data/raw/`，准备脚本见 `scripts/prepare_bnci.py`。
+- MI：BNCI2014-001，官方入口 https://bnci-horizon-2020.eu/database/data-sets 。官方明确标注CC BY-ND 4.0。9个未修改T会话原始MATLAB文件已提供于 https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/raw-bnci-20261113 ，附署名、许可与哈希。只做tar.gz打包，无E会话和处理衍生物。准备脚本见 `scripts/prepare_bnci.py`。
 - SSVEP：Tsinghua Benchmark，官方入口 https://bci.med.tsinghua.edu.cn/download.html 。遵守原站条款；缓存位于 `data/processed/ssvep_1s.npz` 和 `ssvep_2s.npz`。
 - FACED：完整原始数据需从作者/Synapse入口申请。八类公开导出和123人九类作者特征是两套不同实验，获取来源及SHA见各运行config和数据审计记录。不得据此宣称获得完整原始九分类数据。
+
+NEMAR的nm000112 v1.1.4明确采用CC-BY-4.0（https://nemar.org/dataset/nm000112?v=v1.1.4），但本机从该版本仅取得元数据和下载清单，没有据此取得完整原始EEG。已有八类Hugging Face导出的数据卡标注license unknown，不能把NEMAR版本的许可直接套在来源映射尚未独立核验的导出文件上。SSVEP已查到官方下载入口，但尚未找到明确再分发条款；这两部分保留私有备份。
 - SEED：https://bcmi.sjtu.edu.cn/home/seed/ ，按作者要求申请并遵守使用协议。原机器的 `D:/seed/SEED/SEED.zip` 不上传；作者DE-LDS特征被用于本项目特征实验。SEED、SEED-IV、SEED-VIG不能互换，后两者未据此宣称完成实验。
 
 数据拥有者的许可适用于原始文件及其衍生数据；未经核实不向公开仓库再分发。清单中的哈希和文件大小用于迁移核验，不代替下载权限。
