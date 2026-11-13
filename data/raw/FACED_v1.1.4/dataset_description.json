@@ -1,0 +1,39 @@
+{
+  "Name": "FACED - Finer-grained Affective Computing EEG Dataset",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Jingjing Chen",
+    "Xiaobin Wang",
+    "Chen Huang",
+    "Xin Hu",
+    "Xinke Shen",
+    "Dan Zhang"
+  ],
+  "Acknowledgements": "Pierre Guetschel updated the data to BIDS format.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41597-023-02650-w",
+    "https://www.synapse.org/#!Synapse:syn50614194"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.17.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    },
+    {
+      "Name": "NeuralBench video-stimulus metadata enrichment",
+      "Version": "2026-10-08",
+      "Description": "Metadata only, no media files: stimulus table (stimuli/stimuli.tsv), README section 'Stimuli' and the changes listed in CHANGES under 1.1.4. Facts and sources are in the README section. Prepared by Bruno Aristimunha (NeuralBench video work); the videos stay with their rights holders."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.7303/syn50614194",
+      "URL": "https://www.synapse.org/Synapse:syn50614194"
+    }
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000112",
+  "Version": "1.1.4"
+}
