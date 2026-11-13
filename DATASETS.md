@@ -1,6 +1,6 @@
 # 数据、依赖与存储
 
-Git主分支提供代码和实验记录；实验训练检查点、保存预测和日志另附于 [Release](https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/artifacts-20261113)。共13个分卷，内部2784个文件具有SHA256清单；所有卷与GitHub服务端摘要一致，本地完整归档读取核验通过。未完成全量远端下载恢复测试，本地原件仍保留。
+Git主分支提供代码和实验记录；实验训练检查点、保存预测和日志另附于 [Release](https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/artifacts-20261113)。共13个分卷，内部2784个文件具有SHA256清单；所有卷与GitHub服务端摘要一致，本地完整归档读取核验通过。GitHub附件未做全量回程下载；后续私有服务器备份已另行完成实际解包和逐文件SHA256校验，本机大文件据此清理。
 
 原始数据、DE/EEG处理缓存、原始第三方预训练权重没有上传；公开仓库不等于所有数据的云备份。SEED官方协议禁止再分发数据或其中的部分，见 https://bcmi.sjtu.edu.cn/home/seed/downloads_cn.html 。FACED公开导出的本地数据卡标注license unknown，不将“可下载”视为已获再分发许可。
 
