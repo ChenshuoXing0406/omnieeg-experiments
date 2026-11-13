@@ -1,6 +1,8 @@
 # 数据、依赖与存储
 
-本仓库仅上传代码和实验记录。原始数据、处理缓存、模型权重没有随Git提交；克隆仓库不会获得这些二进制文件。公开仓库不等于全量云备份。
+Git主分支提供代码和实验记录；实验训练检查点、保存预测和日志另附于 [Release](https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/artifacts-20261113)。共13个分卷，内部2784个文件具有SHA256清单；所有卷与GitHub服务端摘要一致，本地完整归档读取核验通过。未完成全量远端下载恢复测试，本地原件仍保留。
+
+原始数据、DE/EEG处理缓存、原始第三方预训练权重没有上传；公开仓库不等于所有数据的云备份。SEED官方协议禁止再分发数据或其中的部分，见 https://bcmi.sjtu.edu.cn/home/seed/downloads_cn.html 。FACED公开导出的本地数据卡标注license unknown，不将“可下载”视为已获再分发许可。
 
 ## 数据获取
 
@@ -22,6 +24,6 @@
 
 ## 释放本地空间
 
-原始数据与权重仍在本地。本次Git上传不能释放约12GB工作数据、约5.6GB二进制输出及D盘约20.9GB压缩包。不要仅凭 `git push` 成功删除它们。
+原始数据与本地实验原件仍保留。Release补充备份了实验产物，但没有迁移约12GB工作数据及D盘约20.9GB数据压缩包。不要仅凭 `git push` 成功删除原始数据。
 
 后续需将有权备份的数据迁移至团队网盘、实验室服务器或对象存储，下载恢复并校验SHA256后再清理本地。仓库中的 `storage/local_inventory.json` 只记录相对位置、大小及迁移状态；它不是数据副本。Git普通文件限制及LFS计费见 https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github 和 https://docs.github.com/en/billing/concepts/product-billing/git-lfs 。

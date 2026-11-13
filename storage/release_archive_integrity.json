@@ -1,0 +1,5 @@
+{
+  "archive_members_verified": 2784,
+  "all_original_file_hashes_match": true,
+  "test": "local full archive read, remote identity verified separately by part digests"
+}

@@ -10,3 +10,4 @@ threadpoolctl==3.6.0
 matplotlib==3.11.1
 requests==2.34.2
 py7zr==1.1.4
+einops==0.8.1

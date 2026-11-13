@@ -2,7 +2,10 @@
 
 公开代码与实验记录仓库：https://github.com/ChenshuoXing0406/omnieeg-experiments 。
 队友协作见 [CONTRIBUTING.md](CONTRIBUTING.md)，数据与第三方代码获取见 [DATASETS.md](DATASETS.md)。
-原始数据、处理缓存和模型权重未上传；本仓库不能替代它们的完整备份，克隆后需另行获取数据。
+实验模型、验证预测及日志已提供为 [Release 分卷附件](https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/artifacts-20261113)，清单见 `storage/release_artifacts_manifest.json`。
+原始EEG、DE/EEG特征缓存、原始第三方预训练权重和SEED压缩包未公开，克隆后需按授权另行获取。
+恢复实验附件：`python scripts/restore_release_artifacts.py --destination D:/OmniEEG-artifacts`（目标目录需为空，需预留分卷和解包空间）。
+主分支可用 `git clone --recurse-submodules https://github.com/ChenshuoXing0406/omnieeg-experiments.git` 获取五个锁定版本外部仓库；EmT单文件及其CBCR非商业许可证随仓库保留。
 
 本工作区从组内研究方案出发，先运行公开数据基线，再检验多任务训练和 MoE。
 已经接入官方 CBraMod，并扩展到 MI、SSVEP 及情绪三方向的真实数据搜索。

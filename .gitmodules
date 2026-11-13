@@ -1,0 +1,15 @@
+[submodule "external/CBraMod"]
+	path = external/CBraMod
+	url = https://github.com/wjq-learning/CBraMod.git
+[submodule "external/MIRepNet"]
+	path = external/MIRepNet
+	url = https://github.com/staraink/MIRepNet.git
+[submodule "external/SCLDGN"]
+	path = external/SCLDGN
+	url = https://github.com/hongyizhi/SCLDGN.git
+[submodule "external/omni-eegbench"]
+	path = external/omni-eegbench
+	url = https://github.com/ncclab-sustech/omni-eegbench.git
+[submodule "external/cbra-mod-seedv"]
+	path = external/cbra-mod-seedv
+	url = https://gitee.com/CodeStoreHub/cbra-mod-seedv.git
