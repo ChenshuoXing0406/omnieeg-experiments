@@ -1,0 +1,16 @@
+{
+  "fold": 2,
+  "name": "shallow_lr1e3",
+  "alpha_specialist": 0.75,
+  "new_fits": 0,
+  "source_predictions": [
+    "outputs\\mi_domain_v1\\fold2_balanced_coral0\\mi_validation.npz",
+    "outputs\\mi_specialists_v1\\fold2_shallow_lr1e3\\mi_validation.npz"
+  ],
+  "source_prediction_sha256": [
+    "5fd3e0199972951694922d2315ee0b1ed7446cfbfe35462f12569656125b9ace",
+    "6e6eeb828a55d9ed7ec177511280b844e1d4ddf8c417bba103df62c5e80a1827"
+  ],
+  "test_evaluated": false,
+  "source_only": true
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "offline_subject_EA",
+    "mean_BA": 0.4893904320987654,
+    "strict_DG": false
+  },
+  {
+    "mode": "causal_prior10",
+    "mean_BA": 0.49054783950617287,
+    "strict_DG": false
+  },
+  {
+    "mode": "causal_prior50",
+    "mean_BA": 0.4851466049382716,
+    "strict_DG": false
+  }
+]

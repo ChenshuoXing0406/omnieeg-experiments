@@ -1,0 +1,22 @@
+{
+  "weights_logistic_tcn_emt": [
+    0.25,
+    0.25,
+    0.5
+  ],
+  "source_predictions": [
+    "outputs\\seed_normalization_search_v1\\fold3_causal_prior5\\validation.npz",
+    "outputs\\seed_adapted_neural_v1\\fold3_causal_tcn\\validation.npz",
+    "outputs\\seed_adapted_neural_v1\\fold3_causal_emt\\validation.npz"
+  ],
+  "source_prediction_sha256": [
+    "b95f24961f66df6b687431b434c3d95b89c4d701ce2700ffa31ff60a9278fdd1",
+    "5e126c99c87291bbd66b506885a3ff1c18d80c1bc65e74fba6fa81b4a1939dcb",
+    "19c2021a5119367ff69fd471ea4f6fb603733a9f82c0a2c78a903bda0a8a5ef1"
+  ],
+  "source_sha256": "9a7605390c7adeb060413df5a788f379e476b2943724c06cd4d8231d58d0104d",
+  "new_fits": 0,
+  "condition": "causal",
+  "test_evaluated": false,
+  "upstream_LDS_offline": true
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "script": "download_pilot.py",
+    "sha256": "9eedd27fcc6bc1ed29c999fada91973bcf450dc379106609fbae83f4f08402ce"
+  },
+  {
+    "script": "download_tracks.py",
+    "sha256": "00128ba2bf518ca10d2bfd35533eeb4624ecff262c59e36991d2f8897c286ddd"
+  },
+  {
+    "script": "prepare_bnci.py",
+    "sha256": "cbaab3497f7f02019b52b3457825b3a542f95d28bd03653d0e36d3b5771b36b2"
+  },
+  {
+    "script": "prepare_faced_hub.py",
+    "sha256": "11749f25a50224254ac4174cf8b88b6ed3889ca1fe4be59420a2f69a0811521b"
+  },
+  {
+    "script": "prepare_tracks.py",
+    "sha256": "d1296bdd004fe57ee042e3ce16e0c081636237565d61aa5233523a5420b09c85"
+  },
+  {
+    "script": "run_cbramod.py",
+    "sha256": "65759ba5baf64431eae415fb0f76cf1e8c7c2153c78c2791f85a0b615b3d040b"
+  },
+  {
+    "script": "run_search_queue.py",
+    "sha256": "82f9291adc46725607d825b6eed5b6cb1b3c091ff58efcbaad925a69083039ba"
+  },
+  {
+    "script": "search_models.py",
+    "sha256": "a359bc8463f45d7e8208bca91e7174805aa0d5a6cb0a04b58026ff3cf36b359e"
+  },
+  {
+    "script": "supplement_readout.py",
+    "sha256": "3f99fb5721ef5492eed34bf8125c1a9ab357aae3afd2ea87d199f27a2907afff"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "fits": 218,
+    "task_records": 236,
+    "configs": 158,
+    "curve_records": 2562,
+    "test_records": 10,
+    "adapter_fits": 27
+  },
+  "sheet_names": [
+    "总览",
+    "配置汇总",
+    "逐次结果",
+    "测试与集成",
+    "训练曲线",
+    "数据与协议"
+  ],
+  "formula_errors": [],
+  "new_adapter_rows": 27,
+  "new_test_evaluations": 0,
+  "xlsx_bytes": 310566
+}

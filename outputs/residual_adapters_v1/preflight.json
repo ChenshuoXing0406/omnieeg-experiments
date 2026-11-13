@@ -1,0 +1,102 @@
+{
+  "checks": [
+    {
+      "task": "mi",
+      "mode": "uniform",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.3333333432674408,
+        0.3333333432674408,
+        0.3333333432674408
+      ]
+    },
+    {
+      "task": "mi",
+      "mode": "learned",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.3333333432674408,
+        0.3333333432674408,
+        0.3333333432674408
+      ]
+    },
+    {
+      "task": "mi",
+      "mode": "no_spectrum",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "task": "ssvep_2s",
+      "mode": "uniform",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.3333333432674408,
+        0.3333333432674408,
+        0.3333333432674408
+      ]
+    },
+    {
+      "task": "ssvep_2s",
+      "mode": "learned",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.3333333432674408,
+        0.3333333432674408,
+        0.3333333432674408
+      ]
+    },
+    {
+      "task": "ssvep_2s",
+      "mode": "no_spectrum",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "task": "emotion",
+      "mode": "uniform",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.3333333432674408,
+        0.3333333432674408,
+        0.3333333432674408
+      ]
+    },
+    {
+      "task": "emotion",
+      "mode": "learned",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.3333333432674408,
+        0.3333333432674408,
+        0.3333333432674408
+      ]
+    },
+    {
+      "task": "emotion",
+      "mode": "no_spectrum",
+      "initial_output_max_difference": 0.0,
+      "gate_weights": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    }
+  ],
+  "gate_classification_gradient_norm_after_warmup": 8.827945566736162e-05,
+  "expert_gradient_norms": {
+    "spatial": 0.004532799124717712,
+    "temporal": 0.005998997017741203,
+    "spectral": 0.01798776164650917
+  },
+  "all_passed": true,
+  "test_evaluated": false
+}

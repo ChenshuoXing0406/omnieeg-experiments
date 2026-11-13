@@ -1,0 +1,10 @@
+﻿name,fold,BA,test_evaluated
+shallow_lr1e3,1,0.49652777777777773,False
+shallow_lr3e3,1,0.46354166666666663,False
+eegnet_frequency_shift,1,0.45138888888888884,False
+shallow_lr1e3,2,0.4652777777777778,False
+shallow_lr3e3,2,0.4826388888888889,False
+eegnet_frequency_shift,2,0.48263888888888895,False
+shallow_lr1e3,3,0.42476851851851855,False
+shallow_lr3e3,3,0.40277777777777773,False
+eegnet_frequency_shift,3,0.33217592592592593,False

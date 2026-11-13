@@ -1,0 +1,290 @@
+[
+  {
+    "run": "fold1_F_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.5497207641601562e-06,
+    "checkpoint_sha256": "8ab2177a7e91db502b71a0b49fc55a2b132be96c00dc381402e4e14f8da3a834",
+    "passed": true
+  },
+  {
+    "run": "fold1_F_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 2.980232238769531e-07,
+    "checkpoint_sha256": "8ab2177a7e91db502b71a0b49fc55a2b132be96c00dc381402e4e14f8da3a834",
+    "passed": true
+  },
+  {
+    "run": "fold1_F_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.2516975402832031e-06,
+    "checkpoint_sha256": "8ab2177a7e91db502b71a0b49fc55a2b132be96c00dc381402e4e14f8da3a834",
+    "passed": true
+  },
+  {
+    "run": "fold1_J_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.4007091522216797e-06,
+    "checkpoint_sha256": "ab1a02f59ee31cab5db7e403125e8eb28236d6f298c5b1504b65b57482efc6a0",
+    "passed": true
+  },
+  {
+    "run": "fold1_J_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 3.5762786865234375e-07,
+    "checkpoint_sha256": "ab1a02f59ee31cab5db7e403125e8eb28236d6f298c5b1504b65b57482efc6a0",
+    "passed": true
+  },
+  {
+    "run": "fold1_J_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 2.9802322387695312e-06,
+    "checkpoint_sha256": "ab1a02f59ee31cab5db7e403125e8eb28236d6f298c5b1504b65b57482efc6a0",
+    "passed": true
+  },
+  {
+    "run": "fold1_M_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.0132789611816406e-06,
+    "checkpoint_sha256": "e441e880f773be0eb11d5c49e34c53fdf64260cd7257e0d9e7ab006d1307cda6",
+    "passed": true
+  },
+  {
+    "run": "fold1_M_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 4.76837158203125e-06,
+    "checkpoint_sha256": "e441e880f773be0eb11d5c49e34c53fdf64260cd7257e0d9e7ab006d1307cda6",
+    "passed": true
+  },
+  {
+    "run": "fold1_M_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 4.231929779052734e-06,
+    "checkpoint_sha256": "e441e880f773be0eb11d5c49e34c53fdf64260cd7257e0d9e7ab006d1307cda6",
+    "passed": true
+  },
+  {
+    "run": "fold1_S_emotion",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 9.834766387939453e-07,
+    "checkpoint_sha256": "06e2b94498e944dc317ca570f50af87c50242b368c1594c4cc1217fd0d3dfce4",
+    "passed": true
+  },
+  {
+    "run": "fold1_S_mi",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 8.642673492431641e-07,
+    "checkpoint_sha256": "41debf5c17394e120c0d92bb10cfa3d6c6a0a52e99fcd610a6b98a64555ad8bb",
+    "passed": true
+  },
+  {
+    "run": "fold1_S_ssvep_2s",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 8.940696716308594e-07,
+    "checkpoint_sha256": "ebaf91d228f44882037b1618df15edb21217c2041bab11a9aa96b66f00502634",
+    "passed": true
+  },
+  {
+    "run": "fold2_F_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.0132789611816406e-06,
+    "checkpoint_sha256": "496c34f25b58707106a3abf86dabaae28b9d5cd828fb48e299360a3adaa10974",
+    "passed": true
+  },
+  {
+    "run": "fold2_F_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 2.0265579223632812e-06,
+    "checkpoint_sha256": "496c34f25b58707106a3abf86dabaae28b9d5cd828fb48e299360a3adaa10974",
+    "passed": true
+  },
+  {
+    "run": "fold2_F_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.1920928955078125e-06,
+    "checkpoint_sha256": "496c34f25b58707106a3abf86dabaae28b9d5cd828fb48e299360a3adaa10974",
+    "passed": true
+  },
+  {
+    "run": "fold2_J_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 2.086162567138672e-06,
+    "checkpoint_sha256": "888568a0b28855af4f691110b33b066e2a059a054b0e08ad72694a34ee88da4c",
+    "passed": true
+  },
+  {
+    "run": "fold2_J_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 5.066394805908203e-06,
+    "checkpoint_sha256": "888568a0b28855af4f691110b33b066e2a059a054b0e08ad72694a34ee88da4c",
+    "passed": true
+  },
+  {
+    "run": "fold2_J_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 2.086162567138672e-06,
+    "checkpoint_sha256": "888568a0b28855af4f691110b33b066e2a059a054b0e08ad72694a34ee88da4c",
+    "passed": true
+  },
+  {
+    "run": "fold2_M_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 6.854534149169922e-07,
+    "checkpoint_sha256": "0fb8dbf4f424211f9907443557a8b3d5f9dd45412b9f0261be06d35168838f5c",
+    "passed": true
+  },
+  {
+    "run": "fold2_M_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 2.86102294921875e-06,
+    "checkpoint_sha256": "0fb8dbf4f424211f9907443557a8b3d5f9dd45412b9f0261be06d35168838f5c",
+    "passed": true
+  },
+  {
+    "run": "fold2_M_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 7.152557373046875e-07,
+    "checkpoint_sha256": "0fb8dbf4f424211f9907443557a8b3d5f9dd45412b9f0261be06d35168838f5c",
+    "passed": true
+  },
+  {
+    "run": "fold2_S_emotion",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.1622905731201172e-06,
+    "checkpoint_sha256": "e99f82441d66ad53b92cfc96c6b7dfbea278070f878b460cbd398bba33321664",
+    "passed": true
+  },
+  {
+    "run": "fold2_S_mi",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.2218952178955078e-06,
+    "checkpoint_sha256": "cdfc1d656d00095492f6b2ca4c346741f349761e0764bb0bc2dd857ec49213c1",
+    "passed": true
+  },
+  {
+    "run": "fold2_S_ssvep_2s",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 3.993511199951172e-06,
+    "checkpoint_sha256": "17c3f532587dd1834ecbcc3dc527dff1b78b28dcca2fe1d03ce3a3484bcf41a0",
+    "passed": true
+  },
+  {
+    "run": "fold3_F_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 4.76837158203125e-07,
+    "checkpoint_sha256": "964d83b934d078ffabfda18efd8841e43021ab038fe1a6d5bdefa2e1251f6575",
+    "passed": true
+  },
+  {
+    "run": "fold3_F_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 3.814697265625e-06,
+    "checkpoint_sha256": "964d83b934d078ffabfda18efd8841e43021ab038fe1a6d5bdefa2e1251f6575",
+    "passed": true
+  },
+  {
+    "run": "fold3_F_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 8.940696716308594e-07,
+    "checkpoint_sha256": "964d83b934d078ffabfda18efd8841e43021ab038fe1a6d5bdefa2e1251f6575",
+    "passed": true
+  },
+  {
+    "run": "fold3_J_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 5.960464477539062e-07,
+    "checkpoint_sha256": "81a15b2b5625021d1f7f8245ee17d8083f9ae355db385c16d6637e9f5825f793",
+    "passed": true
+  },
+  {
+    "run": "fold3_J_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.9073486328125e-06,
+    "checkpoint_sha256": "81a15b2b5625021d1f7f8245ee17d8083f9ae355db385c16d6637e9f5825f793",
+    "passed": true
+  },
+  {
+    "run": "fold3_J_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 1.0132789611816406e-06,
+    "checkpoint_sha256": "81a15b2b5625021d1f7f8245ee17d8083f9ae355db385c16d6637e9f5825f793",
+    "passed": true
+  },
+  {
+    "run": "fold3_M_joint",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 8.344650268554688e-07,
+    "checkpoint_sha256": "961e58630e1017a0d92756d75a491896a57117027cfad1c5436173dd4059e5cd",
+    "passed": true
+  },
+  {
+    "run": "fold3_M_joint",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 2.1457672119140625e-06,
+    "checkpoint_sha256": "961e58630e1017a0d92756d75a491896a57117027cfad1c5436173dd4059e5cd",
+    "passed": true
+  },
+  {
+    "run": "fold3_M_joint",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 2.4139881134033203e-06,
+    "checkpoint_sha256": "961e58630e1017a0d92756d75a491896a57117027cfad1c5436173dd4059e5cd",
+    "passed": true
+  },
+  {
+    "run": "fold3_S_emotion",
+    "task": "emotion",
+    "subset_samples": 16,
+    "max_abs_score_difference": 7.152557373046875e-07,
+    "checkpoint_sha256": "9c72beca96557e95dc26e13c832e6cc27a0659a41a8847c0de5918cc7f6ed1e9",
+    "passed": true
+  },
+  {
+    "run": "fold3_S_mi",
+    "task": "mi",
+    "subset_samples": 16,
+    "max_abs_score_difference": 7.450580596923828e-07,
+    "checkpoint_sha256": "072e85291a0c3d24676bd512b093f0dfc0e8935ee2d954e3b11872dee8fc98f4",
+    "passed": true
+  },
+  {
+    "run": "fold3_S_ssvep_2s",
+    "task": "ssvep_2s",
+    "subset_samples": 16,
+    "max_abs_score_difference": 3.874301910400391e-06,
+    "checkpoint_sha256": "e01237c18c62a7b8661197cbb081e4182ca69a2d42eb69c60cd6c001a6fc68b1",
+    "passed": true
+  }
+]

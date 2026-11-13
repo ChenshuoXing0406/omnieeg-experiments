@@ -1,0 +1,58 @@
+{
+  "group": "S",
+  "fold": 0,
+  "tasks": [
+    "mi"
+  ],
+  "seed": 42,
+  "mean_val_BA": 0.4444444444444444,
+  "best": {
+    "dataset_updates": 800,
+    "metrics": {
+      "mi": {
+        "subject_mean_BA": 0.4444444444444444,
+        "pooled_BA": 0.4444444444444444,
+        "macro_f1": 0.4338760819179318,
+        "per_subject_BA": {
+          "1": 0.4722222222222222,
+          "2": 0.41666666666666663
+        },
+        "confusion_matrix": [
+          [
+            38,
+            20,
+            63,
+            23
+          ],
+          [
+            13,
+            73,
+            35,
+            23
+          ],
+          [
+            16,
+            26,
+            91,
+            11
+          ],
+          [
+            10,
+            48,
+            32,
+            54
+          ]
+        ]
+      }
+    },
+    "routing": {
+      "mi": []
+    }
+  },
+  "dataset_updates": 1500,
+  "optimizer_updates": 1500,
+  "seconds": 70.1825251999544,
+  "peak_allocated_MiB": 369.9384765625,
+  "test_evaluated": false,
+  "config_sha256": "4ce55dec6edd45deb3d0f1c367f47d4c73e89a0cd8018eb8cb1f6f3e9fb5655d"
+}

@@ -1,0 +1,22 @@
+{
+  "weights_logistic_tcn_emt": [
+    0.5,
+    0.0,
+    0.5
+  ],
+  "source_predictions": [
+    "outputs\\seed_features_v1\\fold3_logistic_C0.1\\validation.npz",
+    "outputs\\seed_features_v1\\fold3_tcn\\validation.npz",
+    "outputs\\seed_features_v1\\fold3_emt\\validation.npz"
+  ],
+  "source_prediction_sha256": [
+    "09a8ae3f1f44c7d5b27dff94121222bf6e7c32146e9a66b9c13f15d50801a0b3",
+    "d6f90a7dac8d7d95f5d300f160f03f8164fbe787fad137ad8492a63efce0a94d",
+    "36f117dcc70df17c41f54932e11dc1ab0950f98c17223100b76a11e17bcab8d1"
+  ],
+  "source_sha256": "9a7605390c7adeb060413df5a788f379e476b2943724c06cd4d8231d58d0104d",
+  "new_fits": 0,
+  "condition": "strict",
+  "test_evaluated": false,
+  "upstream_LDS_offline": true
+}

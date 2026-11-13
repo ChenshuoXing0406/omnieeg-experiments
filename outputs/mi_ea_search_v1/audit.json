@@ -1,0 +1,47 @@
+[
+  {
+    "run": "fold1_offline_subject_EA",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold1_causal_prior10",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold1_causal_prior50",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_offline_subject_EA",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_causal_prior10",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_causal_prior50",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_offline_subject_EA",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_causal_prior10",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_causal_prior50",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  }
+]

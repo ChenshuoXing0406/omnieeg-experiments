@@ -1,0 +1,50 @@
+{
+  "source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\Omnieeg\\data\\raw\\FACED_GNN4EEG\\FACED_dataset_9_labels.mat",
+  "sha256": "7f27e02cdb316a97e01c080fd298975ade941eb11d3132b6908dc0e28ef261bb",
+  "source_shape": [
+    123,
+    840,
+    150
+  ],
+  "processed_shape": [
+    10332,
+    10,
+    150
+  ],
+  "label_source": "https://raw.githubusercontent.com/Miracle-2001/GNN4EEG/main/ge/load_data.py",
+  "loader_source_sha256": "7d35ce8415a7526772568ce8583f0ecf8d5ae52d7314438156e31d860e6aca49",
+  "video_labels": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    6,
+    6,
+    6,
+    7,
+    7,
+    7,
+    8,
+    8,
+    8
+  ],
+  "feature_order": "official loader reshapes last dimension to band x30 channels; TCN vector preserves original order",
+  "subject_identity": "author array row index; mapping to HF subject IDs not independently established",
+  "upstream_normalization": "precomputed DE-LDS provenance retained; complete upstream fitting/causality not verified",
+  "scope": "separate nine-class feature benchmark, no claim of raw EEG or end-to-end strict inductive preprocessing"
+}

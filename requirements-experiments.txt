@@ -1,0 +1,12 @@
+# Observed experiment environment on 2026-11-11; Python 3.11 Windows.
+# CUDA torch wheel index:
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.7.2
+joblib==1.5.3
+threadpoolctl==3.6.0
+matplotlib==3.11.1
+requests==2.34.2
+py7zr==1.1.4

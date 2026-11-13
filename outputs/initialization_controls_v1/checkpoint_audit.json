@@ -1,0 +1,164 @@
+[
+  {
+    "run": "fold1_pretrained_frozen_emotion",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 4.798173904418945e-06,
+    "checkpoint_sha256": "2cc17d56ab88c31bbc1871f311dbbf2a8fbd963ff0b80393ed9365054d55b32a",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold1_pretrained_frozen_mi",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 7.748603820800781e-07,
+    "checkpoint_sha256": "1f95df39e4542a5f86e6bac9765bf12b425484598aeff553fa489bb0143456a6",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold1_pretrained_frozen_ssvep_2s",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.7881393432617188e-06,
+    "checkpoint_sha256": "8ef372d36936820d5409abb378a8fb478dfcb4c320024cd4842b06705e71bc8e",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold1_random_full_emotion",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.430511474609375e-06,
+    "checkpoint_sha256": "8ea7ac8904c2a8b32a986d1b185d118b209f47fd8d533bf3a190802e5057825b",
+    "frozen_backbone_verified": false
+  },
+  {
+    "run": "fold1_random_full_mi",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 7.748603820800781e-07,
+    "checkpoint_sha256": "1d22c124bc683feaa09bbed652a36d9c811a4d3298bd1f2d6c704815f97166c9",
+    "frozen_backbone_verified": false
+  },
+  {
+    "run": "fold1_random_full_ssvep_2s",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 2.2202730178833008e-06,
+    "checkpoint_sha256": "1f1370b72e45a5764a5bcbe541aa907b8412c6d16f6a6ddfee2f5d3982973a03",
+    "frozen_backbone_verified": false
+  },
+  {
+    "run": "fold2_pretrained_frozen_emotion",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.7881393432617188e-06,
+    "checkpoint_sha256": "8bd031820cce27bf5341c4f43d1327c8da3b82088a2c0a63a9b243d0f1e45d38",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold2_pretrained_frozen_mi",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.3113021850585938e-06,
+    "checkpoint_sha256": "51f181f1e177c1f084d88cf694ec1028ae479bbe15c7e0784d8373426ab1721a",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold2_pretrained_frozen_ssvep_2s",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 3.248453140258789e-06,
+    "checkpoint_sha256": "a9042bdf4ed0524a29d1cb7eb30d9e86ba2ad49c39370f53dbea6cda79ebf883",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold2_random_full_emotion",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 3.039836883544922e-06,
+    "checkpoint_sha256": "4a417659c58f297f62e9c41ba71ffda823622fdf0ccf5dc267a03c887567141b",
+    "frozen_backbone_verified": false
+  },
+  {
+    "run": "fold2_random_full_mi",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.3709068298339844e-06,
+    "checkpoint_sha256": "ae31d9040396ab9725df5060f56b4bae3fb7d9f6c1371b7652c15c32b7da9739",
+    "frozen_backbone_verified": false
+  },
+  {
+    "run": "fold2_random_full_ssvep_2s",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 2.3245811462402344e-06,
+    "checkpoint_sha256": "673602938f65f75e57ed4787d5837bdf9cf29d1e94f78ecdece1ef282ff49afe",
+    "frozen_backbone_verified": false
+  },
+  {
+    "run": "fold3_pretrained_frozen_emotion",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.5795230865478516e-06,
+    "checkpoint_sha256": "6aa3cdc2987d0d2dbc42391337d6545c76ed0063a9f720e8bda9060d08c16d50",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold3_pretrained_frozen_mi",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 6.556510925292969e-07,
+    "checkpoint_sha256": "e2d418e76b873eb19db49ed2e36a2c59d5e7b05b892a27c73b98407165b8bb06",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold3_pretrained_frozen_ssvep_2s",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.6093254089355469e-06,
+    "checkpoint_sha256": "b765f56d49553c38c36626daeb2ca7fc1a1138316bff159d6fa1e38dc8866ee6",
+    "frozen_backbone_verified": true
+  },
+  {
+    "run": "fold3_random_full_emotion",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.4901161193847656e-06,
+    "checkpoint_sha256": "2ac141e6a428c055be103b3418eea0ad37ea74dfc51a50d77194072fefb00aec",
+    "frozen_backbone_verified": false
+  },
+  {
+    "run": "fold3_random_full_mi",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 1.6689300537109375e-06,
+    "checkpoint_sha256": "dbaf537df94f75bf2ae3f9812563fc41df5db9a19512833320bb18cbcde1be99",
+    "frozen_backbone_verified": false
+  },
+  {
+    "run": "fold3_random_full_ssvep_2s",
+    "initialization_reconstructed": true,
+    "head_and_architecture_match_original_S": true,
+    "checkpoint_predictions_reproduced": true,
+    "max_abs_score_error": 3.0994415283203125e-06,
+    "checkpoint_sha256": "2acc41768bdf352b52a3207ec407c75a3a147f47f6d7594a1d519acaab69c0f0",
+    "frozen_backbone_verified": false
+  }
+]

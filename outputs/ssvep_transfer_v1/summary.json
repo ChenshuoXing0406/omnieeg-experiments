@@ -1,0 +1,52 @@
+[
+  {
+    "seconds": 1,
+    "method": "fbcca",
+    "mean_BA": 0.6844444444444444
+  },
+  {
+    "seconds": 1,
+    "method": "fbtrca",
+    "mean_BA": 0.6319444444444445
+  },
+  {
+    "seconds": 1,
+    "method": "fusion25",
+    "mean_BA": 0.8201388888888889
+  },
+  {
+    "seconds": 1,
+    "method": "fusion50",
+    "mean_BA": 0.8115277777777777
+  },
+  {
+    "seconds": 1,
+    "method": "fusion75",
+    "mean_BA": 0.7202777777777777
+  },
+  {
+    "seconds": 2,
+    "method": "fbcca",
+    "mean_BA": 0.9205555555555556
+  },
+  {
+    "seconds": 2,
+    "method": "fbtrca",
+    "mean_BA": 0.8356944444444445
+  },
+  {
+    "seconds": 2,
+    "method": "fusion25",
+    "mean_BA": 0.9566666666666667
+  },
+  {
+    "seconds": 2,
+    "method": "fusion50",
+    "mean_BA": 0.9540277777777778
+  },
+  {
+    "seconds": 2,
+    "method": "fusion75",
+    "mean_BA": 0.9029166666666667
+  }
+]

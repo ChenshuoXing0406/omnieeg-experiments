@@ -1,0 +1,73 @@
+{
+  "seconds": 1,
+  "fold": 1,
+  "channels": [
+    "PZ",
+    "PO5",
+    "PO3",
+    "POZ",
+    "PO4",
+    "PO6",
+    "O1",
+    "OZ",
+    "O2"
+  ],
+  "harmonics": 5,
+  "lower": [
+    6,
+    14,
+    22,
+    30,
+    38
+  ],
+  "upper": 90,
+  "weights": [
+    1.25,
+    0.75,
+    0.5833333333333333,
+    0.5,
+    0.45
+  ],
+  "ridge_fraction": 0.001,
+  "source_sha256": "5d269318b96e10346d936b6d3ce1beaae55ef5b1e49d50193c1a1611e3e61e29",
+  "data_sha256": "b19d6b58739b8cde7c771572703ed08a355fc79f0d686fb1580668081fa6f8f9",
+  "train_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "validation_subjects": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "strict_subject_generalization": true,
+  "test_evaluated": false,
+  "template": "mean training trials per class",
+  "trca": "leading generalized eig of cross-trial S and within-trial Q; shared source-subject filter",
+  "scope": "source-template transfer variant, not same-subject calibration FBTRCA; filter context is offline"
+}

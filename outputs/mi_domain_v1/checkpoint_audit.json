@@ -1,0 +1,74 @@
+[
+  {
+    "run": "fold1_balanced_coral0",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold1_balanced_coral1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold1_balanced_coral10",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold1_tangent_C0.1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold1_tangent_C1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold1_tangent_C10",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold2_balanced_coral0",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold2_balanced_coral1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold2_balanced_coral10",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold2_tangent_C0.1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold2_tangent_C1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold2_tangent_C10",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold3_balanced_coral0",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold3_balanced_coral1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold3_balanced_coral10",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold3_tangent_C0.1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold3_tangent_C1",
+    "max_abs_error": 0.0
+  },
+  {
+    "run": "fold3_tangent_C10",
+    "max_abs_error": 0.0
+  }
+]

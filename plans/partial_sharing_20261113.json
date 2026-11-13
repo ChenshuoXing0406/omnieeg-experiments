@@ -1,0 +1,17 @@
+{
+  "version": "partial-sharing-v1",
+  "created_date": "2026-11-13",
+  "purpose": "Test competition proposal: sharing boundary versus negative transfer, not specialist leaderboard search",
+  "tasks": ["mi", "ssvep_2s", "emotion"],
+  "data_protocol": "reuse preliminary_v1 development folds; legacy test subjects excluded",
+  "initialization": "same public CBraMod, same task heads and random states as original J/S controls",
+  "mandatory": [{"mode": "task_private", "private_layers": 2, "folds": 3}, {"mode": "task_private", "private_layers": 4, "folds": 3}],
+  "training": {"updates_per_task": 1500, "batch_size": 16, "backbone_lr": 0.0001, "head_lr": 0.001, "weight_decay": 0.01, "optimizer": "AdamW", "scheduler": "cosine over 4500 optimizer updates", "gradient_norm": 1.0, "validation_every_per_task_updates": 100, "selection": "mean of three task subject-mean validation BAs", "input": "uV / 100", "task_order": ["mi", "ssvep_2s", "emotion"], "class_weights": "training class inverse frequency"},
+  "capacity_control": {"conditional": true, "gate_against_joint_dense": {"mean_task_gain": 0.01, "positive_fold_count_min": 2, "worst_task_mean_gain_min": -0.02}, "select": "eligible depth with highest mean task validation BA; smaller depth if exactly tied", "mode": "rotate_assignment", "folds": 3, "mapping_train": "(task_index + outer_step) % 3", "mapping_eval": "task_index", "purpose": "same total parameters, active depth, update count, initialization and sample schedule, but each branch trains on all three tasks rather than one fixed task"},
+  "reuse_completed_baselines": ["single-task dense S (9 fits)", "joint dense J (3 fits)"],
+  "new_fits": "6 mandatory, plus 3 conditional capacity controls only if gate passes",
+  "metrics": ["per-task subject-mean BA", "macro F1", "per-subject BA", "parameter counts total and active", "peak allocated GPU memory", "training wall seconds"],
+  "uncertainty": "fold and training seed vary together; no statistical significance claim or fresh blind test",
+  "task_addons": "not mixed into boundary experiment; prior specialist and normalization results do not prove benefit to shared backbone",
+  "test_evaluated": false
+}

@@ -1,0 +1,108 @@
+{
+  "id": "5a8f36c4565c",
+  "task": "emotion",
+  "config": {
+    "model": "bandpower_logistic",
+    "C": 0.01,
+    "power_norm": "relative_centered"
+  },
+  "seed": 42,
+  "budget_epochs": 20,
+  "stage": "feature_supplement",
+  "val_BA": 0.20842872405372403,
+  "val_metrics": {
+    "subject_mean_BA": 0.20842872405372403,
+    "pooled_BA": 0.20786566099066098,
+    "macro_f1": 0.18898065476190476,
+    "per_subject_BA": {
+      "2": 0.22226731601731603,
+      "10": 0.19459013209013207
+    },
+    "confusion_matrix": [
+      [
+        3,
+        1,
+        2,
+        0,
+        6,
+        12,
+        14,
+        4
+      ],
+      [
+        1,
+        11,
+        3,
+        5,
+        6,
+        7,
+        7,
+        4
+      ],
+      [
+        6,
+        0,
+        3,
+        1,
+        12,
+        8,
+        5,
+        7
+      ],
+      [
+        2,
+        5,
+        0,
+        2,
+        8,
+        8,
+        6,
+        5
+      ],
+      [
+        4,
+        0,
+        0,
+        2,
+        6,
+        9,
+        13,
+        3
+      ],
+      [
+        4,
+        0,
+        3,
+        4,
+        9,
+        15,
+        14,
+        3
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        3,
+        7,
+        11,
+        2
+      ],
+      [
+        2,
+        1,
+        7,
+        0,
+        3,
+        7,
+        5,
+        11
+      ]
+    ]
+  },
+  "seconds": 0.04458880005404353,
+  "test_evaluated": false,
+  "deterministic": true,
+  "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+}

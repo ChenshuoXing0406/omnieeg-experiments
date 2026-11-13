@@ -1,0 +1,7 @@
+﻿fold,method,window_BA,video_BA,uses_unlabeled_target_session,test_evaluated
+1,session_center,0.7152039828873351,0.7422222222222222,True,False
+1,session_zscore,0.7254312443244253,0.7555555555555555,True,False
+2,session_center,0.7231782026137947,0.7644444444444444,True,False
+2,session_zscore,0.713328782938204,0.7333333333333332,True,False
+3,session_center,0.7111350553300227,0.7422222222222222,True,False
+3,session_zscore,0.7311443746982134,0.7822222222222222,True,False

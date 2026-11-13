@@ -1,0 +1,488 @@
+{
+  "scope": "PUBLIC_DATA_CANDIDATE_SEARCH",
+  "coarse_configs": [
+    {
+      "model": "cbramod_ft",
+      "lr": 1e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 3e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    {
+      "model": "eegnet",
+      "filters": 8,
+      "kernel": 64,
+      "dropout": 0.25,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 8,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.0003,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 1.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 10.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 100.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 1000.0
+    },
+    {
+      "model": "bandpower_lda"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 0.01,
+      "gamma": "scale"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 0.1,
+      "gamma": "scale"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.01
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.1
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 1.0
+    }
+  ],
+  "coarse_epochs": 20,
+  "refine_epochs": 40,
+  "screen_seed": 42,
+  "confirmation_seeds": [
+    42,
+    43,
+    44
+  ],
+  "rule": "coarse -> refine top 2 distinct model families -> confirm top 3 configs; rank mean validation subject-BA",
+  "test_policy": "no test metrics during search; finalize selected champion only",
+  "data_sha256": "f3f4f3a7c01766d1bd325fafc8df45a856487297c40953faf1d4be38473f7c82",
+  "data_metadata": {
+    "source": "https://huggingface.co/datasets/braindecode/faced/tree/18c73355fc71c055e92828384da85bb49bc6e3c0",
+    "source_revision": "18c73355fc71c055e92828384da85bb49bc6e3c0",
+    "source_original": "https://www.synapse.org/Synapse:syn50614194",
+    "source_conversion": "Braindecode FACED processed Zarr export from NEMAR BIDS; 26-channel subset",
+    "classes": [
+      "Anger",
+      "Disgust",
+      "Fear",
+      "Sadness",
+      "Amusement",
+      "Inspiration",
+      "Joy",
+      "Tenderness"
+    ],
+    "source_label_mapping": {
+      "Anger": 0,
+      "Disgust": 1,
+      "Fear": 2,
+      "Sadness": 3,
+      "Neutral": 4,
+      "Amusement": 5,
+      "Inspiration": 6,
+      "Joy": 7,
+      "Tenderness": 8
+    },
+    "source_target_to_model_target": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7
+    },
+    "excluded_source_classes": [
+      "Neutral"
+    ],
+    "class_count": 8,
+    "label_audit": "Neutral is absent from all 12 exported recordings; this is an eight-emotion pilot, not nine-class FACED.",
+    "cohort": "first 12 numeric subject IDs, fixed before outcome scores; 12 of 123",
+    "split": {
+      "train": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "val": [
+        2,
+        10
+      ],
+      "test": [
+        3,
+        11
+      ]
+    },
+    "sources": [
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_0/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/97ea712ebfb12a1ee8a157bdc19ad538cc586e222bd57c0c9a8133c26e3aa3cc",
+        "bytes": 18559998,
+        "sha256": "01816c621751490eca938d7e86327180614de4c9020d55b3f099cfc7cdaa1cf4",
+        "expected_sha256": "01816c621751490eca938d7e86327180614de4c9020d55b3f099cfc7cdaa1cf4",
+        "time_utc": "2026-11-11T08:06:29.981379+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_0/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/e49d1af9dba7b09318ae05909b19aec7d5ecc6d85779b72a2a619c75a1ce1806",
+        "bytes": 11606264,
+        "sha256": "479fc6b489913af4623ef7336471b176b47c76ce9ffb782bf3772120c2060abe",
+        "expected_sha256": "479fc6b489913af4623ef7336471b176b47c76ce9ffb782bf3772120c2060abe",
+        "time_utc": "2026-11-11T08:06:34.742826+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_1/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/ebc3ec269d106af32c31b338332a8e76d9d79e8624dd4eb6a64d99dd829c988b",
+        "bytes": 18396359,
+        "sha256": "34dc767c6b4500173dc8219ee4a1c9c0a5b77c8183e84d85ac13fd55617eab9c",
+        "expected_sha256": "34dc767c6b4500173dc8219ee4a1c9c0a5b77c8183e84d85ac13fd55617eab9c",
+        "time_utc": "2026-11-11T08:06:32.839827+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_1/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/1450c0661e159642c6d4f6008509428c87aa5c520c20f3e029273c7b70b000f6",
+        "bytes": 11517620,
+        "sha256": "9a02701e0a53f1a58b7556c3fe223344ed826e59baa2c4b0f79d6cd6090387c1",
+        "expected_sha256": "9a02701e0a53f1a58b7556c3fe223344ed826e59baa2c4b0f79d6cd6090387c1",
+        "time_utc": "2026-11-11T08:06:32.859721+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_2/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/f58c357d9a72e215e581b977c4887f9a31dc125060fa6d98151b00d025265a5f",
+        "bytes": 18577256,
+        "sha256": "1417207e4b0d127284b749fb7062a232a776908c98171b7b8bba46a1ea5c33e2",
+        "expected_sha256": "1417207e4b0d127284b749fb7062a232a776908c98171b7b8bba46a1ea5c33e2",
+        "time_utc": "2026-11-11T08:06:43.220236+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_2/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/bcc2b2f82636b0afbfc86f9ae97cb90f88905ad70c699dc10420672f1b587690",
+        "bytes": 11812486,
+        "sha256": "d6326d19eaa615269812cc9b1a657c7cbf7696ceb9b0171158559419b607ad7e",
+        "expected_sha256": "d6326d19eaa615269812cc9b1a657c7cbf7696ceb9b0171158559419b607ad7e",
+        "time_utc": "2026-11-11T08:06:43.191137+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_3/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/1f725e73b5bfd5b3a94290757c54d4c7189f82df27307b584e8ed77aad8bca13",
+        "bytes": 18560472,
+        "sha256": "75f9226098b6b0497627890b92808c2f71518fb94bed3c80bba9f6a2e69f9d81",
+        "expected_sha256": "75f9226098b6b0497627890b92808c2f71518fb94bed3c80bba9f6a2e69f9d81",
+        "time_utc": "2026-11-11T08:06:44.867892+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_3/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/e9c514532642e837e20e0a548bff08829a3e16d97626adbb695e2eb730e1e21e",
+        "bytes": 11604245,
+        "sha256": "c29eb0f3832666bd924d2c074644cf1735c2eb3b5081bffc781e8d9d8d6ac870",
+        "expected_sha256": "c29eb0f3832666bd924d2c074644cf1735c2eb3b5081bffc781e8d9d8d6ac870",
+        "time_utc": "2026-11-11T08:06:45.846859+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_4/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/a77d89c4bc0688c012242bfc587a7728f4c83d1200a13959c960ea6f3b4157bf",
+        "bytes": 18525177,
+        "sha256": "13d06aab0e4bc403b2f940775ba4f0bc7b002495a36d5e818d7d3cd25175cb79",
+        "expected_sha256": "13d06aab0e4bc403b2f940775ba4f0bc7b002495a36d5e818d7d3cd25175cb79",
+        "time_utc": "2026-11-11T08:06:58.421200+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_4/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/ec33d61956bd4e605372235f80b3408ed144957105266664f418f3275a619e38",
+        "bytes": 11585456,
+        "sha256": "e0c7e23ea3e9fc48d9822387d03d10ee397bbaaf0e2ae272786cb90e8cab0b4f",
+        "expected_sha256": "e0c7e23ea3e9fc48d9822387d03d10ee397bbaaf0e2ae272786cb90e8cab0b4f",
+        "time_utc": "2026-11-11T08:06:52.212193+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_5/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/adea6a36064ef198d7ae2694c92de10939f2f25ea27924aae841ccdfefc64c04",
+        "bytes": 18472934,
+        "sha256": "8d364c6b8ed7aa764c0b1c5c7d3822c5b02e06ddf9bca224093929a5a002cde9",
+        "expected_sha256": "8d364c6b8ed7aa764c0b1c5c7d3822c5b02e06ddf9bca224093929a5a002cde9",
+        "time_utc": "2026-11-11T08:06:51.691512+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_5/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/9372a439ce6fc7304a23cbb05f2a6b4001ee74abeeda02e3880f6649076746df",
+        "bytes": 11552803,
+        "sha256": "8367a91c871439e14457cc8feb6ccf09b878a414a58c91197a583cb5a03da481",
+        "expected_sha256": "8367a91c871439e14457cc8feb6ccf09b878a414a58c91197a583cb5a03da481",
+        "time_utc": "2026-11-11T08:06:51.168911+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_6/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/d1f0464a8a7e6134fbac667bdecb5c4faba2c6d23a69a5d7326ea3be9ed8c674",
+        "bytes": 18495915,
+        "sha256": "92229da68ec69fb881007a864f3614b678dd8a085b98680b5173cb07587ef270",
+        "expected_sha256": "92229da68ec69fb881007a864f3614b678dd8a085b98680b5173cb07587ef270",
+        "time_utc": "2026-11-11T08:06:56.664007+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_6/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/3fa017a8faa6c7abc72ab12bc1f9bb865b1cc8a6eb95a64953627c5b08ea187b",
+        "bytes": 11553845,
+        "sha256": "ba97d20aa63a27b4e254a1fbb0f2876715f35ab4e2174807ebcdfc5ad189bcf8",
+        "expected_sha256": "ba97d20aa63a27b4e254a1fbb0f2876715f35ab4e2174807ebcdfc5ad189bcf8",
+        "time_utc": "2026-11-11T08:06:55.879826+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_7/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/e8ec04fb02985e242cd9b8b0148f531bda45c52eb322e17c19a889e7d55efaa4",
+        "bytes": 18462356,
+        "sha256": "6d945b5108d3ad2de959dc56a8fdff19624ff82da5dd1205c60a150f22c95cd6",
+        "expected_sha256": "6d945b5108d3ad2de959dc56a8fdff19624ff82da5dd1205c60a150f22c95cd6",
+        "time_utc": "2026-11-11T08:07:00.010955+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_7/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/e3a0e52ef51f18df96fe777c9803f08d13a5521b4efbb0b66c5eafa23f7c5e1b",
+        "bytes": 11551065,
+        "sha256": "a921316c7a131b9e2433326f89ed8ae195d11d3fda1ccc6dec39391ec671e2bc",
+        "expected_sha256": "a921316c7a131b9e2433326f89ed8ae195d11d3fda1ccc6dec39391ec671e2bc",
+        "time_utc": "2026-11-11T08:06:59.692777+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_8/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/19c12b3b1ff7bd4595c26d4171dda22dc047d15fa18623769f97f0efa7079425",
+        "bytes": 18484691,
+        "sha256": "58d3fc4e6243b149c16a3914053f614f4395928669c6097bf9cfbb9f864ad47f",
+        "expected_sha256": "58d3fc4e6243b149c16a3914053f614f4395928669c6097bf9cfbb9f864ad47f",
+        "time_utc": "2026-11-11T08:07:03.110556+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_8/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/bdd853cf810fc8f779cceb1643780c34a0f0cc5b549c6df6fab14186c8a0f9a3",
+        "bytes": 11754367,
+        "sha256": "2b8f8c46a478246c99c1647e1fb50d82ac4afd768605a3a547a045d28e06b1a7",
+        "expected_sha256": "2b8f8c46a478246c99c1647e1fb50d82ac4afd768605a3a547a045d28e06b1a7",
+        "time_utc": "2026-11-11T08:07:03.501976+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_9/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/ea5096cdd3fdbe2a072f9c3531b4d130ad158c75728c0f63858d97307c7e09c7",
+        "bytes": 18534038,
+        "sha256": "b65626103f98d65210015755ac00139f285f99cc6134ad2ff1260110dbb013d1",
+        "expected_sha256": "b65626103f98d65210015755ac00139f285f99cc6134ad2ff1260110dbb013d1",
+        "time_utc": "2026-11-11T08:07:05.786456+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_9/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/447128e28da2f672aee615240b1c06dac560d9c8ec47b51a59af3dbb0162cf63",
+        "bytes": 11793141,
+        "sha256": "2810ba8c3e6ba042e214b08a7d885b3d8b36ce1e1cc7e3173170e370156213cd",
+        "expected_sha256": "2810ba8c3e6ba042e214b08a7d885b3d8b36ce1e1cc7e3173170e370156213cd",
+        "time_utc": "2026-11-11T08:07:06.066576+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_10/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/af7eb2be1f39cc51a544dad8a1879f693e67f6676f91b363c1ea6baad9f0c44b",
+        "bytes": 18492010,
+        "sha256": "fc07ec5974adf7b6af97226672cdf3bf6edb163ffbb21bf24ffb072f694a3e34",
+        "expected_sha256": "fc07ec5974adf7b6af97226672cdf3bf6edb163ffbb21bf24ffb072f694a3e34",
+        "time_utc": "2026-11-11T08:06:37.639545+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_10/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/c70cd1f366c20312b66a128ca262a25da9decffd31aa3986411f8eaa8b564160",
+        "bytes": 11579289,
+        "sha256": "4619990c0c7ca66538dd1f36456c1c871c846c4c51bdb3d23e2c64712a392c1f",
+        "expected_sha256": "4619990c0c7ca66538dd1f36456c1c871c846c4c51bdb3d23e2c64712a392c1f",
+        "time_utc": "2026-11-11T08:06:37.009286+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_11/data/c/0/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/13e73e6725c3845cb3cbab35d32e7ecf9a15a3318dc7abd2a8b2f8d4270e4702",
+        "bytes": 18541735,
+        "sha256": "eccbc380a12c3ef9f58b0b778bebf8d5f3b4b2483b4036a15a5733c525c40bf0",
+        "expected_sha256": "eccbc380a12c3ef9f58b0b778bebf8d5f3b4b2483b4036a15a5733c525c40bf0",
+        "time_utc": "2026-11-11T08:06:39.325105+00:00"
+      },
+      {
+        "source_url": "https://huggingface.co/datasets/braindecode/faced/resolve/18c73355fc71c055e92828384da85bb49bc6e3c0/sourcedata/braindecode/dataset.zarr/recording_11/data/c/1/0/0",
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b5e1e003fb414df1031c58/96431e5c25c7aebda6232ee825a4d6dc2d9395196acadf3840f9ce2ae84316ac",
+        "bytes": 11591736,
+        "sha256": "5f469625f294f8fd1e0e2a345ec8e69d918024f85dc9d4261b7bd9b7e185ad3d",
+        "expected_sha256": "5f469625f294f8fd1e0e2a345ec8e69d918024f85dc9d4261b7bd9b7e185ad3d",
+        "time_utc": "2026-11-11T08:06:39.815594+00:00"
+      }
+    ],
+    "unit_checks": {
+      "0": {
+        "median_channel_std_uV": 14.544207572937012,
+        "windows": 156
+      },
+      "1": {
+        "median_channel_std_uV": 23.10155487060547,
+        "windows": 156
+      },
+      "2": {
+        "median_channel_std_uV": 11.504087448120117,
+        "windows": 157
+      },
+      "3": {
+        "median_channel_std_uV": 16.822349548339844,
+        "windows": 156
+      },
+      "4": {
+        "median_channel_std_uV": 19.207935333251953,
+        "windows": 156
+      },
+      "5": {
+        "median_channel_std_uV": 15.45244312286377,
+        "windows": 156
+      },
+      "6": {
+        "median_channel_std_uV": 13.721526145935059,
+        "windows": 156
+      },
+      "7": {
+        "median_channel_std_uV": 17.3768310546875,
+        "windows": 156
+      },
+      "8": {
+        "median_channel_std_uV": 18.660200119018555,
+        "windows": 157
+      },
+      "9": {
+        "median_channel_std_uV": 17.47314453125,
+        "windows": 157
+      },
+      "10": {
+        "median_channel_std_uV": 12.736600875854492,
+        "windows": 156
+      },
+      "11": {
+        "median_channel_std_uV": 12.289950370788574,
+        "windows": 156
+      }
+    },
+    "upstream_preprocessing": "[{\"fn\": \"adapter_finetuning.data_utils.rename_channels_bipolar\", \"apply_on_array\": false, \"kwargs\": {\"mapping\": {\"A1\": \"M1\", \"A2\": \"M2\", \"POO7\": \"E70\", \"POO8\": \"E83\"}}, \"__class_path__\": \"braindecode.preprocessing.preprocess.Preprocessor\"}, {\"fn\": \"pick_channels\", \"apply_on_array\": false, \"kwargs\": {\"ch_names\": [\"Fp1\", \"Fp2\", \"Fz\", \"F3\", \"F4\", \"F7\", \"F8\", \"FC1\", \"FC2\", \"FC5\", \"FC6\", \"Cz\", \"C3\", \"C4\", \"CP1\", \"CP2\", \"CP5\", \"CP6\", \"Pz\", \"P3\", \"P4\", \"PO3\", \"PO4\", \"Oz\", \"O1\", \"O2\"], \"ordered\": true}, \"__class_path__\": \"braindecode.preprocessing.preprocess.Preprocessor\"}, {\"fn\": \"resample\", \"apply_on_array\": false, \"kwargs\": {\"sfreq\": 200.0}, \"__class_path__\": \"braindecode.preprocessing.preprocess.Preprocessor\"}, {\"fn\": \"adapter_finetuning.config_schemas._scale_data\", \"apply_on_array\": true, \"kwargs\": {\"factor\": 1000000.0}, \"__class_path__\": \"braindecode.preprocessing.preprocess.Preprocessor\"}, {\"fn\": \"filter\", \"apply_on_array\": false, \"kwargs\": {\"l_freq\": 0.1, \"h_freq\": null}, \"__class_path__\": \"braindecode.preprocessing.preprocess.Preprocessor\"}]",
+    "upstream_windowing": "[[\"create_windows_from_events\", {\"infer_mapping\": false, \"infer_window_size_stride\": false, \"trial_start_offset_samples\": 0, \"trial_stop_offset_samples\": 0, \"window_size_samples\": 2000, \"window_stride_samples\": 2000, \"drop_last_window\": true, \"mapping\": {\"Anger\": 0, \"Disgust\": 1, \"Fear\": 2, \"Sadness\": 3, \"Neutral\": 4, \"Amusement\": 5, \"Inspiration\": 6, \"Joy\": 7, \"Tenderness\": 8}, \"preload\": true, \"drop_bad_windows\": null, \"picks\": null, \"reject\": null, \"flat\": null, \"on_missing\": \"error\", \"accepted_bads_ratio\": 1.0, \"verbose\": \"error\", \"use_mne_epochs\": false, \"on_overlapping_events\": \"warn\"}], [\"to_epochs_dataset\", {}]]",
+    "local_preprocessing": [
+      "no additional unit conversion: upstream explicitly V*1e6",
+      "26-channel CAR",
+      "per-window 4th-order 0.5-45 Hz zero-phase Butterworth"
+    ],
+    "excluded_inputs": "Self-report ratings, film identities, subject ID and event timing are not model inputs",
+    "limitation": "Public processed 26-channel eight-emotion pilot; Neutral absent. Not complete nine-class FACED, raw 30-channel reproduction or competition data. Known stimuli across unseen subjects.",
+    "license_note": "Hugging Face card lists license unknown; preserve original dataset attribution and do not redistribute data.",
+    "test_previously_used": false,
+    "citation": "Chen et al. (2023), DOI:10.1038/s41597-023-02650-w",
+    "name": "emotion_10s",
+    "scope": "PUBLIC_DATA_DEVELOPMENT_NOT_COMPETITION",
+    "shape": [
+      1875,
+      26,
+      2000
+    ],
+    "sfreq": 200,
+    "unit": "uV",
+    "channel_names": [
+      "Fp1",
+      "Fp2",
+      "Fz",
+      "F3",
+      "F4",
+      "F7",
+      "F8",
+      "FC1",
+      "FC2",
+      "FC5",
+      "FC6",
+      "Cz",
+      "C3",
+      "C4",
+      "CP1",
+      "CP2",
+      "CP5",
+      "CP6",
+      "Pz",
+      "P3",
+      "P4",
+      "PO3",
+      "PO4",
+      "Oz",
+      "O1",
+      "O2"
+    ],
+    "class_counts": [
+      252,
+      264,
+      252,
+      216,
+      219,
+      312,
+      144,
+      216
+    ],
+    "sha256": "f3f4f3a7c01766d1bd325fafc8df45a856487297c40953faf1d4be38473f7c82"
+  }
+}

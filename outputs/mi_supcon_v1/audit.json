@@ -1,0 +1,47 @@
+[
+  {
+    "run": "fold1_lambda0",
+    "reload_error": 0.0,
+    "passed": true
+  },
+  {
+    "run": "fold1_lambda0.1",
+    "reload_error": 0.0,
+    "passed": true
+  },
+  {
+    "run": "fold1_lambda1",
+    "reload_error": 0.0,
+    "passed": true
+  },
+  {
+    "run": "fold2_lambda0",
+    "reload_error": 0.0,
+    "passed": true
+  },
+  {
+    "run": "fold2_lambda0.1",
+    "reload_error": 0.0,
+    "passed": true
+  },
+  {
+    "run": "fold2_lambda1",
+    "reload_error": 0.0,
+    "passed": true
+  },
+  {
+    "run": "fold3_lambda0",
+    "reload_error": 0.0,
+    "passed": true
+  },
+  {
+    "run": "fold3_lambda0.1",
+    "reload_error": 0.0,
+    "passed": true
+  },
+  {
+    "run": "fold3_lambda1",
+    "reload_error": 0.0,
+    "passed": true
+  }
+]

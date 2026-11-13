@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "mode": "linear_probe",
+      "recomputed_test_BA": 0.4565972222222222,
+      "prediction_rows": 576,
+      "source_backbone_tensors_different": 0,
+      "train_val_test_trial_overlap": false,
+      "validation_selection_verified": true
+    },
+    {
+      "mode": "full_finetune",
+      "recomputed_test_BA": 0.3923611111111111,
+      "prediction_rows": 576,
+      "source_backbone_tensors_different": 208,
+      "train_val_test_trial_overlap": false,
+      "validation_selection_verified": true
+    },
+    {
+      "mode": "random",
+      "recomputed_test_BA": 0.40625,
+      "prediction_rows": 576,
+      "source_backbone_tensors_different": 208,
+      "train_val_test_trial_overlap": false,
+      "validation_selection_verified": true
+    }
+  ],
+  "subjects": 9,
+  "trial_ids_unique": true,
+  "shape": [
+    2592,
+    22,
+    800
+  ],
+  "artifact_flags_preserved": 264,
+  "passed": true
+}

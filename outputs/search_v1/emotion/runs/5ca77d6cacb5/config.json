@@ -1,0 +1,39 @@
+{
+  "version": "search-v1",
+  "task": "emotion",
+  "data_sha256": "f3f4f3a7c01766d1bd325fafc8df45a856487297c40953faf1d4be38473f7c82",
+  "config": {
+    "model": "bandpower_svm",
+    "C": 10.0,
+    "gamma": "scale"
+  },
+  "seed": 42,
+  "epochs": 20,
+  "stage": "coarse",
+  "split": {
+    "train": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "val": [
+      2,
+      10
+    ],
+    "test": [
+      3,
+      11
+    ]
+  },
+  "code_sha256": "cdf97f7354af4e640daa7598f6284bf3e1b72cdbbdf1521d02a68b0398972612",
+  "selection_metric": "validation equal-subject mean balanced accuracy",
+  "test_evaluated": false,
+  "torch": "2.11.0+cu128",
+  "numpy": "2.4.6",
+  "checkpoint_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178"
+}

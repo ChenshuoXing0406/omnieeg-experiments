@@ -1,0 +1,26 @@
+[
+  {
+    "name": "pretrained_offlineEA_lr1e4",
+    "folds": 3,
+    "mean_BA": 0.36284722222222227,
+    "strict_DG": false
+  },
+  {
+    "name": "pretrained_source_lr1e4",
+    "folds": 3,
+    "mean_BA": 0.3478009259259259,
+    "strict_DG": true
+  },
+  {
+    "name": "pretrained_source_lr5e4",
+    "folds": 3,
+    "mean_BA": 0.3856095679012346,
+    "strict_DG": true
+  },
+  {
+    "name": "random_source_lr5e4",
+    "folds": 3,
+    "mean_BA": 0.42959104938271603,
+    "strict_DG": true
+  }
+]

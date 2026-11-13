@@ -1,0 +1,43 @@
+{
+  "version": "initialization-controls-v1",
+  "mode": "random_full",
+  "task": "emotion",
+  "fold": 1,
+  "seed": 43,
+  "updates": 1500,
+  "batch": 16,
+  "source_sha256": "b0865607a3e6efe0479997b1ad024528c9412e89fe78203b1daebd81b5399ef5",
+  "base_source_sha256": "c54ea97fdc47fee033c7dadbc3f63ef3f5c107cb5694fba3c83bc1ef1d647ea2",
+  "search_source_sha256": "3a0ab7cdfe9c8475a77c3adcaac3370ce93474b9cfa5c63f0d160881183acbd9",
+  "plan_sha256": "bf98176904784b48476c5a4b91c8c654373e59ae91cdfe74376dc1129b36e8cc",
+  "pretrained_source_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+  "pretrained_loaded": false,
+  "data_sha256": "f3f4f3a7c01766d1bd325fafc8df45a856487297c40953faf1d4be38473f7c82",
+  "split": {
+    "train": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      9,
+      10
+    ],
+    "val": [
+      5,
+      6,
+      7
+    ]
+  },
+  "baseline_directory": "outputs\\preliminary_v1\\core\\fold2_S_emotion",
+  "baseline_config_sha256": "69737790a2e5f0ed59cd4aad8fc4380884cd78aa8d298326a9780ce3168fe15e",
+  "sampling_sha256": "383fd98ae0092f36d7dd14632442e1c6d93aa9c3e6067cff77b7f0421906d4fa",
+  "initial_backbone_sha256": "d12677c57269f5655aede512c2e9ee291b2ebb8cd26094720cc5ca3669096551",
+  "initial_head_sha256": "892b6cce9b8938a7541692341e0c374849fceef74525237bc429d3b7cd8b8a62",
+  "backbone_lr": 0.0001,
+  "head_lr": 0.001,
+  "weight_decay": 0.01,
+  "frozen_backbone_training_mode": "train (dropout retained); eval for validation",
+  "selection": "validation equal-subject mean balanced accuracy",
+  "test_evaluated": false
+}

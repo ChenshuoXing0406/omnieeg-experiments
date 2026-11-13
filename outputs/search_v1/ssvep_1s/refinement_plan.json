@@ -1,0 +1,98 @@
+{
+  "based_on_run_ids": [
+    "70e99d2191dc",
+    "81d70225d46e",
+    "1239b7e7e697",
+    "4750af1a25f7",
+    "06dcaef6805e",
+    "377d3b9ff27a",
+    "131da0187d7d",
+    "eb0b6a2da8b2",
+    "4631dffa8674",
+    "5c3190e54fd9",
+    "e328cb778bb9",
+    "fc576121f731",
+    "8d3699a0afef",
+    "5ed08d6192ef",
+    "591202a3244f",
+    "5de9ec79295f",
+    "8f0e60e6070f",
+    "23d3d9812da1",
+    "2dad1c14edab"
+  ],
+  "configs": [
+    {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 1.25
+    },
+    {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 0.5
+    },
+    {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 1.0
+    },
+    {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 2.0
+    },
+    {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 3,
+      "exponent": 1.25
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 3e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 9e-06,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 9e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 3e-05,
+      "head_lr": 0.0003,
+      "wd": 0.1,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten",
+      "smoothing": 0.05
+    }
+  ],
+  "test_used": false
+}

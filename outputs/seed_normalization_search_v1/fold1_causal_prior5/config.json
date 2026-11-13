@@ -1,0 +1,33 @@
+{
+  "mode": "causal_prior5",
+  "fold": 0,
+  "C": 0.1,
+  "data_sha256": "dd7a65f546173d2eb9b079b1baf4cfdb9a08896d5d579056163273fea6118aeb",
+  "source_sha256": "a63450adc9680512b662241e8fab8cdd02731ad1bb8b03be4fa351eaf7c7fb0e",
+  "strict_DG": false,
+  "normalizer_uses_target_history": true,
+  "normalizer_uses_future_target": false,
+  "upstream_LDS_offline": true,
+  "test_evaluated": false,
+  "split": {
+    "train": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "val": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

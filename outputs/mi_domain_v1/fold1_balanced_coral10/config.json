@@ -1,0 +1,44 @@
+{
+  "version": "mi-domain-v1",
+  "source_sha256": "4acb45a65a3bb911ba0584756e08fff4a7db9e11e9efb4ef76d261f1c4a0bcdf",
+  "imports": {
+    "run_preliminary.py": "c54ea97fdc47fee033c7dadbc3f63ef3f5c107cb5694fba3c83bc1ef1d647ea2",
+    "search_models.py": "3a0ab7cdfe9c8475a77c3adcaac3370ce93474b9cfa5c63f0d160881183acbd9"
+  },
+  "data_sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+  "split": {
+    "train": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "val": [
+      1,
+      2
+    ]
+  },
+  "seed": 42,
+  "fold": 0,
+  "test_evaluated": false,
+  "target_collection_statistics": false,
+  "method": "eegnet_source_balanced_coral",
+  "lambda_coral": 10.0,
+  "updates": 1500,
+  "batch_size": 16,
+  "subjects_per_batch": 4,
+  "trials_per_subject": 4,
+  "lr": 0.003,
+  "weight_decay": 0.01,
+  "filters": 16,
+  "kernel": 64,
+  "dropout": 0.5,
+  "optimizer": "AdamW",
+  "scheduler": "cosine",
+  "val_every": 100,
+  "selection": "validation subject mean BA",
+  "input": "per-trial channel temporal z-score",
+  "schedule_sha256": "31070bcf95cacb65773bbb0bb07ac1e22a959845615ed506706c7573d20ad465",
+  "implementation": "local EEGNet variant; not full SCLDGN"
+}

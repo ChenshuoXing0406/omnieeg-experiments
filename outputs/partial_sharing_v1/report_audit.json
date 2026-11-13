@@ -1,0 +1,8 @@
+{
+  "new_fits": 9,
+  "new_prediction_task_records": 36,
+  "reused_baseline_task_records": 18,
+  "taskwise_selection_extra_training": 0,
+  "capacity_control_executed": false,
+  "test_evaluated": false
+}

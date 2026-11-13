@@ -1,0 +1,92 @@
+[
+  {
+    "run": "fold1_strict_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold1_strict_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold1_causal_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold1_causal_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold1_offline_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold1_offline_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_strict_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_strict_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_causal_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_causal_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_offline_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold2_offline_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_strict_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_strict_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_causal_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_causal_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_offline_logistic",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  },
+  {
+    "run": "fold3_offline_tcn",
+    "reload_error": 0.0,
+    "old_test_absent": true
+  }
+]

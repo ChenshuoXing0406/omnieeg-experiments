@@ -1,0 +1,76 @@
+{
+  "passed": [
+    {
+      "depth": 2,
+      "initial_logit_max_abs": {
+        "mi": 0.0,
+        "ssvep_2s": 0.0,
+        "emotion": 0.0
+      },
+      "head_initialization_matched": true,
+      "active_parameter_count_matches_J": true,
+      "selected_branch_gradient": true,
+      "unselected_branches_unchanged_after_AdamW": true,
+      "counts": {
+        "total": 8195052,
+        "trainable": 8194852,
+        "shared_backbone": 4078600,
+        "private_per_task": {
+          "mi": 805200,
+          "ssvep_2s": 805200,
+          "emotion": 805200
+        },
+        "active_per_task": {
+          "mi": 4989404,
+          "ssvep_2s": 5959040,
+          "emotion": 5403808
+        }
+      }
+    },
+    {
+      "depth": 4,
+      "initial_logit_max_abs": {
+        "mi": 0.0,
+        "ssvep_2s": 0.0,
+        "emotion": 0.0
+      },
+      "head_initialization_matched": true,
+      "active_parameter_count_matches_J": true,
+      "selected_branch_gradient": true,
+      "unselected_branches_unchanged_after_AdamW": true,
+      "counts": {
+        "total": 9805452,
+        "trainable": 9805252,
+        "shared_backbone": 3273400,
+        "private_per_task": {
+          "mi": 1610400,
+          "ssvep_2s": 1610400,
+          "emotion": 1610400
+        },
+        "active_per_task": {
+          "mi": 4989404,
+          "ssvep_2s": 5959040,
+          "emotion": 5403808
+        }
+      }
+    }
+  ],
+  "rotation_exposures": [
+    [
+      500,
+      500,
+      500
+    ],
+    [
+      500,
+      500,
+      500
+    ],
+    [
+      500,
+      500,
+      500
+    ]
+  ],
+  "test_evaluated": false
+}

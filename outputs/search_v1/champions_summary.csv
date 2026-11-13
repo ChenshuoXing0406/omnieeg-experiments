@@ -1,0 +1,5 @@
+﻿task,model,tested_configurations,val_BA_mean,val_BA_std,val_ensemble_BA,test_BA,test_macro_f1,seeds,config
+mi,eegnet,27,0.5729166666666666,0.015911721163041105,0.5833333333333333,0.5555555555555556,0.5470720726377934,"[42, 43, 44]","{""dropout"": 0.5, ""filters"": 16, ""kernel"": 64, ""lr"": 0.003, ""model"": ""eegnet"", ""norm"": ""trial"", ""wd"": 0.01}"
+ssvep_1s,fbcca,25,0.778125,0.0,0.778125,0.5375,0.5336589042416444,[42],"{""banks"": 5, ""channels"": ""9"", ""exponent"": 1.0, ""harmonics"": 5, ""model"": ""fbcca""}"
+ssvep_2s,fbcca,25,0.9833333333333334,0.0,0.9833333333333334,0.8491666666666667,0.8485319661001496,[42],"{""banks"": 5, ""channels"": ""9"", ""exponent"": 0.5, ""harmonics"": 5, ""model"": ""fbcca""}"
+emotion,bandpower_logistic,41,0.22968460632934318,0.0,0.22968460632934318,0.21276119713619715,0.19551937862238988,[42],"{""C"": 0.1, ""model"": ""bandpower_logistic"", ""power_norm"": ""relative""}"

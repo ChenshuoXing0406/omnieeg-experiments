@@ -1,0 +1,66 @@
+{
+  "version": "preliminary-v1",
+  "group": "S",
+  "fold": 1,
+  "seed": 43,
+  "updates_per_dataset": 1500,
+  "source_sha256": "c54ea97fdc47fee033c7dadbc3f63ef3f5c107cb5694fba3c83bc1ef1d647ea2",
+  "imported_search_source_sha256": "3a0ab7cdfe9c8475a77c3adcaac3370ce93474b9cfa5c63f0d160881183acbd9",
+  "plan_sha256": "bf98176904784b48476c5a4b91c8c654373e59ae91cdfe74376dc1129b36e8cc",
+  "pretrained_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+  "data": {
+    "mi": {
+      "sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+      "split": {
+        "train": [
+          1,
+          2,
+          5,
+          6,
+          7
+        ],
+        "val": [
+          3,
+          4
+        ]
+      },
+      "channels": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "P1",
+        "Pz",
+        "P2",
+        "POz"
+      ]
+    }
+  },
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "test_evaluated": false,
+  "scope": "three-fold-public-development",
+  "task": "mi",
+  "input_normalization": "microvolt / 100; no target statistics",
+  "routing_gradient": "unit forward gain; selected-softmax straight-through gradient",
+  "balance_coefficient": 0.0,
+  "sampling_sha256": {
+    "mi": "5c5ddd1e62a891ebb446dc6661198a9df63768b100c9f4cf50fd6b560aa070f3"
+  },
+  "parameters_total": 4989404,
+  "parameters_trainable": 4989204
+}

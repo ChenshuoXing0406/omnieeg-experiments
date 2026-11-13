@@ -1,0 +1,167 @@
+[
+  {
+    "dataset_updates": 100,
+    "val_BA": {
+      "mi": 0.25
+    },
+    "mean_val_BA": 0.25,
+    "training_loss": {
+      "mi": 2.234319717884064
+    },
+    "elapsed_seconds": 4.937209299998358
+  },
+  {
+    "dataset_updates": 200,
+    "val_BA": {
+      "mi": 0.34375
+    },
+    "mean_val_BA": 0.34375,
+    "training_loss": {
+      "mi": 1.7637207317352295
+    },
+    "elapsed_seconds": 9.829176199971698
+  },
+  {
+    "dataset_updates": 300,
+    "val_BA": {
+      "mi": 0.36111111111111116
+    },
+    "mean_val_BA": 0.36111111111111116,
+    "training_loss": {
+      "mi": 1.460927631855011
+    },
+    "elapsed_seconds": 14.504472199943848
+  },
+  {
+    "dataset_updates": 400,
+    "val_BA": {
+      "mi": 0.3784722222222222
+    },
+    "mean_val_BA": 0.3784722222222222,
+    "training_loss": {
+      "mi": 1.1845339897274971
+    },
+    "elapsed_seconds": 19.11032229999546
+  },
+  {
+    "dataset_updates": 500,
+    "val_BA": {
+      "mi": 0.4184027777777778
+    },
+    "mean_val_BA": 0.4184027777777778,
+    "training_loss": {
+      "mi": 0.9773919644951821
+    },
+    "elapsed_seconds": 23.60382830002345
+  },
+  {
+    "dataset_updates": 600,
+    "val_BA": {
+      "mi": 0.39236111111111105
+    },
+    "mean_val_BA": 0.39236111111111105,
+    "training_loss": {
+      "mi": 0.8629639618098736
+    },
+    "elapsed_seconds": 28.37277440004982
+  },
+  {
+    "dataset_updates": 700,
+    "val_BA": {
+      "mi": 0.41666666666666663
+    },
+    "mean_val_BA": 0.41666666666666663,
+    "training_loss": {
+      "mi": 0.691919441074133
+    },
+    "elapsed_seconds": 32.915500100003555
+  },
+  {
+    "dataset_updates": 800,
+    "val_BA": {
+      "mi": 0.4444444444444444
+    },
+    "mean_val_BA": 0.4444444444444444,
+    "training_loss": {
+      "mi": 0.5972316485643386
+    },
+    "elapsed_seconds": 37.2918543999549
+  },
+  {
+    "dataset_updates": 900,
+    "val_BA": {
+      "mi": 0.41666666666666663
+    },
+    "mean_val_BA": 0.41666666666666663,
+    "training_loss": {
+      "mi": 0.45709623754024503
+    },
+    "elapsed_seconds": 42.632431700010784
+  },
+  {
+    "dataset_updates": 1000,
+    "val_BA": {
+      "mi": 0.42013888888888884
+    },
+    "mean_val_BA": 0.42013888888888884,
+    "training_loss": {
+      "mi": 0.36757162686437367
+    },
+    "elapsed_seconds": 47.57106270000804
+  },
+  {
+    "dataset_updates": 1100,
+    "val_BA": {
+      "mi": 0.42361111111111116
+    },
+    "mean_val_BA": 0.42361111111111116,
+    "training_loss": {
+      "mi": 0.3030551714450121
+    },
+    "elapsed_seconds": 52.726342499954626
+  },
+  {
+    "dataset_updates": 1200,
+    "val_BA": {
+      "mi": 0.4340277777777778
+    },
+    "mean_val_BA": 0.4340277777777778,
+    "training_loss": {
+      "mi": 0.29063875978812576
+    },
+    "elapsed_seconds": 56.94800570001826
+  },
+  {
+    "dataset_updates": 1300,
+    "val_BA": {
+      "mi": 0.4236111111111111
+    },
+    "mean_val_BA": 0.4236111111111111,
+    "training_loss": {
+      "mi": 0.2542066137958318
+    },
+    "elapsed_seconds": 61.32112209999468
+  },
+  {
+    "dataset_updates": 1400,
+    "val_BA": {
+      "mi": 0.42013888888888884
+    },
+    "mean_val_BA": 0.42013888888888884,
+    "training_loss": {
+      "mi": 0.23279177797026931
+    },
+    "elapsed_seconds": 65.97223720001057
+  },
+  {
+    "dataset_updates": 1500,
+    "val_BA": {
+      "mi": 0.42013888888888884
+    },
+    "mean_val_BA": 0.42013888888888884,
+    "training_loss": {
+      "mi": 0.2478535645082593
+    },
+    "elapsed_seconds": 70.17447980004363
+  }
+]

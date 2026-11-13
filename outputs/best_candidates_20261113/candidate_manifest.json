@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-13",
+  "status": "best among evaluated development candidates, not global optimum or independent test results",
+  "candidates": [
+    {
+      "task": "SSVEP 1s",
+      "classes": 40,
+      "model": "FBCCA .75 + source-template FBTRCA .25",
+      "protocol": "subject-disjoint development; offline filter context",
+      "mean_BA": 0.8201388888888889,
+      "weights": [
+        {
+          "path": "outputs\\best_candidates_20261113\\ssvep_1s_fusion25.joblib",
+          "sha256": "c94c35e705b8e6f46354722216cd94254e958998e97a8afaa1fbff0c3dbe14c0"
+        }
+      ],
+      "artifact_training": "all30development subjects refit; no additional validation estimate",
+      "inference": "scripts/ssvep_transfer_candidate.py::predict_preprocessed"
+    },
+    {
+      "task": "SSVEP 2s",
+      "classes": 40,
+      "model": "FBCCA .75 + source-template FBTRCA .25",
+      "protocol": "subject-disjoint development; offline filter context",
+      "mean_BA": 0.9566666666666667,
+      "weights": [
+        {
+          "path": "outputs\\best_candidates_20261113\\ssvep_2s_fusion25.joblib",
+          "sha256": "e1dcf909c664467f454cb2623978c19c628a23f70135d6058a7eacf4439c2a08"
+        }
+      ],
+      "artifact_training": "all30development subjects refit; no additional validation estimate",
+      "inference": "scripts/ssvep_transfer_candidate.py::predict_preprocessed"
+    },
+    {
+      "task": "MI",
+      "classes": 4,
+      "model": "EEGNet 0.75 + shallow_lr1e3 0.25",
+      "protocol": "strict source-only; old test8/9 excluded",
+      "mean_BA": 0.5252700617283951,
+      "weights": [
+        {
+          "path": "outputs\\mi_domain_v1\\fold1_balanced_coral0\\model.pt",
+          "sha256": "ca2a725507d2070d83b6fe59452d68e85e47f93f64d21979b8cfed984f3db8bc"
+        },
+        {
+          "path": "outputs\\mi_specialists_v1\\fold1_shallow_lr1e3\\model.pt",
+          "sha256": "f831c5b40e57a5a44823ebcc514e21de84b5cd8f544a13a06ec39b0a6968eb44"
+        },
+        {
+          "path": "outputs\\mi_domain_v1\\fold2_balanced_coral0\\model.pt",
+          "sha256": "ed9e12f82b288798689c4ae803eac5971d937a632595e672eab40b53e3f4093b"
+        },
+        {
+          "path": "outputs\\mi_specialists_v1\\fold2_shallow_lr1e3\\model.pt",
+          "sha256": "294706f9fa61f1674bb770b9163a40c673d0991eef278dff66889cb3e3f6e530"
+        },
+        {
+          "path": "outputs\\mi_domain_v1\\fold3_balanced_coral0\\model.pt",
+          "sha256": "12db63164cde9e4690e838b6a5d777695ad66542f7af25556a078b893fe6a355"
+        },
+        {
+          "path": "outputs\\mi_specialists_v1\\fold3_shallow_lr1e3\\model.pt",
+          "sha256": "f0531059cb8638c277a9988c3f26f00d2c9384800ce517e793dde1d02f380331"
+        }
+      ],
+      "artifact_training": "three separate paired folds; score uses only each fold validation predictions",
+      "normalization": "22EEG,200Hz,4s, existingCAR/.3-40Hzcache, per-trial temporal zscore"
+    },
+    {
+      "task": "SEED",
+      "classes": 3,
+      "model": "tcn",
+      "protocol": "train-only downstream normalization; author DE-LDS offline",
+      "mean_BA": 0.5563821444349727,
+      "weights": [
+        {
+          "path": "outputs\\seed_features_v1\\fold1_tcn\\model.pt",
+          "sha256": "31b4a049ce6bbc713172591408441a161200d3b029a482a1f64c3b1924243f79"
+        },
+        {
+          "path": "outputs\\seed_features_v1\\fold1_tcn\\scaler.joblib",
+          "sha256": "9a5708992b84623e11bc36ab2434211326a8d6d05394ec7724c2429b209d5307"
+        },
+        {
+          "path": "outputs\\seed_features_v1\\fold2_tcn\\model.pt",
+          "sha256": "1d1ad6b9dbb31ab0c2449169ecf4ac1446f84457a8cbe961cb57492ed4dfa7f9"
+        },
+        {
+          "path": "outputs\\seed_features_v1\\fold2_tcn\\scaler.joblib",
+          "sha256": "f4586ffa433158dc7e57de1bcb5ea435f07b798f3ca6abbe28bfd825919ae46d"
+        },
+        {
+          "path": "outputs\\seed_features_v1\\fold3_tcn\\model.pt",
+          "sha256": "39a4251698cff2c61875b549fd6c485e5ad6b572580e9979426de9287082ed81"
+        },
+        {
+          "path": "outputs\\seed_features_v1\\fold3_tcn\\scaler.joblib",
+          "sha256": "c0c5b31e2f4a08fcf11f8d4b81d3d8ae6b1ae002f5d6a07f146a5b7b94ddd77f"
+        }
+      ],
+      "input": "10x62x5 author DE-LDS features, not raw EEG"
+    },
+    {
+      "task": "SEED",
+      "classes": 3,
+      "model": "TCN .5 + EmT .5",
+      "protocol": "causal_normalization; upstream DE-LDS offline",
+      "mean_BA": 0.7812473712691893,
+      "weights": [
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold1_causal_tcn\\model.pt",
+          "sha256": "ee89e923a20a682c41d9750bd92c28b92a6fd24ee1d0549a81e052650b695d5f"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold1_causal_tcn\\normalizer.joblib",
+          "sha256": "19c358298c785ac4c6d51ac0347e6adbd4e03870a84d0f550ef63ec39e0d504a"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold1_causal_emt\\model.pt",
+          "sha256": "ff9cc62ff99a8da40e329b72f08f9448894ca452dcc0532ee0b3c64f6dcb7ca4"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold1_causal_emt\\normalizer.joblib",
+          "sha256": "19c358298c785ac4c6d51ac0347e6adbd4e03870a84d0f550ef63ec39e0d504a"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold2_causal_tcn\\model.pt",
+          "sha256": "0438c8cf5381ad6d771d47950152544994e5a8246c5f84636260499f16d3c027"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold2_causal_tcn\\normalizer.joblib",
+          "sha256": "76cf0cc5fa83eb283a1b77d46bc4ad5aaa2098c93d2b39e8c64935cb7fcc90b1"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold2_causal_emt\\model.pt",
+          "sha256": "f8e6cab7bccf4b75931bbc849000e5e7ae9b3dc70cdd26b8915edbfb4736382b"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold2_causal_emt\\normalizer.joblib",
+          "sha256": "76cf0cc5fa83eb283a1b77d46bc4ad5aaa2098c93d2b39e8c64935cb7fcc90b1"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold3_causal_tcn\\model.pt",
+          "sha256": "5ec144cf108e2a6d6028dabd27035e7f1c2162f6aa6e4cafdba3483cc3d9cf09"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold3_causal_tcn\\normalizer.joblib",
+          "sha256": "35986e7973f9bd210556af98971ebaf55359c9422597cf62807c0540b1bbb892"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold3_causal_emt\\model.pt",
+          "sha256": "a5e367d10a5faef2ccdf6b52960e23df4e8cbe6b3c40472783c79679dc3c6b4b"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold3_causal_emt\\normalizer.joblib",
+          "sha256": "35986e7973f9bd210556af98971ebaf55359c9422597cf62807c0540b1bbb892"
+        }
+      ],
+      "input": "10x62x5 author features",
+      "warning": "reset normalization per new session; do not reuse saved validation-subject moments as a new-user reference; use training prior for causal mode"
+    },
+    {
+      "task": "SEED",
+      "classes": 3,
+      "model": "TCN .5 + EmT .5",
+      "protocol": "offline_normalization; upstream DE-LDS offline",
+      "mean_BA": 0.7838399042496187,
+      "weights": [
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold1_offline_tcn\\model.pt",
+          "sha256": "decb2be255734b4caaf8c0e7423f274ae3a532ffb56aed2ac923d98340a90330"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold1_offline_tcn\\normalizer.joblib",
+          "sha256": "d4997457c53e9fa9491113a285fad2e5537c2807ed171d7c6074f5d39d7d89ec"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold1_offline_emt\\model.pt",
+          "sha256": "fed99a52400cb83a7f15b04e1d446a6b6bdea8e58667bcc71fd920a3a96cd5c5"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold1_offline_emt\\normalizer.joblib",
+          "sha256": "d4997457c53e9fa9491113a285fad2e5537c2807ed171d7c6074f5d39d7d89ec"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold2_offline_tcn\\model.pt",
+          "sha256": "639405b4f002b8bc8de0fd620ec4b744e0ac082ea6be1602280a02326ae70bdc"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold2_offline_tcn\\normalizer.joblib",
+          "sha256": "b5d3146786b45fe8c0796e316ef56b9e09266973907cc3419147d542b9e251e3"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold2_offline_emt\\model.pt",
+          "sha256": "2c0eb5db006eed7aeb3fdd4f20d59df9afa6d3808e4e70e965000a419cc0967a"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold2_offline_emt\\normalizer.joblib",
+          "sha256": "b5d3146786b45fe8c0796e316ef56b9e09266973907cc3419147d542b9e251e3"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold3_offline_tcn\\model.pt",
+          "sha256": "2c0a0c19d189e1bb5658d2996a48549206cbe48404d8b9490723feef7114081d"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold3_offline_tcn\\normalizer.joblib",
+          "sha256": "82e9dbe57d5e559a9be75f17e1b9b591bcd9a0a92dedf6976f7c569d5730777f"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold3_offline_emt\\model.pt",
+          "sha256": "9ca3f583ffb32d2a24d248387d9bb8e0c69dc3ae96990fb9fe8ca69ccf3ba735"
+        },
+        {
+          "path": "outputs\\seed_adapted_neural_v1\\fold3_offline_emt\\normalizer.joblib",
+          "sha256": "82e9dbe57d5e559a9be75f17e1b9b591bcd9a0a92dedf6976f7c569d5730777f"
+        }
+      ],
+      "input": "10x62x5 author features",
+      "warning": "reset normalization per new session; do not reuse saved validation-subject moments as a new-user reference; use training prior for causal mode"
+    },
+    {
+      "task": "FACED8",
+      "classes": 8,
+      "model": "tcn",
+      "protocol": "offline",
+      "mean_BA": 0.2733610302141004,
+      "scope": "separate feature benchmark; do not compare directly with other label spaces",
+      "upstream_provenance_unverified": false
+    },
+    {
+      "task": "FACED123features9",
+      "classes": 9,
+      "model": "tcn",
+      "protocol": "offline_subject_zscore",
+      "mean_BA": 0.3956639566395663,
+      "scope": "separate feature benchmark; do not compare directly with other label spaces",
+      "upstream_provenance_unverified": true
+    }
+  ],
+  "test_evaluated_this_round": false,
+  "experimental_fits": 105,
+  "additional_deployment_refits": 2
+}

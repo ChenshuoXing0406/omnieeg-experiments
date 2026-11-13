@@ -1,0 +1,200 @@
+[
+  {
+    "condition": "strict",
+    "ensemble": 0,
+    "weights": [
+      1,
+      1,
+      1
+    ],
+    "mean_BA": 0.5502780576237666,
+    "new_fits": 0
+  },
+  {
+    "condition": "strict",
+    "ensemble": 1,
+    "weights": [
+      0,
+      1,
+      1
+    ],
+    "mean_BA": 0.5482238887133642,
+    "new_fits": 0
+  },
+  {
+    "condition": "strict",
+    "ensemble": 2,
+    "weights": [
+      1,
+      1,
+      0
+    ],
+    "mean_BA": 0.5375188689055671,
+    "new_fits": 0
+  },
+  {
+    "condition": "strict",
+    "ensemble": 3,
+    "weights": [
+      1,
+      0,
+      1
+    ],
+    "mean_BA": 0.5323692059461146,
+    "new_fits": 0
+  },
+  {
+    "condition": "strict",
+    "ensemble": 4,
+    "weights": [
+      1,
+      2,
+      1
+    ],
+    "mean_BA": 0.546942392792492,
+    "new_fits": 0
+  },
+  {
+    "condition": "strict",
+    "ensemble": 5,
+    "weights": [
+      1,
+      1,
+      2
+    ],
+    "mean_BA": 0.5525664361000663,
+    "new_fits": 0
+  },
+  {
+    "condition": "causal",
+    "ensemble": 0,
+    "weights": [
+      1,
+      1,
+      1
+    ],
+    "mean_BA": 0.7714568020458894,
+    "new_fits": 0
+  },
+  {
+    "condition": "causal",
+    "ensemble": 1,
+    "weights": [
+      0,
+      1,
+      1
+    ],
+    "mean_BA": 0.7812473712691893,
+    "new_fits": 0
+  },
+  {
+    "condition": "causal",
+    "ensemble": 2,
+    "weights": [
+      1,
+      1,
+      0
+    ],
+    "mean_BA": 0.7681741589220531,
+    "new_fits": 0
+  },
+  {
+    "condition": "causal",
+    "ensemble": 3,
+    "weights": [
+      1,
+      0,
+      1
+    ],
+    "mean_BA": 0.7536731027932273,
+    "new_fits": 0
+  },
+  {
+    "condition": "causal",
+    "ensemble": 4,
+    "weights": [
+      1,
+      2,
+      1
+    ],
+    "mean_BA": 0.7795003374710797,
+    "new_fits": 0
+  },
+  {
+    "condition": "causal",
+    "ensemble": 5,
+    "weights": [
+      1,
+      1,
+      2
+    ],
+    "mean_BA": 0.7709101916266107,
+    "new_fits": 0
+  },
+  {
+    "condition": "offline",
+    "ensemble": 0,
+    "weights": [
+      1,
+      1,
+      1
+    ],
+    "mean_BA": 0.7774702452510632,
+    "new_fits": 0
+  },
+  {
+    "condition": "offline",
+    "ensemble": 1,
+    "weights": [
+      0,
+      1,
+      1
+    ],
+    "mean_BA": 0.7838399042496187,
+    "new_fits": 0
+  },
+  {
+    "condition": "offline",
+    "ensemble": 2,
+    "weights": [
+      1,
+      1,
+      0
+    ],
+    "mean_BA": 0.7617341244529756,
+    "new_fits": 0
+  },
+  {
+    "condition": "offline",
+    "ensemble": 3,
+    "weights": [
+      1,
+      0,
+      1
+    ],
+    "mean_BA": 0.757781937382059,
+    "new_fits": 0
+  },
+  {
+    "condition": "offline",
+    "ensemble": 4,
+    "weights": [
+      1,
+      2,
+      1
+    ],
+    "mean_BA": 0.7785776074194622,
+    "new_fits": 0
+  },
+  {
+    "condition": "offline",
+    "ensemble": 5,
+    "weights": [
+      1,
+      1,
+      2
+    ],
+    "mean_BA": 0.7793862795320313,
+    "new_fits": 0
+  }
+]

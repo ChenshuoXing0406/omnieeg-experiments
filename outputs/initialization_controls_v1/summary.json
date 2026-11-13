@@ -1,0 +1,65 @@
+[
+  {
+    "task": "mi",
+    "mode": "pretrained_full",
+    "folds": 3,
+    "mean_BA": 0.4388503086419753,
+    "std": 0.011751153094535515
+  },
+  {
+    "task": "mi",
+    "mode": "pretrained_frozen",
+    "folds": 3,
+    "mean_BA": 0.3138503086419753,
+    "std": 0.011491798617751896
+  },
+  {
+    "task": "mi",
+    "mode": "random_full",
+    "folds": 3,
+    "mean_BA": 0.4166666666666667,
+    "std": 0.01215277777777779
+  },
+  {
+    "task": "ssvep_2s",
+    "mode": "pretrained_full",
+    "folds": 3,
+    "mean_BA": 0.67625,
+    "std": 0.05847007781763247
+  },
+  {
+    "task": "ssvep_2s",
+    "mode": "pretrained_frozen",
+    "folds": 3,
+    "mean_BA": 0.23833333333333329,
+    "std": 0.03612286133615541
+  },
+  {
+    "task": "ssvep_2s",
+    "mode": "random_full",
+    "folds": 3,
+    "mean_BA": 0.29236111111111107,
+    "std": 0.028189996912485235
+  },
+  {
+    "task": "emotion",
+    "mode": "pretrained_full",
+    "folds": 3,
+    "mean_BA": 0.16416669952854163,
+    "std": 0.005919169192206396
+  },
+  {
+    "task": "emotion",
+    "mode": "pretrained_frozen",
+    "folds": 3,
+    "mean_BA": 0.1634999229571598,
+    "std": 0.008611856224315139
+  },
+  {
+    "task": "emotion",
+    "mode": "random_full",
+    "folds": 3,
+    "mean_BA": 0.18080646205646203,
+    "std": 0.030981086525396977
+  }
+]

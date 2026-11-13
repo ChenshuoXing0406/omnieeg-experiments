@@ -1,0 +1,16 @@
+{
+  "fold": 3,
+  "name": "eegnet_frequency_shift",
+  "alpha_specialist": 0.75,
+  "new_fits": 0,
+  "source_predictions": [
+    "outputs\\mi_domain_v1\\fold3_balanced_coral0\\mi_validation.npz",
+    "outputs\\mi_specialists_v1\\fold3_eegnet_frequency_shift\\mi_validation.npz"
+  ],
+  "source_prediction_sha256": [
+    "6086a52554979cdd0274da65292d729400fc8ab89b0413d63fa8907c86d3142d",
+    "71ed57a37f354f5186bf85de1365ba74bb69bf141303894973fe13c1caa3e21e"
+  ],
+  "test_evaluated": false,
+  "source_only": true
+}

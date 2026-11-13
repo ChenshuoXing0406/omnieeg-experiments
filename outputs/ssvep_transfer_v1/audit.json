@@ -1,0 +1,44 @@
+[
+  {
+    "seconds": 1,
+    "fold": 1,
+    "checkpoint_max_abs_error": 0.0,
+    "old_test_subjects_absent": true,
+    "fit_seconds": 1.4179760999977589
+  },
+  {
+    "seconds": 1,
+    "fold": 2,
+    "checkpoint_max_abs_error": 0.0,
+    "old_test_subjects_absent": true,
+    "fit_seconds": 1.4779946000016935
+  },
+  {
+    "seconds": 1,
+    "fold": 3,
+    "checkpoint_max_abs_error": 0.0,
+    "old_test_subjects_absent": true,
+    "fit_seconds": 1.4195977999988827
+  },
+  {
+    "seconds": 2,
+    "fold": 1,
+    "checkpoint_max_abs_error": 0.0,
+    "old_test_subjects_absent": true,
+    "fit_seconds": 2.7128945000004023
+  },
+  {
+    "seconds": 2,
+    "fold": 2,
+    "checkpoint_max_abs_error": 0.0,
+    "old_test_subjects_absent": true,
+    "fit_seconds": 2.8736270000008517
+  },
+  {
+    "seconds": 2,
+    "fold": 3,
+    "checkpoint_max_abs_error": 0.0,
+    "old_test_subjects_absent": true,
+    "fit_seconds": 2.827191899999889
+  }
+]

@@ -1,0 +1,4680 @@
+[
+  {
+    "id": "7d2d6eab0b52",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.22968460632934318,
+    "val_metrics": {
+      "subject_mean_BA": 0.22968460632934318,
+      "pooled_BA": 0.22921044796044795,
+      "macro_f1": 0.2338277756047626,
+      "per_subject_BA": {
+        "2": 0.2699267107161844,
+        "10": 0.18944250194250192
+      },
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          1,
+          0,
+          9,
+          16,
+          5,
+          1
+        ],
+        [
+          1,
+          14,
+          1,
+          3,
+          5,
+          13,
+          6,
+          1
+        ],
+        [
+          6,
+          1,
+          2,
+          1,
+          11,
+          16,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          1,
+          5,
+          7,
+          11,
+          4,
+          3
+        ],
+        [
+          4,
+          0,
+          0,
+          2,
+          7,
+          11,
+          12,
+          1
+        ],
+        [
+          7,
+          0,
+          2,
+          4,
+          11,
+          18,
+          9,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          5,
+          8,
+          8,
+          0
+        ],
+        [
+          7,
+          0,
+          4,
+          1,
+          4,
+          10,
+          2,
+          8
+        ]
+      ]
+    },
+    "seconds": 0.07271860004402697,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "6b583ab89db0",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 40,
+    "stage": "refine",
+    "val_BA": 0.22968460632934318,
+    "val_metrics": {
+      "subject_mean_BA": 0.22968460632934318,
+      "pooled_BA": 0.22921044796044795,
+      "macro_f1": 0.2338277756047626,
+      "per_subject_BA": {
+        "2": 0.2699267107161844,
+        "10": 0.18944250194250192
+      },
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          1,
+          0,
+          9,
+          16,
+          5,
+          1
+        ],
+        [
+          1,
+          14,
+          1,
+          3,
+          5,
+          13,
+          6,
+          1
+        ],
+        [
+          6,
+          1,
+          2,
+          1,
+          11,
+          16,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          1,
+          5,
+          7,
+          11,
+          4,
+          3
+        ],
+        [
+          4,
+          0,
+          0,
+          2,
+          7,
+          11,
+          12,
+          1
+        ],
+        [
+          7,
+          0,
+          2,
+          4,
+          11,
+          18,
+          9,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          5,
+          8,
+          8,
+          0
+        ],
+        [
+          7,
+          0,
+          4,
+          1,
+          4,
+          10,
+          2,
+          8
+        ]
+      ]
+    },
+    "seconds": 0.10038530000019819,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "c68e391bf947",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.03,
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 40,
+    "stage": "refine",
+    "val_BA": 0.2255700257344994,
+    "val_metrics": {
+      "subject_mean_BA": 0.2255700257344994,
+      "pooled_BA": 0.22518477205977205,
+      "macro_f1": 0.21824605179089196,
+      "per_subject_BA": {
+        "2": 0.24907128690023428,
+        "10": 0.20206876456876455
+      },
+      "confusion_matrix": [
+        [
+          4,
+          1,
+          1,
+          0,
+          10,
+          14,
+          9,
+          3
+        ],
+        [
+          2,
+          15,
+          1,
+          2,
+          6,
+          11,
+          5,
+          2
+        ],
+        [
+          6,
+          1,
+          2,
+          0,
+          11,
+          12,
+          3,
+          7
+        ],
+        [
+          3,
+          3,
+          1,
+          3,
+          6,
+          11,
+          5,
+          4
+        ],
+        [
+          3,
+          0,
+          2,
+          0,
+          8,
+          12,
+          12,
+          0
+        ],
+        [
+          4,
+          1,
+          3,
+          0,
+          13,
+          19,
+          11,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          4,
+          9,
+          9,
+          0
+        ],
+        [
+          4,
+          0,
+          6,
+          0,
+          3,
+          8,
+          5,
+          10
+        ]
+      ]
+    },
+    "seconds": 0.03624419996049255,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "cdc547a1ff7c",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.01,
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.21141294743268427,
+    "val_metrics": {
+      "subject_mean_BA": 0.21141294743268427,
+      "pooled_BA": 0.2110326329076329,
+      "macro_f1": 0.19435700713693874,
+      "per_subject_BA": {
+        "2": 0.21728490807438175,
+        "10": 0.20554098679098678
+      },
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          1,
+          2,
+          10,
+          14,
+          8,
+          4
+        ],
+        [
+          2,
+          11,
+          5,
+          1,
+          6,
+          9,
+          6,
+          4
+        ],
+        [
+          6,
+          1,
+          3,
+          1,
+          9,
+          12,
+          2,
+          8
+        ],
+        [
+          3,
+          5,
+          1,
+          2,
+          6,
+          11,
+          4,
+          4
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          6,
+          13,
+          13,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          3,
+          10,
+          19,
+          13,
+          5
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          5,
+          8,
+          9,
+          1
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          4,
+          7,
+          6,
+          13
+        ]
+      ]
+    },
+    "seconds": 0.04361389996483922,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "927b7ec6cbbe",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.21048916361416362,
+    "val_metrics": {
+      "subject_mean_BA": 0.21048916361416362,
+      "pooled_BA": 0.2098322567072567,
+      "macro_f1": 0.21417525711713353,
+      "per_subject_BA": {
+        "2": 0.24508477633477635,
+        "10": 0.17589355089355088
+      },
+      "confusion_matrix": [
+        [
+          16,
+          0,
+          1,
+          2,
+          6,
+          16,
+          1,
+          0
+        ],
+        [
+          4,
+          11,
+          2,
+          6,
+          9,
+          9,
+          2,
+          1
+        ],
+        [
+          9,
+          1,
+          2,
+          4,
+          9,
+          13,
+          1,
+          3
+        ],
+        [
+          6,
+          1,
+          1,
+          5,
+          10,
+          7,
+          2,
+          4
+        ],
+        [
+          12,
+          0,
+          0,
+          3,
+          7,
+          7,
+          4,
+          4
+        ],
+        [
+          15,
+          0,
+          1,
+          5,
+          11,
+          14,
+          3,
+          3
+        ],
+        [
+          7,
+          0,
+          0,
+          0,
+          7,
+          5,
+          5,
+          0
+        ],
+        [
+          7,
+          0,
+          3,
+          3,
+          5,
+          10,
+          1,
+          7
+        ]
+      ]
+    },
+    "seconds": 0.06787209992762655,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "5a8f36c4565c",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.01,
+      "power_norm": "relative_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.20842872405372403,
+    "val_metrics": {
+      "subject_mean_BA": 0.20842872405372403,
+      "pooled_BA": 0.20786566099066098,
+      "macro_f1": 0.18898065476190476,
+      "per_subject_BA": {
+        "2": 0.22226731601731603,
+        "10": 0.19459013209013207
+      },
+      "confusion_matrix": [
+        [
+          3,
+          1,
+          2,
+          0,
+          6,
+          12,
+          14,
+          4
+        ],
+        [
+          1,
+          11,
+          3,
+          5,
+          6,
+          7,
+          7,
+          4
+        ],
+        [
+          6,
+          0,
+          3,
+          1,
+          12,
+          8,
+          5,
+          7
+        ],
+        [
+          2,
+          5,
+          0,
+          2,
+          8,
+          8,
+          6,
+          5
+        ],
+        [
+          4,
+          0,
+          0,
+          2,
+          6,
+          9,
+          13,
+          3
+        ],
+        [
+          4,
+          0,
+          3,
+          4,
+          9,
+          15,
+          14,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          3,
+          7,
+          11,
+          2
+        ],
+        [
+          2,
+          1,
+          7,
+          0,
+          3,
+          7,
+          5,
+          11
+        ]
+      ]
+    },
+    "seconds": 0.04458880005404353,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "2c2aa899f920",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.30000000000000004,
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 40,
+    "stage": "refine",
+    "val_BA": 0.20705619307592993,
+    "val_metrics": {
+      "subject_mean_BA": 0.20705619307592993,
+      "pooled_BA": 0.2065820347070347,
+      "macro_f1": 0.21682648833326906,
+      "per_subject_BA": {
+        "2": 0.2320028290423027,
+        "10": 0.18210955710955712
+      },
+      "confusion_matrix": [
+        [
+          11,
+          0,
+          1,
+          0,
+          9,
+          17,
+          4,
+          0
+        ],
+        [
+          3,
+          15,
+          1,
+          3,
+          10,
+          10,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          2,
+          5,
+          12,
+          14,
+          2,
+          2
+        ],
+        [
+          8,
+          0,
+          1,
+          4,
+          9,
+          9,
+          2,
+          3
+        ],
+        [
+          6,
+          0,
+          0,
+          5,
+          7,
+          11,
+          7,
+          1
+        ],
+        [
+          12,
+          0,
+          2,
+          4,
+          12,
+          17,
+          4,
+          1
+        ],
+        [
+          5,
+          0,
+          1,
+          0,
+          8,
+          5,
+          5,
+          0
+        ],
+        [
+          7,
+          0,
+          3,
+          3,
+          5,
+          11,
+          1,
+          6
+        ]
+      ]
+    },
+    "seconds": 0.07607329997699708,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "0b881210d56c",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ft",
+      "lr": 3e-06,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    "seed": 42,
+    "budget_epochs": 40,
+    "stage": "refine",
+    "val_BA": 0.20324348531585373,
+    "val_metrics": {
+      "subject_mean_BA": 0.20324348531585373,
+      "pooled_BA": 0.2035694691944692,
+      "macro_f1": 0.1440007280050668,
+      "per_subject_BA": {
+        "2": 0.22196316110789793,
+        "10": 0.1845238095238095
+      },
+      "confusion_matrix": [
+        [
+          9,
+          0,
+          0,
+          0,
+          11,
+          13,
+          1,
+          8
+        ],
+        [
+          3,
+          0,
+          1,
+          0,
+          13,
+          15,
+          1,
+          11
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          16,
+          6,
+          1,
+          16
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          7,
+          8,
+          2,
+          15
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          16,
+          10,
+          2,
+          6
+        ],
+        [
+          6,
+          0,
+          0,
+          0,
+          14,
+          20,
+          1,
+          11
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          6,
+          5,
+          1,
+          10
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          5,
+          9,
+          1,
+          20
+        ]
+      ]
+    },
+    "seconds": 70.72484180005267,
+    "test_evaluated": false,
+    "epochs_completed": 18,
+    "best_epoch": 8,
+    "updates": 720,
+    "peak_allocated_MiB": 1873.38427734375
+  },
+  {
+    "id": "8b2faeda4f9e",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ft",
+      "lr": 1e-05,
+      "head_lr": 0.0003,
+      "wd": 0.1,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten",
+      "smoothing": 0.05
+    },
+    "seed": 42,
+    "budget_epochs": 40,
+    "stage": "refine",
+    "val_BA": 0.20134689871531977,
+    "val_metrics": {
+      "subject_mean_BA": 0.20134689871531977,
+      "pooled_BA": 0.2013172638172638,
+      "macro_f1": 0.19436592395732766,
+      "per_subject_BA": {
+        "2": 0.2083083217951639,
+        "10": 0.19438547563547565
+      },
+      "confusion_matrix": [
+        [
+          8,
+          4,
+          1,
+          1,
+          5,
+          16,
+          3,
+          4
+        ],
+        [
+          2,
+          8,
+          3,
+          2,
+          11,
+          10,
+          3,
+          5
+        ],
+        [
+          2,
+          10,
+          5,
+          0,
+          10,
+          3,
+          5,
+          7
+        ],
+        [
+          4,
+          6,
+          1,
+          3,
+          6,
+          7,
+          4,
+          5
+        ],
+        [
+          5,
+          5,
+          0,
+          2,
+          12,
+          7,
+          2,
+          4
+        ],
+        [
+          9,
+          4,
+          2,
+          4,
+          13,
+          11,
+          5,
+          4
+        ],
+        [
+          4,
+          5,
+          0,
+          0,
+          6,
+          4,
+          4,
+          1
+        ],
+        [
+          3,
+          3,
+          6,
+          3,
+          4,
+          4,
+          1,
+          12
+        ]
+      ]
+    },
+    "seconds": 90.8460933000315,
+    "test_evaluated": false,
+    "epochs_completed": 23,
+    "best_epoch": 13,
+    "updates": 920,
+    "peak_allocated_MiB": 1873.38427734375
+  },
+  {
+    "id": "cac0ef4be33a",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ft",
+      "lr": 1e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.19901242763084867,
+    "val_metrics": {
+      "subject_mean_BA": 0.19901242763084867,
+      "pooled_BA": 0.1991704804204804,
+      "macro_f1": 0.1722168669583361,
+      "per_subject_BA": {
+        "2": 0.22556190154874362,
+        "10": 0.17246295371295373
+      },
+      "confusion_matrix": [
+        [
+          15,
+          0,
+          0,
+          1,
+          7,
+          10,
+          4,
+          5
+        ],
+        [
+          8,
+          1,
+          4,
+          4,
+          11,
+          10,
+          3,
+          3
+        ],
+        [
+          9,
+          1,
+          3,
+          0,
+          10,
+          9,
+          6,
+          4
+        ],
+        [
+          6,
+          1,
+          1,
+          1,
+          6,
+          7,
+          6,
+          8
+        ],
+        [
+          6,
+          1,
+          3,
+          1,
+          10,
+          7,
+          2,
+          7
+        ],
+        [
+          10,
+          0,
+          0,
+          5,
+          9,
+          15,
+          3,
+          10
+        ],
+        [
+          7,
+          1,
+          0,
+          0,
+          5,
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          1,
+          4,
+          2,
+          4,
+          5,
+          2,
+          14
+        ]
+      ]
+    },
+    "seconds": 75.32405979989562,
+    "test_evaluated": false,
+    "epochs_completed": 18,
+    "best_epoch": 8,
+    "updates": 720,
+    "peak_allocated_MiB": 1869.98291015625
+  },
+  {
+    "id": "62b984357e0a",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 1.0,
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.19887513801987486,
+    "val_metrics": {
+      "subject_mean_BA": 0.19887513801987486,
+      "pooled_BA": 0.19821329196329196,
+      "macro_f1": 0.20803249897390447,
+      "per_subject_BA": {
+        "2": 0.21617490696438063,
+        "10": 0.1815753690753691
+      },
+      "confusion_matrix": [
+        [
+          12,
+          0,
+          0,
+          0,
+          11,
+          12,
+          4,
+          3
+        ],
+        [
+          3,
+          13,
+          2,
+          4,
+          11,
+          10,
+          1,
+          0
+        ],
+        [
+          5,
+          1,
+          2,
+          6,
+          12,
+          13,
+          2,
+          1
+        ],
+        [
+          6,
+          0,
+          1,
+          4,
+          16,
+          5,
+          2,
+          2
+        ],
+        [
+          7,
+          0,
+          1,
+          6,
+          9,
+          8,
+          5,
+          1
+        ],
+        [
+          14,
+          0,
+          0,
+          3,
+          17,
+          14,
+          2,
+          2
+        ],
+        [
+          6,
+          0,
+          1,
+          0,
+          9,
+          4,
+          4,
+          0
+        ],
+        [
+          7,
+          0,
+          1,
+          3,
+          10,
+          8,
+          1,
+          6
+        ]
+      ]
+    },
+    "seconds": 0.12263779994100332,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "b20baee718a0",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_lda",
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.19475708867156236,
+    "val_metrics": {
+      "subject_mean_BA": 0.19475708867156236,
+      "pooled_BA": 0.19446567884067884,
+      "macro_f1": 0.20561747600680702,
+      "per_subject_BA": {
+        "2": 0.20827874610769348,
+        "10": 0.18123543123543123
+      },
+      "confusion_matrix": [
+        [
+          11,
+          0,
+          1,
+          1,
+          11,
+          16,
+          2,
+          0
+        ],
+        [
+          3,
+          16,
+          1,
+          3,
+          6,
+          13,
+          1,
+          1
+        ],
+        [
+          9,
+          1,
+          2,
+          0,
+          11,
+          18,
+          0,
+          1
+        ],
+        [
+          6,
+          1,
+          1,
+          4,
+          7,
+          11,
+          2,
+          4
+        ],
+        [
+          10,
+          0,
+          2,
+          1,
+          7,
+          12,
+          4,
+          1
+        ],
+        [
+          12,
+          0,
+          4,
+          2,
+          12,
+          18,
+          3,
+          1
+        ],
+        [
+          6,
+          0,
+          1,
+          2,
+          6,
+          8,
+          1,
+          0
+        ],
+        [
+          8,
+          0,
+          5,
+          0,
+          3,
+          12,
+          1,
+          7
+        ]
+      ]
+    },
+    "seconds": 11.99576670001261,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "7091898747b9",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ft",
+      "lr": 1e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    "seed": 42,
+    "budget_epochs": 40,
+    "stage": "refine",
+    "val_BA": 0.19414576651418755,
+    "val_metrics": {
+      "subject_mean_BA": 0.19414576651418755,
+      "pooled_BA": 0.1943038193038193,
+      "macro_f1": 0.17614575413022943,
+      "per_subject_BA": {
+        "2": 0.22670659019343228,
+        "10": 0.16158494283494282
+      },
+      "confusion_matrix": [
+        [
+          15,
+          0,
+          0,
+          1,
+          8,
+          10,
+          4,
+          4
+        ],
+        [
+          7,
+          2,
+          4,
+          5,
+          10,
+          10,
+          3,
+          3
+        ],
+        [
+          10,
+          1,
+          4,
+          1,
+          9,
+          8,
+          6,
+          3
+        ],
+        [
+          5,
+          1,
+          1,
+          2,
+          7,
+          5,
+          7,
+          8
+        ],
+        [
+          7,
+          1,
+          3,
+          2,
+          10,
+          6,
+          3,
+          5
+        ],
+        [
+          11,
+          1,
+          0,
+          7,
+          10,
+          12,
+          4,
+          7
+        ],
+        [
+          6,
+          1,
+          0,
+          0,
+          5,
+          4,
+          4,
+          4
+        ],
+        [
+          5,
+          1,
+          5,
+          2,
+          3,
+          6,
+          2,
+          12
+        ]
+      ]
+    },
+    "seconds": 70.42695459991228,
+    "test_evaluated": false,
+    "epochs_completed": 18,
+    "best_epoch": 8,
+    "updates": 720,
+    "peak_allocated_MiB": 1873.38427734375
+  },
+  {
+    "id": "4dcf6bb24173",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 1.0,
+      "power_norm": "relative_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.19137806637806637,
+    "val_metrics": {
+      "subject_mean_BA": 0.19137806637806637,
+      "pooled_BA": 0.19062731562731564,
+      "macro_f1": 0.19450840599638122,
+      "per_subject_BA": {
+        "2": 0.19651875901875904,
+        "10": 0.18623737373737373
+      },
+      "confusion_matrix": [
+        [
+          15,
+          0,
+          0,
+          3,
+          8,
+          12,
+          1,
+          3
+        ],
+        [
+          3,
+          8,
+          2,
+          7,
+          10,
+          12,
+          1,
+          1
+        ],
+        [
+          9,
+          1,
+          2,
+          4,
+          17,
+          8,
+          0,
+          1
+        ],
+        [
+          7,
+          0,
+          0,
+          6,
+          16,
+          2,
+          2,
+          3
+        ],
+        [
+          12,
+          0,
+          0,
+          5,
+          8,
+          7,
+          3,
+          2
+        ],
+        [
+          15,
+          0,
+          1,
+          3,
+          15,
+          13,
+          1,
+          4
+        ],
+        [
+          9,
+          0,
+          0,
+          0,
+          10,
+          3,
+          2,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          3,
+          10,
+          8,
+          0,
+          8
+        ]
+      ]
+    },
+    "seconds": 0.14471780008170754,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "8f4414775da1",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_lda",
+      "power_norm": "relative_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.19084497373971057,
+    "val_metrics": {
+      "subject_mean_BA": 0.19084497373971057,
+      "pooled_BA": 0.1902769715269715,
+      "macro_f1": 0.18244266201755427,
+      "per_subject_BA": {
+        "2": 0.20399958228905596,
+        "10": 0.17769036519036518
+      },
+      "confusion_matrix": [
+        [
+          17,
+          0,
+          1,
+          2,
+          6,
+          16,
+          0,
+          0
+        ],
+        [
+          4,
+          12,
+          1,
+          4,
+          10,
+          12,
+          0,
+          1
+        ],
+        [
+          10,
+          1,
+          1,
+          3,
+          11,
+          14,
+          0,
+          2
+        ],
+        [
+          8,
+          1,
+          1,
+          4,
+          9,
+          8,
+          1,
+          4
+        ],
+        [
+          15,
+          0,
+          1,
+          1,
+          8,
+          8,
+          1,
+          3
+        ],
+        [
+          15,
+          0,
+          2,
+          3,
+          13,
+          17,
+          1,
+          1
+        ],
+        [
+          8,
+          1,
+          0,
+          2,
+          4,
+          8,
+          0,
+          1
+        ],
+        [
+          8,
+          1,
+          5,
+          1,
+          3,
+          12,
+          0,
+          6
+        ]
+      ]
+    },
+    "seconds": 12.375633600051515,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "e3483ea4cc03",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ft",
+      "lr": 3e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.19045309588072745,
+    "val_metrics": {
+      "subject_mean_BA": 0.19045309588072745,
+      "pooled_BA": 0.19059633122133124,
+      "macro_f1": 0.156866277906581,
+      "per_subject_BA": {
+        "2": 0.18306583767110082,
+        "10": 0.19784035409035408
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          12,
+          2,
+          15,
+          6,
+          4,
+          3
+        ],
+        [
+          0,
+          0,
+          15,
+          2,
+          14,
+          4,
+          2,
+          7
+        ],
+        [
+          0,
+          0,
+          12,
+          2,
+          17,
+          1,
+          1,
+          9
+        ],
+        [
+          2,
+          0,
+          9,
+          7,
+          11,
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          0,
+          6,
+          2,
+          16,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          0,
+          9,
+          7,
+          16,
+          8,
+          3,
+          8
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          9,
+          3,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          4,
+          4,
+          12,
+          2,
+          2,
+          12
+        ]
+      ]
+    },
+    "seconds": 47.50192319997586,
+    "test_evaluated": false,
+    "epochs_completed": 12,
+    "best_epoch": 2,
+    "updates": 480,
+    "peak_allocated_MiB": 1873.38427734375
+  },
+  {
+    "id": "96155ffa71d7",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ft",
+      "lr": 3.0000000000000004e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    "seed": 42,
+    "budget_epochs": 40,
+    "stage": "refine",
+    "val_BA": 0.19045309588072745,
+    "val_metrics": {
+      "subject_mean_BA": 0.19045309588072745,
+      "pooled_BA": 0.19059633122133124,
+      "macro_f1": 0.156866277906581,
+      "per_subject_BA": {
+        "2": 0.18306583767110082,
+        "10": 0.19784035409035408
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          12,
+          2,
+          15,
+          6,
+          4,
+          3
+        ],
+        [
+          0,
+          0,
+          15,
+          2,
+          14,
+          4,
+          2,
+          7
+        ],
+        [
+          0,
+          0,
+          12,
+          2,
+          17,
+          1,
+          1,
+          9
+        ],
+        [
+          2,
+          0,
+          9,
+          7,
+          11,
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          0,
+          6,
+          2,
+          16,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          0,
+          9,
+          7,
+          16,
+          8,
+          3,
+          8
+        ],
+        [
+          0,
+          0,
+          4,
+          1,
+          9,
+          3,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          4,
+          4,
+          12,
+          2,
+          2,
+          12
+        ]
+      ]
+    },
+    "seconds": 47.47140189993661,
+    "test_evaluated": false,
+    "epochs_completed": 12,
+    "best_epoch": 2,
+    "updates": 480,
+    "peak_allocated_MiB": 1873.38427734375
+  },
+  {
+    "id": "9849466360a2",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.01
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.18841401653901652,
+    "val_metrics": {
+      "subject_mean_BA": 0.18841401653901652,
+      "pooled_BA": 0.18832017269517268,
+      "macro_f1": 0.15253113617748917,
+      "per_subject_BA": {
+        "2": 0.24328102453102451,
+        "10": 0.13354700854700854
+      },
+      "confusion_matrix": [
+        [
+          0,
+          5,
+          0,
+          1,
+          5,
+          16,
+          11,
+          4
+        ],
+        [
+          0,
+          12,
+          7,
+          0,
+          2,
+          19,
+          4,
+          0
+        ],
+        [
+          4,
+          3,
+          2,
+          0,
+          0,
+          21,
+          6,
+          6
+        ],
+        [
+          0,
+          3,
+          0,
+          1,
+          1,
+          17,
+          5,
+          9
+        ],
+        [
+          0,
+          3,
+          3,
+          0,
+          1,
+          18,
+          10,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          4,
+          22,
+          11,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          9,
+          3
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          0,
+          16,
+          5,
+          12
+        ]
+      ]
+    },
+    "seconds": 0.04227590002119541,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "e6892c7caeb0",
+    "task": "emotion",
+    "config": {
+      "model": "eegnet",
+      "filters": 8,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.18638479575979577,
+    "val_metrics": {
+      "subject_mean_BA": 0.18638479575979577,
+      "pooled_BA": 0.18638479575979575,
+      "macro_f1": 0.15700582647269795,
+      "per_subject_BA": {
+        "2": 0.1806943056943057,
+        "10": 0.19207528582528582
+      },
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          6,
+          8,
+          2,
+          6,
+          6,
+          9
+        ],
+        [
+          6,
+          5,
+          1,
+          12,
+          1,
+          3,
+          7,
+          9
+        ],
+        [
+          3,
+          1,
+          3,
+          14,
+          2,
+          4,
+          7,
+          8
+        ],
+        [
+          3,
+          1,
+          3,
+          18,
+          0,
+          3,
+          5,
+          3
+        ],
+        [
+          0,
+          1,
+          5,
+          10,
+          0,
+          2,
+          7,
+          12
+        ],
+        [
+          1,
+          2,
+          4,
+          17,
+          1,
+          9,
+          10,
+          8
+        ],
+        [
+          2,
+          1,
+          1,
+          8,
+          0,
+          2,
+          5,
+          5
+        ],
+        [
+          1,
+          1,
+          3,
+          8,
+          1,
+          7,
+          4,
+          11
+        ]
+      ]
+    },
+    "seconds": 14.234053099993616,
+    "test_evaluated": false,
+    "epochs_completed": 17,
+    "best_epoch": 7,
+    "updates": 680,
+    "peak_allocated_MiB": 179.90087890625
+  },
+  {
+    "id": "b03b1916f80a",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.1
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.18263333888333888,
+    "val_metrics": {
+      "subject_mean_BA": 0.18263333888333888,
+      "pooled_BA": 0.18122568122568122,
+      "macro_f1": 0.156907226738974,
+      "per_subject_BA": {
+        "2": 0.213023088023088,
+        "10": 0.15224358974358976
+      },
+      "confusion_matrix": [
+        [
+          0,
+          10,
+          2,
+          2,
+          8,
+          14,
+          3,
+          3
+        ],
+        [
+          0,
+          12,
+          7,
+          3,
+          11,
+          10,
+          1,
+          0
+        ],
+        [
+          0,
+          5,
+          8,
+          0,
+          10,
+          11,
+          3,
+          5
+        ],
+        [
+          0,
+          9,
+          5,
+          0,
+          10,
+          8,
+          2,
+          2
+        ],
+        [
+          0,
+          9,
+          7,
+          0,
+          15,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          8,
+          2,
+          2,
+          19,
+          10,
+          5,
+          6
+        ],
+        [
+          0,
+          5,
+          1,
+          0,
+          8,
+          4,
+          6,
+          0
+        ],
+        [
+          0,
+          5,
+          6,
+          1,
+          6,
+          12,
+          1,
+          5
+        ]
+      ]
+    },
+    "seconds": 0.08323450002353638,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "4041a62611e3",
+    "task": "emotion",
+    "config": {
+      "model": "eegnet",
+      "filters": 8,
+      "kernel": 64,
+      "dropout": 0.25,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.17967604398525452,
+    "val_metrics": {
+      "subject_mean_BA": 0.17967604398525452,
+      "pooled_BA": 0.17966122653622654,
+      "macro_f1": 0.16958303931829466,
+      "per_subject_BA": {
+        "2": 0.17155030641872748,
+        "10": 0.18780178155178157
+      },
+      "confusion_matrix": [
+        [
+          8,
+          1,
+          3,
+          1,
+          6,
+          6,
+          5,
+          12
+        ],
+        [
+          9,
+          4,
+          2,
+          7,
+          2,
+          3,
+          5,
+          12
+        ],
+        [
+          9,
+          1,
+          4,
+          6,
+          7,
+          3,
+          6,
+          6
+        ],
+        [
+          3,
+          0,
+          4,
+          11,
+          3,
+          6,
+          2,
+          7
+        ],
+        [
+          2,
+          0,
+          1,
+          5,
+          6,
+          3,
+          6,
+          14
+        ],
+        [
+          8,
+          0,
+          3,
+          7,
+          6,
+          7,
+          8,
+          13
+        ],
+        [
+          2,
+          0,
+          0,
+          5,
+          4,
+          2,
+          3,
+          8
+        ],
+        [
+          4,
+          2,
+          2,
+          3,
+          4,
+          5,
+          4,
+          12
+        ]
+      ]
+    },
+    "seconds": 17.0654649999924,
+    "test_evaluated": false,
+    "epochs_completed": 20,
+    "best_epoch": 20,
+    "updates": 800,
+    "peak_allocated_MiB": 179.90087890625
+  },
+  {
+    "id": "9afe63376475",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ridge",
+      "alpha": 10.0
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.17375269102242785,
+    "val_metrics": {
+      "subject_mean_BA": 0.17375269102242785,
+      "pooled_BA": 0.1735600641850642,
+      "macro_f1": 0.17084691171014574,
+      "per_subject_BA": {
+        "2": 0.13397238726186095,
+        "10": 0.21353299478299478
+      },
+      "confusion_matrix": [
+        [
+          12,
+          3,
+          1,
+          11,
+          2,
+          6,
+          3,
+          4
+        ],
+        [
+          6,
+          11,
+          6,
+          3,
+          6,
+          5,
+          4,
+          3
+        ],
+        [
+          14,
+          5,
+          7,
+          3,
+          3,
+          5,
+          2,
+          3
+        ],
+        [
+          7,
+          8,
+          4,
+          5,
+          5,
+          3,
+          2,
+          2
+        ],
+        [
+          11,
+          4,
+          4,
+          5,
+          4,
+          6,
+          2,
+          1
+        ],
+        [
+          8,
+          8,
+          6,
+          5,
+          3,
+          12,
+          3,
+          7
+        ],
+        [
+          8,
+          6,
+          0,
+          0,
+          3,
+          2,
+          3,
+          2
+        ],
+        [
+          7,
+          9,
+          5,
+          5,
+          2,
+          2,
+          3,
+          3
+        ]
+      ]
+    },
+    "seconds": 0.41050810005981475,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "d5402375e02f",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ridge",
+      "alpha": 1.0
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.17252539127539127,
+    "val_metrics": {
+      "subject_mean_BA": 0.17252539127539127,
+      "pooled_BA": 0.17224385974385972,
+      "macro_f1": 0.16908930487105947,
+      "per_subject_BA": {
+        "2": 0.13132700632700633,
+        "10": 0.2137237762237762
+      },
+      "confusion_matrix": [
+        [
+          10,
+          3,
+          2,
+          9,
+          1,
+          10,
+          5,
+          2
+        ],
+        [
+          8,
+          10,
+          6,
+          4,
+          4,
+          6,
+          2,
+          4
+        ],
+        [
+          13,
+          6,
+          8,
+          3,
+          3,
+          5,
+          2,
+          2
+        ],
+        [
+          9,
+          6,
+          5,
+          4,
+          4,
+          4,
+          2,
+          2
+        ],
+        [
+          13,
+          5,
+          5,
+          3,
+          3,
+          4,
+          2,
+          2
+        ],
+        [
+          5,
+          7,
+          6,
+          6,
+          4,
+          16,
+          4,
+          4
+        ],
+        [
+          10,
+          6,
+          0,
+          1,
+          0,
+          2,
+          4,
+          1
+        ],
+        [
+          8,
+          7,
+          6,
+          5,
+          2,
+          5,
+          1,
+          2
+        ]
+      ]
+    },
+    "seconds": 2.1535327000310645,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "280ed8823d1e",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ridge",
+      "alpha": 100.0
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.17241247422168474,
+    "val_metrics": {
+      "subject_mean_BA": 0.17241247422168474,
+      "pooled_BA": 0.17211612524112524,
+      "macro_f1": 0.16918776033262317,
+      "per_subject_BA": {
+        "2": 0.15785219897062003,
+        "10": 0.18697274947274944
+      },
+      "confusion_matrix": [
+        [
+          8,
+          5,
+          2,
+          7,
+          6,
+          5,
+          2,
+          7
+        ],
+        [
+          6,
+          12,
+          4,
+          5,
+          5,
+          4,
+          2,
+          6
+        ],
+        [
+          12,
+          3,
+          2,
+          4,
+          8,
+          6,
+          2,
+          5
+        ],
+        [
+          7,
+          7,
+          3,
+          6,
+          6,
+          2,
+          2,
+          3
+        ],
+        [
+          10,
+          3,
+          1,
+          2,
+          9,
+          6,
+          4,
+          2
+        ],
+        [
+          10,
+          8,
+          6,
+          6,
+          3,
+          10,
+          3,
+          6
+        ],
+        [
+          6,
+          7,
+          0,
+          0,
+          4,
+          2,
+          3,
+          2
+        ],
+        [
+          11,
+          6,
+          4,
+          2,
+          2,
+          2,
+          4,
+          5
+        ]
+      ]
+    },
+    "seconds": 0.17100510001182556,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "cf56de674b09",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 10.0,
+      "gamma": "scale",
+      "power_norm": "relative_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.1715541403041403,
+    "val_metrics": {
+      "subject_mean_BA": 0.1715541403041403,
+      "pooled_BA": 0.1713664526164526,
+      "macro_f1": 0.13773936160310324,
+      "per_subject_BA": {
+        "2": 0.15405427905427904,
+        "10": 0.18905400155400154
+      },
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          1,
+          0,
+          4,
+          28,
+          1,
+          6
+        ],
+        [
+          3,
+          9,
+          2,
+          1,
+          6,
+          19,
+          0,
+          4
+        ],
+        [
+          9,
+          3,
+          2,
+          0,
+          6,
+          16,
+          0,
+          6
+        ],
+        [
+          2,
+          5,
+          0,
+          1,
+          4,
+          18,
+          0,
+          6
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          2,
+          29,
+          0,
+          3
+        ],
+        [
+          5,
+          1,
+          1,
+          2,
+          2,
+          37,
+          0,
+          4
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          2,
+          18,
+          0,
+          1
+        ],
+        [
+          4,
+          2,
+          0,
+          2,
+          1,
+          17,
+          0,
+          10
+        ]
+      ]
+    },
+    "seconds": 0.2418343999888748,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "1dae6c23492f",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_lda"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.1691815129315129,
+    "val_metrics": {
+      "subject_mean_BA": 0.1691815129315129,
+      "pooled_BA": 0.16899382524382522,
+      "macro_f1": 0.1554423537370765,
+      "per_subject_BA": {
+        "2": 0.21870490620490618,
+        "10": 0.11965811965811965
+      },
+      "confusion_matrix": [
+        [
+          0,
+          10,
+          0,
+          5,
+          3,
+          20,
+          2,
+          2
+        ],
+        [
+          0,
+          13,
+          7,
+          1,
+          2,
+          21,
+          0,
+          0
+        ],
+        [
+          3,
+          6,
+          8,
+          0,
+          0,
+          21,
+          2,
+          2
+        ],
+        [
+          0,
+          9,
+          4,
+          2,
+          1,
+          17,
+          0,
+          3
+        ],
+        [
+          0,
+          9,
+          3,
+          0,
+          2,
+          18,
+          3,
+          2
+        ],
+        [
+          1,
+          9,
+          1,
+          2,
+          4,
+          22,
+          4,
+          9
+        ],
+        [
+          0,
+          6,
+          1,
+          0,
+          0,
+          12,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          4,
+          1,
+          1,
+          18,
+          1,
+          6
+        ]
+      ]
+    },
+    "seconds": 12.340432099997997,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "a3d654f1bba3",
+    "task": "emotion",
+    "config": {
+      "model": "cbramod_ridge",
+      "alpha": 1000.0
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.16130269584216952,
+    "val_metrics": {
+      "subject_mean_BA": 0.16130269584216952,
+      "pooled_BA": 0.16082359832359833,
+      "macro_f1": 0.15419264762533147,
+      "per_subject_BA": {
+        "2": 0.13890714548609284,
+        "10": 0.1836982461982462
+      },
+      "confusion_matrix": [
+        [
+          8,
+          5,
+          4,
+          3,
+          8,
+          2,
+          0,
+          12
+        ],
+        [
+          5,
+          11,
+          3,
+          7,
+          6,
+          4,
+          1,
+          7
+        ],
+        [
+          9,
+          7,
+          1,
+          4,
+          8,
+          3,
+          2,
+          8
+        ],
+        [
+          8,
+          5,
+          3,
+          5,
+          6,
+          3,
+          4,
+          2
+        ],
+        [
+          8,
+          0,
+          1,
+          2,
+          9,
+          7,
+          4,
+          6
+        ],
+        [
+          10,
+          8,
+          7,
+          5,
+          3,
+          7,
+          3,
+          9
+        ],
+        [
+          6,
+          5,
+          0,
+          0,
+          4,
+          2,
+          2,
+          5
+        ],
+        [
+          9,
+          5,
+          4,
+          3,
+          4,
+          2,
+          1,
+          8
+        ]
+      ]
+    },
+    "seconds": 0.09461320005357265,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "86a18b7f2461",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale",
+      "power_norm": "relative_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.15916028416028416,
+    "val_metrics": {
+      "subject_mean_BA": 0.15916028416028416,
+      "pooled_BA": 0.15906644031644032,
+      "macro_f1": 0.1245075425266163,
+      "per_subject_BA": {
+        "2": 0.14417526917526916,
+        "10": 0.17414529914529914
+      },
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          1,
+          0,
+          3,
+          25,
+          2,
+          8
+        ],
+        [
+          2,
+          5,
+          5,
+          1,
+          2,
+          19,
+          1,
+          9
+        ],
+        [
+          12,
+          1,
+          2,
+          0,
+          1,
+          17,
+          0,
+          9
+        ],
+        [
+          3,
+          7,
+          0,
+          2,
+          1,
+          16,
+          0,
+          7
+        ],
+        [
+          8,
+          2,
+          1,
+          0,
+          1,
+          22,
+          0,
+          3
+        ],
+        [
+          6,
+          2,
+          1,
+          4,
+          0,
+          31,
+          0,
+          8
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          1,
+          17,
+          0,
+          3
+        ],
+        [
+          4,
+          4,
+          4,
+          0,
+          0,
+          11,
+          0,
+          13
+        ]
+      ]
+    },
+    "seconds": 0.1873367999214679,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "5ca77d6cacb5",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.15783631573105256,
+    "val_metrics": {
+      "subject_mean_BA": 0.15783631573105256,
+      "pooled_BA": 0.1565175627675628,
+      "macro_f1": 0.10478645206088816,
+      "per_subject_BA": {
+        "2": 0.13812795391742758,
+        "10": 0.17754467754467756
+      },
+      "confusion_matrix": [
+        [
+          0,
+          17,
+          4,
+          0,
+          14,
+          6,
+          1,
+          0
+        ],
+        [
+          0,
+          25,
+          9,
+          0,
+          8,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          13,
+          5,
+          1,
+          18,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          4,
+          0,
+          12,
+          5,
+          1,
+          0
+        ],
+        [
+          0,
+          15,
+          3,
+          1,
+          16,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          23,
+          7,
+          0,
+          18,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          1,
+          0,
+          10,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          9,
+          0,
+          14,
+          3,
+          0,
+          2
+        ]
+      ]
+    },
+    "seconds": 0.1046658999985084,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "71f716116fae",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.01,
+      "power_norm": "spatial_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.15750048562548563,
+    "val_metrics": {
+      "subject_mean_BA": 0.15750048562548563,
+      "pooled_BA": 0.15674973487473487,
+      "macro_f1": 0.13323440062826858,
+      "per_subject_BA": {
+        "2": 0.1534090909090909,
+        "10": 0.16159188034188035
+      },
+      "confusion_matrix": [
+        [
+          0,
+          13,
+          3,
+          1,
+          4,
+          16,
+          5,
+          0
+        ],
+        [
+          0,
+          16,
+          3,
+          3,
+          5,
+          13,
+          3,
+          1
+        ],
+        [
+          0,
+          12,
+          7,
+          0,
+          3,
+          18,
+          2,
+          0
+        ],
+        [
+          0,
+          14,
+          1,
+          0,
+          2,
+          16,
+          2,
+          1
+        ],
+        [
+          0,
+          13,
+          2,
+          0,
+          8,
+          9,
+          4,
+          1
+        ],
+        [
+          0,
+          13,
+          3,
+          2,
+          9,
+          17,
+          5,
+          3
+        ],
+        [
+          0,
+          9,
+          1,
+          0,
+          4,
+          7,
+          3,
+          0
+        ],
+        [
+          0,
+          14,
+          4,
+          0,
+          5,
+          11,
+          0,
+          2
+        ]
+      ]
+    },
+    "seconds": 0.03531539998948574,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "2a499abb9a9e",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 1.0
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.1574304715752084,
+    "val_metrics": {
+      "subject_mean_BA": 0.1574304715752084,
+      "pooled_BA": 0.15601787476787476,
+      "macro_f1": 0.12349882304969897,
+      "per_subject_BA": {
+        "2": 0.1845190628085365,
+        "10": 0.13034188034188032
+      },
+      "confusion_matrix": [
+        [
+          0,
+          5,
+          12,
+          1,
+          17,
+          6,
+          0,
+          1
+        ],
+        [
+          0,
+          6,
+          10,
+          4,
+          20,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          16,
+          0,
+          17,
+          4,
+          0,
+          5
+        ],
+        [
+          0,
+          1,
+          8,
+          3,
+          20,
+          1,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          16,
+          0,
+          17,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          5,
+          8,
+          7,
+          23,
+          4,
+          0,
+          5
+        ],
+        [
+          0,
+          4,
+          3,
+          0,
+          16,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          12,
+          1,
+          16,
+          2,
+          0,
+          4
+        ]
+      ]
+    },
+    "seconds": 0.32355849992018193,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "4c36a9da4244",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_lda",
+      "power_norm": "spatial_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.15609564047064045,
+    "val_metrics": {
+      "subject_mean_BA": 0.15609564047064045,
+      "pooled_BA": 0.15478182665682666,
+      "macro_f1": 0.12902271787722433,
+      "per_subject_BA": {
+        "2": 0.14953102453102451,
+        "10": 0.16266025641025642
+      },
+      "confusion_matrix": [
+        [
+          0,
+          10,
+          10,
+          0,
+          11,
+          8,
+          3,
+          0
+        ],
+        [
+          0,
+          12,
+          9,
+          1,
+          12,
+          5,
+          4,
+          1
+        ],
+        [
+          0,
+          8,
+          9,
+          1,
+          13,
+          7,
+          1,
+          3
+        ],
+        [
+          0,
+          9,
+          7,
+          0,
+          15,
+          3,
+          1,
+          1
+        ],
+        [
+          0,
+          8,
+          8,
+          0,
+          14,
+          3,
+          3,
+          1
+        ],
+        [
+          1,
+          8,
+          8,
+          5,
+          18,
+          10,
+          0,
+          2
+        ],
+        [
+          0,
+          7,
+          2,
+          0,
+          11,
+          1,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          15,
+          0,
+          8,
+          9,
+          0,
+          2
+        ]
+      ]
+    },
+    "seconds": 11.871150300023146,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "cc8a044bc2eb",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 10.0,
+      "gamma": "scale",
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.15472721722721722,
+    "val_metrics": {
+      "subject_mean_BA": 0.15472721722721722,
+      "pooled_BA": 0.154257998007998,
+      "macro_f1": 0.13854177330113945,
+      "per_subject_BA": {
+        "2": 0.136495448995449,
+        "10": 0.17295898545898544
+      },
+      "confusion_matrix": [
+        [
+          3,
+          4,
+          4,
+          0,
+          7,
+          16,
+          2,
+          6
+        ],
+        [
+          2,
+          9,
+          7,
+          1,
+          2,
+          17,
+          0,
+          6
+        ],
+        [
+          7,
+          3,
+          1,
+          3,
+          5,
+          13,
+          1,
+          9
+        ],
+        [
+          3,
+          9,
+          0,
+          1,
+          4,
+          8,
+          1,
+          10
+        ],
+        [
+          4,
+          7,
+          4,
+          0,
+          5,
+          10,
+          3,
+          4
+        ],
+        [
+          3,
+          6,
+          5,
+          3,
+          8,
+          17,
+          1,
+          9
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          4,
+          12,
+          2,
+          2
+        ],
+        [
+          5,
+          3,
+          1,
+          3,
+          2,
+          8,
+          1,
+          13
+        ]
+      ]
+    },
+    "seconds": 0.131553600076586,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "e3d8daf38c95",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 10.0,
+      "gamma": "scale",
+      "power_norm": "spatial_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.15266677766677766,
+    "val_metrics": {
+      "subject_mean_BA": 0.15266677766677766,
+      "pooled_BA": 0.1518221830721831,
+      "macro_f1": 0.1128347757649181,
+      "per_subject_BA": {
+        "2": 0.16377372627372627,
+        "10": 0.14155982905982906
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          4,
+          0,
+          15,
+          23,
+          0,
+          0
+        ],
+        [
+          2,
+          9,
+          2,
+          2,
+          11,
+          16,
+          2,
+          0
+        ],
+        [
+          1,
+          10,
+          6,
+          0,
+          17,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          3,
+          0,
+          9,
+          16,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          4,
+          0,
+          9,
+          21,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          5,
+          1,
+          8,
+          31,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          9,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          6,
+          0,
+          17,
+          8,
+          0,
+          1
+        ]
+      ]
+    },
+    "seconds": 0.12447789998259395,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "38b8a74d1d46",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale",
+      "power_norm": "spatial_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.15265116827616826,
+    "val_metrics": {
+      "subject_mean_BA": 0.15265116827616826,
+      "pooled_BA": 0.15255732443232445,
+      "macro_f1": 0.1265138715283864,
+      "per_subject_BA": {
+        "2": 0.18003524253524253,
+        "10": 0.12526709401709402
+      },
+      "confusion_matrix": [
+        [
+          0,
+          15,
+          1,
+          2,
+          7,
+          16,
+          0,
+          1
+        ],
+        [
+          2,
+          18,
+          1,
+          0,
+          2,
+          17,
+          3,
+          1
+        ],
+        [
+          1,
+          15,
+          4,
+          0,
+          0,
+          21,
+          0,
+          1
+        ],
+        [
+          1,
+          14,
+          0,
+          2,
+          5,
+          12,
+          1,
+          1
+        ],
+        [
+          1,
+          15,
+          3,
+          0,
+          1,
+          17,
+          0,
+          0
+        ],
+        [
+          2,
+          15,
+          2,
+          2,
+          4,
+          25,
+          0,
+          2
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          2,
+          10,
+          1,
+          1
+        ],
+        [
+          0,
+          12,
+          1,
+          0,
+          4,
+          14,
+          1,
+          4
+        ]
+      ]
+    },
+    "seconds": 0.10837180004455149,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "afb9bf50303f",
+    "task": "emotion",
+    "config": {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.0003,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.15132263569763568,
+    "val_metrics": {
+      "subject_mean_BA": 0.15132263569763568,
+      "pooled_BA": 0.1513226356976357,
+      "macro_f1": 0.11826313001022085,
+      "per_subject_BA": {
+        "2": 0.1923354423354423,
+        "10": 0.11030982905982906
+      },
+      "confusion_matrix": [
+        [
+          21,
+          0,
+          3,
+          1,
+          0,
+          4,
+          3,
+          10
+        ],
+        [
+          16,
+          3,
+          1,
+          9,
+          0,
+          0,
+          1,
+          14
+        ],
+        [
+          17,
+          2,
+          1,
+          7,
+          0,
+          1,
+          3,
+          11
+        ],
+        [
+          12,
+          0,
+          1,
+          8,
+          0,
+          2,
+          2,
+          11
+        ],
+        [
+          11,
+          0,
+          2,
+          4,
+          0,
+          2,
+          2,
+          16
+        ],
+        [
+          27,
+          0,
+          4,
+          2,
+          0,
+          4,
+          2,
+          13
+        ],
+        [
+          10,
+          0,
+          0,
+          2,
+          0,
+          2,
+          1,
+          9
+        ],
+        [
+          21,
+          1,
+          2,
+          1,
+          0,
+          0,
+          1,
+          10
+        ]
+      ]
+    },
+    "seconds": 14.200105199939571,
+    "test_evaluated": false,
+    "epochs_completed": 18,
+    "best_epoch": 8,
+    "updates": 720,
+    "peak_allocated_MiB": 337.49853515625
+  },
+  {
+    "id": "6f59823d3e02",
+    "task": "emotion",
+    "config": {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.15122897935397936,
+    "val_metrics": {
+      "subject_mean_BA": 0.15122897935397936,
+      "pooled_BA": 0.15122897935397933,
+      "macro_f1": 0.11689583917440126,
+      "per_subject_BA": {
+        "2": 0.13605838605838605,
+        "10": 0.16639957264957267
+      },
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          2,
+          1,
+          0,
+          3,
+          2,
+          26
+        ],
+        [
+          5,
+          2,
+          4,
+          9,
+          0,
+          1,
+          0,
+          23
+        ],
+        [
+          11,
+          1,
+          2,
+          6,
+          0,
+          1,
+          2,
+          19
+        ],
+        [
+          10,
+          0,
+          0,
+          6,
+          0,
+          3,
+          2,
+          15
+        ],
+        [
+          7,
+          0,
+          1,
+          3,
+          0,
+          2,
+          3,
+          21
+        ],
+        [
+          9,
+          0,
+          2,
+          3,
+          0,
+          7,
+          1,
+          30
+        ],
+        [
+          4,
+          0,
+          0,
+          3,
+          0,
+          5,
+          1,
+          11
+        ],
+        [
+          9,
+          2,
+          0,
+          3,
+          1,
+          0,
+          0,
+          21
+        ]
+      ]
+    },
+    "seconds": 9.622451700037345,
+    "test_evaluated": false,
+    "epochs_completed": 12,
+    "best_epoch": 2,
+    "updates": 480,
+    "peak_allocated_MiB": 337.49853515625
+  },
+  {
+    "id": "902621c0236f",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.14943152607626292,
+    "val_metrics": {
+      "subject_mean_BA": 0.14943152607626292,
+      "pooled_BA": 0.1488635238635239,
+      "macro_f1": 0.11338139015572843,
+      "per_subject_BA": {
+        "2": 0.11218861547808916,
+        "10": 0.18667443667443667
+      },
+      "confusion_matrix": [
+        [
+          2,
+          19,
+          1,
+          3,
+          1,
+          14,
+          2,
+          0
+        ],
+        [
+          2,
+          31,
+          7,
+          0,
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          3,
+          20,
+          1,
+          1,
+          2,
+          14,
+          0,
+          1
+        ],
+        [
+          0,
+          20,
+          2,
+          1,
+          1,
+          12,
+          0,
+          0
+        ],
+        [
+          1,
+          18,
+          1,
+          1,
+          8,
+          8,
+          0,
+          0
+        ],
+        [
+          2,
+          26,
+          6,
+          2,
+          9,
+          6,
+          0,
+          1
+        ],
+        [
+          0,
+          13,
+          1,
+          0,
+          0,
+          9,
+          0,
+          1
+        ],
+        [
+          0,
+          20,
+          6,
+          0,
+          1,
+          7,
+          0,
+          2
+        ]
+      ]
+    },
+    "seconds": 0.1035991000244394,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "40d690861110",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 0.1,
+      "gamma": "scale"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.14332022144522144,
+    "val_metrics": {
+      "subject_mean_BA": 0.14332022144522144,
+      "pooled_BA": 0.14332022144522144,
+      "macro_f1": 0.07398019596814778,
+      "per_subject_BA": {
+        "2": 0.11050407925407925,
+        "10": 0.17613636363636365
+      },
+      "confusion_matrix": [
+        [
+          0,
+          26,
+          1,
+          0,
+          0,
+          12,
+          3,
+          0
+        ],
+        [
+          0,
+          30,
+          6,
+          0,
+          0,
+          7,
+          1,
+          0
+        ],
+        [
+          0,
+          25,
+          0,
+          0,
+          0,
+          14,
+          3,
+          0
+        ],
+        [
+          0,
+          21,
+          0,
+          0,
+          0,
+          13,
+          2,
+          0
+        ],
+        [
+          0,
+          18,
+          0,
+          0,
+          0,
+          19,
+          0,
+          0
+        ],
+        [
+          0,
+          27,
+          1,
+          0,
+          0,
+          22,
+          2,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0,
+          0,
+          14,
+          1,
+          0
+        ],
+        [
+          0,
+          20,
+          2,
+          0,
+          0,
+          13,
+          1,
+          0
+        ]
+      ]
+    },
+    "seconds": 0.11986760003492236,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "bc4565020741",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale",
+      "power_norm": "relative"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.13868706220679905,
+    "val_metrics": {
+      "subject_mean_BA": 0.13868706220679905,
+      "pooled_BA": 0.13868212305712307,
+      "macro_f1": 0.11411963687238588,
+      "per_subject_BA": {
+        "2": 0.12071134275081644,
+        "10": 0.15666278166278164
+      },
+      "confusion_matrix": [
+        [
+          1,
+          13,
+          1,
+          0,
+          1,
+          9,
+          3,
+          14
+        ],
+        [
+          3,
+          11,
+          10,
+          1,
+          1,
+          3,
+          0,
+          15
+        ],
+        [
+          5,
+          2,
+          2,
+          0,
+          6,
+          5,
+          0,
+          22
+        ],
+        [
+          2,
+          8,
+          0,
+          0,
+          7,
+          6,
+          2,
+          11
+        ],
+        [
+          5,
+          10,
+          1,
+          1,
+          2,
+          6,
+          3,
+          9
+        ],
+        [
+          3,
+          15,
+          1,
+          2,
+          6,
+          10,
+          2,
+          13
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          2,
+          8,
+          3,
+          5
+        ],
+        [
+          2,
+          5,
+          1,
+          0,
+          6,
+          5,
+          2,
+          15
+        ]
+      ]
+    },
+    "seconds": 0.10721189994364977,
+    "test_evaluated": false,
+    "deterministic": true
+  },
+  {
+    "id": "156b7ebd8edf",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "spatial_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.13555368242868243,
+    "val_metrics": {
+      "subject_mean_BA": 0.13555368242868243,
+      "pooled_BA": 0.13405218092718094,
+      "macro_f1": 0.10742113776826259,
+      "per_subject_BA": {
+        "2": 0.12901334776334777,
+        "10": 0.1420940170940171
+      },
+      "confusion_matrix": [
+        [
+          0,
+          9,
+          10,
+          0,
+          14,
+          7,
+          2,
+          0
+        ],
+        [
+          0,
+          9,
+          8,
+          4,
+          17,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          3,
+          9,
+          2,
+          15,
+          6,
+          0,
+          7
+        ],
+        [
+          0,
+          7,
+          8,
+          0,
+          18,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          7,
+          8,
+          1,
+          16,
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          7,
+          6,
+          7,
+          23,
+          5,
+          0,
+          3
+        ],
+        [
+          1,
+          5,
+          2,
+          0,
+          15,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          12,
+          2,
+          13,
+          3,
+          1,
+          3
+        ]
+      ]
+    },
+    "seconds": 0.05109910003375262,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "c9519afd901d",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 1.0,
+      "power_norm": "spatial_centered"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "feature_supplement",
+    "val_BA": 0.127251221001221,
+    "val_metrics": {
+      "subject_mean_BA": 0.127251221001221,
+      "pooled_BA": 0.12565587565587566,
+      "macro_f1": 0.08062534421670987,
+      "per_subject_BA": {
+        "2": 0.11507936507936509,
+        "10": 0.13942307692307693
+      },
+      "confusion_matrix": [
+        [
+          1,
+          2,
+          16,
+          0,
+          17,
+          5,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          19,
+          1,
+          18,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          16,
+          0,
+          18,
+          3,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          14,
+          1,
+          19,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          16,
+          0,
+          17,
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          17,
+          4,
+          23,
+          3,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          8,
+          1,
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          15,
+          2,
+          12,
+          2,
+          3,
+          2
+        ]
+      ]
+    },
+    "seconds": 0.0733490000711754,
+    "test_evaluated": false,
+    "deterministic": true,
+    "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+  },
+  {
+    "id": "bf83921e9ed2",
+    "task": "emotion",
+    "config": {
+      "model": "bandpower_svm",
+      "C": 0.01,
+      "gamma": "scale"
+    },
+    "seed": 42,
+    "budget_epochs": 20,
+    "stage": "coarse",
+    "val_BA": 0.125,
+    "val_metrics": {
+      "subject_mean_BA": 0.125,
+      "pooled_BA": 0.125,
+      "macro_f1": 0.03561643835616438,
+      "per_subject_BA": {
+        "2": 0.125,
+        "10": 0.125
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          42,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          44,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          42,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          36,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          37,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          52,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          36,
+          0,
+          0
+        ]
+      ]
+    },
+    "seconds": 0.15851440001279116,
+    "test_evaluated": false,
+    "deterministic": true
+  }
+]

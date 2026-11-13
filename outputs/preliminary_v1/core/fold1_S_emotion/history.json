@@ -1,0 +1,167 @@
+[
+  {
+    "dataset_updates": 100,
+    "val_BA": {
+      "emotion": 0.15330618455618455
+    },
+    "mean_val_BA": 0.15330618455618455,
+    "training_loss": {
+      "emotion": 4.412380166053772
+    },
+    "elapsed_seconds": 6.084442300023511
+  },
+  {
+    "dataset_updates": 200,
+    "val_BA": {
+      "emotion": 0.15485440485440485
+    },
+    "mean_val_BA": 0.15485440485440485,
+    "training_loss": {
+      "emotion": 3.6077569341659546
+    },
+    "elapsed_seconds": 11.946991899982095
+  },
+  {
+    "dataset_updates": 300,
+    "val_BA": {
+      "emotion": 0.15912675287675287
+    },
+    "mean_val_BA": 0.15912675287675287,
+    "training_loss": {
+      "emotion": 2.156861081123352
+    },
+    "elapsed_seconds": 18.07501430006232
+  },
+  {
+    "dataset_updates": 400,
+    "val_BA": {
+      "emotion": 0.16887163762163762
+    },
+    "mean_val_BA": 0.16887163762163762,
+    "training_loss": {
+      "emotion": 1.3196054527908563
+    },
+    "elapsed_seconds": 24.160184600041248
+  },
+  {
+    "dataset_updates": 500,
+    "val_BA": {
+      "emotion": 0.15764559514559515
+    },
+    "mean_val_BA": 0.15764559514559515,
+    "training_loss": {
+      "emotion": 0.8385723719652742
+    },
+    "elapsed_seconds": 30.6028872000752
+  },
+  {
+    "dataset_updates": 600,
+    "val_BA": {
+      "emotion": 0.15762015762015763
+    },
+    "mean_val_BA": 0.15762015762015763,
+    "training_loss": {
+      "emotion": 0.5873958666017279
+    },
+    "elapsed_seconds": 36.591464000055566
+  },
+  {
+    "dataset_updates": 700,
+    "val_BA": {
+      "emotion": 0.13902417027417027
+    },
+    "mean_val_BA": 0.13902417027417027,
+    "training_loss": {
+      "emotion": 0.4926157638698351
+    },
+    "elapsed_seconds": 43.23333509999793
+  },
+  {
+    "dataset_updates": 800,
+    "val_BA": {
+      "emotion": 0.1490962740962741
+    },
+    "mean_val_BA": 0.1490962740962741,
+    "training_loss": {
+      "emotion": 0.32233889480424294
+    },
+    "elapsed_seconds": 49.75835030002054
+  },
+  {
+    "dataset_updates": 900,
+    "val_BA": {
+      "emotion": 0.1486083361083361
+    },
+    "mean_val_BA": 0.1486083361083361,
+    "training_loss": {
+      "emotion": 0.17374026595475014
+    },
+    "elapsed_seconds": 55.403365100035444
+  },
+  {
+    "dataset_updates": 1000,
+    "val_BA": {
+      "emotion": 0.138769795019795
+    },
+    "mean_val_BA": 0.138769795019795,
+    "training_loss": {
+      "emotion": 0.0872389055706552
+    },
+    "elapsed_seconds": 60.95748630003072
+  },
+  {
+    "dataset_updates": 1100,
+    "val_BA": {
+      "emotion": 0.16373788248788249
+    },
+    "mean_val_BA": 0.16373788248788249,
+    "training_loss": {
+      "emotion": 0.05685114238634764
+    },
+    "elapsed_seconds": 66.80177880008705
+  },
+  {
+    "dataset_updates": 1200,
+    "val_BA": {
+      "emotion": 0.14983627483627482
+    },
+    "mean_val_BA": 0.14983627483627482,
+    "training_loss": {
+      "emotion": 0.02351462480302736
+    },
+    "elapsed_seconds": 72.84285810007714
+  },
+  {
+    "dataset_updates": 1300,
+    "val_BA": {
+      "emotion": 0.14995189995189995
+    },
+    "mean_val_BA": 0.14995189995189995,
+    "training_loss": {
+      "emotion": 0.024085745554650664
+    },
+    "elapsed_seconds": 79.50160419999156
+  },
+  {
+    "dataset_updates": 1400,
+    "val_BA": {
+      "emotion": 0.15184583934583937
+    },
+    "mean_val_BA": 0.15184583934583937,
+    "training_loss": {
+      "emotion": 0.02947859980455883
+    },
+    "elapsed_seconds": 85.4916258000303
+  },
+  {
+    "dataset_updates": 1500,
+    "val_BA": {
+      "emotion": 0.15184583934583937
+    },
+    "mean_val_BA": 0.15184583934583937,
+    "training_loss": {
+      "emotion": 0.011655039072262846
+    },
+    "elapsed_seconds": 91.92805370001588
+  }
+]

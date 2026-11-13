@@ -1,0 +1,13 @@
+﻿fold,mode,method,BA,test_evaluated
+1,train_only,logistic,0.2999849442938874,False
+1,train_only,tcn,0.3346883468834688,False
+1,offline_subject_zscore,logistic,0.37496236073471845,False
+1,offline_subject_zscore,tcn,0.4099668774465522,False
+2,train_only,logistic,0.305028605841614,False
+2,train_only,tcn,0.3032219211081,False
+2,offline_subject_zscore,logistic,0.3794790725685035,False
+2,offline_subject_zscore,tcn,0.4047726588376994,False
+3,train_only,logistic,0.2841764528756399,False
+3,train_only,tcn,0.2986299307437518,False
+3,offline_subject_zscore,logistic,0.3231707317073171,False
+3,offline_subject_zscore,tcn,0.37225233363444743,False

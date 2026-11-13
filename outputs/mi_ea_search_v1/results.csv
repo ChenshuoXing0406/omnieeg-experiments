@@ -1,0 +1,10 @@
+﻿mode,fold,BA,strict_DG,test_evaluated
+offline_subject_EA,1,0.5329861111111112,False,False
+causal_prior10,1,0.5347222222222222,False,False
+causal_prior50,1,0.5243055555555556,False,False
+offline_subject_EA,2,0.47916666666666663,False,False
+causal_prior10,2,0.47395833333333337,False,False
+causal_prior50,2,0.47048611111111105,False,False
+offline_subject_EA,3,0.45601851851851855,False,False
+causal_prior10,3,0.46296296296296297,False,False
+causal_prior50,3,0.46064814814814814,False,False

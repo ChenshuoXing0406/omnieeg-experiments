@@ -1,0 +1,137 @@
+[
+  {
+    "run": "fold1_uniform_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold1_learned_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold1_no_spectrum_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold1_uniform_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold1_learned_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold1_no_spectrum_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold1_uniform_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold1_learned_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold1_no_spectrum_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_uniform_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_learned_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_no_spectrum_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_uniform_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_learned_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_no_spectrum_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_uniform_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_learned_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold2_no_spectrum_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_uniform_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_learned_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_no_spectrum_mi",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_uniform_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_learned_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_no_spectrum_ssvep_2s",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_uniform_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_learned_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  },
+  {
+    "run": "fold3_no_spectrum_emotion",
+    "predictions_recomputed": true,
+    "test_subjects_excluded": true
+  }
+]

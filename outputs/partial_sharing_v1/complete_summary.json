@@ -1,0 +1,128 @@
+[
+  {
+    "group": "J",
+    "depth": 0,
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.15370504049232117
+  },
+  {
+    "group": "J",
+    "depth": 0,
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.40528549382716045
+  },
+  {
+    "group": "J",
+    "depth": 0,
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.6622222222222222
+  },
+  {
+    "group": "S",
+    "depth": 0,
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.16416669952854163
+  },
+  {
+    "group": "S",
+    "depth": 0,
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.4388503086419753
+  },
+  {
+    "group": "S",
+    "depth": 0,
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.67625
+  },
+  {
+    "group": "task_private",
+    "depth": 2,
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.16104809238032922
+  },
+  {
+    "group": "task_private",
+    "depth": 2,
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.3994984567901234
+  },
+  {
+    "group": "task_private",
+    "depth": 2,
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.66125
+  },
+  {
+    "group": "task_private",
+    "depth": 4,
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.1679835150229887
+  },
+  {
+    "group": "task_private",
+    "depth": 4,
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.39814814814814814
+  },
+  {
+    "group": "task_private",
+    "depth": 4,
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.67125
+  },
+  {
+    "group": "frozen_prefix",
+    "depth": 4,
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.33641975308641975
+  },
+  {
+    "group": "frozen_prefix",
+    "depth": 4,
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.43111111111111117
+  },
+  {
+    "group": "frozen_prefix",
+    "depth": 4,
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.17395672371001317
+  },
+  {
+    "group": "frozen_taskwise",
+    "depth": 4,
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.3393132716049383
+  },
+  {
+    "group": "frozen_taskwise",
+    "depth": 4,
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.44541666666666657
+  },
+  {
+    "group": "frozen_taskwise",
+    "depth": 4,
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.19204733294645573
+  }
+]

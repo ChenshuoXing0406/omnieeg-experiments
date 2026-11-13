@@ -1,0 +1,56 @@
+[
+  {
+    "name": "shallow_lr1e3",
+    "alpha": 0.25,
+    "mean_BA": 0.5252700617283951,
+    "new_fits": 0
+  },
+  {
+    "name": "shallow_lr1e3",
+    "alpha": 0.5,
+    "mean_BA": 0.510030864197531,
+    "new_fits": 0
+  },
+  {
+    "name": "shallow_lr1e3",
+    "alpha": 0.75,
+    "mean_BA": 0.478395061728395,
+    "new_fits": 0
+  },
+  {
+    "name": "shallow_lr3e3",
+    "alpha": 0.25,
+    "mean_BA": 0.5140817901234568,
+    "new_fits": 0
+  },
+  {
+    "name": "shallow_lr3e3",
+    "alpha": 0.5,
+    "mean_BA": 0.4801311728395062,
+    "new_fits": 0
+  },
+  {
+    "name": "shallow_lr3e3",
+    "alpha": 0.75,
+    "mean_BA": 0.45698302469135804,
+    "new_fits": 0
+  },
+  {
+    "name": "eegnet_frequency_shift",
+    "alpha": 0.25,
+    "mean_BA": 0.5067515432098767,
+    "new_fits": 0
+  },
+  {
+    "name": "eegnet_frequency_shift",
+    "alpha": 0.5,
+    "mean_BA": 0.501929012345679,
+    "new_fits": 0
+  },
+  {
+    "name": "eegnet_frequency_shift",
+    "alpha": 0.75,
+    "mean_BA": 0.46431327160493824,
+    "new_fits": 0
+  }
+]

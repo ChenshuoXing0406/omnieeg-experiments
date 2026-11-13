@@ -1,0 +1,25 @@
+{
+  "recordCount": 2,
+  "truncated": false,
+  "metadata": {
+    "revision": "o320v1",
+    "target": {
+      "id": "wb/3ip4ff",
+      "beforeLines": 0,
+      "afterLines": 0
+    },
+    "kind": {
+      "requested": "region",
+      "tokens": [
+        "region"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  }
+}

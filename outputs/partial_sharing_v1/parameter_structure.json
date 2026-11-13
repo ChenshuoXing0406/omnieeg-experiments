@@ -1,0 +1,74 @@
+[
+  {
+    "group": "S",
+    "depth": 0,
+    "stored_parameters": 16352252,
+    "trainable_parameters": 16351652,
+    "active_parameters_per_task": {
+      "mi": 4989404,
+      "ssvep_2s": 5959040,
+      "emotion": 5403808
+    },
+    "taskwise_reuses_frozen_training": false
+  },
+  {
+    "group": "J",
+    "depth": 0,
+    "stored_parameters": 6584652,
+    "trainable_parameters": 6584452,
+    "active_parameters_per_task": {
+      "mi": 4989404,
+      "ssvep_2s": 5959040,
+      "emotion": 5403808
+    },
+    "taskwise_reuses_frozen_training": false
+  },
+  {
+    "group": "task_private",
+    "depth": 2,
+    "stored_parameters": 8195052,
+    "trainable_parameters": 8194852,
+    "active_parameters_per_task": {
+      "mi": 4989404,
+      "ssvep_2s": 5959040,
+      "emotion": 5403808
+    },
+    "taskwise_reuses_frozen_training": false
+  },
+  {
+    "group": "task_private",
+    "depth": 4,
+    "stored_parameters": 9805452,
+    "trainable_parameters": 9805252,
+    "active_parameters_per_task": {
+      "mi": 4989404,
+      "ssvep_2s": 5959040,
+      "emotion": 5403808
+    },
+    "taskwise_reuses_frozen_training": false
+  },
+  {
+    "group": "frozen_prefix",
+    "depth": 4,
+    "stored_parameters": 9805452,
+    "trainable_parameters": 6532052,
+    "active_parameters_per_task": {
+      "mi": 4989404,
+      "ssvep_2s": 5959040,
+      "emotion": 5403808
+    },
+    "taskwise_reuses_frozen_training": false
+  },
+  {
+    "group": "frozen_taskwise",
+    "depth": 4,
+    "stored_parameters": 9805452,
+    "trainable_parameters": 6532052,
+    "active_parameters_per_task": {
+      "mi": 4989404,
+      "ssvep_2s": 5959040,
+      "emotion": 5403808
+    },
+    "taskwise_reuses_frozen_training": true
+  }
+]

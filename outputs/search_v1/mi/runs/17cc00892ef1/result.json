@@ -1,0 +1,57 @@
+{
+  "id": "17cc00892ef1",
+  "task": "mi",
+  "config": {
+    "model": "cbramod_ft",
+    "lr": 1e-05,
+    "head_lr": 0.0003,
+    "wd": 0.05,
+    "dropout": 0.5,
+    "norm": "scale"
+  },
+  "seed": 42,
+  "budget_epochs": 20,
+  "stage": "coarse",
+  "val_BA": 0.3159722222222222,
+  "val_metrics": {
+    "subject_mean_BA": 0.3159722222222222,
+    "pooled_BA": 0.3159722222222222,
+    "macro_f1": 0.22213680926916224,
+    "per_subject_BA": {
+      "6": 0.25,
+      "7": 0.3819444444444444
+    },
+    "confusion_matrix": [
+      [
+        0,
+        16,
+        41,
+        87
+      ],
+      [
+        0,
+        13,
+        40,
+        91
+      ],
+      [
+        1,
+        1,
+        36,
+        106
+      ],
+      [
+        0,
+        2,
+        9,
+        133
+      ]
+    ]
+  },
+  "seconds": 47.373308400041424,
+  "test_evaluated": false,
+  "epochs_completed": 20,
+  "best_epoch": 19,
+  "updates": 900,
+  "peak_allocated_MiB": 664.677734375
+}

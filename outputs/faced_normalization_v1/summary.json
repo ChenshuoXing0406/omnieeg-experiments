@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "strict",
+    "method": "logistic",
+    "mean_BA": 0.1796447034933877
+  },
+  {
+    "mode": "strict",
+    "method": "tcn",
+    "mean_BA": 0.18248593207474792
+  },
+  {
+    "mode": "causal",
+    "method": "logistic",
+    "mean_BA": 0.2590137232406969
+  },
+  {
+    "mode": "causal",
+    "method": "tcn",
+    "mean_BA": 0.25909886998154547
+  },
+  {
+    "mode": "offline",
+    "method": "logistic",
+    "mean_BA": 0.2531084950218722
+  },
+  {
+    "mode": "offline",
+    "method": "tcn",
+    "mean_BA": 0.2733610302141004
+  }
+]

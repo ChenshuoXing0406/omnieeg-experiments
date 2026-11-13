@@ -1,0 +1,226 @@
+{
+  "scope": "synthetic interface/backprop probe only; no official EEG or labels; no classification accuracy",
+  "class_count": 2,
+  "class_count_note": "dummy two-class heads only; official class counts not yet disclosed",
+  "layout_note": "tensor shape compatibility does not demonstrate electrode-layout semantics or generalization",
+  "timing_note": "single tiny-batch probes; not warmed-up throughput benchmark",
+  "records": [
+    {
+      "private_depth": 2,
+      "dataset_shape_key": "mi64",
+      "task_branch": "mi",
+      "shape": [
+        2,
+        64,
+        800
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 2.4749472999974387,
+      "peak_allocated_MiB": 161.12646484375
+    },
+    {
+      "private_depth": 2,
+      "dataset_shape_key": "mi22",
+      "task_branch": "mi",
+      "shape": [
+        2,
+        22,
+        800
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.5137797000061255,
+      "peak_allocated_MiB": 82.99462890625
+    },
+    {
+      "private_depth": 2,
+      "dataset_shape_key": "ssvep1s",
+      "task_branch": "ssvep_2s",
+      "shape": [
+        2,
+        60,
+        200
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.6224586999960593,
+      "peak_allocated_MiB": 73.318359375
+    },
+    {
+      "private_depth": 2,
+      "dataset_shape_key": "ssvep2s",
+      "task_branch": "ssvep_2s",
+      "shape": [
+        2,
+        60,
+        400
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.5395159999970929,
+      "peak_allocated_MiB": 99.56640625
+    },
+    {
+      "private_depth": 2,
+      "dataset_shape_key": "emotion30",
+      "task_branch": "emotion",
+      "shape": [
+        2,
+        30,
+        2000
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.27576059999410063,
+      "peak_allocated_MiB": 174.54443359375
+    },
+    {
+      "private_depth": 2,
+      "dataset_shape_key": "emotion62",
+      "task_branch": "emotion",
+      "shape": [
+        2,
+        62,
+        2000
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.3216443999990588,
+      "peak_allocated_MiB": 333.96435546875
+    },
+    {
+      "private_depth": 4,
+      "dataset_shape_key": "mi64",
+      "task_branch": "mi",
+      "shape": [
+        2,
+        64,
+        800
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.6057027999995626,
+      "peak_allocated_MiB": 207.19140625
+    },
+    {
+      "private_depth": 4,
+      "dataset_shape_key": "mi22",
+      "task_branch": "mi",
+      "shape": [
+        2,
+        22,
+        800
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.30061969999951543,
+      "peak_allocated_MiB": 89.15283203125
+    },
+    {
+      "private_depth": 4,
+      "dataset_shape_key": "ssvep1s",
+      "task_branch": "ssvep_2s",
+      "shape": [
+        2,
+        60,
+        200
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.49138659999880474,
+      "peak_allocated_MiB": 79.4765625
+    },
+    {
+      "private_depth": 4,
+      "dataset_shape_key": "ssvep2s",
+      "task_branch": "ssvep_2s",
+      "shape": [
+        2,
+        60,
+        400
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.5287578999996185,
+      "peak_allocated_MiB": 105.724609375
+    },
+    {
+      "private_depth": 4,
+      "dataset_shape_key": "emotion30",
+      "task_branch": "emotion",
+      "shape": [
+        2,
+        30,
+        2000
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.44248569999763276,
+      "peak_allocated_MiB": 180.70263671875
+    },
+    {
+      "private_depth": 4,
+      "dataset_shape_key": "emotion62",
+      "task_branch": "emotion",
+      "shape": [
+        2,
+        62,
+        2000
+      ],
+      "dummy_output_shape": [
+        2,
+        2
+      ],
+      "finite_forward_backward": true,
+      "inactive_task_branches_no_gradient": true,
+      "seconds_single_probe": 0.8034034000011161,
+      "peak_allocated_MiB": 340.12255859375
+    }
+  ],
+  "passed": 12
+}

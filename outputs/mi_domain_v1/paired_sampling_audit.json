@@ -1,0 +1,14 @@
+[
+  {
+    "fold": 1,
+    "same_sampling_all_lambdas": true
+  },
+  {
+    "fold": 2,
+    "same_sampling_all_lambdas": true
+  },
+  {
+    "fold": 3,
+    "same_sampling_all_lambdas": true
+  }
+]

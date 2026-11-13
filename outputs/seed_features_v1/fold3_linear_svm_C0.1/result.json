@@ -1,0 +1,65 @@
+{
+  "metrics": {
+    "window": {
+      "subject_mean_BA": 0.5054046374288876,
+      "pooled_BA": 0.5054046374288877,
+      "macro_f1": 0.5087333684583052,
+      "per_subject_BA": {
+        "11": 0.573355250738694,
+        "12": 0.49953651543060845,
+        "13": 0.3859226869983885,
+        "14": 0.5683885640025991,
+        "15": 0.49982016997414824
+      },
+      "confusion_matrix": [
+        [
+          820,
+          603,
+          212
+        ],
+        [
+          631,
+          722,
+          267
+        ],
+        [
+          471,
+          266,
+          973
+        ]
+      ]
+    },
+    "video_trial": {
+      "subject_mean_BA": 0.52,
+      "pooled_BA": 0.52,
+      "macro_f1": 0.5225336785620474,
+      "per_subject_BA": {
+        "11": 0.6,
+        "12": 0.5333333333333333,
+        "13": 0.35555555555555557,
+        "14": 0.6,
+        "15": 0.5111111111111111
+      },
+      "confusion_matrix": [
+        [
+          39,
+          26,
+          10
+        ],
+        [
+          27,
+          35,
+          13
+        ],
+        [
+          21,
+          11,
+          43
+        ]
+      ]
+    }
+  },
+  "seconds": 1.4180674000017461,
+  "test_evaluated": false,
+  "score_note": "SVM softmax margins are uncalibrated; used only for argmax and window-to-video aggregation"
+}

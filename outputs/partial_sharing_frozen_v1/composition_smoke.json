@@ -1,0 +1,17 @@
+{
+  "scope": "synthetic correctness check, not a dataset accuracy experiment or new fit",
+  "private_branch_save_steps": {
+    "mi": 1,
+    "ssvep_2s": 2,
+    "emotion": 3
+  },
+  "frozen_prefix_hash_unchanged": true,
+  "nontrivial_earlier_branch_restore": true,
+  "composed_logits_max_abs_error": {
+    "mi": 0.0,
+    "ssvep_2s": 0.0,
+    "emotion": 0.0
+  },
+  "passed": true,
+  "device": "cpu"
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "task": "mi",
+    "mode": "baseline",
+    "folds": 3,
+    "mean_BA": 0.4388503086419753,
+    "std": 0.011751153094535515
+  },
+  {
+    "task": "mi",
+    "mode": "uniform",
+    "folds": 3,
+    "mean_BA": 0.43788580246913583,
+    "std": 0.015542621202533686
+  },
+  {
+    "task": "mi",
+    "mode": "learned",
+    "folds": 3,
+    "mean_BA": 0.4373070987654321,
+    "std": 0.01793359111477847
+  },
+  {
+    "task": "mi",
+    "mode": "no_spectrum",
+    "folds": 3,
+    "mean_BA": 0.43595679012345684,
+    "std": 0.016165767982672295
+  },
+  {
+    "task": "ssvep_2s",
+    "mode": "baseline",
+    "folds": 3,
+    "mean_BA": 0.67625,
+    "std": 0.05847007781763247
+  },
+  {
+    "task": "ssvep_2s",
+    "mode": "uniform",
+    "folds": 3,
+    "mean_BA": 0.6806944444444444,
+    "std": 0.05286469451274573
+  },
+  {
+    "task": "ssvep_2s",
+    "mode": "learned",
+    "folds": 3,
+    "mean_BA": 0.6774999999999999,
+    "std": 0.050626285991896836
+  },
+  {
+    "task": "ssvep_2s",
+    "mode": "no_spectrum",
+    "folds": 3,
+    "mean_BA": 0.6849999999999999,
+    "std": 0.05521265706339448
+  },
+  {
+    "task": "emotion",
+    "mode": "baseline",
+    "folds": 3,
+    "mean_BA": 0.16416669952854163,
+    "std": 0.005919169192206396
+  },
+  {
+    "task": "emotion",
+    "mode": "uniform",
+    "folds": 3,
+    "mean_BA": 0.17221588616873706,
+    "std": 0.006623757162286409
+  },
+  {
+    "task": "emotion",
+    "mode": "learned",
+    "folds": 3,
+    "mean_BA": 0.16883406453033645,
+    "std": 0.018687880807371042
+  },
+  {
+    "task": "emotion",
+    "mode": "no_spectrum",
+    "folds": 3,
+    "mean_BA": 0.16868034398187906,
+    "std": 0.01526360991703227
+  }
+]

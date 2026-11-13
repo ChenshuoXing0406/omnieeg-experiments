@@ -1,0 +1,50 @@
+{
+  "mode": "pretrained_frozen",
+  "task": "mi",
+  "fold": 0,
+  "seed": 42,
+  "updates": 1500,
+  "best": {
+    "updates": 300,
+    "metrics": {
+      "subject_mean_BA": 0.32638888888888884,
+      "pooled_BA": 0.3263888888888889,
+      "macro_f1": 0.3169070473332577,
+      "per_subject_BA": {
+        "1": 0.3506944444444444,
+        "2": 0.3020833333333333
+      },
+      "confusion_matrix": [
+        [
+          50,
+          20,
+          40,
+          34
+        ],
+        [
+          49,
+          22,
+          32,
+          41
+        ],
+        [
+          32,
+          7,
+          60,
+          45
+        ],
+        [
+          42,
+          14,
+          32,
+          56
+        ]
+      ]
+    }
+  },
+  "seconds": 27.808432599999833,
+  "peak_allocated_MiB": 65.53564453125,
+  "final_backbone_sha256": "b2c21660eec2b6d23934ec626ee5aeccdc3f1735a59c58d9f7068be8838c1e33",
+  "backbone_changed": false,
+  "test_evaluated": false
+}

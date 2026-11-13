@@ -1,0 +1,24 @@
+{
+  "deployment_refits": 2,
+  "artifacts": [
+    {
+      "seconds": 1,
+      "path": "outputs\\best_candidates_20261113\\ssvep_1s_fusion25.joblib",
+      "sha256": "c94c35e705b8e6f46354722216cd94254e958998e97a8afaa1fbff0c3dbe14c0",
+      "reload_max_abs_error": 0.0,
+      "new_refit": true,
+      "new_accuracy_evaluated": false
+    },
+    {
+      "seconds": 2,
+      "path": "outputs\\best_candidates_20261113\\ssvep_2s_fusion25.joblib",
+      "sha256": "e1dcf909c664467f454cb2623978c19c628a23f70135d6058a7eacf4439c2a08",
+      "reload_max_abs_error": 0.0,
+      "new_refit": true,
+      "new_accuracy_evaluated": false
+    }
+  ],
+  "test_evaluated": false,
+  "inference_entry": "scripts/ssvep_transfer_candidate.py::predict_preprocessed",
+  "security_note": "load only trusted locally generated joblib files"
+}

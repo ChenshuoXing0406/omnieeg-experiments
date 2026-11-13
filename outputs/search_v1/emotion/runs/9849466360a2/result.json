@@ -1,0 +1,107 @@
+{
+  "id": "9849466360a2",
+  "task": "emotion",
+  "config": {
+    "model": "bandpower_logistic",
+    "C": 0.01
+  },
+  "seed": 42,
+  "budget_epochs": 20,
+  "stage": "coarse",
+  "val_BA": 0.18841401653901652,
+  "val_metrics": {
+    "subject_mean_BA": 0.18841401653901652,
+    "pooled_BA": 0.18832017269517268,
+    "macro_f1": 0.15253113617748917,
+    "per_subject_BA": {
+      "2": 0.24328102453102451,
+      "10": 0.13354700854700854
+    },
+    "confusion_matrix": [
+      [
+        0,
+        5,
+        0,
+        1,
+        5,
+        16,
+        11,
+        4
+      ],
+      [
+        0,
+        12,
+        7,
+        0,
+        2,
+        19,
+        4,
+        0
+      ],
+      [
+        4,
+        3,
+        2,
+        0,
+        0,
+        21,
+        6,
+        6
+      ],
+      [
+        0,
+        3,
+        0,
+        1,
+        1,
+        17,
+        5,
+        9
+      ],
+      [
+        0,
+        3,
+        3,
+        0,
+        1,
+        18,
+        10,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        0,
+        4,
+        22,
+        11,
+        12
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        12,
+        9,
+        3
+      ],
+      [
+        0,
+        0,
+        2,
+        1,
+        0,
+        16,
+        5,
+        12
+      ]
+    ]
+  },
+  "seconds": 0.04227590002119541,
+  "test_evaluated": false,
+  "deterministic": true,
+  "metadata_correction": "Deterministic estimator (including lbfgs logistic); predictions/model unchanged"
+}

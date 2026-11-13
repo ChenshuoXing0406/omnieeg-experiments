@@ -1,0 +1,38 @@
+[
+  {
+    "run": "fold1_shallow_lr1e3",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold1_shallow_lr3e3",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold1_eegnet_frequency_shift",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold2_shallow_lr1e3",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold2_shallow_lr3e3",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold2_eegnet_frequency_shift",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold3_shallow_lr1e3",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold3_shallow_lr3e3",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold3_eegnet_frequency_shift",
+    "reload_error": 0.0
+  }
+]

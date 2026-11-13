@@ -1,0 +1,32 @@
+{
+  "fold": 2,
+  "lambda": 1.0,
+  "seed": 44,
+  "source_sha256": "1b3210d44d40b8b359e630e67ea8069e79bc5f6e14b65f5e3e93fb9c74c72a5f",
+  "data_sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "val": [
+      5,
+      6,
+      7
+    ]
+  },
+  "lr": 0.003,
+  "wd": 0.01,
+  "dropout": 0.5,
+  "batch": 16,
+  "updates": 1500,
+  "temperature": 0.1,
+  "source_only": true,
+  "test_evaluated": false,
+  "device": "cpu",
+  "target_statistics": false,
+  "implementation": "local EEGNet+supervised contrastive, not complete SCLDGN",
+  "positive_pairs": "same class, different source subjects"
+}

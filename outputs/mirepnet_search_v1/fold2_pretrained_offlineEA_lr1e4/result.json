@@ -1,0 +1,42 @@
+{
+  "metrics": {
+    "subject_mean_BA": 0.39062500000000006,
+    "pooled_BA": 0.390625,
+    "macro_f1": 0.37050892466089913,
+    "per_subject_BA": {
+      "3": 0.45486111111111116,
+      "4": 0.32638888888888895
+    },
+    "confusion_matrix": [
+      [
+        50,
+        33,
+        39,
+        22
+      ],
+      [
+        23,
+        53,
+        55,
+        13
+      ],
+      [
+        28,
+        16,
+        97,
+        3
+      ],
+      [
+        29,
+        28,
+        62,
+        25
+      ]
+    ]
+  },
+  "seconds": 136.25118640000073,
+  "peak_allocated_MiB": 821.18310546875,
+  "head_initial_sha256": "1bfc537f7d83b7b07d24cfe166382cc750b92e137c113c96d008d9c1bb367146",
+  "checkpoint_max_abs_error": 0.0,
+  "test_evaluated": false
+}

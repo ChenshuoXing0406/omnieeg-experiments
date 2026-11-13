@@ -1,0 +1,92 @@
+[
+  {
+    "step": 100,
+    "train_ce_last_batch": 1.2331327199935913,
+    "train_coral_last_batch": 0.0020671826787292957,
+    "val_BA": 0.4427083333333333
+  },
+  {
+    "step": 200,
+    "train_ce_last_batch": 1.088504433631897,
+    "train_coral_last_batch": 0.006752585060894489,
+    "val_BA": 0.45138888888888884
+  },
+  {
+    "step": 300,
+    "train_ce_last_batch": 1.087160348892212,
+    "train_coral_last_batch": 0.006043750327080488,
+    "val_BA": 0.4982638888888889
+  },
+  {
+    "step": 400,
+    "train_ce_last_batch": 1.1824933290481567,
+    "train_coral_last_batch": 0.006006376817822456,
+    "val_BA": 0.48958333333333337
+  },
+  {
+    "step": 500,
+    "train_ce_last_batch": 1.0604918003082275,
+    "train_coral_last_batch": 0.006639753468334675,
+    "val_BA": 0.4861111111111111
+  },
+  {
+    "step": 600,
+    "train_ce_last_batch": 0.8356205224990845,
+    "train_coral_last_batch": 0.004798938985913992,
+    "val_BA": 0.4774305555555556
+  },
+  {
+    "step": 700,
+    "train_ce_last_batch": 0.816323459148407,
+    "train_coral_last_batch": 0.006201997399330139,
+    "val_BA": 0.5225694444444444
+  },
+  {
+    "step": 800,
+    "train_ce_last_batch": 1.2736802101135254,
+    "train_coral_last_batch": 0.006692569702863693,
+    "val_BA": 0.4809027777777778
+  },
+  {
+    "step": 900,
+    "train_ce_last_batch": 0.624218761920929,
+    "train_coral_last_batch": 0.007318760268390179,
+    "val_BA": 0.5173611111111112
+  },
+  {
+    "step": 1000,
+    "train_ce_last_batch": 0.887778103351593,
+    "train_coral_last_batch": 0.004908681381493807,
+    "val_BA": 0.4895833333333333
+  },
+  {
+    "step": 1100,
+    "train_ce_last_batch": 0.8374772071838379,
+    "train_coral_last_batch": 0.006222251802682877,
+    "val_BA": 0.49652777777777773
+  },
+  {
+    "step": 1200,
+    "train_ce_last_batch": 0.5821385383605957,
+    "train_coral_last_batch": 0.0059046670794487,
+    "val_BA": 0.5034722222222222
+  },
+  {
+    "step": 1300,
+    "train_ce_last_batch": 0.9654340744018555,
+    "train_coral_last_batch": 0.005498476326465607,
+    "val_BA": 0.5104166666666667
+  },
+  {
+    "step": 1400,
+    "train_ce_last_batch": 0.8736902475357056,
+    "train_coral_last_batch": 0.004803068935871124,
+    "val_BA": 0.5069444444444444
+  },
+  {
+    "step": 1500,
+    "train_ce_last_batch": 1.0585079193115234,
+    "train_coral_last_batch": 0.005330117419362068,
+    "val_BA": 0.5086805555555556
+  }
+]

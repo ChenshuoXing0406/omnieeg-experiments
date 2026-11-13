@@ -1,0 +1,218 @@
+[
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P2",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P2",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P2",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P4",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P4",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P4",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P2",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P2",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P2",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P4",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P4",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P4",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P2",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P2",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P2",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P4",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P4",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P4",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold1_frozen_P4",
+    "task": "mi",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold1_frozen_P4",
+    "task": "ssvep_2s",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold1_frozen_P4",
+    "task": "emotion",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold1_frozen_P4\\taskwise",
+    "task": "mi",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold1_frozen_P4\\taskwise",
+    "task": "ssvep_2s",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold1_frozen_P4\\taskwise",
+    "task": "emotion",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold2_frozen_P4",
+    "task": "mi",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold2_frozen_P4",
+    "task": "ssvep_2s",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold2_frozen_P4",
+    "task": "emotion",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold2_frozen_P4\\taskwise",
+    "task": "mi",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold2_frozen_P4\\taskwise",
+    "task": "ssvep_2s",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold2_frozen_P4\\taskwise",
+    "task": "emotion",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold3_frozen_P4",
+    "task": "mi",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold3_frozen_P4",
+    "task": "ssvep_2s",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold3_frozen_P4",
+    "task": "emotion",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold3_frozen_P4\\taskwise",
+    "task": "mi",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold3_frozen_P4\\taskwise",
+    "task": "ssvep_2s",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  },
+  {
+    "path": "outputs\\partial_sharing_frozen_v1\\fold3_frozen_P4\\taskwise",
+    "task": "emotion",
+    "reload_error": 0.0,
+    "frozen_shared_unchanged": true
+  }
+]

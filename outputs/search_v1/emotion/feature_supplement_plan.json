@@ -1,0 +1,100 @@
+{
+  "reason": "Absolute bandpower weak on validation; check within-trial scale invariance across subjects.",
+  "configs": [
+    {
+      "model": "bandpower_lda",
+      "power_norm": "relative"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.01,
+      "power_norm": "relative"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 1.0,
+      "power_norm": "relative"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale",
+      "power_norm": "relative"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 10.0,
+      "gamma": "scale",
+      "power_norm": "relative"
+    },
+    {
+      "model": "bandpower_lda",
+      "power_norm": "spatial_centered"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.01,
+      "power_norm": "spatial_centered"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "spatial_centered"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 1.0,
+      "power_norm": "spatial_centered"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale",
+      "power_norm": "spatial_centered"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 10.0,
+      "gamma": "scale",
+      "power_norm": "spatial_centered"
+    },
+    {
+      "model": "bandpower_lda",
+      "power_norm": "relative_centered"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.01,
+      "power_norm": "relative_centered"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative_centered"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 1.0,
+      "power_norm": "relative_centered"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale",
+      "power_norm": "relative_centered"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 10.0,
+      "gamma": "scale",
+      "power_norm": "relative_centered"
+    }
+  ],
+  "test_used": false,
+  "fit_policy": "Normalization within each trial; StandardScaler fitted to training subjects only"
+}

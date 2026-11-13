@@ -1,0 +1,596 @@
+[
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold1_pretrained_offlineEA_lr1e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold1_pretrained_source_lr1e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold1_pretrained_source_lr5e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold1_random_source_lr5e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold2_pretrained_offlineEA_lr1e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold2_pretrained_source_lr1e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold2_pretrained_source_lr5e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold2_random_source_lr5e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold3_pretrained_offlineEA_lr1e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold3_pretrained_source_lr1e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold3_pretrained_source_lr5e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mirepnet_search_v1\\fold3_random_source_lr5e4",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold1_band_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold1_causal_prior100",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold1_causal_prior20",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold1_causal_prior5",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold1_double_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold1_spatial_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold2_band_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold2_causal_prior100",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold2_causal_prior20",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold2_causal_prior5",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold2_double_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold2_spatial_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold3_band_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold3_causal_prior100",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold3_causal_prior20",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold3_causal_prior5",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold3_double_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_normalization_search_v1\\fold3_spatial_center",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": null,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold1_causal_emt",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold1_causal_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold1_offline_emt",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold1_offline_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold2_causal_emt",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold2_causal_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold2_offline_emt",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold2_offline_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold3_causal_emt",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold3_causal_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold3_offline_emt",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\seed_adapted_neural_v1\\fold3_offline_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold1_causal_prior10",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold1_causal_prior50",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold1_offline_subject_EA",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold2_causal_prior10",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold2_causal_prior50",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold2_offline_subject_EA",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold3_causal_prior10",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold3_causal_prior50",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_ea_search_v1\\fold3_offline_subject_EA",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold1_lambda0",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold1_lambda0.1",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold1_lambda1",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold2_lambda0",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold2_lambda0.1",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold2_lambda1",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold3_lambda0",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold3_lambda0.1",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_supcon_v1\\fold3_lambda1",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold1_causal_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold1_causal_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold1_offline_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold1_offline_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold1_strict_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold1_strict_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold2_causal_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold2_causal_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold2_offline_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold2_offline_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold2_strict_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold2_strict_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold3_causal_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold3_causal_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold3_offline_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold3_offline_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold3_strict_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced_normalization_v1\\fold3_strict_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold1_offline_subject_zscore_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold1_offline_subject_zscore_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold1_train_only_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold1_train_only_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold2_offline_subject_zscore_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold2_offline_subject_zscore_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold2_train_only_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold2_train_only_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold3_offline_subject_zscore_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold3_offline_subject_zscore_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold3_train_only_logistic",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\faced123_features_v1\\fold3_train_only_tcn",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold1_eegnet_frequency_shift",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold1_shallow_lr1e3",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold1_shallow_lr3e3",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold2_eegnet_frequency_shift",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold2_shallow_lr1e3",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold2_shallow_lr3e3",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold3_eegnet_frequency_shift",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold3_shallow_lr1e3",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "path": "outputs\\mi_specialists_v1\\fold3_shallow_lr3e3",
+    "prediction_recomputed": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  }
+]

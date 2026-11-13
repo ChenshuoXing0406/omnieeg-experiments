@@ -1,0 +1,14 @@
+[
+  {
+    "name": "shallow_lr1e3",
+    "mean_BA": 0.4621913580246914
+  },
+  {
+    "name": "shallow_lr3e3",
+    "mean_BA": 0.44965277777777773
+  },
+  {
+    "name": "eegnet_frequency_shift",
+    "mean_BA": 0.4220679012345679
+  }
+]

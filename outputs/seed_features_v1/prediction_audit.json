@@ -1,0 +1,74 @@
+[
+  {
+    "run": "fold1_emt",
+    "passed": true
+  },
+  {
+    "run": "fold1_linear_svm_C0.01",
+    "passed": true
+  },
+  {
+    "run": "fold1_linear_svm_C0.1",
+    "passed": true
+  },
+  {
+    "run": "fold1_logistic_C0.1",
+    "passed": true
+  },
+  {
+    "run": "fold1_logistic_C1",
+    "passed": true
+  },
+  {
+    "run": "fold1_tcn",
+    "passed": true
+  },
+  {
+    "run": "fold2_emt",
+    "passed": true
+  },
+  {
+    "run": "fold2_linear_svm_C0.01",
+    "passed": true
+  },
+  {
+    "run": "fold2_linear_svm_C0.1",
+    "passed": true
+  },
+  {
+    "run": "fold2_logistic_C0.1",
+    "passed": true
+  },
+  {
+    "run": "fold2_logistic_C1",
+    "passed": true
+  },
+  {
+    "run": "fold2_tcn",
+    "passed": true
+  },
+  {
+    "run": "fold3_emt",
+    "passed": true
+  },
+  {
+    "run": "fold3_linear_svm_C0.01",
+    "passed": true
+  },
+  {
+    "run": "fold3_linear_svm_C0.1",
+    "passed": true
+  },
+  {
+    "run": "fold3_logistic_C0.1",
+    "passed": true
+  },
+  {
+    "run": "fold3_logistic_C1",
+    "passed": true
+  },
+  {
+    "run": "fold3_tcn",
+    "passed": true
+  }
+]

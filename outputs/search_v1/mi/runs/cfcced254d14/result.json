@@ -1,0 +1,50 @@
+{
+  "id": "cfcced254d14",
+  "task": "mi",
+  "config": {
+    "model": "cbramod_ridge",
+    "alpha": 1000.0
+  },
+  "seed": 42,
+  "budget_epochs": 40,
+  "stage": "refine",
+  "val_BA": 0.3819444444444444,
+  "val_metrics": {
+    "subject_mean_BA": 0.3819444444444444,
+    "pooled_BA": 0.3819444444444444,
+    "macro_f1": 0.3702729272231162,
+    "per_subject_BA": {
+      "6": 0.34375,
+      "7": 0.4201388888888889
+    },
+    "confusion_matrix": [
+      [
+        41,
+        18,
+        51,
+        34
+      ],
+      [
+        29,
+        32,
+        42,
+        41
+      ],
+      [
+        13,
+        23,
+        81,
+        27
+      ],
+      [
+        12,
+        13,
+        53,
+        66
+      ]
+    ]
+  },
+  "seconds": 0.050547000020742416,
+  "test_evaluated": false,
+  "deterministic": true
+}

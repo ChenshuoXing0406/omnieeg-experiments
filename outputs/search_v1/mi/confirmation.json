@@ -1,0 +1,90 @@
+[
+  {
+    "config": {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.003,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    "run_ids": [
+      "f9b2b4447458",
+      "0ecd51be650f",
+      "1fbb54b22ae3"
+    ],
+    "val_BA_mean": 0.5729166666666666,
+    "val_BA_std": 0.015911721163041105,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "deterministic": false,
+    "individual_val_BA": [
+      0.5868055555555556,
+      0.5555555555555556,
+      0.5763888888888888
+    ]
+  },
+  {
+    "config": {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.1,
+      "norm": "trial",
+      "smoothing": 0.05
+    },
+    "run_ids": [
+      "07ad88e46ae6",
+      "86cd9c0cf2cb",
+      "5f3e60e6c684"
+    ],
+    "val_BA_mean": 0.5491898148148148,
+    "val_BA_std": 0.011817464037420218,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "deterministic": false,
+    "individual_val_BA": [
+      0.5625,
+      0.5399305555555556,
+      0.5451388888888888
+    ]
+  },
+  {
+    "config": {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    "run_ids": [
+      "a89c4a56fc8d",
+      "bdb091bc0eab",
+      "0e16e20251aa"
+    ],
+    "val_BA_mean": 0.546875,
+    "val_BA_std": 0.010416666666666685,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "deterministic": false,
+    "individual_val_BA": [
+      0.5572916666666666,
+      0.5364583333333333,
+      0.546875
+    ]
+  }
+]

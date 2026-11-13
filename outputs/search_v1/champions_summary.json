@@ -1,0 +1,102 @@
+[
+  {
+    "task": "mi",
+    "model": "eegnet",
+    "tested_configurations": 27,
+    "val_BA_mean": 0.5729166666666666,
+    "val_BA_std": 0.015911721163041105,
+    "val_ensemble_BA": 0.5833333333333333,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "config": {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.003,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    "checkpoint_directories": [
+      "outputs\\search_v1\\mi\\runs\\f9b2b4447458",
+      "outputs\\search_v1\\mi\\runs\\0ecd51be650f",
+      "outputs\\search_v1\\mi\\runs\\1fbb54b22ae3"
+    ],
+    "test_BA": 0.5555555555555556,
+    "test_macro_f1": 0.5470720726377934,
+    "test_previously_used": true
+  },
+  {
+    "task": "ssvep_1s",
+    "model": "fbcca",
+    "tested_configurations": 25,
+    "val_BA_mean": 0.778125,
+    "val_BA_std": 0.0,
+    "val_ensemble_BA": 0.778125,
+    "seeds": [
+      42
+    ],
+    "config": {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 1.0
+    },
+    "checkpoint_directories": [
+      "outputs\\search_v1\\ssvep_1s\\runs\\abcaf24d4685"
+    ],
+    "test_BA": 0.5375,
+    "test_macro_f1": 0.5336589042416444,
+    "test_previously_used": false
+  },
+  {
+    "task": "ssvep_2s",
+    "model": "fbcca",
+    "tested_configurations": 25,
+    "val_BA_mean": 0.9833333333333334,
+    "val_BA_std": 0.0,
+    "val_ensemble_BA": 0.9833333333333334,
+    "seeds": [
+      42
+    ],
+    "config": {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 0.5
+    },
+    "checkpoint_directories": [
+      "outputs\\search_v1\\ssvep_2s\\runs\\428e4b38497f"
+    ],
+    "test_BA": 0.8491666666666667,
+    "test_macro_f1": 0.8485319661001496,
+    "test_previously_used": false
+  },
+  {
+    "task": "emotion",
+    "model": "bandpower_logistic",
+    "tested_configurations": 41,
+    "val_BA_mean": 0.22968460632934318,
+    "val_BA_std": 0.0,
+    "val_ensemble_BA": 0.22968460632934318,
+    "seeds": [
+      42
+    ],
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative"
+    },
+    "checkpoint_directories": [
+      "outputs\\search_v1\\emotion\\runs\\6b583ab89db0"
+    ],
+    "test_BA": 0.21276119713619715,
+    "test_macro_f1": 0.19551937862238988,
+    "test_previously_used": false
+  }
+]

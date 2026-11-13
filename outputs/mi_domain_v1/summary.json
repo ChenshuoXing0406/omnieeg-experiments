@@ -1,0 +1,44 @@
+[
+  {
+    "method": "eegnet_source_balanced_coral",
+    "parameter": 0.0,
+    "folds": 3,
+    "mean_BA": 0.5063657407407408,
+    "sample_std": 0.03268011088772106
+  },
+  {
+    "method": "eegnet_source_balanced_coral",
+    "parameter": 1.0,
+    "folds": 3,
+    "mean_BA": 0.5038580246913581,
+    "sample_std": 0.035458689162419045
+  },
+  {
+    "method": "eegnet_source_balanced_coral",
+    "parameter": 10.0,
+    "folds": 3,
+    "mean_BA": 0.4909336419753087,
+    "sample_std": 0.04903752751948301
+  },
+  {
+    "method": "oas_logeuclidean_tangent_logistic",
+    "parameter": 0.1,
+    "folds": 3,
+    "mean_BA": 0.3074845679012346,
+    "sample_std": 0.04999790126196579
+  },
+  {
+    "method": "oas_logeuclidean_tangent_logistic",
+    "parameter": 1.0,
+    "folds": 3,
+    "mean_BA": 0.3047839506172839,
+    "sample_std": 0.04231006166404804
+  },
+  {
+    "method": "oas_logeuclidean_tangent_logistic",
+    "parameter": 10.0,
+    "folds": 3,
+    "mean_BA": 0.3032407407407407,
+    "sample_std": 0.0405423145558727
+  }
+]

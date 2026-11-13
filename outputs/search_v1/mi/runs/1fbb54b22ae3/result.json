@@ -1,0 +1,58 @@
+{
+  "id": "1fbb54b22ae3",
+  "task": "mi",
+  "config": {
+    "model": "eegnet",
+    "filters": 16,
+    "kernel": 64,
+    "dropout": 0.5,
+    "lr": 0.003,
+    "wd": 0.01,
+    "norm": "trial"
+  },
+  "seed": 44,
+  "budget_epochs": 40,
+  "stage": "confirmation",
+  "val_BA": 0.5763888888888888,
+  "val_metrics": {
+    "subject_mean_BA": 0.5763888888888888,
+    "pooled_BA": 0.576388888888889,
+    "macro_f1": 0.5727036787140394,
+    "per_subject_BA": {
+      "6": 0.4444444444444444,
+      "7": 0.7083333333333334
+    },
+    "confusion_matrix": [
+      [
+        81,
+        7,
+        26,
+        30
+      ],
+      [
+        14,
+        60,
+        33,
+        37
+      ],
+      [
+        13,
+        18,
+        98,
+        15
+      ],
+      [
+        13,
+        18,
+        20,
+        93
+      ]
+    ]
+  },
+  "seconds": 9.561001599999145,
+  "test_evaluated": false,
+  "epochs_completed": 24,
+  "best_epoch": 14,
+  "updates": 1080,
+  "peak_allocated_MiB": 125.92138671875
+}

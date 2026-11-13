@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "tasks": [
+    {
+      "task": "mi",
+      "verified_run_count": 40,
+      "subject_overlap": false,
+      "validation_predictions_recomputed": true,
+      "champion_available": true,
+      "final_test_available": true
+    },
+    {
+      "task": "ssvep_1s",
+      "verified_run_count": 28,
+      "subject_overlap": false,
+      "validation_predictions_recomputed": true,
+      "champion_available": true,
+      "final_test_available": true
+    },
+    {
+      "task": "ssvep_2s",
+      "verified_run_count": 28,
+      "subject_overlap": false,
+      "validation_predictions_recomputed": true,
+      "champion_available": true,
+      "final_test_available": true
+    },
+    {
+      "task": "emotion",
+      "verified_run_count": 44,
+      "subject_overlap": false,
+      "validation_predictions_recomputed": true,
+      "champion_available": true,
+      "final_test_available": true
+    }
+  ],
+  "runs_verified": 140,
+  "scope": "metric integrity; not proof of global optimality or clinical validity"
+}

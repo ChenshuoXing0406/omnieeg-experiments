@@ -1,0 +1,2 @@
+# Preserve recorded source/config bytes so SHA256 audits survive Windows clones.
+* -text

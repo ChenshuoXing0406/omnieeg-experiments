@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "cbra-mod-seedv",
+    "origin": "https://gitee.com/CodeStoreHub/cbra-mod-seedv.git",
+    "commit": "936335ec72f5fed49b29eb69f07b1f3b10a8f5fe"
+  },
+  {
+    "directory": "CBraMod",
+    "origin": "https://github.com/wjq-learning/CBraMod.git",
+    "commit": "b9e961003214326972c567eff390e75b0287e32a"
+  },
+  {
+    "directory": "MIRepNet",
+    "origin": "https://github.com/staraink/MIRepNet.git",
+    "commit": "b35d113cd7b1629b1e0f35a5f2495ee15c69c291"
+  },
+  {
+    "directory": "omni-eegbench",
+    "origin": "https://github.com/ncclab-sustech/omni-eegbench.git",
+    "commit": "9c6a9196087d877aa1f3fef9327d111c9146615c"
+  },
+  {
+    "directory": "SCLDGN",
+    "origin": "https://github.com/hongyizhi/SCLDGN.git",
+    "commit": "405d0c6d087747f54b0eae5f7d1fab3276567d0c"
+  }
+]

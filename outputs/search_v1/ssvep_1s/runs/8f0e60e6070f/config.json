@@ -1,0 +1,61 @@
+{
+  "version": "search-v1",
+  "task": "ssvep_1s",
+  "data_sha256": "b19d6b58739b8cde7c771572703ed08a355fc79f0d686fb1580668081fa6f8f9",
+  "config": {
+    "model": "cbramod_ridge",
+    "alpha": 1000.0
+  },
+  "seed": 42,
+  "epochs": 20,
+  "stage": "coarse",
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "val": [
+      6,
+      30,
+      31,
+      32
+    ],
+    "test": [
+      7,
+      8,
+      33,
+      34,
+      35
+    ]
+  },
+  "code_sha256": "a359bc8463f45d7e8208bca91e7174805aa0d5a6cb0a04b58026ff3cf36b359e",
+  "selection_metric": "validation equal-subject mean balanced accuracy",
+  "test_evaluated": false,
+  "torch": "2.11.0+cu128",
+  "numpy": "2.4.6",
+  "checkpoint_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178"
+}

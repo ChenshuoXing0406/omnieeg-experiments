@@ -1,0 +1,49 @@
+{
+  "id": "9b64f6cde562",
+  "task": "mi",
+  "config": {
+    "model": "bandpower_lda"
+  },
+  "seed": 42,
+  "budget_epochs": 20,
+  "stage": "coarse",
+  "val_BA": 0.33333333333333337,
+  "val_metrics": {
+    "subject_mean_BA": 0.33333333333333337,
+    "pooled_BA": 0.3333333333333333,
+    "macro_f1": 0.28803626409991145,
+    "per_subject_BA": {
+      "6": 0.2951388888888889,
+      "7": 0.3715277777777778
+    },
+    "confusion_matrix": [
+      [
+        28,
+        7,
+        96,
+        13
+      ],
+      [
+        2,
+        29,
+        99,
+        14
+      ],
+      [
+        8,
+        12,
+        122,
+        2
+      ],
+      [
+        5,
+        6,
+        120,
+        13
+      ]
+    ]
+  },
+  "seconds": 5.791846700012684,
+  "test_evaluated": false,
+  "deterministic": true
+}

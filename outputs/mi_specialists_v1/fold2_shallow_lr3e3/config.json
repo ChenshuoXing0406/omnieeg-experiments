@@ -1,0 +1,31 @@
+{
+  "name": "shallow_lr3e3",
+  "fold": 1,
+  "seed": 43,
+  "source_sha256": "79fea88f4f37b6a87bdb664be735e288030142fc380fde6000b40ca83468f4d3",
+  "data_sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+  "split": {
+    "train": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    "val": [
+      3,
+      4
+    ]
+  },
+  "lr": 0.003,
+  "wd": 0.01,
+  "dropout": 0.5,
+  "batch": 16,
+  "updates": 1500,
+  "optimizer": "AdamW",
+  "scheduler": "cosine",
+  "input": "per-trial temporal zscore",
+  "augmentation": "none",
+  "scope": "strict source-only; local ShallowConv-style variant; not exact published reproduction",
+  "test_evaluated": false
+}

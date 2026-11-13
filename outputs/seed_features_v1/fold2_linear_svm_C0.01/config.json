@@ -1,0 +1,39 @@
+{
+  "version": "seed-features-v1",
+  "fold": 1,
+  "seed": 43,
+  "method": "linear_svm",
+  "parameter": 0.01,
+  "source_sha256": "0be88bf9b2325adff56cf51b3ab3282cf8794ee144523f20afdc7d684b266e29",
+  "import_sources": {
+    "run_preliminary.py": "c54ea97fdc47fee033c7dadbc3f63ef3f5c107cb5694fba3c83bc1ef1d647ea2",
+    "search_models.py": "3a0ab7cdfe9c8475a77c3adcaac3370ce93474b9cfa5c63f0d160881183acbd9"
+  },
+  "data_sha256": "dd7a65f546173d2eb9b079b1baf4cfdb9a08896d5d579056163273fea6118aeb",
+  "split": {
+    "train": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "val": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "normalization": "StandardScaler fitted on training subjects only",
+  "test_evaluated": false,
+  "feature": "author DE-LDS 10 consecutive 1-second frames per example; 62x5",
+  "scope": "three-fold development; all configurations evaluated on validation; not an independent final test",
+  "emt_source_sha256": "c59de374aea3566637357b15644d993e12abe9cde73825e6fe27ee2a5da87b3c"
+}

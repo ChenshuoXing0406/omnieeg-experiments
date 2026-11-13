@@ -1,0 +1,50 @@
+[
+  {
+    "run": "fold1_train_only_logistic",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold1_train_only_tcn",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold1_offline_subject_zscore_logistic",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold1_offline_subject_zscore_tcn",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold2_train_only_logistic",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold2_train_only_tcn",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold2_offline_subject_zscore_logistic",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold2_offline_subject_zscore_tcn",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold3_train_only_logistic",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold3_train_only_tcn",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold3_offline_subject_zscore_logistic",
+    "reload_error": 0.0
+  },
+  {
+    "run": "fold3_offline_subject_zscore_tcn",
+    "reload_error": 0.0
+  }
+]

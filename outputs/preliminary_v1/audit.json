@@ -1,0 +1,242 @@
+[
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_F_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_F_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_F_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_J_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_J_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_J_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_M_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_M_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_M_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_S_emotion\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_S_mi\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold1_S_ssvep_2s\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_F_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_F_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_F_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_J_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_J_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_J_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_M_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_M_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_M_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_S_emotion\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_S_mi\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold2_S_ssvep_2s\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_F_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_F_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_F_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_J_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_J_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_J_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_M_joint\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_M_joint\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_M_joint\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_S_emotion\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_S_mi\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\core\\fold3_S_ssvep_2s\\ssvep_2s_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold1_eegnet\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold1_fbcnet\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold1_sequence_logistic\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold1_sequence_tcn\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold2_eegnet\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold2_fbcnet\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold2_sequence_logistic\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold2_sequence_tcn\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold3_eegnet\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold3_fbcnet\\mi_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold3_sequence_logistic\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  },
+  {
+    "file": "outputs\\preliminary_v1\\supplement\\fold3_sequence_tcn\\emotion_validation.npz",
+    "passed": true,
+    "test_subjects_absent": true
+  }
+]

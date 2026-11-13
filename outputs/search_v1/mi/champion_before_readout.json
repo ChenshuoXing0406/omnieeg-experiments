@@ -1,0 +1,33 @@
+{
+  "task": "mi",
+  "selection": "highest mean validation subject BA; no test selection",
+  "tested_configurations": 21,
+  "test_evaluated": false,
+  "config": {
+    "model": "eegnet",
+    "filters": 16,
+    "kernel": 64,
+    "dropout": 0.5,
+    "lr": 0.003,
+    "wd": 0.01,
+    "norm": "trial"
+  },
+  "run_ids": [
+    "f9b2b4447458",
+    "0ecd51be650f",
+    "1fbb54b22ae3"
+  ],
+  "val_BA_mean": 0.5729166666666666,
+  "val_BA_std": 0.015911721163041105,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "deterministic": false,
+  "individual_val_BA": [
+    0.5868055555555556,
+    0.5555555555555556,
+    0.5763888888888888
+  ]
+}

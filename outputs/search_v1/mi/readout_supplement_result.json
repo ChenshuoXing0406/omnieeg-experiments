@@ -1,0 +1,354 @@
+{
+  "screen": [
+    {
+      "id": "437b00c21165",
+      "task": "mi",
+      "config": {
+        "model": "cbramod_ft",
+        "lr": 1e-05,
+        "head_lr": 0.0003,
+        "wd": 0.05,
+        "dropout": 0.5,
+        "norm": "scale",
+        "readout": "flatten"
+      },
+      "seed": 42,
+      "budget_epochs": 20,
+      "stage": "readout_screen",
+      "val_BA": 0.4270833333333333,
+      "val_metrics": {
+        "subject_mean_BA": 0.4270833333333333,
+        "pooled_BA": 0.42708333333333337,
+        "macro_f1": 0.4272250031392993,
+        "per_subject_BA": {
+          "6": 0.4375,
+          "7": 0.41666666666666663
+        },
+        "confusion_matrix": [
+          [
+            66,
+            34,
+            17,
+            27
+          ],
+          [
+            30,
+            67,
+            15,
+            32
+          ],
+          [
+            42,
+            37,
+            51,
+            14
+          ],
+          [
+            20,
+            44,
+            18,
+            62
+          ]
+        ]
+      },
+      "seconds": 46.48485950008035,
+      "test_evaluated": false,
+      "epochs_completed": 20,
+      "best_epoch": 20,
+      "updates": 900,
+      "peak_allocated_MiB": 666.21484375
+    },
+    {
+      "id": "52d71277a9ca",
+      "task": "mi",
+      "config": {
+        "model": "cbramod_ft",
+        "lr": 3e-05,
+        "head_lr": 0.0003,
+        "wd": 0.05,
+        "dropout": 0.5,
+        "norm": "scale",
+        "readout": "flatten"
+      },
+      "seed": 42,
+      "budget_epochs": 20,
+      "stage": "readout_screen",
+      "val_BA": 0.5173611111111112,
+      "val_metrics": {
+        "subject_mean_BA": 0.5173611111111112,
+        "pooled_BA": 0.5173611111111112,
+        "macro_f1": 0.5115747733402024,
+        "per_subject_BA": {
+          "6": 0.4340277777777778,
+          "7": 0.6006944444444445
+        },
+        "confusion_matrix": [
+          [
+            59,
+            19,
+            29,
+            37
+          ],
+          [
+            12,
+            57,
+            31,
+            44
+          ],
+          [
+            19,
+            13,
+            88,
+            24
+          ],
+          [
+            11,
+            16,
+            23,
+            94
+          ]
+        ]
+      },
+      "seconds": 43.82080400001723,
+      "test_evaluated": false,
+      "epochs_completed": 20,
+      "best_epoch": 19,
+      "updates": 900,
+      "peak_allocated_MiB": 666.06640625
+    },
+    {
+      "id": "180dd10ca324",
+      "task": "mi",
+      "config": {
+        "model": "cbramod_ridge",
+        "alpha": 10.0,
+        "readout": "flatten"
+      },
+      "seed": 42,
+      "budget_epochs": 20,
+      "stage": "readout_screen",
+      "val_BA": 0.42361111111111116,
+      "val_metrics": {
+        "subject_mean_BA": 0.42361111111111116,
+        "pooled_BA": 0.4236111111111111,
+        "macro_f1": 0.4198779836328601,
+        "per_subject_BA": {
+          "6": 0.3715277777777778,
+          "7": 0.4756944444444445
+        },
+        "confusion_matrix": [
+          [
+            45,
+            21,
+            40,
+            38
+          ],
+          [
+            15,
+            56,
+            44,
+            29
+          ],
+          [
+            22,
+            18,
+            77,
+            27
+          ],
+          [
+            18,
+            28,
+            32,
+            66
+          ]
+        ]
+      },
+      "seconds": 4.147062300005928,
+      "test_evaluated": false,
+      "deterministic": true
+    },
+    {
+      "id": "2209adc6a3e1",
+      "task": "mi",
+      "config": {
+        "model": "cbramod_ridge",
+        "alpha": 100.0,
+        "readout": "flatten"
+      },
+      "seed": 42,
+      "budget_epochs": 20,
+      "stage": "readout_screen",
+      "val_BA": 0.43229166666666663,
+      "val_metrics": {
+        "subject_mean_BA": 0.43229166666666663,
+        "pooled_BA": 0.4322916666666667,
+        "macro_f1": 0.4286066788100995,
+        "per_subject_BA": {
+          "6": 0.3819444444444444,
+          "7": 0.4826388888888889
+        },
+        "confusion_matrix": [
+          [
+            46,
+            20,
+            40,
+            38
+          ],
+          [
+            14,
+            58,
+            43,
+            29
+          ],
+          [
+            22,
+            18,
+            79,
+            25
+          ],
+          [
+            18,
+            28,
+            32,
+            66
+          ]
+        ]
+      },
+      "seconds": 2.6388796999817714,
+      "test_evaluated": false,
+      "deterministic": true
+    },
+    {
+      "id": "34cfec96ef97",
+      "task": "mi",
+      "config": {
+        "model": "cbramod_ridge",
+        "alpha": 1000.0,
+        "readout": "flatten"
+      },
+      "seed": 42,
+      "budget_epochs": 20,
+      "stage": "readout_screen",
+      "val_BA": 0.4548611111111111,
+      "val_metrics": {
+        "subject_mean_BA": 0.4548611111111111,
+        "pooled_BA": 0.4548611111111111,
+        "macro_f1": 0.45134545133810117,
+        "per_subject_BA": {
+          "6": 0.4027777777777778,
+          "7": 0.5069444444444444
+        },
+        "confusion_matrix": [
+          [
+            49,
+            18,
+            41,
+            36
+          ],
+          [
+            13,
+            60,
+            42,
+            29
+          ],
+          [
+            23,
+            17,
+            82,
+            22
+          ],
+          [
+            16,
+            26,
+            31,
+            71
+          ]
+        ]
+      },
+      "seconds": 2.0695623999927193,
+      "test_evaluated": false,
+      "deterministic": true
+    },
+    {
+      "id": "7918ffd7e5f1",
+      "task": "mi",
+      "config": {
+        "model": "cbramod_ridge",
+        "alpha": 10000.0,
+        "readout": "flatten"
+      },
+      "seed": 42,
+      "budget_epochs": 20,
+      "stage": "readout_screen",
+      "val_BA": 0.47395833333333337,
+      "val_metrics": {
+        "subject_mean_BA": 0.47395833333333337,
+        "pooled_BA": 0.47395833333333337,
+        "macro_f1": 0.4680350467306465,
+        "per_subject_BA": {
+          "6": 0.4201388888888889,
+          "7": 0.5277777777777778
+        },
+        "confusion_matrix": [
+          [
+            50,
+            15,
+            45,
+            34
+          ],
+          [
+            6,
+            54,
+            49,
+            35
+          ],
+          [
+            19,
+            15,
+            93,
+            17
+          ],
+          [
+            15,
+            16,
+            37,
+            76
+          ]
+        ]
+      },
+      "seconds": 1.2705588000826538,
+      "test_evaluated": false,
+      "deterministic": true
+    }
+  ],
+  "confirmation": {
+    "config": {
+      "model": "cbramod_ft",
+      "lr": 3e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    "run_ids": [
+      "111a8a6b9dc7",
+      "6fc146765a5b",
+      "1558f6a42ef8"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "deterministic": false,
+    "val_BA_mean": 0.5144675925925926,
+    "val_BA_std": 0.014032819042803353,
+    "individual_val_BA": [
+      0.5295138888888888,
+      0.5017361111111112,
+      0.5121527777777778
+    ]
+  },
+  "test_used": false
+}

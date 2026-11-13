@@ -1,0 +1,110 @@
+[
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P2",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P2",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P2",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P4",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P4",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold1_task_private_P4",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P2",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P2",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P2",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P4",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P4",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold2_task_private_P4",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P2",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P2",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P2",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P4",
+    "task": "mi",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P4",
+    "task": "ssvep_2s",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  },
+  {
+    "path": "outputs\\partial_sharing_v1\\fold3_task_private_P4",
+    "task": "emotion",
+    "prediction_recomputed": true,
+    "reload_error": 0.0
+  }
+]

@@ -1,0 +1,19 @@
+﻿group,depth,fold,stored_parameters,training_wall_seconds,peak_allocated_MiB,note
+S,0,1,16352252,245.0162593999412,970.37451171875,sum of3 separately stored task models
+S,0,2,16352252,228.64872499986086,970.37451171875,sum of3 separately stored task models
+S,0,3,16352252,316.3956789999502,970.37451171875,sum of3 separately stored task models
+J,0,1,6584652,254.1933386999881,988.2919921875,one shared model +3heads
+J,0,2,6584652,227.9704867999535,988.2919921875,one shared model +3heads
+J,0,3,6584652,342.50920640002005,988.2919921875,one shared model +3heads
+task_private,2,1,8195052,218.39140820000102,1008.615234375,one shared prefix +3tails +3heads
+task_private,2,2,8195052,235.11389860000054,1008.615234375,one shared prefix +3tails +3heads
+task_private,2,3,8195052,295.17112180000186,1008.615234375,one shared prefix +3tails +3heads
+task_private,4,1,9805452,2756.855113100002,1027.08984375,one shared prefix +3tails +3heads
+task_private,4,2,9805452,2024.873797100001,1027.08984375,one shared prefix +3tails +3heads
+task_private,4,3,9805452,712.8512950000004,1027.08984375,one shared prefix +3tails +3heads
+frozen_prefix,4,1,9805452,443.08591519999754,406.55078125,one shared prefix +3tails +3heads
+frozen_prefix,4,2,9805452,315.74910770000133,408.5869140625,one shared prefix +3tails +3heads
+frozen_prefix,4,3,9805452,315.13609780000115,408.5869140625,one shared prefix +3tails +3heads
+frozen_taskwise,4,1,9805452,443.08591519999754,406.55078125,one shared prefix +3tails +3heads
+frozen_taskwise,4,2,9805452,315.74910770000133,408.5869140625,one shared prefix +3tails +3heads
+frozen_taskwise,4,3,9805452,315.13609780000115,408.5869140625,one shared prefix +3tails +3heads

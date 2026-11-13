@@ -1,0 +1,16 @@
+[
+  {
+    "method": "session_center",
+    "mean_window_BA": 0.7165057469437176,
+    "mean_video_BA": 0.7496296296296295,
+    "strict_domain_generalization": false,
+    "uses_unlabeled_target_session": true
+  },
+  {
+    "method": "session_zscore",
+    "mean_window_BA": 0.7233014673202809,
+    "mean_video_BA": 0.757037037037037,
+    "strict_domain_generalization": false,
+    "uses_unlabeled_target_session": true
+  }
+]

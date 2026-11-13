@@ -1,0 +1,191 @@
+[
+  {
+    "mode": "pretrained_full",
+    "task": "mi",
+    "fold": 1,
+    "BA": 0.4444444444444444,
+    "path": "outputs\\preliminary_v1\\core\\fold1_S_mi"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "mi",
+    "fold": 1,
+    "BA": 0.32638888888888884,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold1_pretrained_frozen_mi"
+  },
+  {
+    "mode": "random_full",
+    "task": "mi",
+    "fold": 1,
+    "BA": 0.4288194444444444,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold1_random_full_mi"
+  },
+  {
+    "mode": "pretrained_full",
+    "task": "ssvep_2s",
+    "fold": 1,
+    "BA": 0.64375,
+    "path": "outputs\\preliminary_v1\\core\\fold1_S_ssvep_2s"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "ssvep_2s",
+    "fold": 1,
+    "BA": 0.25749999999999995,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold1_pretrained_frozen_ssvep_2s"
+  },
+  {
+    "mode": "random_full",
+    "task": "ssvep_2s",
+    "fold": 1,
+    "BA": 0.3029166666666666,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold1_random_full_ssvep_2s"
+  },
+  {
+    "mode": "pretrained_full",
+    "task": "emotion",
+    "fold": 1,
+    "BA": 0.16887163762163762,
+    "path": "outputs\\preliminary_v1\\core\\fold1_S_emotion"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "emotion",
+    "fold": 1,
+    "BA": 0.1734052984052984,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold1_pretrained_frozen_emotion"
+  },
+  {
+    "mode": "random_full",
+    "task": "emotion",
+    "fold": 1,
+    "BA": 0.2158790283790284,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold1_random_full_emotion"
+  },
+  {
+    "mode": "pretrained_full",
+    "task": "mi",
+    "fold": 2,
+    "BA": 0.4253472222222222,
+    "path": "outputs\\preliminary_v1\\core\\fold2_S_mi"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "mi",
+    "fold": 2,
+    "BA": 0.3038194444444444,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold2_pretrained_frozen_mi"
+  },
+  {
+    "mode": "random_full",
+    "task": "mi",
+    "fold": 2,
+    "BA": 0.40451388888888884,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold2_random_full_mi"
+  },
+  {
+    "mode": "pretrained_full",
+    "task": "ssvep_2s",
+    "fold": 2,
+    "BA": 0.6412500000000001,
+    "path": "outputs\\preliminary_v1\\core\\fold2_S_ssvep_2s"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "ssvep_2s",
+    "fold": 2,
+    "BA": 0.19666666666666663,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold2_pretrained_frozen_ssvep_2s"
+  },
+  {
+    "mode": "random_full",
+    "task": "ssvep_2s",
+    "fold": 2,
+    "BA": 0.26041666666666663,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold2_random_full_ssvep_2s"
+  },
+  {
+    "mode": "pretrained_full",
+    "task": "emotion",
+    "fold": 2,
+    "BA": 0.15752072002072,
+    "path": "outputs\\preliminary_v1\\core\\fold2_S_emotion"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "emotion",
+    "fold": 2,
+    "BA": 0.15778781403781403,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold2_pretrained_frozen_emotion"
+  },
+  {
+    "mode": "random_full",
+    "task": "emotion",
+    "fold": 2,
+    "BA": 0.16937460687460684,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold2_random_full_emotion"
+  },
+  {
+    "mode": "pretrained_full",
+    "task": "mi",
+    "fold": 3,
+    "BA": 0.44675925925925924,
+    "path": "outputs\\preliminary_v1\\core\\fold3_S_mi"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "mi",
+    "fold": 3,
+    "BA": 0.3113425925925926,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold3_pretrained_frozen_mi"
+  },
+  {
+    "mode": "random_full",
+    "task": "mi",
+    "fold": 3,
+    "BA": 0.4166666666666667,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold3_random_full_mi"
+  },
+  {
+    "mode": "pretrained_full",
+    "task": "ssvep_2s",
+    "fold": 3,
+    "BA": 0.74375,
+    "path": "outputs\\preliminary_v1\\core\\fold3_S_ssvep_2s"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "ssvep_2s",
+    "fold": 3,
+    "BA": 0.2608333333333333,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold3_pretrained_frozen_ssvep_2s"
+  },
+  {
+    "mode": "random_full",
+    "task": "ssvep_2s",
+    "fold": 3,
+    "BA": 0.31375000000000003,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold3_random_full_ssvep_2s"
+  },
+  {
+    "mode": "pretrained_full",
+    "task": "emotion",
+    "fold": 3,
+    "BA": 0.16610774094326725,
+    "path": "outputs\\preliminary_v1\\core\\fold3_S_emotion"
+  },
+  {
+    "mode": "pretrained_frozen",
+    "task": "emotion",
+    "fold": 3,
+    "BA": 0.15930665642836694,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold3_pretrained_frozen_emotion"
+  },
+  {
+    "mode": "random_full",
+    "task": "emotion",
+    "fold": 3,
+    "BA": 0.1571657509157509,
+    "path": "outputs\\initialization_controls_v1\\runs\\fold3_random_full_emotion"
+  }
+]

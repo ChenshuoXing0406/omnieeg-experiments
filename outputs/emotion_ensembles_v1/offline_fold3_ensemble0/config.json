@@ -1,0 +1,22 @@
+{
+  "weights_logistic_tcn_emt": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "source_predictions": [
+    "outputs\\seed_alignment_diagnostic_v1\\fold3_session_zscore\\validation.npz",
+    "outputs\\seed_adapted_neural_v1\\fold3_offline_tcn\\validation.npz",
+    "outputs\\seed_adapted_neural_v1\\fold3_offline_emt\\validation.npz"
+  ],
+  "source_prediction_sha256": [
+    "cfd579ca3e83134f5f0dd2b9ea74e19159fae8c79fc666d85ee12fc372b0557d",
+    "b921248c7bb03b21516e2304232fa7b275b6697df9aed78c9ef094d34ab2a937",
+    "eb7185a2ffecf0c31a017f08b540ef1ef40820b0f0e9e4f7d9c5882e4820839c"
+  ],
+  "source_sha256": "9a7605390c7adeb060413df5a788f379e476b2943724c06cd4d8231d58d0104d",
+  "new_fits": 0,
+  "condition": "offline",
+  "test_evaluated": false,
+  "upstream_LDS_offline": true
+}

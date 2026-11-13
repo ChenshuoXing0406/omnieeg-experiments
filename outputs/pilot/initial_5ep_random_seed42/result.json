@@ -1,0 +1,40 @@
+{
+  "scope": "PUBLIC_DATA_SHORT_PILOT_NOT_COMPETITION",
+  "mode": "random",
+  "seed": 42,
+  "epochs": 5,
+  "updates": 450,
+  "best_epoch": 4,
+  "best_val_BA": 0.4201388888888889,
+  "test_BA": 0.40625,
+  "test_macro_f1": 0.36516693306743936,
+  "test_confusion_matrix": [
+    [
+      16,
+      27,
+      45,
+      56
+    ],
+    [
+      6,
+      38,
+      38,
+      62
+    ],
+    [
+      8,
+      10,
+      65,
+      61
+    ],
+    [
+      1,
+      2,
+      26,
+      115
+    ]
+  ],
+  "training_seconds": 20.40001849993132,
+  "peak_allocated_MiB": 369.9375,
+  "limitation": "T session only; fixed 5/2/2 subjects; one development seed; short budget; no claim of convergence or official performance"
+}

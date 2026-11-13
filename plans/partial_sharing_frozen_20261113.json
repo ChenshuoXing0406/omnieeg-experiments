@@ -1,0 +1,18 @@
+{
+  "version": "partial-sharing-frozen-v1.1-before-first-fit",
+  "purpose": "Distinguish fixed pretrained shared features from jointly updated shared prefix",
+  "depth": 4,
+  "folds": 3,
+  "source_protocol": "plans/partial_sharing_20261113.json",
+  "change": "freeze shared patch embedding and first8encoder layers; train3private four-layer tails and dataset heads",
+  "dropout": "shared prefix remains in train mode during training, matching trainable-prefix P4; freeze gradient only",
+  "updates_per_task": 1500,
+  "backbone_lr": 0.0001,
+  "head_lr": 0.001,
+  "same_initialization_heads_sampling_and_selection_as_P4": true,
+  "additional_selection_ablation": "retain mean3task checkpoint, and separately assemble per-task best private tails/heads with exactly the same frozen shared prefix; zero additional training",
+  "selection_ablation_reason": "legacy J histories show mean-checkpoint selection can lower emotion validation; taskwise maxima are not deployable with changing shared weights, but are composable with an unchanged frozen prefix",
+  "new_fits": 3,
+  "scope": "public downstream development; no new pretraining or official evaluation",
+  "test_evaluated": false
+}

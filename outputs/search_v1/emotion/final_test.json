@@ -1,0 +1,222 @@
+{
+  "scope": "PUBLIC_DATA_CANDIDATE_BEST_NOT_GLOBAL_OR_COMPETITION",
+  "task": "emotion",
+  "champion": {
+    "task": "emotion",
+    "selection": "highest mean validation subject BA; no test selection",
+    "tested_configurations": 41,
+    "test_evaluated": false,
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative"
+    },
+    "run_ids": [
+      "6b583ab89db0"
+    ],
+    "val_BA_mean": 0.22968460632934318,
+    "val_BA_std": 0.0,
+    "seeds": [
+      42
+    ],
+    "deterministic": true,
+    "individual_val_BA": [
+      0.22968460632934318
+    ]
+  },
+  "test_metrics": {
+    "subject_mean_BA": 0.21276119713619715,
+    "pooled_BA": 0.21276119713619712,
+    "macro_f1": 0.19551937862238988,
+    "per_subject_BA": {
+      "3": 0.17343073593073594,
+      "11": 0.25209165834165836
+    },
+    "confusion_matrix": [
+      [
+        9,
+        0,
+        1,
+        17,
+        3,
+        8,
+        4,
+        0
+      ],
+      [
+        2,
+        10,
+        2,
+        21,
+        2,
+        1,
+        6,
+        0
+      ],
+      [
+        6,
+        0,
+        3,
+        17,
+        5,
+        2,
+        5,
+        4
+      ],
+      [
+        1,
+        6,
+        1,
+        19,
+        2,
+        2,
+        5,
+        0
+      ],
+      [
+        6,
+        9,
+        1,
+        4,
+        4,
+        6,
+        5,
+        1
+      ],
+      [
+        13,
+        0,
+        2,
+        20,
+        0,
+        12,
+        3,
+        2
+      ],
+      [
+        4,
+        5,
+        1,
+        4,
+        0,
+        5,
+        5,
+        0
+      ],
+      [
+        12,
+        5,
+        3,
+        1,
+        1,
+        9,
+        1,
+        4
+      ]
+    ]
+  },
+  "individual_runs": [
+    {
+      "run_id": "6b583ab89db0",
+      "seed": 42,
+      "test_metrics": {
+        "subject_mean_BA": 0.21276119713619715,
+        "pooled_BA": 0.21276119713619712,
+        "macro_f1": 0.19551937862238988,
+        "per_subject_BA": {
+          "3": 0.17343073593073594,
+          "11": 0.25209165834165836
+        },
+        "confusion_matrix": [
+          [
+            9,
+            0,
+            1,
+            17,
+            3,
+            8,
+            4,
+            0
+          ],
+          [
+            2,
+            10,
+            2,
+            21,
+            2,
+            1,
+            6,
+            0
+          ],
+          [
+            6,
+            0,
+            3,
+            17,
+            5,
+            2,
+            5,
+            4
+          ],
+          [
+            1,
+            6,
+            1,
+            19,
+            2,
+            2,
+            5,
+            0
+          ],
+          [
+            6,
+            9,
+            1,
+            4,
+            4,
+            6,
+            5,
+            1
+          ],
+          [
+            13,
+            0,
+            2,
+            20,
+            0,
+            12,
+            3,
+            2
+          ],
+          [
+            4,
+            5,
+            1,
+            4,
+            0,
+            5,
+            5,
+            0
+          ],
+          [
+            12,
+            5,
+            3,
+            1,
+            1,
+            9,
+            1,
+            4
+          ]
+        ]
+      }
+    }
+  ],
+  "ensemble": false,
+  "test_previously_used": false,
+  "test_subjects": [
+    3,
+    11
+  ],
+  "limitation": "Fixed subject split; selected among tested candidates. Training seeds do not measure subject-split variation."
+}

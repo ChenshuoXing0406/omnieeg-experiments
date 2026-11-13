@@ -1,0 +1,22 @@
+{
+  "counts": [
+    376,
+    412,
+    114,
+    254,
+    10
+  ],
+  "config_mean_checks": 254,
+  "candidate_checks": 12,
+  "control_checks": 39,
+  "sheets": [
+    "总览",
+    "配置汇总",
+    "逐次训练",
+    "复用评分",
+    "早期测试",
+    "数据与协议"
+  ],
+  "new_training": false,
+  "new_test_evaluation": false
+}

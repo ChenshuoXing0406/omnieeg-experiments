@@ -1,0 +1,31 @@
+{
+  "version": "mi-domain-v1",
+  "source_sha256": "4acb45a65a3bb911ba0584756e08fff4a7db9e11e9efb4ef76d261f1c4a0bcdf",
+  "imports": {
+    "run_preliminary.py": "c54ea97fdc47fee033c7dadbc3f63ef3f5c107cb5694fba3c83bc1ef1d647ea2",
+    "search_models.py": "3a0ab7cdfe9c8475a77c3adcaac3370ce93474b9cfa5c63f0d160881183acbd9"
+  },
+  "data_sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+  "split": {
+    "train": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    "val": [
+      3,
+      4
+    ]
+  },
+  "seed": 43,
+  "fold": 1,
+  "test_evaluated": false,
+  "target_collection_statistics": false,
+  "method": "oas_logeuclidean_tangent_logistic",
+  "C": 0.1,
+  "reference_fit": "training trials only",
+  "normalization": "per-trial covariance / trace; train-only StandardScaler",
+  "class_weight": "balanced"
+}

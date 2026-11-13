@@ -1,0 +1,81 @@
+{
+  "scope": "SYNTHETIC_ENGINEERING_ONLY",
+  "environment": {
+    "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "C:\\Users\\lenovo\\Documents\\ChatGPT\\Omnieeg\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "cbramod_commit": "b9e961003214326972c567eff390e75b0287e32a"
+  },
+  "rows": [
+    {
+      "channels": 60,
+      "samples": 200,
+      "batch_size": 2,
+      "steps": 3,
+      "seconds_per_step": 0.4287538999924436,
+      "peak_allocated_MiB": 112.2998046875,
+      "parameters": 4955804,
+      "finite_gradients": true,
+      "updated": true
+    },
+    {
+      "channels": 60,
+      "samples": 400,
+      "batch_size": 2,
+      "steps": 3,
+      "seconds_per_step": 0.0782188333493347,
+      "peak_allocated_MiB": 128.5546875,
+      "parameters": 5027804,
+      "finite_gradients": true,
+      "updated": true
+    },
+    {
+      "channels": 64,
+      "samples": 800,
+      "batch_size": 2,
+      "steps": 3,
+      "seconds_per_step": 0.07359483333614965,
+      "peak_allocated_MiB": 192.291015625,
+      "parameters": 5191004,
+      "finite_gradients": true,
+      "updated": true
+    },
+    {
+      "channels": 22,
+      "samples": 800,
+      "batch_size": 2,
+      "steps": 3,
+      "seconds_per_step": 0.06060480000451207,
+      "peak_allocated_MiB": 113.06982421875,
+      "parameters": 4989404,
+      "finite_gradients": true,
+      "updated": true
+    },
+    {
+      "channels": 30,
+      "samples": 2000,
+      "batch_size": 2,
+      "steps": 3,
+      "seconds_per_step": 0.06746133331519862,
+      "peak_allocated_MiB": 205.13818359375,
+      "parameters": 5243804,
+      "finite_gradients": true,
+      "updated": true
+    },
+    {
+      "channels": 62,
+      "samples": 2000,
+      "batch_size": 2,
+      "steps": 3,
+      "seconds_per_step": 0.061232766640993454,
+      "peak_allocated_MiB": 371.1083984375,
+      "parameters": 5627804,
+      "finite_gradients": true,
+      "updated": true
+    }
+  ],
+  "masked_signal_invariance": true
+}

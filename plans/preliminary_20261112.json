@@ -1,0 +1,40 @@
+{
+  "status": "planned_not_executed",
+  "created_date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "results_freeze_date": "2026-11-14",
+  "submission_date_from_handbook": "2026-11-15",
+  "exact_submission_time": null,
+  "official_protocol": false,
+  "scope": "public_development_only",
+  "source_results": "outputs/search_v1/champions_summary.json",
+  "legacy_test_subjects_excluded": {
+    "mi": [8, 9],
+    "ssvep_2s": [7, 8, 33, 34, 35],
+    "emotion": [3, 11]
+  },
+  "validation_subjects_by_fold": {
+    "mi": [[1, 2], [3, 4], [5, 6, 7]],
+    "ssvep_2s": [[1, 2, 3, 4, 5, 6, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18, 19, 20, 21, 22], [23, 24, 25, 26, 27, 28, 29, 30, 31, 32]],
+    "emotion": [[0, 1, 4], [5, 6, 7], [2, 8, 9, 10]]
+  },
+  "train_rule": "all development subjects other than this fold validation subjects",
+  "paired_training_seeds_by_fold": [42, 43, 44],
+  "uncertainty_note": "fold and training seed both vary; not pure optimization-seed uncertainty or official split-seed scores",
+  "core_groups": [
+    {"id": "S", "kind": "single_task_dense", "fits": 9},
+    {"id": "J", "kind": "joint_dense", "fits": 3},
+    {"id": "F", "kind": "joint_fixed_task_routing", "fits": 3},
+    {"id": "M", "kind": "joint_content_routing", "fits": 3}
+  ],
+  "experts": {"count": 4, "top_k": 1, "replaced_ffn_layers_from_end": [1, 2], "initialization": "copy matching pretrained dense FFN", "balance_coefficient_start": 0.01},
+  "training_start": {"backbone_lr": 0.0001, "head_lr": 0.001, "optimizer": "AdamW", "weight_decay": 0.01, "dropout": 0.5, "batch_size": 16, "batch_updates_per_dataset": 1500, "validation_every_dataset_updates": 100, "augmentation": "none"},
+  "joint_checkpoint_rule": "unweighted mean of three validation subject-mean balanced accuracies",
+  "single_checkpoint_rule": "validation subject-mean balanced accuracy for that dataset",
+  "practical_gate": {"mean_gain_percentage_points": 1.0, "positive_folds_min": 2, "maximum_task_mean_drop_percentage_points": 2.0, "statistical_significance_claim": false},
+  "supplement_priority": ["FBCNet versus EEGNet on paired development folds", "one-second band log-variance sequence with TCN versus same-feature time-mean Logistic Regression"],
+  "gpu_hour_caps": {"core": 18, "supplement": 6, "total": 24, "measured": false},
+  "deliverables": ["research proposal PDF", "matching PPTX or PPT"],
+  "not_required_for_preliminary": ["model weights", "code submission", "completed experiments"],
+  "automatic_email_submission_authorized": false
+}

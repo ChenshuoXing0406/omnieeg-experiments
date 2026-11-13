@@ -1,0 +1,31 @@
+{
+  "method": "session_zscore",
+  "fold": 0,
+  "C": 0.1,
+  "data_sha256": "dd7a65f546173d2eb9b079b1baf4cfdb9a08896d5d579056163273fea6118aeb",
+  "source_sha256": "e2eb8d88af46bb205b63b494fe5c4cb36a17750e8db0e726ce52f30300beffae",
+  "strict_domain_generalization": false,
+  "uses_unlabeled_target_session": true,
+  "uses_target_labels_for_fitting_or_alignment": false,
+  "uses_future_target_windows": true,
+  "scope": "offline transductive diagnostic only; not online adaptation or competition score",
+  "train_subjects": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "val_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

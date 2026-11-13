@@ -1,0 +1,23 @@
+{
+  "task": "emotion",
+  "selection": "highest mean validation subject BA; no test selection",
+  "tested_configurations": 41,
+  "test_evaluated": false,
+  "config": {
+    "model": "bandpower_logistic",
+    "C": 0.1,
+    "power_norm": "relative"
+  },
+  "run_ids": [
+    "6b583ab89db0"
+  ],
+  "val_BA_mean": 0.22968460632934318,
+  "val_BA_std": 0.0,
+  "seeds": [
+    42
+  ],
+  "deterministic": true,
+  "individual_val_BA": [
+    0.22968460632934318
+  ]
+}

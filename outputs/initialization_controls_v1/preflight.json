@@ -1,0 +1,11 @@
+{
+  "matched_state_keys_and_shapes": true,
+  "pretrained_initial_state_equal": true,
+  "head_initialization_equal": true,
+  "random_backbone_differs": true,
+  "frozen_backbone_unchanged_after_optimizer": true,
+  "frozen_head_updated": true,
+  "baseline_schedule_and_provenance_match": true,
+  "test_evaluated": false,
+  "frozen_training_mode": "train with dropout, identical to full fine-tuning"
+}

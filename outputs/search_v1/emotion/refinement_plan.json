@@ -1,0 +1,95 @@
+{
+  "based_on_run_ids": [
+    "7d2d6eab0b52",
+    "cdc547a1ff7c",
+    "927b7ec6cbbe",
+    "5a8f36c4565c",
+    "cac0ef4be33a",
+    "62b984357e0a",
+    "b20baee718a0",
+    "4dcf6bb24173",
+    "8f4414775da1",
+    "e3483ea4cc03",
+    "9849466360a2",
+    "e6892c7caeb0",
+    "b03b1916f80a",
+    "4041a62611e3",
+    "9afe63376475",
+    "d5402375e02f",
+    "280ed8823d1e",
+    "cf56de674b09",
+    "1dae6c23492f",
+    "a3d654f1bba3",
+    "86a18b7f2461",
+    "5ca77d6cacb5",
+    "71f716116fae",
+    "2a499abb9a9e",
+    "4c36a9da4244",
+    "cc8a044bc2eb",
+    "e3d8daf38c95",
+    "38b8a74d1d46",
+    "afb9bf50303f",
+    "6f59823d3e02",
+    "902621c0236f",
+    "40d690861110",
+    "bc4565020741",
+    "156b7ebd8edf",
+    "c9519afd901d",
+    "bf83921e9ed2"
+  ],
+  "configs": [
+    {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.03,
+      "power_norm": "relative"
+    },
+    {
+      "model": "bandpower_logistic",
+      "C": 0.30000000000000004,
+      "power_norm": "relative"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 1e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 3e-06,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 3.0000000000000004e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 1e-05,
+      "head_lr": 0.0003,
+      "wd": 0.1,
+      "dropout": 0.5,
+      "norm": "scale",
+      "readout": "flatten",
+      "smoothing": 0.05
+    }
+  ],
+  "test_used": false
+}

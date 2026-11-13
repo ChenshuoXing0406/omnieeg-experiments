@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "band_center",
+    "mean_BA": 0.5238507271690382,
+    "mean_video_BA": 0.522962962962963,
+    "strict_DG": true
+  },
+  {
+    "mode": "spatial_center",
+    "mean_BA": 0.5034761177115022,
+    "mean_video_BA": 0.4977777777777778,
+    "strict_DG": true
+  },
+  {
+    "mode": "double_center",
+    "mean_BA": 0.5312030926790302,
+    "mean_video_BA": 0.5333333333333333,
+    "strict_DG": true
+  },
+  {
+    "mode": "causal_prior5",
+    "mean_BA": 0.7225754905253089,
+    "mean_video_BA": 0.7585185185185184,
+    "strict_DG": false
+  },
+  {
+    "mode": "causal_prior20",
+    "mean_BA": 0.7154094130255227,
+    "mean_video_BA": 0.7540740740740741,
+    "strict_DG": false
+  },
+  {
+    "mode": "causal_prior100",
+    "mean_BA": 0.6614428859175537,
+    "mean_video_BA": 0.6755555555555555,
+    "strict_DG": false
+  }
+]

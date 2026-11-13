@@ -1,0 +1,130 @@
+[
+  {
+    "family": "core",
+    "group": "F",
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.16972069617354704,
+    "sample_std": 0.008385684705139066
+  },
+  {
+    "family": "core",
+    "group": "F",
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.40489969135802467,
+    "sample_std": 0.014436695402829974
+  },
+  {
+    "family": "core",
+    "group": "F",
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.6654166666666667,
+    "sample_std": 0.05954835803315191
+  },
+  {
+    "family": "core",
+    "group": "J",
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.15370504049232117,
+    "sample_std": 0.01722948042274842
+  },
+  {
+    "family": "core",
+    "group": "J",
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.40528549382716045,
+    "sample_std": 0.0026095195328835826
+  },
+  {
+    "family": "core",
+    "group": "J",
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.6622222222222222,
+    "sample_std": 0.050758711166254626
+  },
+  {
+    "family": "core",
+    "group": "M",
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.1683008704664406,
+    "sample_std": 0.016690881907166426
+  },
+  {
+    "family": "core",
+    "group": "M",
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.39891975308641975,
+    "sample_std": 0.015412796570554164
+  },
+  {
+    "family": "core",
+    "group": "M",
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.6505555555555554,
+    "sample_std": 0.05659053300620102
+  },
+  {
+    "family": "core",
+    "group": "S",
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.16416669952854163,
+    "sample_std": 0.005919169192206396
+  },
+  {
+    "family": "core",
+    "group": "S",
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.4388503086419753,
+    "sample_std": 0.011751153094535515
+  },
+  {
+    "family": "core",
+    "group": "S",
+    "task": "ssvep_2s",
+    "folds": 3,
+    "mean_BA": 0.67625,
+    "sample_std": 0.05847007781763247
+  },
+  {
+    "family": "supplement",
+    "group": "eegnet",
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.4774305555555555,
+    "sample_std": 0.03252603124165835
+  },
+  {
+    "family": "supplement",
+    "group": "fbcnet",
+    "task": "mi",
+    "folds": 3,
+    "mean_BA": 0.34085648148148145,
+    "sample_std": 0.040056163149704185
+  },
+  {
+    "family": "supplement",
+    "group": "sequence_logistic",
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.1800889625725152,
+    "sample_std": 0.020975429837910845
+  },
+  {
+    "family": "supplement",
+    "group": "sequence_tcn",
+    "task": "emotion",
+    "folds": 3,
+    "mean_BA": 0.18205118163999742,
+    "sample_std": 0.021070123476111237
+  }
+]

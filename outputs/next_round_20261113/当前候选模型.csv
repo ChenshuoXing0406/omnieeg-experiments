@@ -1,0 +1,9 @@
+﻿task,classes,model,protocol,mean_BA
+SSVEP 1s,40,FBCCA .75 + source-template FBTRCA .25,subject-disjoint development; offline filter context,0.8201388888888889
+SSVEP 2s,40,FBCCA .75 + source-template FBTRCA .25,subject-disjoint development; offline filter context,0.9566666666666667
+MI,4,EEGNet 0.75 + shallow_lr1e3 0.25,strict source-only; old test8/9 excluded,0.5252700617283951
+SEED,3,tcn,train-only downstream normalization; author DE-LDS offline,0.5563821444349727
+SEED,3,TCN .5 + EmT .5,causal_normalization; upstream DE-LDS offline,0.7812473712691893
+SEED,3,TCN .5 + EmT .5,offline_normalization; upstream DE-LDS offline,0.7838399042496187
+FACED8,8,tcn,offline,0.2733610302141004
+FACED123features9,9,tcn,offline_subject_zscore,0.3956639566395663

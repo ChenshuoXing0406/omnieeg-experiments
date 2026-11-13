@@ -1,0 +1,51 @@
+{
+  "mode": "random_full",
+  "task": "mi",
+  "fold": 2,
+  "seed": 44,
+  "updates": 1500,
+  "best": {
+    "updates": 700,
+    "metrics": {
+      "subject_mean_BA": 0.4166666666666667,
+      "pooled_BA": 0.41666666666666674,
+      "macro_f1": 0.41186224382277953,
+      "per_subject_BA": {
+        "5": 0.38541666666666663,
+        "6": 0.40625,
+        "7": 0.4583333333333333
+      },
+      "confusion_matrix": [
+        [
+          109,
+          59,
+          28,
+          20
+        ],
+        [
+          40,
+          115,
+          27,
+          34
+        ],
+        [
+          64,
+          69,
+          66,
+          17
+        ],
+        [
+          44,
+          80,
+          22,
+          70
+        ]
+      ]
+    }
+  },
+  "seconds": 64.24909550000007,
+  "peak_allocated_MiB": 369.93798828125,
+  "final_backbone_sha256": "de566866cf3053ae747dcb9836dbf9cf058b5ca0492b151c1770ebde26c13d93",
+  "backbone_changed": true,
+  "test_evaluated": false
+}

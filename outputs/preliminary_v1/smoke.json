@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "task": "mi",
+      "group": "F",
+      "initial_dense_max_error": 0.0
+    },
+    {
+      "task": "mi",
+      "group": "M",
+      "initial_dense_max_error": 5.066394805908203e-07
+    },
+    {
+      "task": "ssvep_2s",
+      "group": "F",
+      "initial_dense_max_error": 0.0
+    },
+    {
+      "task": "ssvep_2s",
+      "group": "M",
+      "initial_dense_max_error": 5.960464477539062e-07
+    },
+    {
+      "task": "emotion",
+      "group": "F",
+      "initial_dense_max_error": 0.0
+    },
+    {
+      "task": "emotion",
+      "group": "M",
+      "initial_dense_max_error": 3.548339009284973e-07
+    }
+  ],
+  "router_classification_gradient_norm": [
+    0.1970413327217102,
+    0.3831261992454529
+  ],
+  "timing_scope": "real-input emotion B16 forward backward clipping; excludes optimizer and validation",
+  "seconds_per_batch": 0.049491327999858184,
+  "peak_allocated_MiB": 994.720703125,
+  "test_evaluated": false
+}

@@ -1,0 +1,256 @@
+{
+  "scope": "split_plan_audit_only_no_training",
+  "checks": [
+    {
+      "task": "mi",
+      "fold": 1,
+      "train_subjects": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "validation_subjects": [
+        1,
+        2
+      ],
+      "train_samples": 1440,
+      "validation_samples": 576,
+      "classes": 4,
+      "passed": true
+    },
+    {
+      "task": "mi",
+      "fold": 2,
+      "train_subjects": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "validation_subjects": [
+        3,
+        4
+      ],
+      "train_samples": 1440,
+      "validation_samples": 576,
+      "classes": 4,
+      "passed": true
+    },
+    {
+      "task": "mi",
+      "fold": 3,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation_subjects": [
+        5,
+        6,
+        7
+      ],
+      "train_samples": 1152,
+      "validation_samples": 864,
+      "classes": 4,
+      "passed": true
+    },
+    {
+      "task": "ssvep_2s",
+      "fold": 1,
+      "train_subjects": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "validation_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "train_samples": 4800,
+      "validation_samples": 2400,
+      "classes": 40,
+      "passed": true
+    },
+    {
+      "task": "ssvep_2s",
+      "fold": 2,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "validation_subjects": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "train_samples": 4800,
+      "validation_samples": 2400,
+      "classes": 40,
+      "passed": true
+    },
+    {
+      "task": "ssvep_2s",
+      "fold": 3,
+      "train_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "validation_subjects": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "train_samples": 4800,
+      "validation_samples": 2400,
+      "classes": 40,
+      "passed": true
+    },
+    {
+      "task": "emotion",
+      "fold": 1,
+      "train_subjects": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "validation_subjects": [
+        0,
+        1,
+        4
+      ],
+      "train_samples": 1095,
+      "validation_samples": 468,
+      "classes": 8,
+      "passed": true
+    },
+    {
+      "task": "emotion",
+      "fold": 2,
+      "train_subjects": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        9,
+        10
+      ],
+      "validation_subjects": [
+        5,
+        6,
+        7
+      ],
+      "train_samples": 1095,
+      "validation_samples": 468,
+      "classes": 8,
+      "passed": true
+    },
+    {
+      "task": "emotion",
+      "fold": 3,
+      "train_subjects": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "validation_subjects": [
+        2,
+        8,
+        9,
+        10
+      ],
+      "train_samples": 936,
+      "validation_samples": 627,
+      "classes": 8,
+      "passed": true
+    }
+  ],
+  "plan_sha256": "bf98176904784b48476c5a4b91c8c654373e59ae91cdfe74376dc1129b36e8cc",
+  "planned_core_fits": 18
+}

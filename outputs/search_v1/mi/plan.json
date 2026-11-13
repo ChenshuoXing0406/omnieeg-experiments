@@ -1,0 +1,234 @@
+{
+  "scope": "PUBLIC_DATA_CANDIDATE_SEARCH",
+  "coarse_configs": [
+    {
+      "model": "cbramod_ft",
+      "lr": 1e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale"
+    },
+    {
+      "model": "cbramod_ft",
+      "lr": 3e-05,
+      "head_lr": 0.0003,
+      "wd": 0.05,
+      "dropout": 0.5,
+      "norm": "scale"
+    },
+    {
+      "model": "eegnet",
+      "filters": 8,
+      "kernel": 64,
+      "dropout": 0.25,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 8,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.0003,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 1.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 10.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 100.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 1000.0
+    },
+    {
+      "model": "fbcsp",
+      "bands": "single",
+      "components": 2,
+      "shrink": 0.1
+    },
+    {
+      "model": "fbcsp",
+      "bands": "single",
+      "components": 4,
+      "shrink": 0.1
+    },
+    {
+      "model": "fbcsp",
+      "bands": "bank",
+      "components": 2,
+      "shrink": 0.1
+    },
+    {
+      "model": "fbcsp",
+      "bands": "bank",
+      "components": 4,
+      "shrink": 0.1
+    },
+    {
+      "model": "bandpower_lda"
+    },
+    {
+      "model": "bandpower_svm",
+      "C": 1.0,
+      "gamma": "scale"
+    }
+  ],
+  "coarse_epochs": 20,
+  "refine_epochs": 40,
+  "screen_seed": 42,
+  "confirmation_seeds": [
+    42,
+    43,
+    44
+  ],
+  "rule": "coarse -> refine top 2 distinct model families -> confirm top 3 configs; rank mean validation subject-BA",
+  "test_policy": "no test metrics during search; finalize selected champion only",
+  "data_sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+  "data_metadata": {
+    "scope": "PUBLIC_DATA_PILOT_NOT_COMPETITION",
+    "sessions": [
+      "T"
+    ],
+    "shape": [
+      2592,
+      22,
+      800
+    ],
+    "source_sampling_rate": 250,
+    "target_sampling_rate": 200,
+    "epoch_seconds_relative_to_trial_start": [
+      2,
+      6
+    ],
+    "index_conversion": "MATLAB trial - 1",
+    "preprocessing": [
+      "22 EEG only; EOG excluded",
+      "CAR",
+      "continuous-run 4th-order 0.3-40 Hz Butterworth sosfiltfilt",
+      "4-second crop",
+      "polyphase resample 4/5"
+    ],
+    "unit": "uV",
+    "training_scale": "divide by 100, following CBraMod dataset loader",
+    "artifacts": "kept, source flags preserved",
+    "sources": [
+      {
+        "file": "A01T.mat",
+        "sha256": "054f02e70cf9c4ada1517e9b9864f45407939c1062c6793516585c6f511d0325"
+      },
+      {
+        "file": "A02T.mat",
+        "sha256": "5ddd5cb520b1692c3ba1363f48d98f58f0e46f3699ee50d749947950fc39db27"
+      },
+      {
+        "file": "A03T.mat",
+        "sha256": "7e731ee8b681d5da6ecb11ae1d4e64b1653c7f15aad5d6b7620b25ce53141e80"
+      },
+      {
+        "file": "A04T.mat",
+        "sha256": "15850d81b95fc88cc8b9589eb9b713d49fa071e28adaf32d675b3eaa30591d6e"
+      },
+      {
+        "file": "A05T.mat",
+        "sha256": "77387d3b669f4ed9a7c1dac4dcba4c2c40c8910bae20fb961bb7cf5a94912950"
+      },
+      {
+        "file": "A06T.mat",
+        "sha256": "4dc3be1b0d60279134d1220323c73c68cf73799339a7fb224087a3c560a9a7e2"
+      },
+      {
+        "file": "A07T.mat",
+        "sha256": "43b6bbef0be78f0ac2b66cb2d9679091f1f5b7f0a5d4ebef73d2c7cc8e11aa96"
+      },
+      {
+        "file": "A08T.mat",
+        "sha256": "7a4b3bd602d5bc307d3f4527fca2cf076659e94aca584dd64f6286fd413a82f2"
+      },
+      {
+        "file": "A09T.mat",
+        "sha256": "b28d8a262c779c8cad9cc80ee6aa9c5691cfa6617c03befe490a090347ebd15c"
+      }
+    ],
+    "channel_names": [
+      "Fz",
+      "FC3",
+      "FC1",
+      "FCz",
+      "FC2",
+      "FC4",
+      "C5",
+      "C3",
+      "C1",
+      "Cz",
+      "C2",
+      "C4",
+      "C6",
+      "CP3",
+      "CP1",
+      "CPz",
+      "CP2",
+      "CP4",
+      "P1",
+      "Pz",
+      "P2",
+      "POz"
+    ],
+    "labels": [
+      "left_hand",
+      "right_hand",
+      "feet",
+      "tongue"
+    ],
+    "npz_sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+    "split": {
+      "train": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "val": [
+        6,
+        7
+      ],
+      "test": [
+        8,
+        9
+      ]
+    },
+    "split_note": "Author-style 5/2/2 subjects, T session only. Not official 8:1:1. Development seed 42 is not an official seed.",
+    "data_source": "https://bnci-horizon-2020.eu/database/data-sets",
+    "license": "CC BY-ND 4.0; Institute for Knowledge Discovery, Graz University of Technology",
+    "preprocessing_note": "Local offline pilot; differs from author causal per-trial filtering and FFT resampling."
+  }
+}

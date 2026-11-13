@@ -1,0 +1,56 @@
+{
+  "version": "residual-adapters-v1",
+  "mode": "uniform",
+  "task": "mi",
+  "fold": 1,
+  "seed": 43,
+  "source_sha256": "2a2c791abedb906096cd05df42e4fd01bac232c760137ce512e63acbe47f8b4f",
+  "base_source_sha256": "c54ea97fdc47fee033c7dadbc3f63ef3f5c107cb5694fba3c83bc1ef1d647ea2",
+  "controls_source_sha256": "b0865607a3e6efe0479997b1ad024528c9412e89fe78203b1daebd81b5399ef5",
+  "search_source_sha256": "3a0ab7cdfe9c8475a77c3adcaac3370ce93474b9cfa5c63f0d160881183acbd9",
+  "data_sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+  "split": {
+    "train": [
+      1,
+      2,
+      5,
+      6,
+      7
+    ],
+    "val": [
+      3,
+      4
+    ]
+  },
+  "pretrained_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+  "plan_sha256": "bf98176904784b48476c5a4b91c8c654373e59ae91cdfe74376dc1129b36e8cc",
+  "baseline_directory": "outputs/preliminary_v1/core/fold2_S_mi",
+  "sampling_sha256": "5c5ddd1e62a891ebb446dc6661198a9df63768b100c9f4cf50fd6b560aa070f3",
+  "initial_head_sha256": "489569694fff4fcf778b4fbbde57bcc2467c3a1a7aadd3c23d9f1548dee17f8a",
+  "initial_backbone_sha256": "b2c21660eec2b6d23934ec626ee5aeccdc3f1735a59c58d9f7068be8838c1e33",
+  "updates": 1500,
+  "batch": 16,
+  "backbone_lr": 0.0001,
+  "head_lr": 0.001,
+  "adapter_lr": 0.001,
+  "weight_decay": 0.01,
+  "readout": "flatten",
+  "head": "LayerNorm+Dropout(0.5)+Linear",
+  "normalization": "microvolt/100",
+  "adapter_width": 32,
+  "spatial_attention_heads": 4,
+  "temporal_kernel": 3,
+  "spectral_band": [
+    0.5,
+    90
+  ],
+  "spectral_description": "whole-window real+imag+log-amplitude; natural FFT bins; no time stretching",
+  "spectral_bins": 359,
+  "gate": "sample-level softmax of mean-pooled H",
+  "fusion": "H + sum(weight * zero-initialized residual branch)",
+  "compute": "dense branches; no sparse-compute claim",
+  "loss": "train-fold class-weighted CE; no gate balance loss",
+  "parameters_total": 5077633,
+  "parameters_trainable": 5070502,
+  "test_evaluated": false
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "train_only",
+    "method": "logistic",
+    "mean_BA": 0.2963966676703804
+  },
+  {
+    "mode": "train_only",
+    "method": "tcn",
+    "mean_BA": 0.31218006624510686
+  },
+  {
+    "mode": "offline_subject_zscore",
+    "method": "logistic",
+    "mean_BA": 0.359204055003513
+  },
+  {
+    "mode": "offline_subject_zscore",
+    "method": "tcn",
+    "mean_BA": 0.3956639566395663
+  }
+]

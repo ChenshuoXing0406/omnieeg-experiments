@@ -1,0 +1,254 @@
+[
+  {
+    "mode": "baseline",
+    "task": "mi",
+    "fold": 1,
+    "BA": 0.4444444444444444,
+    "path": "outputs/preliminary_v1/core/fold1_S_mi"
+  },
+  {
+    "mode": "uniform",
+    "task": "mi",
+    "fold": 1,
+    "BA": 0.4444444444444444,
+    "path": "outputs/residual_adapters_v1/runs/fold1_uniform_mi"
+  },
+  {
+    "mode": "learned",
+    "task": "mi",
+    "fold": 1,
+    "BA": 0.4461805555555556,
+    "path": "outputs/residual_adapters_v1/runs/fold1_learned_mi"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "mi",
+    "fold": 1,
+    "BA": 0.43923611111111116,
+    "path": "outputs/residual_adapters_v1/runs/fold1_no_spectrum_mi"
+  },
+  {
+    "mode": "baseline",
+    "task": "ssvep_2s",
+    "fold": 1,
+    "BA": 0.64375,
+    "path": "outputs/preliminary_v1/core/fold1_S_ssvep_2s"
+  },
+  {
+    "mode": "uniform",
+    "task": "ssvep_2s",
+    "fold": 1,
+    "BA": 0.64375,
+    "path": "outputs/residual_adapters_v1/runs/fold1_uniform_ssvep_2s"
+  },
+  {
+    "mode": "learned",
+    "task": "ssvep_2s",
+    "fold": 1,
+    "BA": 0.6554166666666668,
+    "path": "outputs/residual_adapters_v1/runs/fold1_learned_ssvep_2s"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "ssvep_2s",
+    "fold": 1,
+    "BA": 0.6537499999999999,
+    "path": "outputs/residual_adapters_v1/runs/fold1_no_spectrum_ssvep_2s"
+  },
+  {
+    "mode": "baseline",
+    "task": "emotion",
+    "fold": 1,
+    "BA": 0.16887163762163762,
+    "path": "outputs/preliminary_v1/core/fold1_S_emotion"
+  },
+  {
+    "mode": "uniform",
+    "task": "emotion",
+    "fold": 1,
+    "BA": 0.17971380471380471,
+    "path": "outputs/residual_adapters_v1/runs/fold1_uniform_emotion"
+  },
+  {
+    "mode": "learned",
+    "task": "emotion",
+    "fold": 1,
+    "BA": 0.18634374884374882,
+    "path": "outputs/residual_adapters_v1/runs/fold1_learned_emotion"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "emotion",
+    "fold": 1,
+    "BA": 0.18621540496540498,
+    "path": "outputs/residual_adapters_v1/runs/fold1_no_spectrum_emotion"
+  },
+  {
+    "mode": "baseline",
+    "task": "mi",
+    "fold": 2,
+    "BA": 0.4253472222222222,
+    "path": "outputs/preliminary_v1/core/fold2_S_mi"
+  },
+  {
+    "mode": "uniform",
+    "task": "mi",
+    "fold": 2,
+    "BA": 0.42013888888888895,
+    "path": "outputs/residual_adapters_v1/runs/fold2_uniform_mi"
+  },
+  {
+    "mode": "learned",
+    "task": "mi",
+    "fold": 2,
+    "BA": 0.4166666666666667,
+    "path": "outputs/residual_adapters_v1/runs/fold2_learned_mi"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "mi",
+    "fold": 2,
+    "BA": 0.4184027777777778,
+    "path": "outputs/residual_adapters_v1/runs/fold2_no_spectrum_mi"
+  },
+  {
+    "mode": "baseline",
+    "task": "ssvep_2s",
+    "fold": 2,
+    "BA": 0.6412500000000001,
+    "path": "outputs/preliminary_v1/core/fold2_S_ssvep_2s"
+  },
+  {
+    "mode": "uniform",
+    "task": "ssvep_2s",
+    "fold": 2,
+    "BA": 0.6570833333333334,
+    "path": "outputs/residual_adapters_v1/runs/fold2_uniform_ssvep_2s"
+  },
+  {
+    "mode": "learned",
+    "task": "ssvep_2s",
+    "fold": 2,
+    "BA": 0.6416666666666666,
+    "path": "outputs/residual_adapters_v1/runs/fold2_learned_ssvep_2s"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "ssvep_2s",
+    "fold": 2,
+    "BA": 0.6525,
+    "path": "outputs/residual_adapters_v1/runs/fold2_no_spectrum_ssvep_2s"
+  },
+  {
+    "mode": "baseline",
+    "task": "emotion",
+    "fold": 2,
+    "BA": 0.15752072002072,
+    "path": "outputs/preliminary_v1/core/fold2_S_emotion"
+  },
+  {
+    "mode": "uniform",
+    "task": "emotion",
+    "fold": 2,
+    "BA": 0.16715922965922966,
+    "path": "outputs/residual_adapters_v1/runs/fold2_uniform_emotion"
+  },
+  {
+    "mode": "learned",
+    "task": "emotion",
+    "fold": 2,
+    "BA": 0.17100145225145225,
+    "path": "outputs/residual_adapters_v1/runs/fold2_learned_emotion"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "emotion",
+    "fold": 2,
+    "BA": 0.16145197395197394,
+    "path": "outputs/residual_adapters_v1/runs/fold2_no_spectrum_emotion"
+  },
+  {
+    "mode": "baseline",
+    "task": "mi",
+    "fold": 3,
+    "BA": 0.44675925925925924,
+    "path": "outputs/preliminary_v1/core/fold3_S_mi"
+  },
+  {
+    "mode": "uniform",
+    "task": "mi",
+    "fold": 3,
+    "BA": 0.4490740740740741,
+    "path": "outputs/residual_adapters_v1/runs/fold3_uniform_mi"
+  },
+  {
+    "mode": "learned",
+    "task": "mi",
+    "fold": 3,
+    "BA": 0.449074074074074,
+    "path": "outputs/residual_adapters_v1/runs/fold3_learned_mi"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "mi",
+    "fold": 3,
+    "BA": 0.45023148148148145,
+    "path": "outputs/residual_adapters_v1/runs/fold3_no_spectrum_mi"
+  },
+  {
+    "mode": "baseline",
+    "task": "ssvep_2s",
+    "fold": 3,
+    "BA": 0.74375,
+    "path": "outputs/preliminary_v1/core/fold3_S_ssvep_2s"
+  },
+  {
+    "mode": "uniform",
+    "task": "ssvep_2s",
+    "fold": 3,
+    "BA": 0.7412500000000001,
+    "path": "outputs/residual_adapters_v1/runs/fold3_uniform_ssvep_2s"
+  },
+  {
+    "mode": "learned",
+    "task": "ssvep_2s",
+    "fold": 3,
+    "BA": 0.7354166666666666,
+    "path": "outputs/residual_adapters_v1/runs/fold3_learned_ssvep_2s"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "ssvep_2s",
+    "fold": 3,
+    "BA": 0.74875,
+    "path": "outputs/residual_adapters_v1/runs/fold3_no_spectrum_ssvep_2s"
+  },
+  {
+    "mode": "baseline",
+    "task": "emotion",
+    "fold": 3,
+    "BA": 0.16610774094326725,
+    "path": "outputs/preliminary_v1/core/fold3_S_emotion"
+  },
+  {
+    "mode": "uniform",
+    "task": "emotion",
+    "fold": 3,
+    "BA": 0.16977462413317676,
+    "path": "outputs/residual_adapters_v1/runs/fold3_uniform_emotion"
+  },
+  {
+    "mode": "learned",
+    "task": "emotion",
+    "fold": 3,
+    "BA": 0.14915699249580827,
+    "path": "outputs/residual_adapters_v1/runs/fold3_learned_emotion"
+  },
+  {
+    "mode": "no_spectrum",
+    "task": "emotion",
+    "fold": 3,
+    "BA": 0.1583736530282583,
+    "path": "outputs/residual_adapters_v1/runs/fold3_no_spectrum_emotion"
+  }
+]

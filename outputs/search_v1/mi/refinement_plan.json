@@ -1,0 +1,80 @@
+{
+  "based_on_run_ids": [
+    "e83c9302dfcc",
+    "b6be2aef8505",
+    "f26e5277c236",
+    "f76aab96ef90",
+    "b0c837599eb6",
+    "a9ccf02b5916",
+    "4b52277cbc08",
+    "e2868b179563",
+    "c93211a14c95",
+    "3bd57fc01951",
+    "1231c9ee8b00",
+    "9b64f6cde562",
+    "324ce800647d",
+    "17cc00892ef1",
+    "b10ab5afd14b",
+    "e833f14c1b81"
+  ],
+  "configs": [
+    {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.0003,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.003,
+      "wd": 0.01,
+      "norm": "trial"
+    },
+    {
+      "model": "eegnet",
+      "filters": 16,
+      "kernel": 64,
+      "dropout": 0.5,
+      "lr": 0.001,
+      "wd": 0.1,
+      "norm": "trial",
+      "smoothing": 0.05
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 1000.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 100.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 300.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 3000.0
+    },
+    {
+      "model": "cbramod_ridge",
+      "alpha": 10000.0
+    }
+  ],
+  "test_used": false
+}

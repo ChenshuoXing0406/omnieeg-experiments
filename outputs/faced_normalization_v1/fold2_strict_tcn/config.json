@@ -1,0 +1,31 @@
+{
+  "fold": 1,
+  "mode": "strict",
+  "method": "tcn",
+  "data_sha256": "f3f4f3a7c01766d1bd325fafc8df45a856487297c40953faf1d4be38473f7c82",
+  "source_sha256": "9410a5e432bd825492bdb179f565bec87a470f648a18007229301afc1487d0c3",
+  "split": {
+    "train": [
+      0,
+      1,
+      2,
+      4,
+      8,
+      9,
+      10
+    ],
+    "val": [
+      5,
+      6,
+      7
+    ]
+  },
+  "test_evaluated": false,
+  "strict_DG": true,
+  "seed": 43,
+  "scope": "old ten development subjects only; same-known-video generalization, no new blind test",
+  "feature": "same one-second band log variance as preliminary_v1; ten-frame window",
+  "target_future_normalizer": false,
+  "target_history_normalizer": false,
+  "causal_order": "original cache metadata order; not labels; real chronological mapping needs source audit before online deployment"
+}

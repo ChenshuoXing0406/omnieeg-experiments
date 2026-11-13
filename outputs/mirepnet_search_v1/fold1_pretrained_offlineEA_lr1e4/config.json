@@ -1,0 +1,36 @@
+{
+  "name": "pretrained_offlineEA_lr1e4",
+  "fold": 0,
+  "seed": 42,
+  "pretrained": true,
+  "alignment": "offline_subject_EA",
+  "bone_lr": 0.0001,
+  "head_lr": 0.001,
+  "updates": 1500,
+  "batch_size": 16,
+  "dropout": 0.5,
+  "weight_decay": 0.01,
+  "optimizer": "AdamW",
+  "scheduler": "cosine",
+  "data_sha256": "60017565f877a9555bf7b38d0af7a2b1abf93b5823ff5b93b8d56712a7598681",
+  "source_sha256": "7d30544ad5f05c2caaf15e9c8bbe6928cdc18c56a692042cad5b5c2a8360ed5e",
+  "model_sha256": "8842ae076ff905094066a41330ac31e90efed47ca62bc513078835b0ba21096a",
+  "weight_sha256": "432288958007e344a5a84a9ffe9d0e5e5c0cb616aef86c85522375a3f4da9aaf",
+  "split": {
+    "train": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "val": [
+      1,
+      2
+    ]
+  },
+  "test_evaluated": false,
+  "strict_DG": false,
+  "sampling": "same balanced source subjects/classes as mi_domain_v1; 4 subjects x 4 classes",
+  "scope": "development only; not exact author calibration protocol; random control has equal short update budget"
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.1,
+      "power_norm": "relative"
+    },
+    "run_ids": [
+      "6b583ab89db0"
+    ],
+    "val_BA_mean": 0.22968460632934318,
+    "val_BA_std": 0.0,
+    "seeds": [
+      42
+    ],
+    "deterministic": true,
+    "individual_val_BA": [
+      0.22968460632934318
+    ]
+  },
+  {
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.03,
+      "power_norm": "relative"
+    },
+    "run_ids": [
+      "c68e391bf947"
+    ],
+    "val_BA_mean": 0.2255700257344994,
+    "val_BA_std": 0.0,
+    "seeds": [
+      42
+    ],
+    "deterministic": true,
+    "individual_val_BA": [
+      0.2255700257344994
+    ]
+  },
+  {
+    "config": {
+      "model": "bandpower_logistic",
+      "C": 0.01,
+      "power_norm": "relative"
+    },
+    "run_ids": [
+      "58708f7ca3ac"
+    ],
+    "val_BA_mean": 0.21141294743268427,
+    "val_BA_std": 0.0,
+    "seeds": [
+      42
+    ],
+    "deterministic": true,
+    "individual_val_BA": [
+      0.21141294743268427
+    ]
+  }
+]

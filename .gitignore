@@ -1,0 +1,12 @@
+.venv/
+external/
+data/
+checkpoints/
+outputs/
+__pycache__/
+*.pyc
+tmp/
+.env
+.env.*
+*.pem
+*.key

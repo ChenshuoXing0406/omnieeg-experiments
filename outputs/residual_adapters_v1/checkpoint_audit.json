@@ -1,0 +1,137 @@
+[
+  {
+    "run": "fold1_uniform_mi",
+    "max_abs_difference": 6.705522537231445e-07,
+    "passed": true
+  },
+  {
+    "run": "fold1_learned_mi",
+    "max_abs_difference": 9.834766387939453e-07,
+    "passed": true
+  },
+  {
+    "run": "fold1_no_spectrum_mi",
+    "max_abs_difference": 6.780028343200684e-07,
+    "passed": true
+  },
+  {
+    "run": "fold1_uniform_ssvep_2s",
+    "max_abs_difference": 8.940696716308594e-07,
+    "passed": true
+  },
+  {
+    "run": "fold1_learned_ssvep_2s",
+    "max_abs_difference": 9.5367431640625e-07,
+    "passed": true
+  },
+  {
+    "run": "fold1_no_spectrum_ssvep_2s",
+    "max_abs_difference": 9.5367431640625e-07,
+    "passed": true
+  },
+  {
+    "run": "fold1_uniform_emotion",
+    "max_abs_difference": 3.5762786865234375e-06,
+    "passed": true
+  },
+  {
+    "run": "fold1_learned_emotion",
+    "max_abs_difference": 1.6689300537109375e-06,
+    "passed": true
+  },
+  {
+    "run": "fold1_no_spectrum_emotion",
+    "max_abs_difference": 1.2814998626708984e-06,
+    "passed": true
+  },
+  {
+    "run": "fold2_uniform_mi",
+    "max_abs_difference": 8.344650268554688e-07,
+    "passed": true
+  },
+  {
+    "run": "fold2_learned_mi",
+    "max_abs_difference": 7.152557373046875e-07,
+    "passed": true
+  },
+  {
+    "run": "fold2_no_spectrum_mi",
+    "max_abs_difference": 7.152557373046875e-07,
+    "passed": true
+  },
+  {
+    "run": "fold2_uniform_ssvep_2s",
+    "max_abs_difference": 1.0728836059570312e-06,
+    "passed": true
+  },
+  {
+    "run": "fold2_learned_ssvep_2s",
+    "max_abs_difference": 3.5762786865234375e-06,
+    "passed": true
+  },
+  {
+    "run": "fold2_no_spectrum_ssvep_2s",
+    "max_abs_difference": 5.066394805908203e-06,
+    "passed": true
+  },
+  {
+    "run": "fold2_uniform_emotion",
+    "max_abs_difference": 1.3560056686401367e-06,
+    "passed": true
+  },
+  {
+    "run": "fold2_learned_emotion",
+    "max_abs_difference": 1.3709068298339844e-06,
+    "passed": true
+  },
+  {
+    "run": "fold2_no_spectrum_emotion",
+    "max_abs_difference": 2.384185791015625e-06,
+    "passed": true
+  },
+  {
+    "run": "fold3_uniform_mi",
+    "max_abs_difference": 1.2218952178955078e-06,
+    "passed": true
+  },
+  {
+    "run": "fold3_learned_mi",
+    "max_abs_difference": 1.3113021850585938e-06,
+    "passed": true
+  },
+  {
+    "run": "fold3_no_spectrum_mi",
+    "max_abs_difference": 8.344650268554688e-07,
+    "passed": true
+  },
+  {
+    "run": "fold3_uniform_ssvep_2s",
+    "max_abs_difference": 7.0035457611083984e-06,
+    "passed": true
+  },
+  {
+    "run": "fold3_learned_ssvep_2s",
+    "max_abs_difference": 7.152557373046875e-07,
+    "passed": true
+  },
+  {
+    "run": "fold3_no_spectrum_ssvep_2s",
+    "max_abs_difference": 2.4437904357910156e-06,
+    "passed": true
+  },
+  {
+    "run": "fold3_uniform_emotion",
+    "max_abs_difference": 3.039836883544922e-06,
+    "passed": true
+  },
+  {
+    "run": "fold3_learned_emotion",
+    "max_abs_difference": 2.4437904357910156e-06,
+    "passed": true
+  },
+  {
+    "run": "fold3_no_spectrum_emotion",
+    "max_abs_difference": 1.5795230865478516e-06,
+    "passed": true
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "id": "e833f14c1b81",
+  "task": "mi",
+  "config": {
+    "model": "fbcsp",
+    "bands": "single",
+    "components": 2,
+    "shrink": 0.1
+  },
+  "seed": 42,
+  "budget_epochs": 20,
+  "stage": "coarse",
+  "val_BA": 0.3003472222222222,
+  "val_metrics": {
+    "subject_mean_BA": 0.3003472222222222,
+    "pooled_BA": 0.3003472222222222,
+    "macro_f1": 0.2685685333982005,
+    "per_subject_BA": {
+      "6": 0.2638888888888889,
+      "7": 0.3368055555555555
+    },
+    "confusion_matrix": [
+      [
+        44,
+        10,
+        83,
+        7
+      ],
+      [
+        33,
+        24,
+        85,
+        2
+      ],
+      [
+        36,
+        10,
+        91,
+        7
+      ],
+      [
+        45,
+        13,
+        72,
+        14
+      ]
+    ]
+  },
+  "seconds": 1.3998046000488102,
+  "test_evaluated": false,
+  "deterministic": true
+}

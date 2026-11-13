@@ -1,0 +1,25 @@
+{
+  "task": "ssvep_2s",
+  "selection": "highest mean validation subject BA; no test selection",
+  "tested_configurations": 25,
+  "test_evaluated": false,
+  "config": {
+    "model": "fbcca",
+    "channels": "9",
+    "harmonics": 5,
+    "banks": 5,
+    "exponent": 0.5
+  },
+  "run_ids": [
+    "428e4b38497f"
+  ],
+  "val_BA_mean": 0.9833333333333334,
+  "val_BA_std": 0.0,
+  "seeds": [
+    42
+  ],
+  "deterministic": true,
+  "individual_val_BA": [
+    0.9833333333333334
+  ]
+}

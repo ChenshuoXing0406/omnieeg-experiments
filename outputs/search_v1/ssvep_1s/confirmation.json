@@ -1,0 +1,65 @@
+[
+  {
+    "config": {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 1.0
+    },
+    "run_ids": [
+      "abcaf24d4685"
+    ],
+    "val_BA_mean": 0.778125,
+    "val_BA_std": 0.0,
+    "seeds": [
+      42
+    ],
+    "deterministic": true,
+    "individual_val_BA": [
+      0.778125
+    ]
+  },
+  {
+    "config": {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 0.5
+    },
+    "run_ids": [
+      "d65341896dd1"
+    ],
+    "val_BA_mean": 0.7739583333333333,
+    "val_BA_std": 0.0,
+    "seeds": [
+      42
+    ],
+    "deterministic": true,
+    "individual_val_BA": [
+      0.7739583333333333
+    ]
+  },
+  {
+    "config": {
+      "model": "fbcca",
+      "channels": "9",
+      "harmonics": 5,
+      "banks": 5,
+      "exponent": 1.25
+    },
+    "run_ids": [
+      "488b290218eb"
+    ],
+    "val_BA_mean": 0.771875,
+    "val_BA_std": 0.0,
+    "seeds": [
+      42
+    ],
+    "deterministic": true,
+    "individual_val_BA": [
+      0.771875
+    ]
+  }
+]
