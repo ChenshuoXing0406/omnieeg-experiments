@@ -26,6 +26,6 @@ NEMAR的nm000112 v1.1.4明确采用CC-BY-4.0（https://nemar.org/dataset/nm00011
 
 ## 释放本地空间
 
-原始数据与本地实验原件仍保留。Release补充备份了实验产物，但没有迁移约12GB工作数据及D盘约20.9GB数据压缩包。不要仅凭 `git push` 成功删除原始数据。
+2026-11-13已将工作区快照与D盘三个SEED压缩包迁移至个人服务器的私有目录；服务器逐文件解包验证通过后，本机大体积原件、虚拟环境与本项目缓存已经清理。代码、结果表及私有恢复清单保留，少量迁移审计资料暂留。
 
-后续需将有权备份的数据迁移至团队网盘、实验室服务器或对象存储，下载恢复并校验SHA256后再清理本地。仓库中的 `storage/local_inventory.json` 只记录相对位置、大小及迁移状态；它不是数据副本。Git普通文件限制及LFS计费见 https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github 和 https://docs.github.com/en/billing/concepts/product-billing/git-lfs 。
+私有恢复清单在本机 `storage/SERVER_BACKUP_MANIFEST_PRIVATE.json`；公开清理摘要为 `storage/migration_summary.json`。旧 `storage/local_inventory.json` 是迁移前库存，不代表当前仍占用本地空间，也不是数据副本。Git普通文件限制及LFS计费见 https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github 和 https://docs.github.com/en/billing/concepts/product-billing/git-lfs 。

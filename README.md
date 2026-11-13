@@ -7,6 +7,9 @@
 恢复实验附件：`python scripts/restore_release_artifacts.py --destination D:/OmniEEG-artifacts`（目标目录需为空，需预留分卷和解包空间）。
 主分支可用 `git clone --recurse-submodules https://github.com/ChenshuoXing0406/omnieeg-experiments.git` 获取五个锁定版本外部仓库；EmT单文件及其CBCR非商业许可证随仓库保留。
 
+2026-11-13完成私有服务器备份与大文件清理：三个SEED压缩包、16个工作区分卷及服务器解包后的7048个文件均通过SHA256校验。本机移除5470个数据、模型及临时文件，共54.38GB，其中原有项目文件37.89GB、迁移临时归档16.49GB。代码、结果表和恢复清单保留；少量本地迁移审计资料暂留。
+私有服务器恢复位置记录在本机 `storage/SERVER_BACKUP_MANIFEST_PRIVATE.json`，清理回执在 `storage/LOCAL_CLEANUP_RECEIPT_PRIVATE.json`，两者不提交公开仓库。虚拟环境与大文件已清理，重跑前需要重新建立环境并恢复所需数据；服务器已保存实际解包副本。
+
 本工作区从组内研究方案出发，先运行公开数据基线，再检验多任务训练和 MoE。
 已经接入官方 CBraMod，并扩展到 MI、SSVEP 及情绪三方向的真实数据搜索。
 本地公开数据实验不是赛事官方数据或正式成绩，也不证明预训练或 MoE 有效。

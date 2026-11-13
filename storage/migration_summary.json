@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-13",
+  "private_server_backup_verified": true,
+  "seed_archives_verified": 3,
+  "workspace_volumes_verified": 16,
+  "workspace_files_restored_and_sha256_verified": 7048,
+  "deleted_local_files": 5470,
+  "deleted_local_bytes": 54384530572,
+  "original_project_bytes_removed": 37892042711,
+  "generated_temporary_bytes_removed": 16492487861,
+  "code_and_result_tables_retained": true,
+  "small_migration_audit_files_retained": true,
+  "ssh_keys_and_shared_external_caches_untouched": true,
+  "public_raw_data": "BNCI2014-001 unchanged T-session files under CC BY-ND 4.0",
+  "public_raw_release": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/raw-bnci-20261113",
+  "private_restore_locator": "See the local storage/SERVER_BACKUP_MANIFEST_PRIVATE.json; not published"
+}
