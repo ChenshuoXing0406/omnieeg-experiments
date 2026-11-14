@@ -1,0 +1,520 @@
+{
+  "snapshot_time": "2026-11-14T15:43:41.978959+08:00",
+  "scope": "Public proxy-data validation only; test not evaluated.",
+  "metric": "subject_mean_BA; single-class TUAR subjects use recall over present classes",
+  "runs": {
+    "independent_mi_seed42": {
+      "config": {
+        "tasks": [
+          "mi"
+        ],
+        "mode": "plain",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 105604,
+          "experts": 0,
+          "router": 0,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "mi": "fce0a6be843e2ef0cfc4ec1ae8195030d1e4eccc6f86cb06fa2a85278cb13552"
+        }
+      },
+      "selected_step": 1500,
+      "selection_score": 0.5069444444444444,
+      "validation": {
+        "mi": {
+          "subject_mean_BA": 0.5069444444444444,
+          "balanced_accuracy": 0.5069444444444444,
+          "macro_f1": 0.502509001355163,
+          "subjects_missing_a_class": 0
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.5069444444444444,
+        "checkpoint_reload_max_probability_error": {
+          "mi": 0.0
+        },
+        "test_evaluated": false
+      }
+    },
+    "independent_ssvep_2s_seed42": {
+      "config": {
+        "tasks": [
+          "ssvep_2s"
+        ],
+        "mode": "plain",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 1075240,
+          "experts": 0,
+          "router": 0,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "ssvep_2s": "3b5762fc3494b5c5801fc780232017fa70ef70ba6a139ef4ba279cbf7975dec2"
+        }
+      },
+      "selected_step": 1400,
+      "selection_score": 0.878125,
+      "validation": {
+        "ssvep_2s": {
+          "subject_mean_BA": 0.878125,
+          "balanced_accuracy": 0.878125,
+          "macro_f1": 0.8789535693847533,
+          "subjects_missing_a_class": 0
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.878125,
+        "checkpoint_reload_max_probability_error": {
+          "ssvep_2s": 0.0
+        },
+        "test_evaluated": false
+      }
+    },
+    "independent_tuar_seed42": {
+      "config": {
+        "tasks": [
+          "tuar"
+        ],
+        "mode": "plain",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 32002,
+          "experts": 0,
+          "router": 0,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "tuar": "96e4709e175f1aef628d79e57d97dba074a45c9f95152919b14f24a9cf942caf"
+        }
+      },
+      "selected_step": 1000,
+      "selection_score": 0.8162344823079886,
+      "validation": {
+        "tuar": {
+          "subject_mean_BA": 0.8162344823079886,
+          "balanced_accuracy": 0.8823030121093467,
+          "macro_f1": 0.8821693781346409,
+          "subjects_missing_a_class": 2
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.8162344823079886,
+        "checkpoint_reload_max_probability_error": {
+          "tuar": 0.0
+        },
+        "test_evaluated": false
+      }
+    },
+    "joint_plain_seed42": {
+      "config": {
+        "tasks": [
+          "mi",
+          "ssvep_2s",
+          "tuar"
+        ],
+        "mode": "plain",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 1212846,
+          "experts": 0,
+          "router": 0,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "mi": "fce0a6be843e2ef0cfc4ec1ae8195030d1e4eccc6f86cb06fa2a85278cb13552",
+          "ssvep_2s": "3b5762fc3494b5c5801fc780232017fa70ef70ba6a139ef4ba279cbf7975dec2",
+          "tuar": "96e4709e175f1aef628d79e57d97dba074a45c9f95152919b14f24a9cf942caf"
+        }
+      },
+      "selected_step": 1200,
+      "selection_score": 0.7290117175938756,
+      "validation": {
+        "mi": {
+          "subject_mean_BA": 0.4965277777777778,
+          "balanced_accuracy": 0.4965277777777778,
+          "macro_f1": 0.4884695592702986,
+          "subjects_missing_a_class": 0
+        },
+        "ssvep_2s": {
+          "subject_mean_BA": 0.8791666666666667,
+          "balanced_accuracy": 0.8791666666666668,
+          "macro_f1": 0.8786675681498934,
+          "subjects_missing_a_class": 0
+        },
+        "tuar": {
+          "subject_mean_BA": 0.8113407083371821,
+          "balanced_accuracy": 0.8745710628812899,
+          "macro_f1": 0.8754796186267075,
+          "subjects_missing_a_class": 2
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.7290117175938756,
+        "checkpoint_reload_max_probability_error": {
+          "mi": 0.0,
+          "ssvep_2s": 0.0,
+          "tuar": 0.0
+        },
+        "test_evaluated": false
+      }
+    },
+    "joint_adapter_seed42": {
+      "config": {
+        "tasks": [
+          "mi",
+          "ssvep_2s",
+          "tuar"
+        ],
+        "mode": "adapter",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 1212846,
+          "experts": 180744,
+          "router": 0,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "mi": "fce0a6be843e2ef0cfc4ec1ae8195030d1e4eccc6f86cb06fa2a85278cb13552",
+          "ssvep_2s": "3b5762fc3494b5c5801fc780232017fa70ef70ba6a139ef4ba279cbf7975dec2",
+          "tuar": "96e4709e175f1aef628d79e57d97dba074a45c9f95152919b14f24a9cf942caf"
+        }
+      },
+      "selected_step": 1300,
+      "selection_score": 0.7283563795286451,
+      "validation": {
+        "mi": {
+          "subject_mean_BA": 0.5,
+          "balanced_accuracy": 0.5,
+          "macro_f1": 0.4965256281457376,
+          "subjects_missing_a_class": 0
+        },
+        "ssvep_2s": {
+          "subject_mean_BA": 0.8697916666666667,
+          "balanced_accuracy": 0.8697916666666666,
+          "macro_f1": 0.8699722865931339,
+          "subjects_missing_a_class": 0
+        },
+        "tuar": {
+          "subject_mean_BA": 0.8152774719192686,
+          "balanced_accuracy": 0.8750666930456746,
+          "macro_f1": 0.8744906326608453,
+          "subjects_missing_a_class": 2
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.7283563795286451,
+        "checkpoint_reload_max_probability_error": {
+          "mi": 0.0,
+          "ssvep_2s": 0.0,
+          "tuar": 0.0
+        },
+        "test_evaluated": false
+      }
+    },
+    "joint_homo_fixed_seed42": {
+      "config": {
+        "tasks": [
+          "mi",
+          "ssvep_2s",
+          "tuar"
+        ],
+        "mode": "homo_fixed",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 1212846,
+          "experts": 179532,
+          "router": 0,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "mi": "fce0a6be843e2ef0cfc4ec1ae8195030d1e4eccc6f86cb06fa2a85278cb13552",
+          "ssvep_2s": "3b5762fc3494b5c5801fc780232017fa70ef70ba6a139ef4ba279cbf7975dec2",
+          "tuar": "96e4709e175f1aef628d79e57d97dba074a45c9f95152919b14f24a9cf942caf"
+        }
+      },
+      "selected_step": 1500,
+      "selection_score": 0.7287124407987893,
+      "validation": {
+        "mi": {
+          "subject_mean_BA": 0.4930555555555555,
+          "balanced_accuracy": 0.4930555555555556,
+          "macro_f1": 0.48834925640844623,
+          "subjects_missing_a_class": 0
+        },
+        "ssvep_2s": {
+          "subject_mean_BA": 0.8802083333333335,
+          "balanced_accuracy": 0.8802083333333334,
+          "macro_f1": 0.8805198638101294,
+          "subjects_missing_a_class": 0
+        },
+        "tuar": {
+          "subject_mean_BA": 0.8128734335074786,
+          "balanced_accuracy": 0.8753859680786857,
+          "macro_f1": 0.8752903527518425,
+          "subjects_missing_a_class": 2
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.7287124407987893,
+        "checkpoint_reload_max_probability_error": {
+          "mi": 0.0,
+          "ssvep_2s": 0.0,
+          "tuar": 0.0
+        },
+        "test_evaluated": false
+      }
+    },
+    "joint_homo_gate_seed42": {
+      "config": {
+        "tasks": [
+          "mi",
+          "ssvep_2s",
+          "tuar"
+        ],
+        "mode": "homo_gate",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 1212846,
+          "experts": 179532,
+          "router": 12931,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "mi": "fce0a6be843e2ef0cfc4ec1ae8195030d1e4eccc6f86cb06fa2a85278cb13552",
+          "ssvep_2s": "3b5762fc3494b5c5801fc780232017fa70ef70ba6a139ef4ba279cbf7975dec2",
+          "tuar": "96e4709e175f1aef628d79e57d97dba074a45c9f95152919b14f24a9cf942caf"
+        }
+      },
+      "selected_step": 1400,
+      "selection_score": 0.7297289913059158,
+      "validation": {
+        "mi": {
+          "subject_mean_BA": 0.49479166666666663,
+          "balanced_accuracy": 0.49479166666666663,
+          "macro_f1": 0.4906268692051881,
+          "subjects_missing_a_class": 0
+        },
+        "ssvep_2s": {
+          "subject_mean_BA": 0.8822916666666667,
+          "balanced_accuracy": 0.8822916666666666,
+          "macro_f1": 0.8826525952905229,
+          "subjects_missing_a_class": 0
+        },
+        "tuar": {
+          "subject_mean_BA": 0.8121036405844142,
+          "balanced_accuracy": 0.8743039416878425,
+          "macro_f1": 0.8742187241933915,
+          "subjects_missing_a_class": 2
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.7297289913059158,
+        "checkpoint_reload_max_probability_error": {
+          "mi": 0.0,
+          "ssvep_2s": 0.0,
+          "tuar": 0.0
+        },
+        "test_evaluated": false
+      }
+    },
+    "joint_hetero_fixed_seed42": {
+      "config": {
+        "tasks": [
+          "mi",
+          "ssvep_2s",
+          "tuar"
+        ],
+        "mode": "hetero_fixed",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 1212846,
+          "experts": 180728,
+          "router": 0,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "mi": "fce0a6be843e2ef0cfc4ec1ae8195030d1e4eccc6f86cb06fa2a85278cb13552",
+          "ssvep_2s": "3b5762fc3494b5c5801fc780232017fa70ef70ba6a139ef4ba279cbf7975dec2",
+          "tuar": "96e4709e175f1aef628d79e57d97dba074a45c9f95152919b14f24a9cf942caf"
+        }
+      },
+      "selected_step": 1300,
+      "selection_score": 0.726223303246487,
+      "validation": {
+        "mi": {
+          "subject_mean_BA": 0.4947916666666667,
+          "balanced_accuracy": 0.49479166666666663,
+          "macro_f1": 0.4914976295372442,
+          "subjects_missing_a_class": 0
+        },
+        "ssvep_2s": {
+          "subject_mean_BA": 0.8677083333333333,
+          "balanced_accuracy": 0.8677083333333332,
+          "macro_f1": 0.8684985361649495,
+          "subjects_missing_a_class": 0
+        },
+        "tuar": {
+          "subject_mean_BA": 0.8161699097394607,
+          "balanced_accuracy": 0.8738319860859187,
+          "macro_f1": 0.8732685292608375,
+          "subjects_missing_a_class": 2
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.726223303246487,
+        "checkpoint_reload_max_probability_error": {
+          "mi": 0.0,
+          "ssvep_2s": 0.0,
+          "tuar": 0.0
+        },
+        "test_evaluated": false
+      }
+    },
+    "joint_hetero_gate_seed42": {
+      "config": {
+        "tasks": [
+          "mi",
+          "ssvep_2s",
+          "tuar"
+        ],
+        "mode": "hetero_gate",
+        "steps": 1500,
+        "batch": 16,
+        "seed": 42,
+        "selection": "mean of per-task subject_mean_BA; one common checkpoint; single-class subject BA uses present-class recall",
+        "parameters": {
+          "backbone": 4883600,
+          "active_heads": 1212846,
+          "experts": 180728,
+          "router": 12931,
+          "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+        },
+        "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+        "sources": {
+          "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+          "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e"
+        },
+        "sampling_sha256": {
+          "mi": "fce0a6be843e2ef0cfc4ec1ae8195030d1e4eccc6f86cb06fa2a85278cb13552",
+          "ssvep_2s": "3b5762fc3494b5c5801fc780232017fa70ef70ba6a139ef4ba279cbf7975dec2",
+          "tuar": "96e4709e175f1aef628d79e57d97dba074a45c9f95152919b14f24a9cf942caf"
+        }
+      },
+      "selected_step": 1300,
+      "selection_score": 0.7273428303486799,
+      "validation": {
+        "mi": {
+          "subject_mean_BA": 0.4982638888888889,
+          "balanced_accuracy": 0.49826388888888884,
+          "macro_f1": 0.4950675379347386,
+          "subjects_missing_a_class": 0
+        },
+        "ssvep_2s": {
+          "subject_mean_BA": 0.86875,
+          "balanced_accuracy": 0.86875,
+          "macro_f1": 0.8695401613731782,
+          "subjects_missing_a_class": 0
+        },
+        "tuar": {
+          "subject_mean_BA": 0.8150146021571506,
+          "balanced_accuracy": 0.8740907659224695,
+          "macro_f1": 0.8734370352468769,
+          "subjects_missing_a_class": 2
+        }
+      },
+      "completion": {
+        "steps": 1500,
+        "best_validation_subject_BA": 0.7273428303486799,
+        "checkpoint_reload_max_probability_error": {
+          "mi": 0.0,
+          "ssvep_2s": 0.0,
+          "tuar": 0.0
+        },
+        "test_evaluated": false
+      }
+    }
+  }
+}

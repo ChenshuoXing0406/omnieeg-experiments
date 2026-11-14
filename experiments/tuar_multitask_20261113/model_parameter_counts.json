@@ -1,0 +1,47 @@
+{
+  "models": {
+    "plain": {
+      "backbone": 4883600,
+      "active_heads": 1212846,
+      "experts": 0,
+      "router": 0,
+      "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+    },
+    "adapter": {
+      "backbone": 4883600,
+      "active_heads": 1212846,
+      "experts": 180744,
+      "router": 0,
+      "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+    },
+    "homo_fixed": {
+      "backbone": 4883600,
+      "active_heads": 1212846,
+      "experts": 179532,
+      "router": 0,
+      "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+    },
+    "homo_gate": {
+      "backbone": 4883600,
+      "active_heads": 1212846,
+      "experts": 179532,
+      "router": 12931,
+      "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+    },
+    "hetero_fixed": {
+      "backbone": 4883600,
+      "active_heads": 1212846,
+      "experts": 180728,
+      "router": 0,
+      "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+    },
+    "hetero_gate": {
+      "backbone": 4883600,
+      "active_heads": 1212846,
+      "experts": 180728,
+      "router": 12931,
+      "gate_compute": "all experts evaluated; soft routing, not sparse compute"
+    }
+  },
+  "checks": "interval union/boundaries; common head initialization; all shapes forward/backward; expert/router gradients; capacity within1%; available data finite and subject disjoint"
+}
