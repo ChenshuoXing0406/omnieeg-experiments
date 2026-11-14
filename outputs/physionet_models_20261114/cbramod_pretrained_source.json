@@ -1,0 +1,8 @@
+{
+  "source_url": "https://huggingface.co/weighting666/CBraMod/resolve/main/pretrained_weights.pth",
+  "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/675991f7138cfdc3f3fce173/0603e98b196b041032774ff7c3db67042d25fa34150ea9266184a8cd0b22c94e",
+  "path": "checkpoints\\cbramod.pth",
+  "bytes": 19775842,
+  "sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+  "checked_at": "2026-11-11T07:38:24.201893+00:00"
+}

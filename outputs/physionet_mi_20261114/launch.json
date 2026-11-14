@@ -1,0 +1,23 @@
+{
+  "pid": 132642,
+  "gpu_physical_index": 5,
+  "command": [
+    "/mnt/data2/xcs/conda-envs/bci/bin/python",
+    "-u",
+    "/mnt/data2/xcs/run_physionet_mi_20261114.py",
+    "train",
+    "--data",
+    "/mnt/data2/xcs/physionet_mi_20261114/data",
+    "--output",
+    "/mnt/data2/xcs/physionet_mi_20261114/formal"
+  ],
+  "smoke": {
+    "status": "finished",
+    "fits": 2,
+    "fusion_evaluations": 1,
+    "test_evaluated": false
+  },
+  "server_access_port": 10022,
+  "status": "launched",
+  "test_evaluated": false
+}

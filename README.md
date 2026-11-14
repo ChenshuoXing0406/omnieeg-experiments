@@ -1,6 +1,7 @@
 # OmniEEG 实验工作区
 
 公开代码与实验记录仓库：https://github.com/ChenshuoXing0406/omnieeg-experiments 。
+2026-11-14实验入口与完整结果索引：[当日归档](reports/20261114/README.md)；模型及预测附件：[当日Release](https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/artifacts-20261114)。
 队友协作见 [CONTRIBUTING.md](CONTRIBUTING.md)，数据与第三方代码获取见 [DATASETS.md](DATASETS.md)。
 实验模型、验证预测及日志已提供为 [Release 分卷附件](https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/artifacts-20261113)，清单见 `storage/release_artifacts_manifest.json`。
 除单列Release中的BNCI原始T会话文件外，其他原始EEG、DE/EEG特征缓存、原始第三方预训练权重和SEED压缩包未公开，需按授权获取或从个人服务器私有备份恢复。
@@ -11,10 +12,50 @@
 私有服务器恢复位置记录在本机 `storage/SERVER_BACKUP_MANIFEST_PRIVATE.json`，清理回执在 `storage/LOCAL_CLEANUP_RECEIPT_PRIVATE.json`，两者不提交公开仓库。虚拟环境与大文件已清理，重跑前需要重新建立环境并恢复所需数据；服务器已保存实际解包副本。
 
 本工作区从组内研究方案出发，先运行公开数据基线，再检验多任务训练和 MoE。
-已经接入官方 CBraMod，并扩展到 MI、SSVEP 及情绪三方向的真实数据搜索。
+已经接入官方 CBraMod，并完成 MI、SSVEP 及历史情绪方向的真实数据搜索。
+2026-11-14 当前参赛范围确定为 MI、SSVEP、信号可靠性，不再参加情绪赛道；历史情绪结果保留作研究记录。
+队友负责联合架构与专家路由对照；本工作区另开64通道MI数据集验证，实验安排见 `plans/physionet_mi_20261114.md`，入口 `scripts/run_physionet_mi.py`。
 本地公开数据实验不是赛事官方数据或正式成绩，也不证明预训练或 MoE 有效。
 
+2026-11-14 MI归一化2×2配对已完成：复用6次uV/100控制，新增6次zscore训练；协议与结论见`plans/physionet_normalization_20261114.md`。
+
 ## 本轮完成结果
+
+### 2026-11-14 MI归一化配对（6次新增正式拟合完成）
+
+预训练CBraMod的uV/100与zscore平均验证逐被试BA为61.01%／61.56%；随机初始化为55.28%／54.62%。
+预训练组归一化改动逐划分+1.64/+1.23/−1.22pp，平均+0.55pp，未达到事前三划分方向一致要求，不宣布稳定改进。
+两种归一化下预训练均高于随机：平均+5.73pp／+6.94pp，结论限1500步预算。
+既有轻量融合62.26%仍高于zscore预训练约0.70pp。十二份预测复算、六组配置/初值/采样配对和六个新增检查点重载核验通过；未评估测试池。
+详见`outputs/physionet_normalization_20261114/report/结果报告.md`和同目录`fold_results.csv`。
+
+### 2026-11-14 独立SSVEP经典基线（12次源阈值校准完成）
+
+Kalunga2016开发侧10人、23个官方run、736个事件，8个EEG通道，统一200Hz。
+锁定11/12被试未下载或评分；三次开发验证覆盖1–6，7–10仅在训练侧。
+FBCCA三类激活识别1秒/2秒BA为76.74%／87.15%；源标签校准rest阈值后的四类BA为67.19%／74.74%。
+CCA对应三类67.36%／74.31%，四类51.04%／64.06%。两种任务分表，不将三类结果冒充完整四类。
+24条验证记录的试次身份、阈值应用与逐类召回BA独立核验通过；没有新增神经模型拟合。
+详见`outputs/kalunga_classical_20261114/结果报告.md`和`plans/kalunga_classical_20261114.md`。
+
+### 2026-11-14 实验室模型与64通道MI预训练对照（9次正式拟合完成）
+
+复用PhysioNet MI缓存、三个开发重划分和既有逐步采样索引；固定测试池不评分。
+实验室HUST-BCIML EEGConformer、预训练CBraMod、随机CBraMod平均验证逐被试BA为58.01%／61.01%／55.28%。
+两个CBraMod条件架构、头初值、输入uV/100和优化预算相同；预训练逐划分+8.11/+4.84/+4.24pp，均值+5.73pp。
+该结果限于1500更新预算，不代表随机模型充分训练上限；预训练CBraMod仍低于既有轻量融合62.26%。
+9次检查点重载、预测复算、被试身份、采样索引和初始化对照均核验通过；3次短流程另列。
+详见 `outputs/physionet_models_20261114/report/结果报告.md`、`plans/physionet_models_20261114.md`。
+文献与资源增量见 `plans/model_research_20261114.md`；TUAR/TUEV逐文件接口盘点见 `plans/tuh_input_audit_20261114.md`。
+
+### 2026-11-14 独立64通道MI验证（6次正式拟合完成）
+
+从服务器已有公共数据选取PhysioNet MI原始EDF，109人、9837个有效四类想象trial；真实64通道、4秒、200Hz。
+固定11人测试池不评分，三个本地开发重划分各87人训练/11人验证；不等同官方三个种子协议。
+EEGNet、Shallow、固定0.75/0.25融合的平均验证逐被试BA为59.13%／61.29%／62.26%。
+融合相对Shallow增加0.97pp，三个划分方向一致，但不能据此宣称普遍或显著收益。
+6个检查点重载和9份验证预测复算通过；2次真实数据短流程拟合另列，不计入正式6次。
+详见 `outputs/physionet_mi_20261114/report/结果报告.md` 和 `plans/physionet_mi_20261114.md`。
 
 ### 完整实验汇总（截至2026-11-13）
 

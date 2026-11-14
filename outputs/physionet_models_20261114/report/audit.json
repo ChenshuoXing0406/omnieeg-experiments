@@ -1,0 +1,74 @@
+[
+  {
+    "fold": 1,
+    "model": "lab_conformer",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "fold": 1,
+    "model": "cbra_pretrained",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "fold": 1,
+    "model": "cbra_random",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "fold": 2,
+    "model": "lab_conformer",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "fold": 2,
+    "model": "cbra_pretrained",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "fold": 2,
+    "model": "cbra_random",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "fold": 3,
+    "model": "lab_conformer",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "fold": 3,
+    "model": "cbra_pretrained",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  },
+  {
+    "fold": 3,
+    "model": "cbra_random",
+    "metrics_verified": true,
+    "sampling_matches_previous_baseline": true,
+    "checkpoint_reload_error": 0.0,
+    "test_evaluated": false
+  }
+]

@@ -1,0 +1,251 @@
+{
+  "files": [
+    {
+      "path": "formal/environment.json",
+      "bytes": 5350,
+      "sha256": "612ff4ef90ff5bc2d1be57cf66ed5e8b539c69465b815d76a7491745d499a704"
+    },
+    {
+      "path": "formal/fold1_cbra_pretrained/best.json",
+      "bytes": 827,
+      "sha256": "eb9b82e737a4ec0cabe12650a0bc4fd31dee9afcae4562b7c6f963731bcb08ae"
+    },
+    {
+      "path": "formal/fold1_cbra_pretrained/config.json",
+      "bytes": 2445,
+      "sha256": "7b5c2a0b48fe45ba59b2f4f5d354c2ef03653716cbcabbbc630dab5583672809"
+    },
+    {
+      "path": "formal/fold1_cbra_pretrained/history.json",
+      "bytes": 1888,
+      "sha256": "96797f44786c14a1040b84308b34763ae59f660b9b8140648e7f455f8699b919"
+    },
+    {
+      "path": "formal/fold1_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "3aa2531d0e32a7707cd01e2a768f986c0fc6f544228349d8674ed096a6b97f59"
+    },
+    {
+      "path": "formal/fold1_cbra_pretrained/result.json",
+      "bytes": 1012,
+      "sha256": "2baa3d50fa1a0bdcb8059bc6158b93694988d310afb9d6c45740f76a41bd9eef"
+    },
+    {
+      "path": "formal/fold1_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "formal/fold1_cbra_pretrained/validation.npz",
+      "bytes": 94282,
+      "sha256": "0edddd71fe6c458e5159449cf36a2480e4e1e98efdd7e776e5b9dec37b44f61b"
+    },
+    {
+      "path": "formal/fold1_cbra_random/best.json",
+      "bytes": 826,
+      "sha256": "750194a3c261cdbbf187ac5f899ff7616892f3be49b1e581fb760c3c33acdd22"
+    },
+    {
+      "path": "formal/fold1_cbra_random/config.json",
+      "bytes": 2376,
+      "sha256": "98f3ffe9e8b55253c52f5f48a5ae8e26571358ce0b9dda2315c39c721debb2e5"
+    },
+    {
+      "path": "formal/fold1_cbra_random/history.json",
+      "bytes": 1882,
+      "sha256": "33339520dbcf58cab05b13305371882425db93688f6d49ac011be9c96697fe54"
+    },
+    {
+      "path": "formal/fold1_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "4f137f5083df1e3cfb11d329a3d571c78d96a4a9238eecbda079c8d9743955d9"
+    },
+    {
+      "path": "formal/fold1_cbra_random/result.json",
+      "bytes": 1007,
+      "sha256": "06ef9f8252db7e0cbf8bb5210d649c00f43f0ad828dc5bd418dc3b7621c414df"
+    },
+    {
+      "path": "formal/fold1_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "formal/fold1_cbra_random/validation.npz",
+      "bytes": 94282,
+      "sha256": "3c0eee6899250f43ebc5ebf34808d19f4ee7b73469e2a1c67e30d8787841a672"
+    },
+    {
+      "path": "formal/fold2_cbra_pretrained/best.json",
+      "bytes": 822,
+      "sha256": "dddbcba3f7252b9778b07b03038d0c356e92e66a9b2d38275cca4d2a6745efee"
+    },
+    {
+      "path": "formal/fold2_cbra_pretrained/config.json",
+      "bytes": 2445,
+      "sha256": "d792d20a546750de3452a2ffc0416d26684efcf9f3ad52b026852b693e1cf441"
+    },
+    {
+      "path": "formal/fold2_cbra_pretrained/history.json",
+      "bytes": 1883,
+      "sha256": "f0bdbeb7b7fe30f0decefff0be53a47ee6e3efbf882eedc98a3089f4604b052b"
+    },
+    {
+      "path": "formal/fold2_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "ed3e43497bca6d6274728b3222be4b87ec5067c615c2c75ea956fd8c9f9c25e6"
+    },
+    {
+      "path": "formal/fold2_cbra_pretrained/result.json",
+      "bytes": 1007,
+      "sha256": "49553b4581ec1bfabf73f5780ed4b29d1c309712bbfd1ba3630c0a42aa508f01"
+    },
+    {
+      "path": "formal/fold2_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "formal/fold2_cbra_pretrained/validation.npz",
+      "bytes": 96490,
+      "sha256": "c30826c81e4f4ecb2afc8de2000bfa8392bdfe560a20c18faa61cefcbf940fcd"
+    },
+    {
+      "path": "formal/fold2_cbra_random/best.json",
+      "bytes": 825,
+      "sha256": "a3aa70e6b787434d55ff7e3d28ec1ce84f9168a2690eecfe8ef1fde839d63cc8"
+    },
+    {
+      "path": "formal/fold2_cbra_random/config.json",
+      "bytes": 2376,
+      "sha256": "4a0eb6f69d196ad76aaa99cc7a37f54f71d5159669b72c32323b96f708f13e88"
+    },
+    {
+      "path": "formal/fold2_cbra_random/history.json",
+      "bytes": 1871,
+      "sha256": "a2cf328ed5a10455282896a740e11ca307c7b6b71b66c5b33b326b95d8afe4a5"
+    },
+    {
+      "path": "formal/fold2_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "8f02a1c243c23997527b17784b7766f3bbad2b1569077ce25026d67b1a353b52"
+    },
+    {
+      "path": "formal/fold2_cbra_random/result.json",
+      "bytes": 1006,
+      "sha256": "1eca9c97aa09e56490e04a62ca5ab432ba06b2828c6d3136c58095357bb45f6b"
+    },
+    {
+      "path": "formal/fold2_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "formal/fold2_cbra_random/validation.npz",
+      "bytes": 96490,
+      "sha256": "4a125826d2a71914aabb1689e68010ee384f4fd3679f4988e4bd4a377b6d321e"
+    },
+    {
+      "path": "formal/fold3_cbra_pretrained/best.json",
+      "bytes": 824,
+      "sha256": "a4fa034afc77dc71c39c1628df20f0347cb71c6b81334127629f88628e3b248f"
+    },
+    {
+      "path": "formal/fold3_cbra_pretrained/config.json",
+      "bytes": 2445,
+      "sha256": "e3f57c13f3bc22443258c834a1a70e1d27ff35e89e1f780807c50178f32ee025"
+    },
+    {
+      "path": "formal/fold3_cbra_pretrained/history.json",
+      "bytes": 1881,
+      "sha256": "3e547bfe5e5a57652cc8a0c6cccba35f7b2d3c3f3a549c8b970b6b006a1a2f91"
+    },
+    {
+      "path": "formal/fold3_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "6a247763380cfdf3a65addeaa4f96cf8525dcb3d740877a807a9c5623d0f3fd9"
+    },
+    {
+      "path": "formal/fold3_cbra_pretrained/result.json",
+      "bytes": 1010,
+      "sha256": "770a6a4508908b3e619e00abe13ffbd4a370356d813a1e62e9e5b38147f44fdc"
+    },
+    {
+      "path": "formal/fold3_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "formal/fold3_cbra_pretrained/validation.npz",
+      "bytes": 92074,
+      "sha256": "399d025634232ec870e9004dd1c84dd52700dbd537a5e6b1f0400d986f6b8b81"
+    },
+    {
+      "path": "formal/fold3_cbra_random/best.json",
+      "bytes": 827,
+      "sha256": "306d1489cf6e71cd0198dd0db7bb08b1786d67503524d756c734032e01d44115"
+    },
+    {
+      "path": "formal/fold3_cbra_random/config.json",
+      "bytes": 2376,
+      "sha256": "b3e8c6f93982bd45c9635a1695d6cdeae9ae5af7828814d0906e96528df6cee3"
+    },
+    {
+      "path": "formal/fold3_cbra_random/history.json",
+      "bytes": 1881,
+      "sha256": "71b74be46a23478daf4237e2007e597bb04f7b6be723bb4632cf120141e04db7"
+    },
+    {
+      "path": "formal/fold3_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "01f5a0486da434b8b6c558089e221297effbc046341f38e2d4ea7f4e553ffdd0"
+    },
+    {
+      "path": "formal/fold3_cbra_random/result.json",
+      "bytes": 1008,
+      "sha256": "3edbc137940b7d9d8f3bc9804f5a1a60ef13d2b0debe84f59f2719d2acac2c04"
+    },
+    {
+      "path": "formal/fold3_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "formal/fold3_cbra_random/validation.npz",
+      "bytes": 92074,
+      "sha256": "643feaa8f5eca56304ab45d4976d4f385c76256cae7df6f2f8c3b656c3e9d17a"
+    },
+    {
+      "path": "formal/results.json",
+      "bytes": 6700,
+      "sha256": "77e3a44afcbf6f74a9a516960f9ace2ab6df6f2bba4f607fc5fb43405d7593d3"
+    },
+    {
+      "path": "formal/status.json",
+      "bytes": 66,
+      "sha256": "9421d37f3197e5d86faeb9f8a8cd42941aad276514eed173e9cfea94d0cf5772"
+    },
+    {
+      "path": "report/audit.json",
+      "bytes": 986,
+      "sha256": "f2b0622d328b790ff90463bbc36884dbc3d946080c072b56240db306b1a7e0a0"
+    },
+    {
+      "path": "report/fold_results.csv",
+      "bytes": 1021,
+      "sha256": "ef277725706ea796aa36b5198532268b30c5413bbabc35d6bfb0aa2316f3238b"
+    },
+    {
+      "path": "report/summary.json",
+      "bytes": 947,
+      "sha256": "abd4c218d093a1a0a78385339b8798e060abea2281afc3c1c8c556a6968f9cdf"
+    },
+    {
+      "path": "report/\u7ed3\u679c\u62a5\u544a.md",
+      "bytes": 1193,
+      "sha256": "64fd9f256213b40dae270916e1143953878c26b88d92a7709705ef68e84e4aa4"
+    }
+  ],
+  "scope": "all formal and report files after completed training and audit",
+  "test_evaluated": false
+}

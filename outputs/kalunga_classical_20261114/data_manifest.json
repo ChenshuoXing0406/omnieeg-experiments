@@ -1,0 +1,432 @@
+{
+  "sources": [
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject01_run1_raw.fif",
+      "sha256": "462390c675d80876d2c368a4f2d5a6813818506d530a0b45b018e876137084f3",
+      "subject": 1,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject01_run2_raw.fif",
+      "sha256": "9727f0bde4376ec4b93ec8a9380d402eaf2d94a6d9e79776a50b9e6d00a68254",
+      "subject": 1,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject02_run1_raw.fif",
+      "sha256": "937398687e04ac735aa7d1c26d715d3a675fc98a53ce6df4ce1baaa5d2ea831b",
+      "subject": 2,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject02_run2_raw.fif",
+      "sha256": "c6e21fb964a69d5c05d5b140e047166cec0054219b862d94e6cc9a06e88c33fe",
+      "subject": 2,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject03_run1_raw.fif",
+      "sha256": "86ab7f5e8329c028ff247bb55413c600facec3f7bd6f6544d1bef351f484e9d3",
+      "subject": 3,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject03_run2_raw.fif",
+      "sha256": "05def819099add6e0a3c1f3ff4d27e6dd3dcf79cfc257d99816f01bff9c16371",
+      "subject": 3,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject04_run1_raw.fif",
+      "sha256": "0b62acb6716f9f56880391a2b2b58f262e6c80a31719d11f9b0012bfdf164d94",
+      "subject": 4,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject04_run2_raw.fif",
+      "sha256": "cb9013ee0eb75837bdfc5840070130c6e34345b333517243359201eadb8baffc",
+      "subject": 4,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject05_run1_raw.fif",
+      "sha256": "ce682ca6aedb88a61154f7ef0233ba27ccf59d6c87d58d37cd6bd240743a4bfd",
+      "subject": 5,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject05_run2_raw.fif",
+      "sha256": "99ca9e3a9026bd2d2fed57c3d4a36780bc44fcefbe047cf183346db3331b1750",
+      "subject": 5,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject06_run1_raw.fif",
+      "sha256": "b2e66e124b9b796f5e24bed990d28841c7a0ab8149737af82a8ff953318179ec",
+      "subject": 6,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject06_run2_raw.fif",
+      "sha256": "7022c4ef4650c05e9a04783118dd7e40d9ad022e598a15ae2566298620e6ee8f",
+      "subject": 6,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject07_run1_raw.fif",
+      "sha256": "199c5ab96fb6830daf637c67a85abb5bfa9c3fdf2e7c5600d9a0ff9a6483c100",
+      "subject": 7,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject07_run2_raw.fif",
+      "sha256": "21b4d5d08f82494f54451124859fd6a7f0bc2fcd1f3428f6a48c3576864a21db",
+      "subject": 7,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject07_run3_raw.fif",
+      "sha256": "d8a902974b8c38d2905e1ca6b8ed6befd7d474c3bcc48d383d9a692a69508c22",
+      "subject": 7,
+      "run": 3,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject08_run1_raw.fif",
+      "sha256": "22047d563a3d14458da1d097133e90774bd11a33610bbce5484f3c9520c54e9a",
+      "subject": 8,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject08_run2_raw.fif",
+      "sha256": "7ed774ba1ffb4d532a4661f9ddb925bd7fabff8f4f31f796f0e6f28bcababd78",
+      "subject": 8,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject09_run1_raw.fif",
+      "sha256": "6702693d029445aa39a0a37adac647ae5ccdff5036ee784e82a6c5b95d3086cb",
+      "subject": 9,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject09_run2_raw.fif",
+      "sha256": "4fbcc52be99886160ced7d32d4add4c92f4abe2c83e934e3cdd9311a3a31d65e",
+      "subject": 9,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject10_run1_raw.fif",
+      "sha256": "25c96cf5f24e04cf348be8481a847107e7ff178fc896c2a0285236e53a3b125e",
+      "subject": 10,
+      "run": 1,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject10_run2_raw.fif",
+      "sha256": "46c401efa32d18740bb81ddfebe1d175df3fa8398c0410461c841aea8f0c2f68",
+      "subject": 10,
+      "run": 2,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject10_run3_raw.fif",
+      "sha256": "fa9049f0270df97f3caaf10f72145d8f2ad5b04af2e30cceae8c4f5222a472b4",
+      "subject": 10,
+      "run": 3,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    },
+    {
+      "path": "data\\raw\\Kalunga2016_development\\subject10_run4_raw.fif",
+      "sha256": "e9a7ab3c54ab1f23314b8d20214984747ff54842ce29482cdddf1fc3ad491da4",
+      "subject": 10,
+      "run": 4,
+      "eeg_channels": [
+        "Oz",
+        "O1",
+        "O2",
+        "PO3",
+        "POz",
+        "PO7",
+        "PO8",
+        "PO4"
+      ],
+      "events": 32
+    }
+  ],
+  "trials": 736,
+  "source_script_sha256": "a1b742bbdafe36c493d3b08436225f4bc5a1d3a6f77e121653d01ec8a82a69ba",
+  "event_label": {
+    "2": 0,
+    "4": 1,
+    "3": 2,
+    "1": 3
+  },
+  "frequencies": [
+    13.0,
+    17.0,
+    21.0
+  ],
+  "locked_test_subjects": [
+    11,
+    12
+  ],
+  "validation_subjects": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "input_sfreq": 256,
+  "model_sfreq": 200,
+  "window_start_seconds": 2,
+  "harmonics": 4,
+  "task_note": "3-class active decoding and source-calibrated 4-class rest rejection are separate tasks",
+  "test_evaluated": false
+}

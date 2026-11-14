@@ -1,0 +1,146 @@
+[
+  {
+    "run": "fold1_CCA_1s",
+    "task": "active3",
+    "independent_recall_BA": 0.59375,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold1_CCA_1s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.453125,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold1_CCA_2s",
+    "task": "active3",
+    "independent_recall_BA": 0.6041666666666667,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold1_CCA_2s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.5625,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold1_FBCCA_1s",
+    "task": "active3",
+    "independent_recall_BA": 0.65625,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold1_FBCCA_1s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.5703125,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold1_FBCCA_2s",
+    "task": "active3",
+    "independent_recall_BA": 0.7604166666666667,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold1_FBCCA_2s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.609375,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold2_CCA_1s",
+    "task": "active3",
+    "independent_recall_BA": 0.8020833333333334,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold2_CCA_1s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.625,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold2_CCA_2s",
+    "task": "active3",
+    "independent_recall_BA": 0.9375,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold2_CCA_2s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.84375,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold2_FBCCA_1s",
+    "task": "active3",
+    "independent_recall_BA": 0.8958333333333333,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold2_FBCCA_1s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.8125,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold2_FBCCA_2s",
+    "task": "active3",
+    "independent_recall_BA": 0.96875,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold2_FBCCA_2s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.8828125,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold3_CCA_1s",
+    "task": "active3",
+    "independent_recall_BA": 0.625,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold3_CCA_1s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.453125,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold3_CCA_2s",
+    "task": "active3",
+    "independent_recall_BA": 0.6875,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold3_CCA_2s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.515625,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold3_FBCCA_1s",
+    "task": "active3",
+    "independent_recall_BA": 0.75,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold3_FBCCA_1s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.6328125,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold3_FBCCA_2s",
+    "task": "active3",
+    "independent_recall_BA": 0.8854166666666667,
+    "threshold_and_saved_identity_verified": true
+  },
+  {
+    "run": "fold3_FBCCA_2s",
+    "task": "with_rest4",
+    "independent_recall_BA": 0.75,
+    "threshold_and_saved_identity_verified": true
+  }
+]

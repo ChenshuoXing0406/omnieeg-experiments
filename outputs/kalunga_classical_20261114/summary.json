@@ -1,0 +1,50 @@
+[
+  {
+    "method": "CCA",
+    "seconds": 1,
+    "task": "active3",
+    "mean_BA": 0.6736111111111112
+  },
+  {
+    "method": "CCA",
+    "seconds": 1,
+    "task": "with_rest4",
+    "mean_BA": 0.5104166666666666
+  },
+  {
+    "method": "CCA",
+    "seconds": 2,
+    "task": "active3",
+    "mean_BA": 0.7430555555555557
+  },
+  {
+    "method": "CCA",
+    "seconds": 2,
+    "task": "with_rest4",
+    "mean_BA": 0.640625
+  },
+  {
+    "method": "FBCCA",
+    "seconds": 1,
+    "task": "active3",
+    "mean_BA": 0.767361111111111
+  },
+  {
+    "method": "FBCCA",
+    "seconds": 1,
+    "task": "with_rest4",
+    "mean_BA": 0.671875
+  },
+  {
+    "method": "FBCCA",
+    "seconds": 2,
+    "task": "active3",
+    "mean_BA": 0.8715277777777778
+  },
+  {
+    "method": "FBCCA",
+    "seconds": 2,
+    "task": "with_rest4",
+    "mean_BA": 0.7473958333333334
+  }
+]

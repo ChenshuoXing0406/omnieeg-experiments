@@ -1,0 +1,8 @@
+{
+  "status": "finished",
+  "source_threshold_calibrations": 12,
+  "validation_records": 24,
+  "prediction_audits": 24,
+  "neural_fits": 0,
+  "test_evaluated": false
+}

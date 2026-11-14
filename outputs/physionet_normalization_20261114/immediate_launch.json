@@ -1,0 +1,8 @@
+{
+  "supervisor_pid": 75337,
+  "gpu_physical_index": 3,
+  "gpu_observation": "3, 8400, 0",
+  "status": "launched_immediately",
+  "formal_fits": 6,
+  "test_evaluated": false
+}

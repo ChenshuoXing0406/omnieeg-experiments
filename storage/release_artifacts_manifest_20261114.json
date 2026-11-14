@@ -1,0 +1,1603 @@
+{
+  "tag": "artifacts-20261114",
+  "release_url": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/artifacts-20261114",
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2367,
+      "sha256": "a729a60311c00d2dfc2f0083d019c0bdd05ce180108b092720e788038409ca97"
+    },
+    {
+      "path": "DATASETS.md",
+      "bytes": 3946,
+      "sha256": "445f53a61fbab5bdb2009b5ecaab56e47c587052530d715d3956a48b55525a20"
+    },
+    {
+      "path": "README.md",
+      "bytes": 28344,
+      "sha256": "31f0ae4cbccfab0b8e56e61631ad2dadfec8e9890daf07f113e6105e589e8e51"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/CCA_1s_all_development_scores.npz",
+      "bytes": 71650,
+      "sha256": "3b142ac3305044a7f2c9600d7d2fab543753b575f7a0629bad1a32c6c8f5e9d3"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/CCA_2s_all_development_scores.npz",
+      "bytes": 71650,
+      "sha256": "b05a9abd1b989e6184d50b2e216ec2de63aa59418ca0ecfd248f50e4ffed843c"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/FBCCA_1s_all_development_scores.npz",
+      "bytes": 71650,
+      "sha256": "8a95ff5b81eaef086e575e2b4fff42037b6c2f2e0171da45f704e18d25a2ae08"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/FBCCA_2s_all_development_scores.npz",
+      "bytes": 71650,
+      "sha256": "e2baa40237580deb240db796789273150c699df608cd75c831edf458b326f033"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/audit.json",
+      "bytes": 3999,
+      "sha256": "be196a8cb82cff3f513086aff76d58c4a4e0df4456f1f59cc61e69330160e346"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/data_manifest.json",
+      "bytes": 9755,
+      "sha256": "2d72798ee5342ace454ef6c4ad1c4f5fe90dba40bd886d9794c3f466fe490eb8"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_CCA_1s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "3e48f0545f39200cba06d65c40182643d8f967dc1aa16284aec4180f2ac0c7ff"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_CCA_1s/calibration.json",
+      "bytes": 271,
+      "sha256": "824a1e11f67bbc25c83c5ec25788ec755b9c8174481ef7482dd37e66d69a6dc1"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_CCA_1s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "0afbf7ebe4693f341b75465d1df1f882560395df903ee88840866874fe7dcff7"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_CCA_2s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "3b09ec9f7320d5fe66691b066cfeecba92c6068048fa4b561ba47fe9419cbe1c"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_CCA_2s/calibration.json",
+      "bytes": 271,
+      "sha256": "ac841893206d68245167e0a23ffe6bf240d38ada3ec5534c1e883b91db3b350b"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_CCA_2s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "16053457db01989c10edf1db0cb28b980edc9f3ede3bb97ea0a1cab949788772"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_FBCCA_1s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "6f95d3d75b52daad5014d03fb98e5a0f58134451d8d1f7ebcb8b068806aeae98"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_FBCCA_1s/calibration.json",
+      "bytes": 264,
+      "sha256": "4ce1ed4fa053b7cf3a8e6b64c6553805cc3794d2b36a4f3a352fd07814a535a7"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_FBCCA_1s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "58de4ea9099ccbe6ff4076e0f90c12e057124ab065a3b073f428a2e62fe634fe"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_FBCCA_2s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "afd1075a2ae8c4004bf75ceab78697ea20b6c0d6d2f6e8aa5d988737a5cec7aa"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_FBCCA_2s/calibration.json",
+      "bytes": 270,
+      "sha256": "68fa0016c5f50c62737fba99f57dec5425083f80ff6af6abb3df7fa5c335b73f"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold1_FBCCA_2s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "075e2cd257ff76f6082b8b0ad2e52ee1aef52233e105709d89d11fe676eab29e"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_CCA_1s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "ab06ad4c31fa3ff4f6edfc14b8a04c49d12383b4a12636aa457696de493625be"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_CCA_1s/calibration.json",
+      "bytes": 272,
+      "sha256": "adf55e443f1763a78b858e2b1672fcc8f07bdff9bb74facae1a16e0899282413"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_CCA_1s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "953aaae1b422db95fdeaba2d3a6a7b1d307db696f005fede97d0e1b26f38bcd7"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_CCA_2s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "51a18780946d0660f3c099414d7aea5b78ac46e9dad2b43756be722b0c14a4d8"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_CCA_2s/calibration.json",
+      "bytes": 265,
+      "sha256": "50e882dd13832256710757a4c623e2a9d2ed64931f5a66fe95979d1fa1ab9ab6"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_CCA_2s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "13fafdcc5699eb24c6ef8bb767657497e6419cd5036e9043a7c503d7ef750145"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_FBCCA_1s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "52217617ac1b166bfc660fb42a42171cc531a66d83dc110d355903ba1241b49b"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_FBCCA_1s/calibration.json",
+      "bytes": 270,
+      "sha256": "bee681ff79e5f3bf913ae0e941ef58d8681a5fd3411b2e82dd4595e7a4aad7ac"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_FBCCA_1s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "bdd7f751112e241dd4db07ff5070aeffbb0cc6a463fed7614eb41b0114f15509"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_FBCCA_2s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "10aea26deb53769e571742a0c54f3af40c03dc8c2f8a6d3681be058d74bde622"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_FBCCA_2s/calibration.json",
+      "bytes": 271,
+      "sha256": "b1e4d5dcf5e91fa7a288642b42681635d6c2c838d3eaf057409720f404467daf"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold2_FBCCA_2s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "324982e082e0b1925d2382b5c77e1361c89e91d3fd725bcd0ed6bf42b2914e8c"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_CCA_1s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "551cfd56cb7e855a852cf1f4aec81e036dc0877921f1d88af687937246c6c5d3"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_CCA_1s/calibration.json",
+      "bytes": 271,
+      "sha256": "1611dd623bdf53a93e02f87e11f39853758d62315df7e2775e236cd557d2c9e3"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_CCA_1s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "90cd84a66db4310b5e6593fc9f3b6d2a9313eb5c20ba2f6db9bd9246e7d9ddfc"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_CCA_2s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "9e29956746594a91f4ac9a897d2fac592eabef028782444a7f065d3b435da2b0"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_CCA_2s/calibration.json",
+      "bytes": 271,
+      "sha256": "8ca0bd1f270a563a0c1bf6d3547b53f626bba1b4dc59a0414db532eb70769537"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_CCA_2s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "6da349c023d684039f918bb0dd583f64678d289120dc005552f2b9cc99144ff7"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_FBCCA_1s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "c53943960c9088c5934e2c1b7596cb7fc370d4b443af035155bddd94a740f7dc"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_FBCCA_1s/calibration.json",
+      "bytes": 270,
+      "sha256": "6685ca7723371945bc4ff4aedfd15ff1e7d2a52df297968d9102cb5939737da5"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_FBCCA_1s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "42527dba678b50f7057133e44448470822e9787affabfc22f41f0aa28edb6f24"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_FBCCA_2s/active3_validation.npz",
+      "bytes": 11218,
+      "sha256": "f191eaf8b01c992c40e84c9c893d69ef0e9073f3626b07cf95b0c62b1a990749"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_FBCCA_2s/calibration.json",
+      "bytes": 263,
+      "sha256": "9863de08d5174d1608022d91344d75a8c96ac135814b7d274148d8c8ff84ed97"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold3_FBCCA_2s/with_rest4_validation.npz",
+      "bytes": 14546,
+      "sha256": "615e78055484cfd76626dc60a755ab2507099153edc6a97abfc8bae2b0bf70f8"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/fold_results.csv",
+      "bytes": 1459,
+      "sha256": "f4d8b419b97fe14f949396e192d1df03ac7ce6dd45746a65404f536186b56a1d"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/independent_audit.json",
+      "bytes": 3786,
+      "sha256": "819dcc056b82d41f671a06fc3a5fd161bccfd169491c32ad7d1b7bb43fc129a1"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/status.json",
+      "bytes": 174,
+      "sha256": "8cb2ea356a39d62f4d38a75bf34a055a83ed18e5d65e264ef4af41f7d7e4b4f9"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/summary.json",
+      "bytes": 890,
+      "sha256": "367b23da8076d474c453a7d161432c44d82733c57541d5e43e8f32af691d2629"
+    },
+    {
+      "path": "outputs/kalunga_classical_20261114/结果报告.md",
+      "bytes": 1585,
+      "sha256": "9a281699d77ce8f3d41c79de1aedb4ff0c1d579f63be16db5b948f37669caa24"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/data_metadata.json",
+      "bytes": 168855,
+      "sha256": "a74ceff603c2bbcc76c4aef8cbdca088cdf8e318b501aedd87c5e7a49d42619d"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/environment.json",
+      "bytes": 608,
+      "sha256": "d80467552a3f65b83ede3390f28d07d0fe71410daecdd694811de6ecc2a15274"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal.stdout.log",
+      "bytes": 10225,
+      "sha256": "3caa8f551eaada7c8948b32d67f8897655d20333469ed76fa55b341900ad5add"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_eegnet/best.json",
+      "bytes": 826,
+      "sha256": "8ce8344a4caae6e559107ca7e21d9e669809916d268e16febac3bcdb17390d44"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_eegnet/config.json",
+      "bytes": 1629,
+      "sha256": "3546b2b909b6e5bc74d79e8129185b773a0ce6a7af30a7fc8ca576d73a1f70ac"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_eegnet/history.json",
+      "bytes": 1370,
+      "sha256": "9f9f81529b8f964e400330a8f94a9299e11a0504e88d5cd08b4cfe6e7afe84dd"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_eegnet/model.pt",
+      "bytes": 27877,
+      "sha256": "0f5412c24f84567c5ea54013c47c14d1dea16efd36a943b44a3fb69f38675d89"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_eegnet/result.json",
+      "bytes": 927,
+      "sha256": "c48758122fe53f7833f138e1d7834ad3c34701d3076e0671e176eb8a483e975b"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_eegnet/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_eegnet/validation.npz",
+      "bytes": 94282,
+      "sha256": "efcb039eed2d9902b17d242ba7b91289de0e1c050c8b0e1547b7bbbf13957e83"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_fixed_fusion/validation.npz",
+      "bytes": 94282,
+      "sha256": "95e147d4b3f5502d99fe835d76956759abc3d450bd47e460bac59c6284df5364"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_shallow/best.json",
+      "bytes": 829,
+      "sha256": "e35ee08b8a512fa539124d1d5f137b0b809a9c5f46d155cee4c5b0209ff677bd"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_shallow/config.json",
+      "bytes": 1630,
+      "sha256": "90fee5cf7d30de3ff1a2280487d755dd25999ede031b3f67ac0dad7020614b63"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_shallow/history.json",
+      "bytes": 1370,
+      "sha256": "4d25ff8ff69d91719e8d65b4d82880637935c2383ed736a980ff639eb4d50ecc"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_shallow/model.pt",
+      "bytes": 447964,
+      "sha256": "6d804f64e2f7309ea4f1fce2d19d4af483f058653bf7159bf6d69b07b539497c"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_shallow/result.json",
+      "bytes": 930,
+      "sha256": "1358212ee25c6b230403cbfe3b9f1eb9761847ef90892f93522b62d978493ae7"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_shallow/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold1_shallow/validation.npz",
+      "bytes": 94282,
+      "sha256": "7ebb584b9a6bfcecec5c1f6e7b49b53df06fb3aa73ba7591041b6dafb4caa33d"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_eegnet/best.json",
+      "bytes": 828,
+      "sha256": "404422e9388bc165be81963c181bc9ab06858d8c7c4840501a46f589bf30dc8e"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_eegnet/config.json",
+      "bytes": 1629,
+      "sha256": "a1de8d0d5a695f44e328a110d878384b6c868adc9f97b309467edde2a33ff9cb"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_eegnet/history.json",
+      "bytes": 1370,
+      "sha256": "2a0e9b6805c1e8ebeb99ed9571bad680c8b656bfac66d3400c95730a96b83113"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_eegnet/model.pt",
+      "bytes": 27877,
+      "sha256": "a85453f397e6943363e45d2eed1960639bdb78a1ba67ef45fcaf199b027be950"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_eegnet/result.json",
+      "bytes": 929,
+      "sha256": "0e660e53c7736fb23d9b04ac2dd930ad9655100d44223cfc90f197d55324397c"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_eegnet/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_eegnet/validation.npz",
+      "bytes": 96490,
+      "sha256": "0113c1975e34e531e385fa08f3b959b360fccb945017ae66121444ff9cc47938"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_fixed_fusion/validation.npz",
+      "bytes": 96490,
+      "sha256": "0760568d4d38b1161663077b9971fba63e70586af834595685d5dd3a6e5b9b6f"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_shallow/best.json",
+      "bytes": 824,
+      "sha256": "d94dca55751b4d44afb5b5f97d0de509b3bab2c1c2f7cf5d58ef5e8796bb43ef"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_shallow/config.json",
+      "bytes": 1630,
+      "sha256": "dd2cbdf7fbef14932f3ff21362f53b1a81c020364244142be2b230e37f93426b"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_shallow/history.json",
+      "bytes": 1372,
+      "sha256": "63578e74d06deffb0b397896bff5c8ab6a47edddb7d97bc1169033e1e5df7954"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_shallow/model.pt",
+      "bytes": 447964,
+      "sha256": "6428a092eb992ad639b6eaa33f3b832bc92291b9e6eb4c2924ac992872294098"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_shallow/result.json",
+      "bytes": 925,
+      "sha256": "62aa10de1c40f75c769c36faef8a9151ea780f3e3269ff973955152dd1712758"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_shallow/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold2_shallow/validation.npz",
+      "bytes": 96490,
+      "sha256": "2cc76b7a579a89a74dd99c0d7b3ba2d7e3e845ed92e53121d1fca124c5c28fe7"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_eegnet/best.json",
+      "bytes": 813,
+      "sha256": "b58b3cfad9cdf9e6641ec247ac127c947ced0706f000f36d626f9acd4c143974"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_eegnet/config.json",
+      "bytes": 1629,
+      "sha256": "a74168f621626388ae9a770bea088fe0a39d8deb30698a0e8ec9047491af9926"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_eegnet/history.json",
+      "bytes": 1369,
+      "sha256": "ba12911cd0f1c0cb97ae94214a21df2fcbecec7b310b75bd3506508f97e06cb9"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_eegnet/model.pt",
+      "bytes": 27877,
+      "sha256": "61862586660038b400275d220a5213677f08bef4bdac0964fe962fc3cd66bc6d"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_eegnet/result.json",
+      "bytes": 914,
+      "sha256": "6231909492cc15c0ef1f0cafacf812ff2b24e381a52416e964524812dd5e9cdf"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_eegnet/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_eegnet/validation.npz",
+      "bytes": 92074,
+      "sha256": "75fe66c4d79c739317c127df3d7bcb3f55ccc6410aa80116b52da2ea6b04e319"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_fixed_fusion/validation.npz",
+      "bytes": 92074,
+      "sha256": "04558e02d12357c77efcf10dca4af1652401d534573b5850abd709580f26cb48"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_shallow/best.json",
+      "bytes": 830,
+      "sha256": "821ade6a24f48dd3275bb4771a337403e6b554d2e82067fbda0adf37e254f883"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_shallow/config.json",
+      "bytes": 1630,
+      "sha256": "301240be39c65692a683244ba79bc2824a083511f68d04ea6cb43b53976478cf"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_shallow/history.json",
+      "bytes": 1370,
+      "sha256": "94e3fd5c1890519ce4d428b5f9e31acce15ba2789a6b48c1d32f08c1fcafc099"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_shallow/model.pt",
+      "bytes": 447964,
+      "sha256": "b54936fcf5ef08c053ad2bc80a284e5aa5e81c1fe04b2e639f05ca2adc8695ec"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_shallow/result.json",
+      "bytes": 931,
+      "sha256": "30dfd3ba78b7e490c5d96f39258f1cb1ff08817b3e985e4cae4430ec79c0d969"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_shallow/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/fold3_shallow/validation.npz",
+      "bytes": 92074,
+      "sha256": "932db1073f4b2d6f8258730b7940c363d26c6902a11f715a4d2de9477936aec1"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/results.json",
+      "bytes": 9122,
+      "sha256": "65bb9e73c265b2b8dc225e3a0c48a1adf0ccefbaab63b7811cc5c74ac8a4734c"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/formal/status.json",
+      "bytes": 93,
+      "sha256": "b43203d4a164d0e19dbdd23320efd426e54493e98aabc8d36d7af7fecdb207ee"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/launch.json",
+      "bytes": 515,
+      "sha256": "b4f721505fb8c0e997c47cc751a6a208c1ae205e836ad94fa975760ce94529fb"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/reliability_data_inventory.json",
+      "bytes": 1083,
+      "sha256": "093fec549e175cf78247e7c2fa1d4815ade9a8fbf9dd9897b1afd4fe2f2e952c"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/report/audit.json",
+      "bytes": 1034,
+      "sha256": "0e62019c990b0b9ed29a3d31fb3e88190916f922b91b54060b7b60552a24f6e9"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/report/fold_results.csv",
+      "bytes": 702,
+      "sha256": "3eccd8530f08099997d6a6624a2f00445d85c0384a5f9a6372078662cf98f6f9"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/report/summary.json",
+      "bytes": 365,
+      "sha256": "44071b2748870a1f168386f3dafcc15eb9c9396caaf244207b8b8461db3934fc"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/report/结果报告.md",
+      "bytes": 1021,
+      "sha256": "ca653a787d5439ff0b5b6891a5a6a84c7bb2735881625760caf0e13b0ca87e99"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_eegnet/best.json",
+      "bytes": 808,
+      "sha256": "53703fe63143b1421dbe3313e7d257422b72510a2b0dddd61fae38f3ac7ece0c"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_eegnet/config.json",
+      "bytes": 1626,
+      "sha256": "c895a7f50abaa036c083f715d85ee5bd684da47051d0fabf3c61369dc9ede09b"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_eegnet/history.json",
+      "bytes": 91,
+      "sha256": "4986675ab1e6b0a2f853b32a866b271ae0ff090ffdddaaf79e040767a86720c4"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_eegnet/model.pt",
+      "bytes": 27877,
+      "sha256": "25d09a79e35349cf1688147bf6c73a4add00358aa39b8da6ed7af6f93a45d4a1"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_eegnet/result.json",
+      "bytes": 911,
+      "sha256": "8def5b2cb2d761421e86ca8787f8c349a216aaca86ed43ece8a2ba7de909d84a"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_eegnet/training_indices.npy",
+      "bytes": 384,
+      "sha256": "68f2a87420dec8ca1ee773e73b37b8e895be4482e5066a10220da5c74c4cf714"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_eegnet/validation.npz",
+      "bytes": 94282,
+      "sha256": "13a7b5442820c01f39517e77a580c73f2d8a31ad01abba65c4c0ff14ce6c8fb2"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_fixed_fusion/validation.npz",
+      "bytes": 94282,
+      "sha256": "2decb13f93ae5c4b2ad8789865c5febe10f47e224c9218b8be0488a1b1655c9c"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_shallow/best.json",
+      "bytes": 779,
+      "sha256": "39059691e6b78ae990d181acc98ce9dc71cd40b1e20a34774500b741408ddf9f"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_shallow/config.json",
+      "bytes": 1627,
+      "sha256": "cff63863013d65dca95a6caf0c9a89c30a6e59a39540b599eaf7ca18c376a5af"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_shallow/history.json",
+      "bytes": 91,
+      "sha256": "fd1e70917cd2be664677dcbf7ce1acd1ff16c835a4dd231b0b17afb11b09a44e"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_shallow/model.pt",
+      "bytes": 447964,
+      "sha256": "600aaeb29b28aea4aff70424de9cff1ce9a5448000d1fdc8daf50148653ba6a8"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_shallow/result.json",
+      "bytes": 884,
+      "sha256": "61cc245b1b3a2eda452b3f3367722731e9705bdfe9c76af1f4dfb2c60a9d1122"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_shallow/training_indices.npy",
+      "bytes": 384,
+      "sha256": "68f2a87420dec8ca1ee773e73b37b8e895be4482e5066a10220da5c74c4cf714"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/fold1_shallow/validation.npz",
+      "bytes": 94282,
+      "sha256": "bc293c3b7e3972a171273cc9dde8865aaa5fee9eb6c0a6f9f814d43d83a7faf6"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/results.json",
+      "bytes": 2956,
+      "sha256": "3d7ef1ec6f7bf3777c2ce5081f734bf1063c59e3a1c697a2d324d1501934097c"
+    },
+    {
+      "path": "outputs/physionet_mi_20261114/smoke/status.json",
+      "bytes": 93,
+      "sha256": "5818b72795abe3ff203eb8edbdd177e278b1bd7eebdcca66ca81af018cd24996"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/cbramod_pretrained_source.json",
+      "bytes": 449,
+      "sha256": "cf62d299c2dcbd504b5663dafee2589633e3635d9621d2498a2a30f0d94aea7a"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal.stdout.log",
+      "bytes": 19469,
+      "sha256": "2c1732eb2241910bd44b033d450d313ceaa1d63b53f5ff388c454de1cf6031ed"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/environment.json",
+      "bytes": 5350,
+      "sha256": "91db2ed7f9ff8ba4e652d7600af9613f5933cde6e96d82f05fa62d5b1dfc9b61"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_pretrained/best.json",
+      "bytes": 826,
+      "sha256": "196b89b0b87294574678674b9ae1edc74b22628497217695284c128ff65ed586"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_pretrained/config.json",
+      "bytes": 2207,
+      "sha256": "fe0d1b3086e65328f11be0c15067178c6f3ce3d7f2e46a061ab3b7b8981bf820"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_pretrained/history.json",
+      "bytes": 1889,
+      "sha256": "2871f4794a773e9db9554b83fc38f1149829f39453dc37ec07529bb9acb59026"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "7ce06eac06c18ac94322a7ce8efb7378f9e1c0979a26359ce8d52d50be0f260c"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_pretrained/result.json",
+      "bytes": 1012,
+      "sha256": "e32cd86e5fe71bb4e806bc855aa49bb26ed27dadd41a48f70897b02442539ece"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_pretrained/validation.npz",
+      "bytes": 94282,
+      "sha256": "6df2044714b4cb53a8758bee377c629abcc36e0ae1d844901fd7808efff0d6aa"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_random/best.json",
+      "bytes": 829,
+      "sha256": "b237d80e6d78b5db488a4833d6b7099f4cfd4bcc8abcb3e11b3407c282de3ca7"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_random/config.json",
+      "bytes": 2142,
+      "sha256": "52286b7be6601e85800d308a9374ffc2e709fbda719e3f5381070689a6dc1f41"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_random/history.json",
+      "bytes": 1885,
+      "sha256": "90c572c05b8ccd797ee00d496266ed19d5c1be78edb59242d050486b958c6633"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "465cd4f475abbbc1e72e1fa83ac661b02c7fb3e7052f29e0f6d7322c0f86aa57"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_random/result.json",
+      "bytes": 1011,
+      "sha256": "9ce716601a484cc6ab6db1adc8846725fc07a0f91de064d9a0616f231dd3c394"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_cbra_random/validation.npz",
+      "bytes": 94282,
+      "sha256": "0355cb2dbbe9c7c5b65db4679fb67539bd5b2550fc76a102688e94b7ca95cc1c"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_lab_conformer/best.json",
+      "bytes": 826,
+      "sha256": "d52d90ac9146cdc56bf8ec0b345591d744b7aa1318941ee86e7c68dcebcbfcbc"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_lab_conformer/config.json",
+      "bytes": 2142,
+      "sha256": "8524164fc18cdf15cdc5af8caac83c9f11e3bd0bdac3856ca7f9d5300e9ac238"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_lab_conformer/history.json",
+      "bytes": 1885,
+      "sha256": "651f170c647a2986bab503604f95f137b28b56fdde7a31ee37455737bcccec57"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_lab_conformer/model.pt",
+      "bytes": 2883601,
+      "sha256": "6827d11edb4ed7fb7d06029e199ff75a53977a31447f71ec4f544ccf50b3fee8"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_lab_conformer/result.json",
+      "bytes": 1003,
+      "sha256": "d1e091a735910bca2e9a84f6a082ef6498cc0a6a77141befcb032679ec9ad9f5"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_lab_conformer/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold1_lab_conformer/validation.npz",
+      "bytes": 94282,
+      "sha256": "1953659bc855228ab6a1ebeddd1a81af0bc36089cc5d13f8426379a16b7a09be"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_pretrained/best.json",
+      "bytes": 825,
+      "sha256": "466af14e03294e825bf62d38c3a6f43e844b6345d1342d547ab1e67dfeb6376b"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_pretrained/config.json",
+      "bytes": 2207,
+      "sha256": "968ed27a114841418765151c1715530b5d80cb4dc8a0ef8f583e806059a1df1a"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_pretrained/history.json",
+      "bytes": 1882,
+      "sha256": "94a7c51fc3a1fb2838b1f5d14c22153e4a234cfdf547fd3c091a35dc99f5d9ae"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "1c007417d1e6aa15b2c6f72ed993fa8cc92c7ade3c0ed5263bcdb389ca4e628c"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_pretrained/result.json",
+      "bytes": 1011,
+      "sha256": "e198c6304ce438dba4c0fc44f4354d285586fc0d82ed98f4460dc38ea0b09b8f"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_pretrained/validation.npz",
+      "bytes": 96490,
+      "sha256": "9bb183ef42468b09ac9d0c217a598c5aaaaca392e448d9f4aeb0045de7190f61"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_random/best.json",
+      "bytes": 811,
+      "sha256": "34ee665b7aa09706dd75f166113fb4640f457f34da11ceb11d6e458c31e1aaaa"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_random/config.json",
+      "bytes": 2142,
+      "sha256": "105b88357b9d6f6febd71c43edf507cf6e7d94cba7f58cebeb6bf96e2129c12f"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_random/history.json",
+      "bytes": 1882,
+      "sha256": "a4d09a1d6cad99e877eb7255b9647347747bf3325bb8fc55cdecaf1646d3febc"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "8d7c007b5d31131303fcae4763caa131bc1230ce74c6c9d4a7faf3209a476a62"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_random/result.json",
+      "bytes": 992,
+      "sha256": "b29f2cb9359c31ac39a4e78975a978b33f95ebe6758bcf667bf61cd8aa201336"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_cbra_random/validation.npz",
+      "bytes": 96490,
+      "sha256": "53018333ec67aacf37e2cd93852ab2092b954457843a5f0d2df64d5226a00685"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_lab_conformer/best.json",
+      "bytes": 810,
+      "sha256": "b9bfe5cf734a0ea95d5d6b64f6ef15bb72ac59d5630fc1e2483dad7f3495a22a"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_lab_conformer/config.json",
+      "bytes": 2142,
+      "sha256": "a813b6bf7eec973164d2e77d60edd5695f278593113be29e6e4d526010a8d822"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_lab_conformer/history.json",
+      "bytes": 1885,
+      "sha256": "58789ee0d292c58bcf5849352db650bf428d9724bc05e52cd2b794bc7e921dd8"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_lab_conformer/model.pt",
+      "bytes": 2883601,
+      "sha256": "cc1d2f810ae74b2f076b70b561d83908e4678c66deb07ed280b64e3c03cae998"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_lab_conformer/result.json",
+      "bytes": 987,
+      "sha256": "28c1a91d85f75315dc24ff84bc74bfe30386afc204662ef2ee923fb7af22bae3"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_lab_conformer/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold2_lab_conformer/validation.npz",
+      "bytes": 96490,
+      "sha256": "3e5c93873328feb87a2c5b46998f2544870dd56f4d1ac15096377e827cdbf047"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_pretrained/best.json",
+      "bytes": 828,
+      "sha256": "35bbca84bdb8a24d3f3f9652bc0b18522c072e41fa983193c2e5e1c4d7f43c60"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_pretrained/config.json",
+      "bytes": 2207,
+      "sha256": "a0e9332a76ab4336117e29b6802b5a9d75b0ec132d0543a50dcb3745dbde9cbf"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_pretrained/history.json",
+      "bytes": 1882,
+      "sha256": "0cb5b2fdcde5605b5771693f7c3270f82bc06e5898438f4f87612b9af8d4d622"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "a133f46946443ee984fba756ef66b4c3c2d7ef21e740c9e8741eefc415a220a4"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_pretrained/result.json",
+      "bytes": 1013,
+      "sha256": "0ff9311aef72c2241769ee830e2a5fd055059985488179e95cb1ec662c666574"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_pretrained/validation.npz",
+      "bytes": 92074,
+      "sha256": "74c82a5abb618a711d6b38d15e4ef60ed6df0e88c0014d6eb45a5abc26cf1e72"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_random/best.json",
+      "bytes": 827,
+      "sha256": "af4e7bd1d613fff13c10f9d9da054151adcef664f79aaf70e2b13c55ef6cf3eb"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_random/config.json",
+      "bytes": 2142,
+      "sha256": "248d2a92e6c38f3f7545851ff633fb81fe9d95db7782d2230f14ff596eaf5bc7"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_random/history.json",
+      "bytes": 1886,
+      "sha256": "7214a5dc2b35d5390106dc9e06d3ca6237eba9fe6f92aa3658b7f1a3854de6bd"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "55e17e5bffedfb2831d21d8983446aee6e3b6f58052bc925ff43f37793a65782"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_random/result.json",
+      "bytes": 1009,
+      "sha256": "39ac398d77f9a867dc5fe89f151a286697ae8ee3de4ee3539fc1e3b78dd50890"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_cbra_random/validation.npz",
+      "bytes": 92074,
+      "sha256": "77ebb775ef796cb1653bcf779feb8cef1c388e99398c0952a6dfa8a52549ee49"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_lab_conformer/best.json",
+      "bytes": 828,
+      "sha256": "d51abc61a1fd6ca01792dd92184efb436753bb1d30a485419d17c36621c09b42"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_lab_conformer/config.json",
+      "bytes": 2142,
+      "sha256": "c0475a8b620dff58c5a93733420fd4134c78048eadfed1fe9bf74af07c646ec2"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_lab_conformer/history.json",
+      "bytes": 1884,
+      "sha256": "131b8c193be2318acbe6e7f61ff6d1452cef78702c9908582599a9d5193609b0"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_lab_conformer/model.pt",
+      "bytes": 2883601,
+      "sha256": "a0d7baed1c67f388b99b1222a25f6f673d8f80554b152289aa5eff7f6edd785e"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_lab_conformer/result.json",
+      "bytes": 1005,
+      "sha256": "3b413e37dc98404ff33750e47d3832e512819d99a6086e22fb66668b4636b0e4"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_lab_conformer/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/fold3_lab_conformer/validation.npz",
+      "bytes": 92074,
+      "sha256": "332a213fbb3a5bec4a872d64853f6f8961e511a038394d67577bfc4410779b27"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/results.json",
+      "bytes": 10017,
+      "sha256": "00d8966d1632992b9e551a7e04d7108e44121b6438614f36b8d00bb0a4424d3a"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/formal/status.json",
+      "bytes": 66,
+      "sha256": "91f241e2b88fe666dbfb7832f6b4b6a906a253647503c428cacd6259509656a3"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/launch.json",
+      "bytes": 797,
+      "sha256": "fca75dc6081b0a7721c1237cba3f0be6eee8e583e88fbb7fdf67ab2bdf6fb3e2"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/report/audit.json",
+      "bytes": 1766,
+      "sha256": "dcfd9204ed29e07fcf332038fe8af79565ffdbb1ef51fdfe8ac1ab5a7715cd57"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/report/fold_results.csv",
+      "bytes": 1123,
+      "sha256": "d30570959bdee953348a5b9e0bae30c903c0ec938213593bd64a277442fdb854"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/report/summary.json",
+      "bytes": 969,
+      "sha256": "684522c4ad2ff7466bcdcea69ddc238ce6350dc1b86dcea9d6d46ef2e993f263"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/report/结果报告.md",
+      "bytes": 1787,
+      "sha256": "f808585587f00e79ce91f40ca231612fa768881ebbf8b3054a8c9631584534d9"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/research_source_receipt.json",
+      "bytes": 432,
+      "sha256": "0006d3c14e40025301e14707257edbf58d49d68d39290670981def24605f9ec8"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/environment.json",
+      "bytes": 5350,
+      "sha256": "91db2ed7f9ff8ba4e652d7600af9613f5933cde6e96d82f05fa62d5b1dfc9b61"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_pretrained/best.json",
+      "bytes": 831,
+      "sha256": "5013d67046356372930a3eaa52119bbcbdd208a6758ddaab4c5a09e972b8642b"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_pretrained/config.json",
+      "bytes": 2204,
+      "sha256": "e860a4ecd954fc7cf6ff42de4857c84d45fc92c6a5bc697fbb6e741574be7772"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_pretrained/history.json",
+      "bytes": 124,
+      "sha256": "42d23d04e4fd2f5b90545b31f09921fc548ba363befba115ea7cd4f91305788e"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "b4a3948bb4178d0369b7d03ea72393baabf7f861ffdf26b0f5e9c1656433ba02"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_pretrained/result.json",
+      "bytes": 1019,
+      "sha256": "bbf4d3ad11fa3c96970f3e81defd251bddd3355b537fc2c3397fd944e0c55263"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_pretrained/training_indices.npy",
+      "bytes": 384,
+      "sha256": "68f2a87420dec8ca1ee773e73b37b8e895be4482e5066a10220da5c74c4cf714"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_pretrained/validation.npz",
+      "bytes": 94282,
+      "sha256": "4e113ee2d41281adfc9d53569734b95fe587faa9640c30371687834743b9867e"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_random/best.json",
+      "bytes": 630,
+      "sha256": "642f472e31da8d66dc4409540289270ebdaaa36590ac68c0809314d23f0abaa1"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_random/config.json",
+      "bytes": 2139,
+      "sha256": "68f845f46a9b81801711cbf1ddea6d3b8d5d9049440a3a35d3a3b375dd098c36"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_random/history.json",
+      "bytes": 111,
+      "sha256": "faf676552f886b79c0cf5da7579f12a9d927e875f4064b65e9b6554debcb2e77"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "0d3ef55818c4eb4d70f0e96643819c3594113bd25fdc2290703dbdcd71dd2cfd"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_random/result.json",
+      "bytes": 815,
+      "sha256": "3a3e2b2aa17ac481cd04efcbc2f794d244be9564df3a84d1f81e3d28d2adddbe"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_random/training_indices.npy",
+      "bytes": 384,
+      "sha256": "68f2a87420dec8ca1ee773e73b37b8e895be4482e5066a10220da5c74c4cf714"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_cbra_random/validation.npz",
+      "bytes": 94282,
+      "sha256": "81ad5f90eb0df94144880b64fb24608de5e14b58fc881bdb8d066432dcb340b1"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_lab_conformer/best.json",
+      "bytes": 630,
+      "sha256": "0e2651b1642de27ec58ff380256e395f123d5c27ae4176033d9c3b7864e30825"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_lab_conformer/config.json",
+      "bytes": 2139,
+      "sha256": "2ade74e41d990646397541ceed2dfe6f0a071e8bdefc61c3fdf5b078884f9972"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_lab_conformer/history.json",
+      "bytes": 111,
+      "sha256": "ec823cd2da899798e0aeb5359030a562638f0868afa497f48626750025876d48"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_lab_conformer/model.pt",
+      "bytes": 2883601,
+      "sha256": "0717462ee7f8d2d3868c75fdc8a538f1117f162c71461c012490db4769ae16ab"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_lab_conformer/result.json",
+      "bytes": 810,
+      "sha256": "b1da37e6d61280434adcab4cfc224d47d55f8e3c1b293ed6e800d38513d96059"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_lab_conformer/training_indices.npy",
+      "bytes": 384,
+      "sha256": "68f2a87420dec8ca1ee773e73b37b8e895be4482e5066a10220da5c74c4cf714"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/fold1_lab_conformer/validation.npz",
+      "bytes": 94282,
+      "sha256": "1e501d6819ba0be4e060cb6d6c493537d5d61136d18fb11fcdb3e6e1042e409f"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/results.json",
+      "bytes": 2970,
+      "sha256": "c7fd9bf5b6c97f85914a830cf341cd30727bcf6ad5350776bc3da0b35bd655bc"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/smoke/status.json",
+      "bytes": 66,
+      "sha256": "d61bd441db6f772dccf1beb8817cae66ac9bd179fe1df30117a2b69391ce0b9a"
+    },
+    {
+      "path": "outputs/physionet_models_20261114/tuh_input_audit.json",
+      "bytes": 1172285,
+      "sha256": "2a77d736646f7982bb10a644d47b260a2332e6c7124639e17021f02a09b8d04e"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/audit.stdout.log",
+      "bytes": 742,
+      "sha256": "a0ec2543e01a50e5019495a43787b5e1cb72649cfb7fbc58d2cbc72ceebd40ac"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/command.json",
+      "bytes": 760,
+      "sha256": "9fe8fffd95dde1a1c5deb13e6118a2c5d78aa32702aa00cd70f636f49cb8dc89"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/completion_manifest.json",
+      "bytes": 8567,
+      "sha256": "d483b9d32821b4c42c1c19a3838729f8240e6c1048ee6f62a9163173d5350878"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/completion_verification.json",
+      "bytes": 2082,
+      "sha256": "e12868a988eb0efeb02dafa97366e863ea77da4af39cf86fd3aa0edb0bfc3ed9"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal.stdout.log",
+      "bytes": 13171,
+      "sha256": "3ed738db34aec7a84500dee6a1b0da7b5db6bf0da6f1842a3d49959225fd8b25"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/environment.json",
+      "bytes": 5350,
+      "sha256": "612ff4ef90ff5bc2d1be57cf66ed5e8b539c69465b815d76a7491745d499a704"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_pretrained/best.json",
+      "bytes": 827,
+      "sha256": "eb9b82e737a4ec0cabe12650a0bc4fd31dee9afcae4562b7c6f963731bcb08ae"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_pretrained/config.json",
+      "bytes": 2445,
+      "sha256": "7b5c2a0b48fe45ba59b2f4f5d354c2ef03653716cbcabbbc630dab5583672809"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_pretrained/history.json",
+      "bytes": 1888,
+      "sha256": "96797f44786c14a1040b84308b34763ae59f660b9b8140648e7f455f8699b919"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "3aa2531d0e32a7707cd01e2a768f986c0fc6f544228349d8674ed096a6b97f59"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_pretrained/result.json",
+      "bytes": 1012,
+      "sha256": "2baa3d50fa1a0bdcb8059bc6158b93694988d310afb9d6c45740f76a41bd9eef"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_pretrained/validation.npz",
+      "bytes": 94282,
+      "sha256": "0edddd71fe6c458e5159449cf36a2480e4e1e98efdd7e776e5b9dec37b44f61b"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_random/best.json",
+      "bytes": 826,
+      "sha256": "750194a3c261cdbbf187ac5f899ff7616892f3be49b1e581fb760c3c33acdd22"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_random/config.json",
+      "bytes": 2376,
+      "sha256": "98f3ffe9e8b55253c52f5f48a5ae8e26571358ce0b9dda2315c39c721debb2e5"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_random/history.json",
+      "bytes": 1882,
+      "sha256": "33339520dbcf58cab05b13305371882425db93688f6d49ac011be9c96697fe54"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "4f137f5083df1e3cfb11d329a3d571c78d96a4a9238eecbda079c8d9743955d9"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_random/result.json",
+      "bytes": 1007,
+      "sha256": "06ef9f8252db7e0cbf8bb5210d649c00f43f0ad828dc5bd418dc3b7621c414df"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "91a3882438ffb39c0dcc239dfb92aad7a5fa676d3af8119c24d88dc5d6411021"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold1_cbra_random/validation.npz",
+      "bytes": 94282,
+      "sha256": "3c0eee6899250f43ebc5ebf34808d19f4ee7b73469e2a1c67e30d8787841a672"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_pretrained/best.json",
+      "bytes": 822,
+      "sha256": "dddbcba3f7252b9778b07b03038d0c356e92e66a9b2d38275cca4d2a6745efee"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_pretrained/config.json",
+      "bytes": 2445,
+      "sha256": "d792d20a546750de3452a2ffc0416d26684efcf9f3ad52b026852b693e1cf441"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_pretrained/history.json",
+      "bytes": 1883,
+      "sha256": "f0bdbeb7b7fe30f0decefff0be53a47ee6e3efbf882eedc98a3089f4604b052b"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "ed3e43497bca6d6274728b3222be4b87ec5067c615c2c75ea956fd8c9f9c25e6"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_pretrained/result.json",
+      "bytes": 1007,
+      "sha256": "49553b4581ec1bfabf73f5780ed4b29d1c309712bbfd1ba3630c0a42aa508f01"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_pretrained/validation.npz",
+      "bytes": 96490,
+      "sha256": "c30826c81e4f4ecb2afc8de2000bfa8392bdfe560a20c18faa61cefcbf940fcd"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_random/best.json",
+      "bytes": 825,
+      "sha256": "a3aa70e6b787434d55ff7e3d28ec1ce84f9168a2690eecfe8ef1fde839d63cc8"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_random/config.json",
+      "bytes": 2376,
+      "sha256": "4a0eb6f69d196ad76aaa99cc7a37f54f71d5159669b72c32323b96f708f13e88"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_random/history.json",
+      "bytes": 1871,
+      "sha256": "a2cf328ed5a10455282896a740e11ca307c7b6b71b66c5b33b326b95d8afe4a5"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "8f02a1c243c23997527b17784b7766f3bbad2b1569077ce25026d67b1a353b52"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_random/result.json",
+      "bytes": 1006,
+      "sha256": "1eca9c97aa09e56490e04a62ca5ab432ba06b2828c6d3136c58095357bb45f6b"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "56da9d90ec6f7b0587746ea4914da2ae9cb27182cf572812915dba246d926265"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold2_cbra_random/validation.npz",
+      "bytes": 96490,
+      "sha256": "4a125826d2a71914aabb1689e68010ee384f4fd3679f4988e4bd4a377b6d321e"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_pretrained/best.json",
+      "bytes": 824,
+      "sha256": "a4fa034afc77dc71c39c1628df20f0347cb71c6b81334127629f88628e3b248f"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_pretrained/config.json",
+      "bytes": 2445,
+      "sha256": "e3f57c13f3bc22443258c834a1a70e1d27ff35e89e1f780807c50178f32ee025"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_pretrained/history.json",
+      "bytes": 1881,
+      "sha256": "3e547bfe5e5a57652cc8a0c6cccba35f7b2d3c3f3a549c8b970b6b006a1a2f91"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_pretrained/model.pt",
+      "bytes": 20834710,
+      "sha256": "6a247763380cfdf3a65addeaa4f96cf8525dcb3d740877a807a9c5623d0f3fd9"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_pretrained/result.json",
+      "bytes": 1010,
+      "sha256": "770a6a4508908b3e619e00abe13ffbd4a370356d813a1e62e9e5b38147f44fdc"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_pretrained/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_pretrained/validation.npz",
+      "bytes": 92074,
+      "sha256": "399d025634232ec870e9004dd1c84dd52700dbd537a5e6b1f0400d986f6b8b81"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_random/best.json",
+      "bytes": 827,
+      "sha256": "306d1489cf6e71cd0198dd0db7bb08b1786d67503524d756c734032e01d44115"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_random/config.json",
+      "bytes": 2376,
+      "sha256": "b3e8c6f93982bd45c9635a1695d6cdeae9ae5af7828814d0906e96528df6cee3"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_random/history.json",
+      "bytes": 1881,
+      "sha256": "71b74be46a23478daf4237e2007e597bb04f7b6be723bb4632cf120141e04db7"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_random/model.pt",
+      "bytes": 20834710,
+      "sha256": "01f5a0486da434b8b6c558089e221297effbc046341f38e2d4ea7f4e553ffdd0"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_random/result.json",
+      "bytes": 1008,
+      "sha256": "3edbc137940b7d9d8f3bc9804f5a1a60ef13d2b0debe84f59f2719d2acac2c04"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_random/training_indices.npy",
+      "bytes": 192128,
+      "sha256": "31d30a4865c887dee3aa55999110ebe2a61fff5bcaddcf2972878e6ec6e49bfa"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/fold3_cbra_random/validation.npz",
+      "bytes": 92074,
+      "sha256": "643feaa8f5eca56304ab45d4976d4f385c76256cae7df6f2f8c3b656c3e9d17a"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/results.json",
+      "bytes": 6700,
+      "sha256": "77e3a44afcbf6f74a9a516960f9ace2ab6df6f2bba4f607fc5fb43405d7593d3"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/formal/status.json",
+      "bytes": 66,
+      "sha256": "9421d37f3197e5d86faeb9f8a8cd42941aad276514eed173e9cfea94d0cf5772"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/immediate_launch.json",
+      "bytes": 174,
+      "sha256": "74e81338c88570f673911bb613227ed71d87928355556b9a75fd1d17f1131452"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/immediate_status.json",
+      "bytes": 99,
+      "sha256": "aaf1fb2fb29d64e77405183c708c9e008075d006005e93b4b0d24f324f732ee9"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/immediate_worker.py",
+      "bytes": 1033,
+      "sha256": "3d2c1185f2fd93218f0769920ecfe78c7879a7571341e5e1a8335d01a2efe9a3"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/immediate_worker.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/launch.json",
+      "bytes": 121,
+      "sha256": "1e016ac9bf8a7016ba4f6b951644c0bae9d422dfbd307111b62ca50e4ee308ec"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/priority_change.json",
+      "bytes": 269,
+      "sha256": "e080010d254cec673c83ec5e88c63d3224209987f7cdf78b4dabc328ab26840a"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/queue.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/queue_status.json",
+      "bytes": 80,
+      "sha256": "3b38628ad3db808f31d38ccd2be2600f136475d2c888f0be92d766940e979cb8"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/report/audit.json",
+      "bytes": 986,
+      "sha256": "f2b0622d328b790ff90463bbc36884dbc3d946080c072b56240db306b1a7e0a0"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/report/fold_results.csv",
+      "bytes": 1021,
+      "sha256": "ef277725706ea796aa36b5198532268b30c5413bbabc35d6bfb0aa2316f3238b"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/report/summary.json",
+      "bytes": 947,
+      "sha256": "abd4c218d093a1a0a78385339b8798e060abea2281afc3c1c8c556a6968f9cdf"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/report/结果报告.md",
+      "bytes": 1193,
+      "sha256": "64fd9f256213b40dae270916e1143953878c26b88d92a7709705ef68e84e4aa4"
+    },
+    {
+      "path": "outputs/physionet_normalization_20261114/smoke/environment.json",
+      "bytes": 5350,
+      "sha256": "612ff4ef90ff5bc2d1be57cf66ed5e8b539c69465b815d76a7491745d499a704"
+    },
+    {
+      "path": "plans/kalunga_classical_20261114.md",
+      "bytes": 2996,
+      "sha256": "7fc610ee25d71725009e99877befbc8e6a71598a44898c164ff7aa5f8124b78f"
+    },
+    {
+      "path": "plans/model_research_20261114.md",
+      "bytes": 6662,
+      "sha256": "852b9299975c6ceb2f97db4eb729e350ce123460be54725c1b00859e4fc82ee7"
+    },
+    {
+      "path": "plans/physionet_mi_20261114.md",
+      "bytes": 7303,
+      "sha256": "21be98205802ec3b76d5975ef183e8a276234f2a2e192898d8a5324e0a5e9840"
+    },
+    {
+      "path": "plans/physionet_models_20261114.md",
+      "bytes": 7052,
+      "sha256": "63cc3f2761308f7dc72672d475b366d3a4ef8625af62ff425349a2c87f9b479c"
+    },
+    {
+      "path": "plans/physionet_normalization_20261114.md",
+      "bytes": 6265,
+      "sha256": "b9b5ee833e1197785400e3c5841967fe4a2f730de1a424d13af0066c6b22cff3"
+    },
+    {
+      "path": "plans/teammate_results_20261114.md",
+      "bytes": 1782,
+      "sha256": "e9c42fc3f689e103738d77aa4d6abc6fcaeac193d4b5ea2638651f675d1b0448"
+    },
+    {
+      "path": "plans/tuh_input_audit_20261114.md",
+      "bytes": 2564,
+      "sha256": "400a62a0c7eb9d7ba19cf9bcf902e8cf471e469915470f8f4743752a12e6b193"
+    },
+    {
+      "path": "reports/20261114/README.md",
+      "bytes": 6258,
+      "sha256": "a8d59c7dcc505202ed74bd81e0b4f220bb9de5c96c6f28ee1137c4406b91e23b"
+    },
+    {
+      "path": "requirements-experiments.txt",
+      "bytes": 331,
+      "sha256": "3b3b6a2020d3090d7ef330445301efef28b2771a4ccab0e8798e314eceaf0fa3"
+    },
+    {
+      "path": "scripts/audit_tuh_inputs.py",
+      "bytes": 3300,
+      "sha256": "bdbc58122d4fe9cc53b7343ae48028afbd9abfffe09bcec13f500653387e074c"
+    },
+    {
+      "path": "scripts/package_experiments_20261114.py",
+      "bytes": 4799,
+      "sha256": "1eed5f8410db80c6ad1581ad1591d884d9d9b3b83e1261a9333386028c8fd738"
+    },
+    {
+      "path": "scripts/publish_experiments_release.py",
+      "bytes": 5407,
+      "sha256": "4d06ea92e4ece65b9c4363e52bf69b07c42de2e9cc5680c302286bc9946900dd"
+    },
+    {
+      "path": "scripts/queue_physionet_normalization.py",
+      "bytes": 2863,
+      "sha256": "40b124e6be4e12384ab34bbe6e19368822f1bd703f12672d32355e2402ee6361"
+    },
+    {
+      "path": "scripts/report_kalunga_classical.py",
+      "bytes": 4249,
+      "sha256": "fd50f0ddb8e9910af1378901fffc80af8c7eb2f955db4db6d4dc616fe880f006"
+    },
+    {
+      "path": "scripts/report_physionet_mi.py",
+      "bytes": 4427,
+      "sha256": "312bf08cbb8295678fca883a5bda2cf90d5f001ccf07a34875851f08ea736250"
+    },
+    {
+      "path": "scripts/report_physionet_models.py",
+      "bytes": 6535,
+      "sha256": "7ae9d1fa6dcbe7e7b5e745d12f6fd013debe5bbd2c2ac1d432be8bd3a83450ad"
+    },
+    {
+      "path": "scripts/report_physionet_normalization.py",
+      "bytes": 5313,
+      "sha256": "a13ba57c14480079287b9ea7a70badef7fedc2fa1218ba335b6dbd3cce104d4f"
+    },
+    {
+      "path": "scripts/restore_release_artifacts.py",
+      "bytes": 3002,
+      "sha256": "c6242aeaf6c73652c3b7fe728a070dd6bdee87f829ad913a959a6d2c8f875871"
+    },
+    {
+      "path": "scripts/run_kalunga_classical.py",
+      "bytes": 7063,
+      "sha256": "a1b742bbdafe36c493d3b08436225f4bc5a1d3a6f77e121653d01ec8a82a69ba"
+    },
+    {
+      "path": "scripts/run_physionet_mi.py",
+      "bytes": 12547,
+      "sha256": "5d7657d063120f0e85268f589243b3e4c693a625c9b582c9013dbffd74ebdfda"
+    },
+    {
+      "path": "scripts/run_physionet_models.py",
+      "bytes": 10202,
+      "sha256": "62dc7c377c874ac6f361dc7bad0f8bb1b7e2d970292fc5c30a1b5cd6e9f347c5"
+    },
+    {
+      "path": "scripts/run_physionet_normalization.py",
+      "bytes": 11629,
+      "sha256": "8c583559a5017bc6714c661abc8f0e9fe171ba89a2aed4f2e9f5d8236c1274f1"
+    },
+    {
+      "path": "scripts/verify_normalization_artifacts.py",
+      "bytes": 4464,
+      "sha256": "895ab6b7e898742309dae71a00e4e16ceee96e7ed6a1f86874f61d87914f4e64"
+    },
+    {
+      "path": "storage/HUST_BCIML_LICENSE.txt",
+      "bytes": 1158,
+      "sha256": "113f5036979b5b20c3def29cd8e19311bb1578e89404abea1ed88b50f3c44704"
+    },
+    {
+      "path": "storage/THIRD_PARTY_NOTICES.txt",
+      "bytes": 2788,
+      "sha256": "82c1e1f449c968a1f1f4c079bf613b042c6a9ba0c9f5fc42d072e4477cdec839"
+    },
+    {
+      "path": "storage/external_dependencies_20261114.json",
+      "bytes": 1446,
+      "sha256": "156fb272e2ca6079e5270da5665121522ee90b5fb00082c32e9b3742cae4971f"
+    }
+  ],
+  "parts": [
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part01",
+      "bytes": 67108864,
+      "sha256": "82728e27c8185a491aee9a838e817d2657f770a5585845f621e599016e21fb2d",
+      "url": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/download/artifacts-20261114/omnieeg-experiments-20261114.tar.gz.part01"
+    },
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part02",
+      "bytes": 67108864,
+      "sha256": "aa1ed05881363a9f12a12450713e674bfabf03c3d80e6333f6b8374f8b5a1776",
+      "url": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/download/artifacts-20261114/omnieeg-experiments-20261114.tar.gz.part02"
+    },
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part03",
+      "bytes": 67108864,
+      "sha256": "97bd20fa03d988eb474955c40bd7dadf552879641ea8f6d5be38e5d206b5c2e4",
+      "url": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/download/artifacts-20261114/omnieeg-experiments-20261114.tar.gz.part03"
+    },
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part04",
+      "bytes": 67108864,
+      "sha256": "f98cae9fbf50633c0e7870ba80d4b7208bb3bbb5a0dd241970b1332ba6bee9c0",
+      "url": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/download/artifacts-20261114/omnieeg-experiments-20261114.tar.gz.part04"
+    },
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part05",
+      "bytes": 16297231,
+      "sha256": "b80ce0f34a20fef284ed2d6fdef2266eace8d1209a91ccd9ecad743a3a4260f8",
+      "url": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/download/artifacts-20261114/omnieeg-experiments-20261114.tar.gz.part05"
+    }
+  ],
+  "all_parts_remote_verified": false,
+  "local_archive_readback_verified": true,
+  "archive_sha256": "7ad2d012bc9bf5df31d7f151fb1bf5b049f8a9c62df29d9c4a392d7c253b9fec",
+  "archive_bytes": 284732687,
+  "counts": {
+    "formal_neural_fits": 21,
+    "short_flow_fits": 5,
+    "source_threshold_calibrations": 12
+  },
+  "scope": "Original experiment source bytes, trained checkpoints, predictions, indices, logs, reports and audits; no raw EEG or original third-party pretrained weights."
+}

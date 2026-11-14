@@ -1,0 +1,15 @@
+{
+  "checked_date": "2026-11-14",
+  "sources": [
+    {
+      "url": "https://github.com/wjq-learning/CBraMod/blob/main/README.md",
+      "github_blob_sha": "de815f724772ff4c8fb4c7f8b0b93cefbd5c8258",
+      "title": "README.md"
+    },
+    {
+      "url": "https://github.com/Dingkun0817/EEG-FM-Benchmark/blob/main/README.md",
+      "github_blob_sha": "fdf18ff2ef1b7fcb5c3c93870794036e1c13a972",
+      "title": "README.md"
+    }
+  ]
+}

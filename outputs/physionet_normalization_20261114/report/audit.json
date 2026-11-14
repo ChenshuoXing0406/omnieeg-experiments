@@ -1,0 +1,44 @@
+[
+  {
+    "fold": 1,
+    "model": "cbra_pretrained",
+    "normalization_only_pair_verified": true,
+    "predictions_recomputed": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 1,
+    "model": "cbra_random",
+    "normalization_only_pair_verified": true,
+    "predictions_recomputed": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 2,
+    "model": "cbra_pretrained",
+    "normalization_only_pair_verified": true,
+    "predictions_recomputed": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 2,
+    "model": "cbra_random",
+    "normalization_only_pair_verified": true,
+    "predictions_recomputed": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 3,
+    "model": "cbra_pretrained",
+    "normalization_only_pair_verified": true,
+    "predictions_recomputed": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 3,
+    "model": "cbra_random",
+    "normalization_only_pair_verified": true,
+    "predictions_recomputed": true,
+    "test_evaluated": false
+  }
+]

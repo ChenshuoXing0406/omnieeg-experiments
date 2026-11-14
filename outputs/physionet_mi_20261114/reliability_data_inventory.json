@@ -1,0 +1,48 @@
+[
+  {
+    "root": "/mnt/data2/LaBraM_data/TUEG/tuh_eeg_artifact/v3.0.1",
+    "counts": {
+      "*.edf": 310,
+      "*.rec": 0,
+      "*.csv": 347,
+      "*.tse": 0
+    },
+    "samples": {
+      "*.edf": [
+        "edf/02_tcp_le/aaaaajqo_s008_t001.edf",
+        "edf/02_tcp_le/aaaaafsb_s001_t000.edf",
+        "edf/02_tcp_le/aaaaaike_s001_t001.edf"
+      ],
+      "*.rec": [],
+      "*.csv": [
+        "edf/02_tcp_le/aaaaafsb_s001_t000.csv",
+        "edf/02_tcp_le/aaaaagqb_s001_t000.csv",
+        "edf/02_tcp_le/aaaaajqo_s020_t001.csv"
+      ],
+      "*.tse": []
+    }
+  },
+  {
+    "root": "/mnt/data2/LaBraM_data/TUEV/v2.0.1",
+    "counts": {
+      "*.edf": 518,
+      "*.rec": 518,
+      "*.csv": 0,
+      "*.tse": 0
+    },
+    "samples": {
+      "*.edf": [
+        "edf/eval/021/bckg_021_a_.edf",
+        "edf/eval/021/pled_021_a_.edf",
+        "edf/eval/021/pled_021_a_1.edf"
+      ],
+      "*.rec": [
+        "edf/eval/021/pled_021_a_1.rec",
+        "edf/eval/021/pled_021_a_.rec",
+        "edf/eval/021/bckg_021_a_.rec"
+      ],
+      "*.csv": [],
+      "*.tse": []
+    }
+  }
+]

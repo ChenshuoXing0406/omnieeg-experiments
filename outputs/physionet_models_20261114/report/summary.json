@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "model": "lab_conformer",
+      "mean_BA": 0.5801487687274908,
+      "development_split_sd": 0.04532751612835115,
+      "mean_seconds": 66.1897147193328,
+      "max_peak_allocated_MiB": 402.234375,
+      "trainable_parameters": 713412
+    },
+    {
+      "model": "cbra_pretrained",
+      "mean_BA": 0.6101049429098473,
+      "development_split_sd": 0.0364424719398746,
+      "mean_seconds": 133.97114244433274,
+      "max_peak_allocated_MiB": 992.42236328125,
+      "trainable_parameters": 5190804
+    },
+    {
+      "model": "cbra_random",
+      "mean_BA": 0.5527902410736562,
+      "development_split_sd": 0.05616639315478309,
+      "mean_seconds": 132.54651688766413,
+      "max_peak_allocated_MiB": 992.42236328125,
+      "trainable_parameters": 5190804
+    }
+  ],
+  "pretrained_minus_random_by_split": [
+    0.08112177677395055,
+    0.04844984614474879,
+    0.042372482589873806
+  ],
+  "mean_initialization_delta": 0.05731470183619105
+}

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/mnt/data2/xcs/conda-envs/bci/bin/python",
+    "-u",
+    "/mnt/data2/xcs/run_physionet_normalization_20261114.py",
+    "--data",
+    "/mnt/data2/xcs/physionet_mi_20261114/data",
+    "--baseline",
+    "/mnt/data2/xcs/physionet_mi_20261114/formal",
+    "--output",
+    "/mnt/data2/xcs/physionet_normalization_20261114/formal",
+    "--lab-source",
+    "/mnt/data2/xcs/projects/HUST-BCIML/src",
+    "--cbra-source",
+    "/mnt/data2/xcs/omnieeg-backup-20261113/restored/Omnieeg/external/CBraMod",
+    "--weights",
+    "/mnt/data2/xcs/omnieeg-backup-20261113/restored/Omnieeg/checkpoints/cbramod.pth",
+    "--controls",
+    "/mnt/data2/xcs/physionet_models_20261114/formal"
+  ],
+  "controls": "/mnt/data2/xcs/physionet_models_20261114/formal"
+}

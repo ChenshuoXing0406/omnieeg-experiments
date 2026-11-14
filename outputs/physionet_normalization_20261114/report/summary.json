@@ -1,0 +1,40 @@
+{
+  "conditions": [
+    {
+      "model": "cbra_pretrained",
+      "normalization": "scale",
+      "mean_BA": 0.6101049429098473,
+      "development_split_sd": 0.0364424719398746
+    },
+    {
+      "model": "cbra_pretrained",
+      "normalization": "trial",
+      "mean_BA": 0.6155901134110894,
+      "development_split_sd": 0.022603236771284584
+    },
+    {
+      "model": "cbra_random",
+      "normalization": "scale",
+      "mean_BA": 0.5527902410736562,
+      "development_split_sd": 0.05616639315478309
+    },
+    {
+      "model": "cbra_random",
+      "normalization": "trial",
+      "mean_BA": 0.5461670375239159,
+      "development_split_sd": 0.05361503745790445
+    }
+  ],
+  "trial_minus_scale_by_split": {
+    "cbra_pretrained": [
+      0.016382367815174215,
+      0.01229980043101897,
+      -0.012226656742467035
+    ],
+    "cbra_random": [
+      0.0013354179856155945,
+      -0.01796469189647587,
+      -0.0032403367383605497
+    ]
+  }
+}
