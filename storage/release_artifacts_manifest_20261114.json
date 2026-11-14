@@ -1590,7 +1590,7 @@
       "url": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/download/artifacts-20261114/omnieeg-experiments-20261114.tar.gz.part05"
     }
   ],
-  "all_parts_remote_verified": false,
+  "all_parts_remote_verified": true,
   "local_archive_readback_verified": true,
   "archive_sha256": "7ad2d012bc9bf5df31d7f151fb1bf5b049f8a9c62df29d9c4a392d7c253b9fec",
   "archive_bytes": 284732687,

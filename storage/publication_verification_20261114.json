@@ -1,0 +1,50 @@
+{
+  "tag": "artifacts-20261114",
+  "release_id": 445317607,
+  "release_url": "https://github.com/ChenshuoXing0406/omnieeg-experiments/releases/tag/artifacts-20261114",
+  "verification_scope": "GitHub server digests versus local archive parts and recovery manifest; all archive members read back locally; committed source/report bytes checked against archive.",
+  "archived_files": 311,
+  "archive_source_git_commit": "8f61c97aab0518f7094fe8d2914914b0d2b272cc",
+  "git_files_verified_against_archive": 196,
+  "raw_eeg_included": false,
+  "assets": [
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part01",
+      "bytes": 67108864,
+      "sha256": "82728e27c8185a491aee9a838e817d2657f770a5585845f621e599016e21fb2d",
+      "id": 747588362
+    },
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part02",
+      "bytes": 67108864,
+      "sha256": "aa1ed05881363a9f12a12450713e674bfabf03c3d80e6333f6b8374f8b5a1776",
+      "id": 747589565
+    },
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part03",
+      "bytes": 67108864,
+      "sha256": "97bd20fa03d988eb474955c40bd7dadf552879641ea8f6d5be38e5d206b5c2e4",
+      "id": 747590672
+    },
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part04",
+      "bytes": 67108864,
+      "sha256": "f98cae9fbf50633c0e7870ba80d4b7208bb3bbb5a0dd241970b1332ba6bee9c0",
+      "id": 747591683
+    },
+    {
+      "name": "omnieeg-experiments-20261114.tar.gz.part05",
+      "bytes": 16297231,
+      "sha256": "b80ce0f34a20fef284ed2d6fdef2266eace8d1209a91ccd9ecad743a3a4260f8",
+      "id": 747592828
+    },
+    {
+      "name": "release_artifacts_manifest_20261114.json",
+      "bytes": 66056,
+      "sha256": "5e77352e9c4be37e718ec47e53ed0f7e3bdd34df76ac27c31baf907d9fae6299",
+      "id": 747597407
+    }
+  ],
+  "recovery_urls_use_final_tag": true,
+  "source_snapshot_note": "Archive source snapshot matches the first upload commit; the current publishing helper additionally fixes draft temporary download URLs. Experiment training code bytes are unchanged."
+}

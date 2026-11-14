@@ -58,7 +58,9 @@ def main(a):
                 r.raise_for_status()
                 for block in r.iter_content(4*1024**2):h.update(block)
             assert h.hexdigest()==part['sha256'],part['name']
-        part['url']=asset['browser_download_url'];verified.append({'name':asset['name'],'bytes':asset['size'],'digest':asset.get('digest'),'id':asset['id']})
+        # Draft releases expose temporary untagged URLs; recovery must use final tag URLs.
+        part['url']='https://github.com/'+REPO+'/releases/download/'+m['tag']+'/'+part['name']
+        verified.append({'name':asset['name'],'bytes':asset['size'],'digest':asset.get('digest'),'id':asset['id']})
         print(json.dumps({'uploaded_and_verified':asset['name'],'bytes':asset['size']}),flush=True)
     m['all_parts_remote_verified']=True
     a.manifest.write_text(json.dumps(m,indent=2,ensure_ascii=False),encoding='utf-8')
