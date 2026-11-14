@@ -1,0 +1,56 @@
+[
+  {
+    "fold": 1,
+    "model": "EEGNet",
+    "predictions_verified": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 1,
+    "model": "Shallow",
+    "predictions_verified": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 1,
+    "model": "Fixed fusion 0.75/0.25",
+    "predictions_verified": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 2,
+    "model": "EEGNet",
+    "predictions_verified": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 2,
+    "model": "Shallow",
+    "predictions_verified": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 2,
+    "model": "Fixed fusion 0.75/0.25",
+    "predictions_verified": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 3,
+    "model": "EEGNet",
+    "predictions_verified": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 3,
+    "model": "Shallow",
+    "predictions_verified": true,
+    "test_evaluated": false
+  },
+  {
+    "fold": 3,
+    "model": "Fixed fusion 0.75/0.25",
+    "predictions_verified": true,
+    "test_evaluated": false
+  }
+]

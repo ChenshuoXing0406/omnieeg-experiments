@@ -1,0 +1,83 @@
+{
+  "status": "verified",
+  "transfer_sha256_files": 49,
+  "new_checkpoints_readable_and_finite": 6,
+  "prediction_sets_independently_recomputed": 12,
+  "normalization_pairs_verified": 6,
+  "training_source_hash_verified": true,
+  "test_evaluated": false,
+  "scores": [
+    {
+      "fold": 1,
+      "model": "cbra_pretrained",
+      "normalization": "scale",
+      "independent_recall_BA": 0.574398357278792
+    },
+    {
+      "fold": 1,
+      "model": "cbra_pretrained",
+      "normalization": "trial",
+      "independent_recall_BA": 0.5907807250939662
+    },
+    {
+      "fold": 1,
+      "model": "cbra_random",
+      "normalization": "scale",
+      "independent_recall_BA": 0.4932765805048414
+    },
+    {
+      "fold": 1,
+      "model": "cbra_random",
+      "normalization": "trial",
+      "independent_recall_BA": 0.494611998490457
+    },
+    {
+      "fold": 2,
+      "model": "cbra_pretrained",
+      "normalization": "scale",
+      "independent_recall_BA": 0.6086752492342311
+    },
+    {
+      "fold": 2,
+      "model": "cbra_pretrained",
+      "normalization": "trial",
+      "independent_recall_BA": 0.6209750496652501
+    },
+    {
+      "fold": 2,
+      "model": "cbra_random",
+      "normalization": "scale",
+      "independent_recall_BA": 0.5602254030894823
+    },
+    {
+      "fold": 2,
+      "model": "cbra_random",
+      "normalization": "trial",
+      "independent_recall_BA": 0.5422607111930065
+    },
+    {
+      "fold": 3,
+      "model": "cbra_pretrained",
+      "normalization": "scale",
+      "independent_recall_BA": 0.6472412222165187
+    },
+    {
+      "fold": 3,
+      "model": "cbra_pretrained",
+      "normalization": "trial",
+      "independent_recall_BA": 0.6350145654740517
+    },
+    {
+      "fold": 3,
+      "model": "cbra_random",
+      "normalization": "scale",
+      "independent_recall_BA": 0.6048687396266449
+    },
+    {
+      "fold": 3,
+      "model": "cbra_random",
+      "normalization": "trial",
+      "independent_recall_BA": 0.6016284028882843
+    }
+  ]
+}

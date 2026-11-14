@@ -1,0 +1,8 @@
+{
+  "reason": "User requested immediate execution; replace idle-card queue with available-memory launch",
+  "stopped_verified_own_processes": [
+    61739,
+    58116
+  ],
+  "cpu_preflight": "cancelled before fitting; formal run retains paired configuration assertions"
+}

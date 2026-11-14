@@ -1,0 +1,20 @@
+{
+  "threshold": 0.17950005278327558,
+  "train_subjects": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "val_subjects": [
+    3,
+    4
+  ],
+  "source_train_BA": 0.48404947916666663,
+  "candidate_count": 53,
+  "test_evaluated": false
+}

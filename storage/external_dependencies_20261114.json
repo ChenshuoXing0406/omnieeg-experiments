@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-14",
+  "CBraMod": {
+    "repository": "https://github.com/wjq-learning/CBraMod",
+    "commit": "b9e961003214326972c567eff390e75b0287e32a",
+    "source_path": "external/CBraMod",
+    "weights_url": "https://huggingface.co/weighting666/CBraMod/resolve/main/pretrained_weights.pth",
+    "weights_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+    "original_weights_in_release": false,
+    "license_notice": "storage/THIRD_PARTY_NOTICES.txt"
+  },
+  "HUST_BCIML": {
+    "repository": "https://github.com/sylyoung/HUST-BCIML",
+    "commit": "c806d2cf8796b366742fd85b9b32f6c916211f43",
+    "model_path": "src/hustbciml/algorithms/models/EEGConformer.py",
+    "model_source_sha256": "b9cb052165140fbade082e18a7265597dc583143876824af1196fc279795ab47",
+    "model_source_git_blob": "198a59a2b37fd89f63de7feb494e9227ce19a155",
+    "license": "MIT",
+    "license_notice": "storage/HUST_BCIML_LICENSE.txt",
+    "original_pretrained_weights_used": false
+  },
+  "Kalunga_event_mapping_source": {
+    "repository": "https://github.com/NeuroTechX/moabb",
+    "path": "moabb/datasets/ssvep_exo.py",
+    "git_blob": "895dc2f6682db4b564a1ebb11e1503387f8fa0ce",
+    "mapping": {"13Hz": 2, "17Hz": 4, "21Hz": 3, "rest": 1}
+  },
+  "redistribution_scope": "New trained checkpoints, predictions, indices, reports and original experiment source snapshots; excludes raw EEG and original third-party pretrained weights."
+}

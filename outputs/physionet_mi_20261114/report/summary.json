@@ -1,0 +1,17 @@
+[
+  {
+    "model": "EEGNet",
+    "mean_BA": 0.5912979688770772,
+    "development_split_sd": 0.047357168111679324
+  },
+  {
+    "model": "Shallow",
+    "mean_BA": 0.612889261893169,
+    "development_split_sd": 0.047298467781286976
+  },
+  {
+    "model": "Fixed fusion 0.75/0.25",
+    "mean_BA": 0.6225757557182753,
+    "development_split_sd": 0.05435053834744588
+  }
+]
