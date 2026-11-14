@@ -1,0 +1,17 @@
+raw/
+processed/
+weights/
+results/
+logs/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.edf
+*.mat
+*.npy
+*.npz
+*.tar.gz
+*.lock
+queue_*.json
+setup_checks.json

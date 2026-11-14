@@ -1,0 +1,7 @@
+# Install a CUDA-compatible PyTorch build separately. These are dependency
+# requirements, not a claim that every version combination reproduces the scores.
+torch>=2.4
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+mne>=1.6

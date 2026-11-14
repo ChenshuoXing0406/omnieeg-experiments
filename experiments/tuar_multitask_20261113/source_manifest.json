@@ -1,0 +1,20 @@
+{
+  "description": "Frozen source bytes used for the nine completed runs; launch.py and prepare_public.py are portability helpers, not the historical training source.",
+  "reference_commit": "ca188b799dd3281b3db8e783a361d9518353fe8b",
+  "sha256": {
+    "model.py": "eba77c9a279e92b30bf265b05924c15e52bbdbc9e47c3cb29be24b7fa58f0573",
+    "train.py": "48e664ee2ac86b0990f46869180f81185aad106a119e072ed87bd4aabaa9031e",
+    "prepare_aligned.py": "53c0a59859917764ec40acde20392caadd01b036a8b3be5e0ee1d2a77c173c33",
+    "prepare_tuar.py": "97363fcd6a735afc3647dc1c5894ba78016a43bde67d75588c9256bfbff8f1c7",
+    "check_setup.py": "b93330a679856361df949ae3ec5430b16b5bb68aaba5b9cc45ebf6d82f6816b9",
+    "vendor/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/models/cbramod.py": "57019e52336137c7dee253ec38663f78905553370af596a125fe4aae142c3357",
+    "vendor/models/criss_cross_transformer.py": "5eb3c4c93c1b530a8cbe3ad3d0e217c63d9bd6419553fdfd8eae46223df7950a",
+    "vendor/LICENSE_CBraMod": "4b58be30c7b2020e2bb1d8c037730fe33e92fe04d9746b373427f6cc6288f3ab"
+  },
+  "weights": {
+    "url": "https://huggingface.co/weighting666/CBraMod/resolve/main/pretrained_weights.pth",
+    "sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178"
+  },
+  "third_party": "CBraMod source: https://github.com/wjq-learning/CBraMod ; MIT license in vendor/LICENSE_CBraMod"
+}
